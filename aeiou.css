@@ -1,0 +1,97 @@
+/*
+ * aeiou.css
+ * 
+ */
+
+@import url(https://fonts.googleapis.com/earlyaccess/notosansugaritic.css);
+@import url(https://fonts.googleapis.com/earlyaccess/notosansrunic.css);
+@import url(https://fonts.googleapis.com/earlyaccess/notosansgeorgian.css);
+@import url(https://fonts.googleapis.com/earlyaccess/notosanshebrew.css);
+
+/* http://www.oketz.com/fonts/kurkevan.html */
+@font-face {
+    font-family: KURKEVAN;
+    src: local("KURKEVAN"),
+    url(fonts/kurkevan/KURKRG__.TTF);
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.lower tr td button {
+    text-transform: lowercase;
+}
+
+.upper tr td button {
+    text-transform: uppercase;
+}
+
+.enhandwritten tr td button {
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.ruhandwritten tr td button {
+    font-family: 'Marck Script', cursive;
+}
+
+.handwritten tr td button {
+    font-family: 'Bad Script', sans-serif; 
+}
+
+.hehandwritten tr td button {
+    font-family: 'KURKEVAN', cursive;
+}
+
+.hebrew tr td button {
+    font-family: 'Noto Sans Hebrew', sans-serif;
+}
+
+.georgian tr td button {
+    font-family: 'Noto Sans Georgian', serif;
+}
+
+.abjadi tr td button {
+    font-family: 'Mirza', cursive;
+/*
+ * @import url(https://fonts.googleapis.com/earlyaccess/notosanskufiarabic.css);
+ *     font-family: 'Noto Sans Kufi Arabic', sans-serif;
+ */
+}
+
+.runes tr td button {
+    font-family: 'Noto Sans Runic', sans-serif;
+}
+
+.ugaritic tr td button {
+    font-family: 'Noto Sans Ugaritic', sans-serif;
+}
+
+.default tr td button {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.abcdTable tr td button {
+    font-size: 23px;
+    padding: 0 0px;
+    text-align: center;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 0px solid;
+    font-weight: 600;
+}
+
+button.controlButton {
+    padding: 10 0px;
+    color: #555;
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 300;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+}
