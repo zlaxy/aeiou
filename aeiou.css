@@ -8,11 +8,17 @@
 @import url(https://fonts.googleapis.com/earlyaccess/notosansgeorgian.css);
 @import url(https://fonts.googleapis.com/earlyaccess/notosanshebrew.css);
 
-/* http://www.oketz.com/fonts/kurkevan.html */
+/* http://www.oketz.com/fonts/yoavcursive.html */
 @font-face {
-    font-family: KURKEVAN;
-    src: local("KURKEVAN"),
-    url(fonts/kurkevan/KURKRG__.TTF);
+    font-family: YOAVCB;
+    src: local("YOAVCB"),
+    url(fonts/yoavcursive/YOAVCB__.TTF);
+}
+/* http://www.1001fonts.com/als-script-font.html */
+@font-face {
+    font-family: alsscrp;
+    src: local("alsscrp"),
+    url(fonts/als-script/alsscrp.ttf);
 }
 
 html {
@@ -28,7 +34,7 @@ html {
 }
 
 .enhandwritten tr td button {
-    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'alsscrp', cursive;
 }
 
 .ruhandwritten tr td button {
@@ -40,7 +46,7 @@ html {
 }
 
 .hehandwritten tr td button {
-    font-family: 'KURKEVAN', cursive;
+    font-family: 'YOAVCB', cursive;
 }
 
 .hebrew tr td button {
