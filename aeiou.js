@@ -1,7 +1,12 @@
 // Global vars
+
 var language = 'english';
 var layout = 'linear';
 var font = 'default';
+
+var lastSpoken = {};
+lastSpoken["symbol"] = "";
+lastSpoken["count"] = 0;
 
 var tableAbcd = {};
 tableAbcd["english"] = {};
@@ -13,127 +18,105 @@ tableAbcd["abjadi"] = {};
 tableAbcd["runes"] = {};
 tableAbcd["ugaritic"] = {};
 
-
-// ========================= temporary espeak =========================
-
-var ctx = new (window.AudioContext || window.webkitAudioContext)();
-var convolver = ctx.createConvolver();
-convolver.connect(ctx.destination);
-var espeak;
-var pusher;
-
-function stop() {
-    if (pusher) {
-        pusher.disconnect();
-        pusher = null;
-    }
-}
-
-function speak(preach, langToSpeak, textToSpeak) {
-    stop();
-    var samples_queue = [];
-    espeak.set_rate(80);
-    espeak.set_pitch(45);
-    espeak.setVoice.apply(espeak, (langToSpeak.split(',')));
-    var now = Date.now();
-    pusher = new PushAudioNode(ctx,
-        function() {
-            console.log('started!', ctx.currentTime, pusher.startTime);
-        },
-        function() {
-            console.log('ended!', ctx.currentTime - pusher.startTime);
-        });
-    if (preach)
-        pusher.connect(convolver);
-    else
-        pusher.connect(ctx.destination);
-    espeak.synth(textToSpeak,
-        function(samples, events) {
-            if (!samples) {
-                pusher.close();
-                return;
-            }
-            pusher.push(new Float32Array(samples));
-            if (now) {
-                console.log("latency:", Date.now() - now);
-                now = 0;
-            }
-        });
-}
-
-// ========================= temporary espeak =========================
-
-
 // English Linear Table
 tableAbcd["english"]["linear"] = '<tr>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a\')">A</button></td>\
-<td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'b\')">B</button></td>\
-<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'c\')">C</button></td>\
-<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'d\')">D</button></td>\
+<td><button style="color:red" onclick="speakLetter(\'a\')"><div class="relative"><div id="aPre"></div>A<div id="aPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'b\')"><div class="relative"><div id="bPre"></div>B<div id="bPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'c\')"><div class="relative"><div id="cPre"></div>C<div id="cPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'d\')"><div class="relative"><div id="dPre"></div>D<div id="dPost"></div></div></button></td>\
+<td></td><td></td></tr><tr>\
+<td><button style="color:red" onclick="speakLetter(\'e\')"><div class="relative"><div id="ePre"></div>E<div id="ePost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'f\')"><div class="relative"><div id="fPre"></div>F<div id="fPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'g\')"><div class="relative"><div id="gPre"></div>G<div id="gPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'h\')"><div class="relative"><div id="hPre"></div>H<div id="hPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'e\')">E</button></td>\
-<td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'f\')">F</button></td>\
-<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'g\')">G</button></td>\
-<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'h\')">H</button></td>\
+<td><button style="color:red" onclick="speakLetter(\'i\')"><div class="relative"><div id="iPre"></div>I<div id="iPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'j\')"><div class="relative"><div id="jPre"></div>J<div id="jPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'k\')"><div class="relative"><div id="kPre"></div>K<div id="kPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'l\')"><div class="relative"><div id="lPre"></div>L<div id="lPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'m\')"><div class="relative"><div id="mPre"></div>M<div id="mPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'n\')"><div class="relative"><div id="nPre"></div>N<div id="nPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'i\')">I</button></td>\
-<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'j\')">J</button></td>\
-<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'k\')">K</button></td>\
-<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'l\')">L</button></td>\
-<td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'m\')">M</button></td>\
-<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'n\')">N</button></td>\
+<td><button style="color:red" onclick="speakLetter(\'o\')"><div class="relative"><div id="oPre"></div>O<div id="oPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'p\')"><div class="relative"><div id="pPre"></div>P<div id="pPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'q\')"><div class="relative"><div id="qPre"></div>Q<div id="qPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'r\')"><div class="relative"><div id="rPre"></div>R<div id="rPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'s\')"><div class="relative"><div id="sPre"></div>S<div id="sPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'t\')"><div class="relative"><div id="tPre"></div>T<div id="tPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'o\')">O</button></td>\
-<td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'p\')">P</button></td>\
-<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'q\')">Q</button></td>\
-<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'r\')">R</button></td>\
-<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'s\')">S</button></td>\
-<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'t\')">T</button></td>\
-</tr><tr>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'u\')">U</button></td>\
-<td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'v\')">V</button></td>\
-<td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'w\')">W</button></td>\
-<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'x\')">X</button></td>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'y\')">Y</button></td>\
-<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'z\')">Z</button></td>\
+<td><button style="color:red" onclick="speakLetter(\'u\')"><div class="relative"><div id="uPre"></div>U<div id="uPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'v\')"><div class="relative"><div id="vPre"></div>V<div id="vPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'w\')"><div class="relative"><div id="wPre"></div>W<div id="wPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'x\')"><div class="relative"><div id="xPre"></div>X<div id="xPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'y\')"><div class="relative"><div id="yPre"></div>Y<div id="yPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'z\')"><div class="relative"><div id="zPre"></div>Z<div id="zPost"></div></div></button></td>\
 </tr></table>';
 
 // English Axial Table
 tableAbcd["english"]["axial"] = '<tr>\
-<td colspan="7" align="center"><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a\')">A</button></td>\
+<td colspan="7" align="center"><button style="color:red" onclick="speakLetter(\'a\')"><div class="relative"><div id="aPre"></div>A<div id="aPost"></div></div></button></td>\
 </tr><tr><td colspan="2"></td><td colspan="3" align="center">\
-<button style="color:black" onclick="speak(false, \'english,en-uk\', \'b\')">B</button>\
-<button style="color:black" onclick="speak(false, \'english,en-uk\', \'c\')">C</button>\
+<button style="color:black" onclick="speakLetter(\'b\')"><div class="relative"><div id="bPre"></div>B<div id="bPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'c\')"><div class="relative"><div id="cPre"></div>C<div id="cPost"></div></div></button>\
 </td><td colspan="2"></td>\
 </tr><tr><td colspan="2"></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'d\')">D</button></td>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'e\')">E</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'f\')">F</button></td>\
+<td><button style="color:black" onclick="speakLetter(\'d\')"><div class="relative"><div id="dPre"></div>D<div id="dPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'e\')"><div class="relative"><div id="ePre"></div>E<div id="ePost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'f\')"><div class="relative"><div id="fPre"></div>F<div id="fPost"></div></div></button></td>\
 <td colspan="2"></td></tr><tr>\
-<td></td><td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'g\')">G</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'h\')">H</button></td>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'i\')">I</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'j\')">J</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'k\')">K</button></td>\
+<td></td><td><button style="color:black" onclick="speakLetter(\'g\')"><div class="relative"><div id="gPre"></div>G<div id="gPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'h\')"><div class="relative"><div id="hPre"></div>H<div id="hPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'i\')"><div class="relative"><div id="iPre"></div>I<div id="iPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'j\')"><div class="relative"><div id="jPre"></div>J<div id="jPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'k\')"><div class="relative"><div id="kPre"></div>K<div id="kPost"></div></div></button></td>\
 <td></td></tr><tr>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'l\')">L</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'m\')">M</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'n\')">N</button></td>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'o\')">O</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'p\')">P</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'q\')">Q</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'r\')">R</button></td>\
+<td><button style="color:black" onclick="speakLetter(\'l\')"><div class="relative"><div id="lPre"></div>L<div id="lPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'m\')"><div class="relative"><div id="mPre"></div>M<div id="mPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'n\')"><div class="relative"><div id="nPre"></div>N<div id="nPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'o\')"><div class="relative"><div id="oPre"></div>O<div id="oPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'p\')"><div class="relative"><div id="pPre"></div>P<div id="pPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'q\')"><div class="relative"><div id="qPre"></div>Q<div id="qPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'r\')"><div class="relative"><div id="rPre"></div>R<div id="rPost"></div></div></button></td>\
 </tr><tr>\
-<td></td><td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'s\')">S</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'t\')">T</button></td>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'u\')">U</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'v\')">V</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'w\')">W</button></td>\
+<td></td><td><button style="color:black" onclick="speakLetter(\'s\')"><div class="relative"><div id="sPre"></div>S<div id="sPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'t\')"><div class="relative"><div id="tPre"></div>T<div id="tPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'u\')"><div class="relative"><div id="uPre"></div>U<div id="uPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'v\')"><div class="relative"><div id="vPre"></div>V<div id="vPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'w\')"><div class="relative"><div id="wPre"></div>W<div id="wPost"></div></div></button></td>\
 <td></td></tr><tr><td colspan="2"></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'x\')">X</button></td>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'y\')">Y</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'z\')">Z</button></td>\
+<td><button style="color:black" onclick="speakLetter(\'x\')"><div class="relative"><div id="xPre"></div>X<div id="xPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'y\')"><div class="relative"><div id="yPre"></div>Y<div id="yPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'z\')"><div class="relative"><div id="zPre"></div>Z<div id="zPost"></div></div></button></td>\
 </tr></table>';
+
+// English Sound Correspondence
+tableAbcd["english"]["sound"] = {};
+tableAbcd["english"]["sound"]["a"] = [ "a", "c", " ", "c", "c", "t", "pe", "r", "ll" ];
+tableAbcd["english"]["sound"]["b"] = [ "b", "", "la", "lam", "ee", "", "" ];
+tableAbcd["english"]["sound"]["c"] = [ "c", "", "", "", "ity", "at", "hip" ];
+tableAbcd["english"]["sound"]["d"] = [ "d", "", "", "o", "eep" ];
+tableAbcd["english"]["sound"]["e"] = [ "e", "b", "b", "s", "s", "sw", "sw", "hom", " ", "t", "e", "a", "et", "at", " " ];
+tableAbcd["english"]["sound"]["f"] = [ "f", " ", " ", "eel", "ly" ];
+tableAbcd["english"]["sound"]["g"] = [ "g", " ", " ", "bri", "ood", "ene", "ht" ];
+tableAbcd["english"]["sound"]["h"] = [ "h", " ", " ", "igh", "ot" ];
+tableAbcd["english"]["sound"]["i"] = [ "i", "b", "b", "t", "te" ];
+tableAbcd["english"]["sound"]["j"] = [ "j", " ", "oy" ];
+tableAbcd["english"]["sound"]["k"] = [ "k", " ", " ", "id", "night" ];
+tableAbcd["english"]["sound"]["l"] = [ "l", " ", " ", "ive", "ive" ];
+tableAbcd["english"]["sound"]["m"] = [ "m", " ", " ", "ama", "me" ];
+tableAbcd["english"]["sound"]["n"] = [ "n", " ", " ", "k", "ew", "o", "ow" ];
+tableAbcd["english"]["sound"]["o"] = [ "o", "d", "d", "g", "h", "d", "g", " ", "od", "me", "me" ];
+tableAbcd["english"]["sound"]["p"] = [ "p", " ", " ", " ", "ut", "ick", "hone" ];
+tableAbcd["english"]["sound"]["q"] = [ "q", " ", " ", " ", "ueen", "uit", "uick" ];
+tableAbcd["english"]["sound"]["r"] = [ "r", " ", "a", "ock", "c" ];
+tableAbcd["english"]["sound"]["s"] = [ "s", " ", " ", " ", " ", "aw", "ow", "ee", "he" ];
+tableAbcd["english"]["sound"]["t"] = [ "t", " ", " ", " ", "ake", "ip", "his" ];
+tableAbcd["english"]["sound"]["u"] = [ "u", " ", "b", "se", "s" ];
+tableAbcd["english"]["sound"]["v"] = [ "v", " ", "lo", "ow", "e" ];
+tableAbcd["english"]["sound"]["w"] = [ "w", " ", " ", "ho", "ne", "hat", "ho", " ", " " ];
+tableAbcd["english"]["sound"]["x"] = [ "x", "e", " ", " ", "enos" ];
+tableAbcd["english"]["sound"]["y"] = [ "y", " ", "jo", "e", "wh", "ver", "var", "ou", " ", "e", " ", " ", " " ];
+tableAbcd["english"]["sound"]["z"] = [ "z", " ", "wi", "ip", " " ];
 
 // Russian Linear Table
 tableAbcd["russian"]["linear"] = '<tr>\
@@ -383,6 +366,7 @@ tableAbcd["georgian"]["linear"] = '<tr>\
 <td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">შ</button></td>\
 <td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ჩ</button></td>\
 <td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ც</button></td>\
+</tr><tr><td></td><td></td>\
 <td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ძ</button></td>\
 <td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">წ</button></td>\
 <td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ჭ</button></td>\
@@ -436,31 +420,25 @@ tableAbcd["georgian"]["axial"] = '<tr>\
 
 // Abjadi Linear Table
 tableAbcd["abjadi"]["linear"] = '<tr>\
-<td colspan="9"></td>\
+<td colspan="4"></td>\
 <td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">د</button></td>\
 <td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ج</button></td>\
 <td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ب</button></td>\
 <td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ا</button></td>\
-</tr><tr><td colspan="8"></td>\
+</tr><tr><td colspan="3"></td>\
 <td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ط</button></td>\
 <td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ح</button></td>\
 <td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ز</button></td>\
 <td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">و</button></td>\
 <td><button style="color:grey" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ه</button></td>\
-</tr><tr><td colspan="7"></td>\
+</tr><tr><td colspan="2"></td>\
 <td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">س</button></td>\
 <td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ن</button></td>\
 <td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">م</button></td>\
 <td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ل</button></td>\
 <td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ك</button></td>\
 <td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ي</button></td>\
-</tr><tr>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">غ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ظ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ض</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ذ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">خ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ث</button></td>\
+</tr><tr><td></td>\
 <td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ت</button></td>\
 <td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ش</button></td>\
 <td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ر</button></td>\
@@ -468,6 +446,13 @@ tableAbcd["abjadi"]["linear"] = '<tr>\
 <td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ص</button></td>\
 <td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ف</button></td>\
 <td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ع</button></td>\
+</tr><tr>\
+<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">غ</button></td>\
+<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ظ</button></td>\
+<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ض</button></td>\
+<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ذ</button></td>\
+<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">خ</button></td>\
+<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ث</button></td>\
 </tr></table>';
 
 // Abjadi Axial Table
@@ -640,6 +625,8 @@ tableAbcd["ugaritic"]["axial"] = '<tr>\
 <button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">𐎟</button>\
 </td><td colspan="5"></td></tr></table>';
 
+// HTML table formating
+
 var tablePrefix = '<table align = "center">\
 <tr><td align="center">\
 <table>\
@@ -674,6 +661,12 @@ var tablePostfix = '</td>\
 </table>\
 </td></tr>\
 </table>';
+
+// Functions
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
 
 function makeAeiou(languageTransmitted, layoutTransmitted, fontTransmitted) {
     if (languageTransmitted === undefined) {
@@ -795,14 +788,76 @@ function makeAeiou(languageTransmitted, layoutTransmitted, fontTransmitted) {
     document.getElementById("aeiou").innerHTML = result;
 }
 
+function speakLetter(letter) {
+    if (lastSpoken["symbol"] == letter) { lastSpoken["count"]++;
+        if (lastSpoken["count"] > (tableAbcd[language]["sound"][letter].length / 2)) lastSpoken["count"] = 1 ;
+    } else { lastSpoken["count"] = 1 }
+    lastSpoken["symbol"] = letter;
 
-// ========================= temporary play sound file =========================
+    var audio = new Audio();
+    file = 'sounds/'+ language + '/' + letter + '_' + lastSpoken["count"] + '.mp3';
+    audio.src = file;
+    audio.autoplay = true;
 
-function playSoundFile(letter) {
-  var audio = new Audio();
-    if (letter == 'A') { audio.src = 'test1.mp3'; }
-    if (letter == 'B') { audio.src = 'test2.mp3'; }
-  audio.autoplay = true;
+    switch(lastSpoken["count"]) {
+        case lastSpoken["count"]:
+            if (font == "enhandwritten" || font == "enlowerhand" ) textstroke = 0; else textstroke = 2;
+            document.getElementById(letter + "Pre").innerHTML = '<div style="position: absolute; left: -' + (((tableAbcd[language]["sound"][letter][lastSpoken["count"]].length - 1) * 15) + 5) + 'px; top: 0px; font-weight: 900; color: gray; -webkit-text-fill-color: gray; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + tableAbcd[language]["sound"][letter][lastSpoken["count"]] + '</div>';
+            document.getElementById(letter + "Post").innerHTML = '<div style="position: absolute; left: 30px; top: 0px; font-weight: 900; color: gray; -webkit-text-fill-color: gray; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + ( tableAbcd[language]["sound"][letter][lastSpoken["count"] + ((tableAbcd[language]["sound"][letter].length - 1) / 2)] ) + '</div>';
+            sleep(500 + ((tableAbcd[language]["sound"][letter][lastSpoken["count"]].length + tableAbcd[language]["sound"][letter][lastSpoken["count"] + ((tableAbcd[language]["sound"][letter].length - 1) / 2)].length + 1) * 100)).then(() => {
+                document.getElementById(letter + "Pre").innerHTML = "";
+                document.getElementById(letter + "Post").innerHTML = "";
+            });
+            break;
+    }
 }
 
-// ========================= temporary play sound file =========================
+// ========================= temporary espeak =========================
+
+var ctx = new (window.AudioContext || window.webkitAudioContext)();
+var convolver = ctx.createConvolver();
+convolver.connect(ctx.destination);
+var espeak;
+var pusher;
+
+function stop() {
+    if (pusher) {
+        pusher.disconnect();
+        pusher = null;
+    }
+}
+
+function speak(preach, langToSpeak, textToSpeak) {
+    lastSpoken["symbol"] = textToSpeak;
+    stop();
+    var samples_queue = [];
+    espeak.set_rate(80);
+    espeak.set_pitch(45);
+    espeak.setVoice.apply(espeak, (langToSpeak.split(',')));
+    var now = Date.now();
+    pusher = new PushAudioNode(ctx,
+        function() {
+            console.log('started!', ctx.currentTime, pusher.startTime);
+        },
+        function() {
+            console.log('ended!', ctx.currentTime - pusher.startTime);
+        });
+    if (preach)
+        pusher.connect(convolver);
+    else
+        pusher.connect(ctx.destination);
+    espeak.synth(textToSpeak,
+        function(samples, events) {
+            if (!samples) {
+                pusher.close();
+                return;
+            }
+            pusher.push(new Float32Array(samples));
+            if (now) {
+                console.log("latency:", Date.now() - now);
+                now = 0;
+            }
+        });
+}
+
+// ========================= temporary espeak =========================

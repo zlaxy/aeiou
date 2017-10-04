@@ -78,6 +78,7 @@ html {
 }
 
 .abcdTable tr td button {
+    z-index: 5;
     font-size: 23px;
     padding: 0 0px;
     text-align: center;
@@ -88,6 +89,10 @@ html {
     border-radius: 10px;
     border: 0px solid;
     font-weight: 600;
+}
+
+.relative {
+  position:relative;
 }
 
 button.controlButton {
