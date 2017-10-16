@@ -837,9 +837,9 @@ function speakLetter(letter) {
 
     switch(lastSpoken["count"]) {
         case lastSpoken["count"]:
-            if (font == "enhandwritten" || font == "enlowerhand" ) textstroke = 0; else textstroke = 2;
-            document.getElementById(letter + "Pre").innerHTML = '<div style="position: absolute; left: -' + (((tableAbcd[language]["sound"][letter][lastSpoken["count"]].length - 1) * 15) + 5) + 'px; top: 0px; font-weight: 900; color: gray; -webkit-text-fill-color: gray; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + tableAbcd[language]["sound"][letter][lastSpoken["count"]] + '</div>';
-            document.getElementById(letter + "Post").innerHTML = '<div style="position: absolute; left: 30px; top: 0px; font-weight: 900; color: gray; -webkit-text-fill-color: gray; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + ( tableAbcd[language]["sound"][letter][lastSpoken["count"] + ((tableAbcd[language]["sound"][letter].length - 1) / 2)] ) + '</div>';
+            if (font == "enhandwritten" || font == "enlowerhand" || font == "ruhandwritten" || font == "rulowerhand" ) textstroke = 0; else textstroke = 2;
+            document.getElementById(letter + "Pre").innerHTML = '<div style="position: absolute; text-transform: lowercase; left: -' + (((tableAbcd[language]["sound"][letter][lastSpoken["count"]].length - 1) * 15) + 5) + 'px; top: 0px; font-weight: 900; color: gray; -webkit-text-fill-color: gray; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + tableAbcd[language]["sound"][letter][lastSpoken["count"]] + '</div>';
+            document.getElementById(letter + "Post").innerHTML = '<div style="position: absolute; text-transform: lowercase; left: 30px; top: 0px; font-weight: 900; color: gray; -webkit-text-fill-color: gray; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + ( tableAbcd[language]["sound"][letter][lastSpoken["count"] + ((tableAbcd[language]["sound"][letter].length - 1) / 2)] ) + '</div>';
             sleep(500 + ((tableAbcd[language]["sound"][letter][lastSpoken["count"]].length + tableAbcd[language]["sound"][letter][lastSpoken["count"] + ((tableAbcd[language]["sound"][letter].length - 1) / 2)].length + 1) * 100)).then(() => {
                 document.getElementById(letter + "Pre").innerHTML = "";
                 document.getElementById(letter + "Post").innerHTML = "";
