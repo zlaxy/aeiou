@@ -92,9 +92,9 @@ tableAbcd["english"]["axial"] = '<tr>\
 // English Sound Correspondence
 tableAbcd["english"]["sound"] = {};
 tableAbcd["english"]["sound"]["a"] = [ "a", "c", " ", "c", "c", "t", "pe", "r", "ll" ];
-tableAbcd["english"]["sound"]["b"] = [ "b", "", "la", "lam", "ee", "", "" ];
-tableAbcd["english"]["sound"]["c"] = [ "c", "", "", "", "ity", "at", "hip" ];
-tableAbcd["english"]["sound"]["d"] = [ "d", "", "", "o", "eep" ];
+tableAbcd["english"]["sound"]["b"] = [ "b", " ", "la", "lam", "ee", " ", " " ];
+tableAbcd["english"]["sound"]["c"] = [ "c", " ", " ", " ", "ity", "at", "hip" ];
+tableAbcd["english"]["sound"]["d"] = [ "d", " ", " ", "o", "eep" ];
 tableAbcd["english"]["sound"]["e"] = [ "e", "b", "b", "s", "s", "sw", "sw", "hom", "d", "d", " ", "t", "e", "a", "et", "at", " ", "ar", "al" ];
 tableAbcd["english"]["sound"]["f"] = [ "f", " ", " ", "eel", "ly" ];
 tableAbcd["english"]["sound"]["g"] = [ "g", " ", " ", "bri", "ood", "ene", "ht" ];
@@ -120,90 +120,126 @@ tableAbcd["english"]["sound"]["z"] = [ "z", " ", "wi", "ip", " " ];
 
 // Russian Linear Table
 tableAbcd["russian"]["linear"] = '<tr>\
-<td><button style="color:red" onclick="speak(false, \'russian,ru\', \'а\')">А</button></td>\
-<td><button style="color:blue" onclick="speak(false, \'russian,ru\', \'б\')">Б</button></td>\
-<td><button style="color:blue" onclick="speak(false, \'russian,ru\', \'в\')">В</button></td>\
-<td><button style="color:black" onclick="speak(false, \'russian,ru\', \'г\')">Г</button></td>\
-<td><button style="color:black" onclick="speak(false, \'russian,ru\', \'д\')">Д</button></td>\
+<td><button style="color:red" onclick="speakLetter(\'а\')"><div class="relative"><div id="аPre"></div>А<div id="аPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'б\')"><div class="relative"><div id="бPre"></div>Б<div id="бPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'в\')"><div class="relative"><div id="вPre"></div>В<div id="вPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'г\')"><div class="relative"><div id="гPre"></div>Г<div id="гPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'д\')"><div class="relative"><div id="дPre"></div>Д<div id="дPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speak(false, \'russian,ru\', \'е\')">Е</button></td>\
-<td><button style="color:red" onclick="speak(false, \'russian,ru\', \'ё\')">Ё</button></td>\
-<td><button style="color:black" onclick="speak(false, \'russian,ru\', \'ж\')">Ж</button></td>\
-<td><button style="color:black" onclick="speak(false, \'russian,ru\', \'з\')">З</button></td>\
+<td><button style="color:red" onclick="speakLetter(\'е\')"><div class="relative"><div id="еPre"></div>Е<div id="еPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ё\')"><div class="relative"><div id="ёPre"></div>Ё<div id="ёPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ж\')"><div class="relative"><div id="жPre"></div>Ж<div id="жPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'з\')"><div class="relative"><div id="зPre"></div>З<div id="зPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speak(false, \'russian,ru\', \'и\')">И</button></td>\
-<td><button style="color:black" onclick="speak(false, \'russian,ru\', \'й\')">Й</button></td>\
-<td><button style="color:black" onclick="speak(false, \'russian,ru\', \'к\')">К</button></td>\
-<td><button style="color:black" onclick="speak(false, \'russian,ru\', \'л\')">Л</button></td>\
-<td><button style="color:blue" onclick="speak(false, \'russian,ru\', \'м\')">М</button></td>\
-<td><button style="color:black" onclick="speak(false, \'russian,ru\', \'н\')">Н</button></td>\
+<td><button style="color:red" onclick="speakLetter(\'и\')"><div class="relative"><div id="иPre"></div>И<div id="иPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'й\')"><div class="relative"><div id="йPre"></div>Й<div id="йPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'к\')"><div class="relative"><div id="кPre"></div>К<div id="кPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'л\')"><div class="relative"><div id="лPre"></div>Л<div id="лPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'м\')"><div class="relative"><div id="мPre"></div>М<div id="мPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'н\')"><div class="relative"><div id="нPre"></div>Н<div id="нPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speak(false, \'russian,ru\', \'о\')">О</button></td>\
-<td><button style="color:blue" onclick="speak(false, \'russian,ru\', \'п\')">П</button></td>\
-<td><button style="color:black" onclick="speak(false, \'russian,ru\', \'р\')">Р</button></td>\
-<td><button style="color:black" onclick="speak(false, \'russian,ru\', \'с\')">С</button></td>\
-<td><button style="color:black" onclick="speak(false, \'russian,ru\', \'т\')">Т</button></td>\
+<td><button style="color:red" onclick="speakLetter(\'о\')"><div class="relative"><div id="оPre"></div>О<div id="оPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'п\')"><div class="relative"><div id="пPre"></div>П<div id="пPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'р\')"><div class="relative"><div id="рPre"></div>Р<div id="рPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'с\')"><div class="relative"><div id="сPre"></div>С<div id="сPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'т\')"><div class="relative"><div id="тPre"></div>Т<div id="тPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speak(false, \'russian,ru\', \'у\')">У</button></td>\
-<td><button style="color:blue" onclick="speak(false, \'russian,ru\', \'ф\')">Ф</button></td>\
-<td><button style="color:black" onclick="speak(false, \'russian,ru\', \'х\')">Х</button></td>\
-<td><button style="color:black" onclick="speak(false, \'russian,ru\', \'ц\')">Ц</button></td>\
-<td><button style="color:black" onclick="speak(false, \'russian,ru\', \'ч\')">Ч</button></td>\
-<td><button style="color:black" onclick="speak(false, \'russian,ru\', \'ш\')">Ш</button></td>\
-<td><button style="color:black" onclick="speak(false, \'russian,ru\', \'щ\')">Щ</button></td>\
+<td><button style="color:red" onclick="speakLetter(\'у\')"><div class="relative"><div id="уPre"></div>У<div id="уPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'ф\')"><div class="relative"><div id="фPre"></div>Ф<div id="фPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'х\')"><div class="relative"><div id="хPre"></div>Х<div id="хPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ц\')"><div class="relative"><div id="цPre"></div>Ц<div id="цPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ч\')"><div class="relative"><div id="чPre"></div>Ч<div id="чPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ш\')"><div class="relative"><div id="шPre"></div>Ш<div id="шPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'щ\')"><div class="relative"><div id="щPre"></div>Щ<div id="щPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:grey" onclick="speak(false, \'russian,ru\', \'ъ\')">Ъ</button></td>\
-<td><button style="color:red" onclick="speak(false, \'russian,ru\', \'ы\')">Ы</button></td>\
-<td><button style="color:grey" onclick="speak(false, \'russian,ru\', \'ь\')">Ь</button></td>\
-<td><button style="color:red" onclick="speak(false, \'russian,ru\', \'э\')">Э</button></td>\
-<td><button style="color:red" onclick="speak(false, \'russian,ru\', \'ю\')">Ю</button></td>\
-<td><button style="color:red" onclick="speak(false, \'russian,ru\', \'я\')">Я</button></td>\
+<td><button style="color:grey" onclick="speakLetter(\'ъ\')"><div class="relative"><div id="ъPre"></div>Ъ<div id="ъPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ы\')"><div class="relative"><div id="ыPre"></div>Ы<div id="ыPost"></div></div></button></td>\
+<td><button style="color:grey" onclick="speakLetter(\'ь\')"><div class="relative"><div id="ьPre"></div>Ь<div id="ьPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'э\')"><div class="relative"><div id="эPre"></div>Э<div id="эPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ю\')"><div class="relative"><div id="юPre"></div>Ю<div id="юPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'я\')"><div class="relative"><div id="яPre"></div>Я<div id="яPost"></div></div></button></td>\
 </tr></table>';
 
 // Russian Axial Table
 tableAbcd["russian"]["axial"] = '<tr>\
-<td colspan="9" align="center"><button style="color:red" onclick="speak(false, \'russian,ru\', \'а\')">А</button></td>\
+<td colspan="9" align="center"><button style="color:red" onclick="speakLetter(\'а\')"><div class="relative"><div id="аPre"></div>А<div id="аPost"></div></div></button></td>\
 </tr><tr><td colspan="3"></td><td colspan="3" align="center">\
-<button style="color:black" onclick="speak(false, \'russian,ru\', \'б\')">Б</button>\
-<button style="color:black" onclick="speak(false, \'russian,ru\', \'в\')">В</button>\
+<button style="color:black" onclick="speakLetter(\'б\')"><div class="relative"><div id="бPre"></div>Б<div id="бPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'в\')"><div class="relative"><div id="вPre"></div>В<div id="вPost"></div></div></button>\
 </td><td colspan="3"></td></tr><tr><td colspan="2"></td>\
-<td><button style="color:black" onclick="speak(false, \'russian,ru\', \'г\')">Г</button></td>\
-<td><button style="color:black" onclick="speak(false, \'russian,ru\', \'д\')">Д</button></td>\
-<td><button style="color:red" onclick="speak(false, \'russian,ru\', \'е\')">Е</button></td>\
-<td><button style="color:red" onclick="speak(false, \'russian,ru\', \'ё\')">Ё</button></td>\
-<td><button style="color:black" onclick="speak(false, \'russian,ru\', \'ж\')">Ж</button></td>\
+<td><button style="color:black" onclick="speakLetter(\'г\')"><div class="relative"><div id="гPre"></div>Г<div id="гPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'д\')"><div class="relative"><div id="дPre"></div>Д<div id="дPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'е\')"><div class="relative"><div id="еPre"></div>Е<div id="еPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ё\')"><div class="relative"><div id="ёPre"></div>Ё<div id="ёPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ж\')"><div class="relative"><div id="жPre"></div>Ж<div id="жPost"></div></div></button></td>\
 <td colspan="2"></td></tr><tr><td colspan="3"></td>\
-<td><button style="color:black" onclick="speak(false, \'russian,ru\', \'з\')">З</button></td>\
-<td><button style="color:red" onclick="speak(false, \'russian,ru\', \'и\')">И</button></td>\
-<td><button style="color:black" onclick="speak(false, \'russian,ru\', \'й\')">Й</button></td>\
+<td><button style="color:black" onclick="speakLetter(\'з\')"><div class="relative"><div id="зPre"></div>З<div id="зPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'и\')"><div class="relative"><div id="иPre"></div>И<div id="иPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'й\')"><div class="relative"><div id="йPre"></div>Й<div id="йPost"></div></div></button></td>\
 <td colspan="3"></td></tr><tr>\
-<td><button style="color:black" onclick="speak(false, \'russian,ru\', \'к\')">К</button></td>\
-<td><button style="color:black" onclick="speak(false, \'russian,ru\', \'л\')">Л</button></td>\
-<td><button style="color:black" onclick="speak(false, \'russian,ru\', \'м\')">М</button></td>\
-<td><button style="color:black" onclick="speak(false, \'russian,ru\', \'н\')">Н</button></td>\
-<td><button style="color:red" onclick="speak(false, \'russian,ru\', \'о\')">О</button></td>\
-<td><button style="color:black" onclick="speak(false, \'russian,ru\', \'п\')">П</button></td>\
-<td><button style="color:black" onclick="speak(false, \'russian,ru\', \'р\')">Р</button></td>\
-<td><button style="color:black" onclick="speak(false, \'russian,ru\', \'с\')">С</button></td>\
-<td><button style="color:black" onclick="speak(false, \'russian,ru\', \'т\')">Т</button></td>\
+<td><button style="color:black" onclick="speakLetter(\'к\')"><div class="relative"><div id="кPre"></div>К<div id="кPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'л\')"><div class="relative"><div id="лPre"></div>Л<div id="лPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'м\')"><div class="relative"><div id="мPre"></div>М<div id="мPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'н\')"><div class="relative"><div id="нPre"></div>Н<div id="нPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'о\')"><div class="relative"><div id="оPre"></div>О<div id="оPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'п\')"><div class="relative"><div id="пPre"></div>П<div id="пPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'р\')"><div class="relative"><div id="рPre"></div>Р<div id="рPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'с\')"><div class="relative"><div id="сPre"></div>С<div id="сPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'т\')"><div class="relative"><div id="тPre"></div>Т<div id="тPost"></div></div></button></td>\
 </tr><tr>\
-<td colspan="9" align="center"><button style="color:red" onclick="speak(false, \'russian,ru\', \'у\')">У</button></td>\
+<td colspan="9" align="center"><button style="color:red" onclick="speakLetter(\'у\')"><div class="relative"><div id="уPre"></div>У<div id="уPost"></div></div></button></td>\
 </tr><tr><td></td><td colspan="7" align="center">\
-<button style="color:black" onclick="speak(false, \'russian,ru\', \'ф\')">Ф</button>\
-<button style="color:black" onclick="speak(false, \'russian,ru\', \'х\')">Х</button>\
-<button style="color:black" onclick="speak(false, \'russian,ru\', \'ц\')">Ц</button>\
-<button style="color:black" onclick="speak(false, \'russian,ru\', \'ч\')">Ч</button>\
-<button style="color:black" onclick="speak(false, \'russian,ru\', \'ш\')">Ш</button>\
-<button style="color:black" onclick="speak(false, \'russian,ru\', \'щ\')">Щ</button>\
+<button style="color:black" onclick="speakLetter(\'ф\')"><div class="relative"><div id="фPre"></div>Ф<div id="фPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'х\')"><div class="relative"><div id="хPre"></div>Х<div id="хPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'ц\')"><div class="relative"><div id="цPre"></div>Ц<div id="цPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'ч\')"><div class="relative"><div id="чPre"></div>Ч<div id="чPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'ш\')"><div class="relative"><div id="шPre"></div>Ш<div id="шPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'щ\')"><div class="relative"><div id="щPre"></div>Щ<div id="щPost"></div></div></button>\
 </td><td></td></tr><tr><td colspan="3"></td>\
-<td><button style="color:black" onclick="speak(false, \'russian,ru\', \'ъ\')">Ъ</button></td>\
-<td><button style="color:red" onclick="speak(false, \'russian,ru\', \'ы\')">Ы</button></td>\
-<td><button style="color:black" onclick="speak(false, \'russian,ru\', \'ь\')">Ь</button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ъ\')"><div class="relative"><div id="ъPre"></div>Ъ<div id="ъPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ы\')"><div class="relative"><div id="ыPre"></div>Ы<div id="ыPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ь\')"><div class="relative"><div id="ьPre"></div>Ь<div id="ьPost"></div></div></button></td>\
 <td colspan="3"></td></tr><tr><td colspan="3"></td>\
-<td><button style="color:red" onclick="speak(false, \'russian,ru\', \'э\')">Э</button></td>\
-<td><button style="color:red" onclick="speak(false, \'russian,ru\', \'ю\')">Ю</button></td>\
-<td><button style="color:red" onclick="speak(false, \'russian,ru\', \'я\')">Я</button></td>\
+<td><button style="color:red" onclick="speakLetter(\'э\')"><div class="relative"><div id="эPre"></div>Э<div id="эPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ю\')"><div class="relative"><div id="юPre"></div>Ю<div id="юPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'я\')"><div class="relative"><div id="яPre"></div>Я<div id="яPost"></div></div></button></td>\
 <td colspan="3"></td></tr></table>';
+
+// Russian Sound Correspondence
+tableAbcd["russian"]["sound"] = {};
+tableAbcd["russian"]["sound"]["а"] = [ "а", "д", " ", "б", "б", " ", "рка", "за", "с" ];
+tableAbcd["russian"]["sound"]["б"] = [ "б", " ", " ", " ", " ", " ", "ыть", "ить", "оты", "ровь", "рат" ];
+tableAbcd["russian"]["sound"]["в"] = [ "в", " ", " ", " ", "ижу", "ода", "дова" ];
+tableAbcd["russian"]["sound"]["г"] = [ "г", " ", " ", " ", " ", "че", "лаз", "усь", "ад", "рунт", "о" ];
+tableAbcd["russian"]["sound"]["д"] = [ "д", " ", " ", " ", " ", "ери", "а", "ва", "но" ];
+tableAbcd["russian"]["sound"]["е"] = [ "е", " ", " ", "н", " ", "сть", "да", " ", "ль" ];
+tableAbcd["russian"]["sound"]["ё"] = [ "ё", "л", " ", " ", "н", "ж", "лка" ];
+tableAbcd["russian"]["sound"]["ж"] = [ "ж", " ", "ло", " ", "ло", "ля", "ля", "ук", "а", "ид", "ь", "ь", "ка" ];
+tableAbcd["russian"]["sound"]["з"] = [ "з", " ", "берё", "нать", "а" ];
+tableAbcd["russian"]["sound"]["и"] = [ "и", " ", " " ];
+tableAbcd["russian"]["sound"]["й"] = [ "й", " ", " ", "мо", "ог", "од", " " ];
+tableAbcd["russian"]["sound"]["к"] = [ "к", " ", " ", "от", "лей" ];
+tableAbcd["russian"]["sound"]["л"] = [ "л", " ", " ", "со", "ба", "ев", "ево", "нце", " " ];
+tableAbcd["russian"]["sound"]["м"] = [ "м", " ", " ", " ", " ", " ", "ама", "ир", "ного", "ох", "ал" ];
+tableAbcd["russian"]["sound"]["н"] = [ "н", " ", " ", "ли", "с", "во", "во", "ос", "ас", "ия", "ег", " ", "ь" ];
+tableAbcd["russian"]["sound"]["о"] = [ "о", " ", "молок", "х", "б", "дин", " ", "лод", "рода" ];
+tableAbcd["russian"]["sound"]["п"] = [ "п", " ", " ", " ", "апа", "лыть", "ламя" ];
+tableAbcd["russian"]["sound"]["р"] = [ "р", "жа", "зе", " ", "а", "но", "ама" ];
+tableAbcd["russian"]["sound"]["с"] = [ "с", " ", " ", " ", " ", " ", " ", "естра", "ын", "кули", "ии", "иди", "ел" ];
+tableAbcd["russian"]["sound"]["т"] = [ "т", " ", " ", "смер", "от", "ри", "ь" ];
+tableAbcd["russian"]["sound"]["у"] = [ "у", " ", " ", "кл", "л", "хо", "ха", "бок", "на" ];
+tableAbcd["russian"]["sound"]["ф"] = [ "ф", " ", " ", " ", " ", "ильм", "иле", "ляга", "ляжка" ];
+tableAbcd["russian"]["sound"]["х"] = [ "х", " ", " ", " ", "леб", "олод", "ек" ];
+tableAbcd["russian"]["sound"]["ц"] = [ "ц", " ", " ", " ", "ирк", "ерковь", "ена" ];
+tableAbcd["russian"]["sound"]["ч"] = [ "ч", " ", "по", " ", "ай", "та", "адо" ];
+tableAbcd["russian"]["sound"]["ш"] = [ "ш", " ", " ", " ", " ", "ар", "арм", "арф", "орты" ];
+tableAbcd["russian"]["sound"]["щ"] = [ "щ", " ", " ", "ека", "ель" ];
+tableAbcd["russian"]["sound"]["ъ"] = [ "ъ", "с", "с", "с", "с", "с", "ем", "ешь", "ест", "езд", "ел" ];
+tableAbcd["russian"]["sound"]["ы"] = [ "ы", "м", "в", "т", " ", " ", " " ];
+tableAbcd["russian"]["sound"]["ь"] = [ "ь", "л", "ос", "ноч", "ден", "вы", " ", " ", " " ];
+tableAbcd["russian"]["sound"]["э"] = [ "э", " ", " ", " ", "то", "хо", "ра" ];
+tableAbcd["russian"]["sound"]["ю"] = [ "ю", "кл", "кр", "тр", "ч", "к", "к" ];
+tableAbcd["russian"]["sound"]["я"] = [ "я", " ", " ", " ", "вол", " ", "рость", "ркость", " " ];
 
 // Hebrew Linear Table
 tableAbcd["hebrew"]["linear"] = '<tr>\
