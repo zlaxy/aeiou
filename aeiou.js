@@ -20,226 +20,226 @@ tableAbcd["ugaritic"] = {};
 
 // English Linear Table
 tableAbcd["english"]["linear"] = '<tr>\
-<td><button style="color:red" onclick="speakLetter(\'a\')"><div class="relative"><div id="aPre"></div>A<div id="aPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'b\')"><div class="relative"><div id="bPre"></div>B<div id="bPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'c\')"><div class="relative"><div id="cPre"></div>C<div id="cPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'d\')"><div class="relative"><div id="dPre"></div>D<div id="dPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'a\')"><div class="relative"><div id="aPre"></div>A<div id="aUnder"></div><div id="aPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'b\')"><div class="relative"><div id="bPre"></div>B<div id="bUnder"></div><div id="bPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'c\')"><div class="relative"><div id="cPre"></div>C<div id="cUnder"></div><div id="cPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'d\')"><div class="relative"><div id="dPre"></div>D<div id="dUnder"></div><div id="dPost"></div></div></button></td>\
 <td></td><td></td></tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'e\')"><div class="relative"><div id="ePre"></div>E<div id="ePost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'f\')"><div class="relative"><div id="fPre"></div>F<div id="fPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'g\')"><div class="relative"><div id="gPre"></div>G<div id="gPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'h\')"><div class="relative"><div id="hPre"></div>H<div id="hPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'e\')"><div class="relative"><div id="ePre"></div>E<div id="eUnder"></div><div id="ePost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'f\')"><div class="relative"><div id="fPre"></div>F<div id="fUnder"></div><div id="fPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'g\')"><div class="relative"><div id="gPre"></div>G<div id="gUnder"></div><div id="gPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'h\')"><div class="relative"><div id="hPre"></div>H<div id="hUnder"></div><div id="hPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'i\')"><div class="relative"><div id="iPre"></div>I<div id="iPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'j\')"><div class="relative"><div id="jPre"></div>J<div id="jPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'k\')"><div class="relative"><div id="kPre"></div>K<div id="kPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'l\')"><div class="relative"><div id="lPre"></div>L<div id="lPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'m\')"><div class="relative"><div id="mPre"></div>M<div id="mPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'n\')"><div class="relative"><div id="nPre"></div>N<div id="nPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'i\')"><div class="relative"><div id="iPre"></div>I<div id="iUnder"></div><div id="iPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'j\')"><div class="relative"><div id="jPre"></div>J<div id="jUnder"></div><div id="jPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'k\')"><div class="relative"><div id="kPre"></div>K<div id="kUnder"></div><div id="kPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'l\')"><div class="relative"><div id="lPre"></div>L<div id="lUnder"></div><div id="lPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'m\')"><div class="relative"><div id="mPre"></div>M<div id="mUnder"></div><div id="mPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'n\')"><div class="relative"><div id="nPre"></div>N<div id="nUnder"></div><div id="nPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'o\')"><div class="relative"><div id="oPre"></div>O<div id="oPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'p\')"><div class="relative"><div id="pPre"></div>P<div id="pPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'q\')"><div class="relative"><div id="qPre"></div>Q<div id="qPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'r\')"><div class="relative"><div id="rPre"></div>R<div id="rPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'s\')"><div class="relative"><div id="sPre"></div>S<div id="sPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'t\')"><div class="relative"><div id="tPre"></div>T<div id="tPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'o\')"><div class="relative"><div id="oPre"></div>O<div id="oUnder"></div><div id="oPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'p\')"><div class="relative"><div id="pPre"></div>P<div id="pUnder"></div><div id="pPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'q\')"><div class="relative"><div id="qPre"></div>Q<div id="qUnder"></div><div id="qPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'r\')"><div class="relative"><div id="rPre"></div>R<div id="rUnder"></div><div id="rPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'s\')"><div class="relative"><div id="sPre"></div>S<div id="sUnder"></div><div id="sPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'t\')"><div class="relative"><div id="tPre"></div>T<div id="tUnder"></div><div id="tPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'u\')"><div class="relative"><div id="uPre"></div>U<div id="uPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'v\')"><div class="relative"><div id="vPre"></div>V<div id="vPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'w\')"><div class="relative"><div id="wPre"></div>W<div id="wPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'x\')"><div class="relative"><div id="xPre"></div>X<div id="xPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'y\')"><div class="relative"><div id="yPre"></div>Y<div id="yPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'z\')"><div class="relative"><div id="zPre"></div>Z<div id="zPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'u\')"><div class="relative"><div id="uPre"></div>U<div id="uUnder"></div><div id="uPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'v\')"><div class="relative"><div id="vPre"></div>V<div id="vUnder"></div><div id="vPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'w\')"><div class="relative"><div id="wPre"></div>W<div id="wUnder"></div><div id="wPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'x\')"><div class="relative"><div id="xPre"></div>X<div id="xUnder"></div><div id="xPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'y\')"><div class="relative"><div id="yPre"></div>Y<div id="yUnder"></div><div id="yPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'z\')"><div class="relative"><div id="zPre"></div>Z<div id="zUnder"></div><div id="zPost"></div></div></button></td>\
 </tr></table>';
 
 // English Axial Table
 tableAbcd["english"]["axial"] = '<tr>\
-<td colspan="7" align="center"><button style="color:red" onclick="speakLetter(\'a\')"><div class="relative"><div id="aPre"></div>A<div id="aPost"></div></div></button></td>\
+<td colspan="7" align="center"><button style="color:red" onclick="speakLetter(\'a\')"><div class="relative"><div id="aPre"></div>A<div id="aUnder"></div><div id="aPost"></div></div></button></td>\
 </tr><tr><td colspan="2"></td><td colspan="3" align="center">\
-<button style="color:black" onclick="speakLetter(\'b\')"><div class="relative"><div id="bPre"></div>B<div id="bPost"></div></div></button>\
-<button style="color:black" onclick="speakLetter(\'c\')"><div class="relative"><div id="cPre"></div>C<div id="cPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'b\')"><div class="relative"><div id="bPre"></div>B<div id="bUnder"></div><div id="bPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'c\')"><div class="relative"><div id="cPre"></div>C<div id="cUnder"></div><div id="cPost"></div></div></button>\
 </td><td colspan="2"></td>\
 </tr><tr><td colspan="2"></td>\
-<td><button style="color:black" onclick="speakLetter(\'d\')"><div class="relative"><div id="dPre"></div>D<div id="dPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'e\')"><div class="relative"><div id="ePre"></div>E<div id="ePost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'f\')"><div class="relative"><div id="fPre"></div>F<div id="fPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'d\')"><div class="relative"><div id="dPre"></div>D<div id="dUnder"></div><div id="dPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'e\')"><div class="relative"><div id="ePre"></div>E<div id="eUnder"></div><div id="ePost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'f\')"><div class="relative"><div id="fPre"></div>F<div id="fUnder"></div><div id="fPost"></div></div></button></td>\
 <td colspan="2"></td></tr><tr>\
-<td></td><td><button style="color:black" onclick="speakLetter(\'g\')"><div class="relative"><div id="gPre"></div>G<div id="gPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'h\')"><div class="relative"><div id="hPre"></div>H<div id="hPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'i\')"><div class="relative"><div id="iPre"></div>I<div id="iPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'j\')"><div class="relative"><div id="jPre"></div>J<div id="jPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'k\')"><div class="relative"><div id="kPre"></div>K<div id="kPost"></div></div></button></td>\
+<td></td><td><button style="color:black" onclick="speakLetter(\'g\')"><div class="relative"><div id="gPre"></div>G<div id="gUnder"></div><div id="gPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'h\')"><div class="relative"><div id="hPre"></div>H<div id="hUnder"></div><div id="hPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'i\')"><div class="relative"><div id="iPre"></div>I<div id="iUnder"></div><div id="iPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'j\')"><div class="relative"><div id="jPre"></div>J<div id="jUnder"></div><div id="jPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'k\')"><div class="relative"><div id="kPre"></div>K<div id="kUnder"></div><div id="kPost"></div></div></button></td>\
 <td></td></tr><tr>\
-<td><button style="color:black" onclick="speakLetter(\'l\')"><div class="relative"><div id="lPre"></div>L<div id="lPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'m\')"><div class="relative"><div id="mPre"></div>M<div id="mPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'n\')"><div class="relative"><div id="nPre"></div>N<div id="nPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'o\')"><div class="relative"><div id="oPre"></div>O<div id="oPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'p\')"><div class="relative"><div id="pPre"></div>P<div id="pPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'q\')"><div class="relative"><div id="qPre"></div>Q<div id="qPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'r\')"><div class="relative"><div id="rPre"></div>R<div id="rPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'l\')"><div class="relative"><div id="lPre"></div>L<div id="lUnder"></div><div id="lPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'m\')"><div class="relative"><div id="mPre"></div>M<div id="mUnder"></div><div id="mPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'n\')"><div class="relative"><div id="nPre"></div>N<div id="nUnder"></div><div id="nPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'o\')"><div class="relative"><div id="oPre"></div>O<div id="oUnder"></div><div id="oPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'p\')"><div class="relative"><div id="pPre"></div>P<div id="pUnder"></div><div id="pPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'q\')"><div class="relative"><div id="qPre"></div>Q<div id="qUnder"></div><div id="qPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'r\')"><div class="relative"><div id="rPre"></div>R<div id="rUnder"></div><div id="rPost"></div></div></button></td>\
 </tr><tr>\
-<td></td><td><button style="color:black" onclick="speakLetter(\'s\')"><div class="relative"><div id="sPre"></div>S<div id="sPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'t\')"><div class="relative"><div id="tPre"></div>T<div id="tPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'u\')"><div class="relative"><div id="uPre"></div>U<div id="uPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'v\')"><div class="relative"><div id="vPre"></div>V<div id="vPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'w\')"><div class="relative"><div id="wPre"></div>W<div id="wPost"></div></div></button></td>\
+<td></td><td><button style="color:black" onclick="speakLetter(\'s\')"><div class="relative"><div id="sPre"></div>S<div id="sUnder"></div><div id="sPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'t\')"><div class="relative"><div id="tPre"></div>T<div id="tUnder"></div><div id="tPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'u\')"><div class="relative"><div id="uPre"></div>U<div id="uUnder"></div><div id="uPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'v\')"><div class="relative"><div id="vPre"></div>V<div id="vUnder"></div><div id="vPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'w\')"><div class="relative"><div id="wPre"></div>W<div id="wUnder"></div><div id="wPost"></div></div></button></td>\
 <td></td></tr><tr><td colspan="2"></td>\
-<td><button style="color:black" onclick="speakLetter(\'x\')"><div class="relative"><div id="xPre"></div>X<div id="xPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'y\')"><div class="relative"><div id="yPre"></div>Y<div id="yPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'z\')"><div class="relative"><div id="zPre"></div>Z<div id="zPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'x\')"><div class="relative"><div id="xPre"></div>X<div id="xUnder"></div><div id="xPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'y\')"><div class="relative"><div id="yPre"></div>Y<div id="yUnder"></div><div id="yPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'z\')"><div class="relative"><div id="zPre"></div>Z<div id="zUnder"></div><div id="zPost"></div></div></button></td>\
 </tr></table>';
 
 // English Sound Correspondence
 tableAbcd["english"]["sound"] = {};
-tableAbcd["english"]["sound"]["a"] = [ "a", "c", " ", "c", "c", "t", "pe", "r", "ll" ];
-tableAbcd["english"]["sound"]["b"] = [ "b", " ", "la", "lam", "ee", " ", " " ];
-tableAbcd["english"]["sound"]["c"] = [ "c", " ", " ", " ", "ity", "at", "hip" ];
-tableAbcd["english"]["sound"]["d"] = [ "d", " ", " ", "o", "eep" ];
-tableAbcd["english"]["sound"]["e"] = [ "e", "b", "b", "s", "s", "sw", "sw", "hom", "d", "d", " ", "t", "e", "a", "et", "at", " ", "ar", "al" ];
-tableAbcd["english"]["sound"]["f"] = [ "f", " ", " ", "eel", "ly" ];
-tableAbcd["english"]["sound"]["g"] = [ "g", " ", " ", "bri", "ood", "ene", "ht" ];
-tableAbcd["english"]["sound"]["h"] = [ "h", " ", " ", "igh", "ot" ];
-tableAbcd["english"]["sound"]["i"] = [ "i", "b", "b", "t", "te" ];
-tableAbcd["english"]["sound"]["j"] = [ "j", " ", "oy" ];
-tableAbcd["english"]["sound"]["k"] = [ "k", " ", " ", "id", "night" ];
-tableAbcd["english"]["sound"]["l"] = [ "l", " ", " ", "ive", "ive" ];
-tableAbcd["english"]["sound"]["m"] = [ "m", " ", " ", "ama", "me" ];
-tableAbcd["english"]["sound"]["n"] = [ "n", " ", " ", "k", "ew", "o", "ow" ];
-tableAbcd["english"]["sound"]["o"] = [ "o", "d", "d", "g", "h", "d", "g", " ", "od", "me", "me" ];
-tableAbcd["english"]["sound"]["p"] = [ "p", " ", " ", " ", "ut", "ick", "hone" ];
-tableAbcd["english"]["sound"]["q"] = [ "q", " ", " ", " ", "ueen", "uit", "uick" ];
-tableAbcd["english"]["sound"]["r"] = [ "r", " ", "a", "ock", "c" ];
-tableAbcd["english"]["sound"]["s"] = [ "s", " ", " ", " ", " ", "aw", "ow", "ee", "he" ];
-tableAbcd["english"]["sound"]["t"] = [ "t", " ", " ", " ", "ake", "ip", "his" ];
-tableAbcd["english"]["sound"]["u"] = [ "u", " ", "b", "se", "s" ];
-tableAbcd["english"]["sound"]["v"] = [ "v", " ", "lo", "ow", "e" ];
-tableAbcd["english"]["sound"]["w"] = [ "w", " ", " ", "ho", "ne", "hat", "ho", " ", " " ];
-tableAbcd["english"]["sound"]["x"] = [ "x", "e", " ", " ", "enos" ];
-tableAbcd["english"]["sound"]["y"] = [ "y", " ", "jo", "e", "wh", "ver", "var", "ou", " ", "e", " ", " ", " " ];
-tableAbcd["english"]["sound"]["z"] = [ "z", " ", "wi", "ip", " " ];
+tableAbcd["english"]["sound"]["a"] = [ "a", "c", " ", "c", "c", "t", "pe", "r", "ll", " ", " ", " ", " " ];
+tableAbcd["english"]["sound"]["b"] = [ "b", " ", "la", "lam", "ee", " ", " ", " ", " ", " " ];
+tableAbcd["english"]["sound"]["c"] = [ "c", " ", " ", " ", "ity", "at", "hip", " ", " ", " " ];
+tableAbcd["english"]["sound"]["d"] = [ "d", " ", " ", "o", "eep", " ", " " ];
+tableAbcd["english"]["sound"]["e"] = [ "e", "b", "b", "s", "s", "sw", "sw", "hom", "d", "d", " ", "t", "e", "a", "et", "at", " ", "ar", "al", " ", " ", " ", " ", " ", " ", " ", " ", " " ];
+tableAbcd["english"]["sound"]["f"] = [ "f", " ", " ", "eel", "ly", " ", " " ];
+tableAbcd["english"]["sound"]["g"] = [ "g", " ", " ", "bri", "ood", "ene", "ht", " ", " ", " " ];
+tableAbcd["english"]["sound"]["h"] = [ "h", " ", " ", "igh", "ot", " ", " " ];
+tableAbcd["english"]["sound"]["i"] = [ "i", "b", "b", "t", "te", " ", " " ];
+tableAbcd["english"]["sound"]["j"] = [ "j", " ", "oy", " " ];
+tableAbcd["english"]["sound"]["k"] = [ "k", " ", " ", "id", "night", " ", " " ];
+tableAbcd["english"]["sound"]["l"] = [ "l", " ", " ", "he", "ive", "ive", "lo", " ", " ", " " ];
+tableAbcd["english"]["sound"]["m"] = [ "m", " ", " ", "ama", "me", " ", " " ];
+tableAbcd["english"]["sound"]["n"] = [ "n", " ", " ", "k", "ew", "o", "ow", " ", " ", " " ];
+tableAbcd["english"]["sound"]["o"] = [ "o", "d", "d", "g", "h", "d", "g", " ", "od", "me", "me", " ", " ", " ", " ", " " ];
+tableAbcd["english"]["sound"]["p"] = [ "p", " ", " ", " ", "ut", "ick", "hone", " ", " ", " " ];
+tableAbcd["english"]["sound"]["q"] = [ "q", " ", " ", " ", "ueen", "uit", "uick", " ", " ", " " ];
+tableAbcd["english"]["sound"]["r"] = [ "r", " ", "a", "ock", "c", " ", " " ];
+tableAbcd["english"]["sound"]["s"] = [ "s", " ", " ", " ", " ", "aw", "ow", "ee", "he", " ", " ", " ", " " ];
+tableAbcd["english"]["sound"]["t"] = [ "t", " ", " ", " ", "ake", "ip", "his", " ", " ", " " ];
+tableAbcd["english"]["sound"]["u"] = [ "u", " ", "b", "se", "s", " ", " " ];
+tableAbcd["english"]["sound"]["v"] = [ "v", " ", "lo", "ow", "e", " ", " " ];
+tableAbcd["english"]["sound"]["w"] = [ "w", " ", " ", "ho", "ne", "hat", "ho", " ", " ", " ", " ", " ", " " ];
+tableAbcd["english"]["sound"]["x"] = [ "x", "e", " ", " ", "enos", " ", " " ];
+tableAbcd["english"]["sound"]["y"] = [ "y", " ", "jo", "e", "wh", "ver", "var", "ou", " ", "e", " ", " ", " ", " ", " ", " ", " ", " ", " " ];
+tableAbcd["english"]["sound"]["z"] = [ "z", " ", "wi", "ip", " ", " ", " " ];
 
 // Russian Linear Table
 tableAbcd["russian"]["linear"] = '<tr>\
-<td><button style="color:red" onclick="speakLetter(\'а\')"><div class="relative"><div id="аPre"></div>А<div id="аPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'б\')"><div class="relative"><div id="бPre"></div>Б<div id="бPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'в\')"><div class="relative"><div id="вPre"></div>В<div id="вPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'г\')"><div class="relative"><div id="гPre"></div>Г<div id="гPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'д\')"><div class="relative"><div id="дPre"></div>Д<div id="дPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'а\')"><div class="relative"><div id="аPre"></div>А<div id="аUnder"></div><div id="аPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'б\')"><div class="relative"><div id="бPre"></div>Б<div id="бUnder"></div><div id="бPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'в\')"><div class="relative"><div id="вPre"></div>В<div id="вUnder"></div><div id="вPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'г\')"><div class="relative"><div id="гPre"></div>Г<div id="гUnder"></div><div id="гPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'д\')"><div class="relative"><div id="дPre"></div>Д<div id="дUnder"></div><div id="дPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'е\')"><div class="relative"><div id="еPre"></div>Е<div id="еPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ё\')"><div class="relative"><div id="ёPre"></div>Ё<div id="ёPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ж\')"><div class="relative"><div id="жPre"></div>Ж<div id="жPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'з\')"><div class="relative"><div id="зPre"></div>З<div id="зPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'е\')"><div class="relative"><div id="еPre"></div>Е<div id="еUnder"></div><div id="еPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ё\')"><div class="relative"><div id="ёPre"></div>Ё<div id="ёUnder"></div><div id="ёPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ж\')"><div class="relative"><div id="жPre"></div>Ж<div id="жUnder"></div><div id="жPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'з\')"><div class="relative"><div id="зPre"></div>З<div id="зUnder"></div><div id="зPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'и\')"><div class="relative"><div id="иPre"></div>И<div id="иPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'й\')"><div class="relative"><div id="йPre"></div>Й<div id="йPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'к\')"><div class="relative"><div id="кPre"></div>К<div id="кPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'л\')"><div class="relative"><div id="лPre"></div>Л<div id="лPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'м\')"><div class="relative"><div id="мPre"></div>М<div id="мPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'н\')"><div class="relative"><div id="нPre"></div>Н<div id="нPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'и\')"><div class="relative"><div id="иPre"></div>И<div id="иUnder"></div><div id="иPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'й\')"><div class="relative"><div id="йPre"></div>Й<div id="йUnder"></div><div id="йPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'к\')"><div class="relative"><div id="кPre"></div>К<div id="кUnder"></div><div id="кPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'л\')"><div class="relative"><div id="лPre"></div><div id="лUnder"></div>Л<div id="лPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'м\')"><div class="relative"><div id="мPre"></div>М<div id="мUnder"></div><div id="мPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'н\')"><div class="relative"><div id="нPre"></div>Н<div id="нUnder"></div><div id="нPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'о\')"><div class="relative"><div id="оPre"></div>О<div id="оPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'п\')"><div class="relative"><div id="пPre"></div>П<div id="пPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'р\')"><div class="relative"><div id="рPre"></div>Р<div id="рPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'с\')"><div class="relative"><div id="сPre"></div>С<div id="сPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'т\')"><div class="relative"><div id="тPre"></div>Т<div id="тPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'о\')"><div class="relative"><div id="оPre"></div>О<div id="оUnder"></div><div id="оPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'п\')"><div class="relative"><div id="пPre"></div>П<div id="пUnder"></div><div id="пPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'р\')"><div class="relative"><div id="рPre"></div>Р<div id="рUnder"></div><div id="рPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'с\')"><div class="relative"><div id="сPre"></div>С<div id="сUnder"></div><div id="сPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'т\')"><div class="relative"><div id="тPre"></div>Т<div id="тUnder"></div><div id="тPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'у\')"><div class="relative"><div id="уPre"></div>У<div id="уPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'ф\')"><div class="relative"><div id="фPre"></div>Ф<div id="фPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'х\')"><div class="relative"><div id="хPre"></div>Х<div id="хPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ц\')"><div class="relative"><div id="цPre"></div>Ц<div id="цPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ч\')"><div class="relative"><div id="чPre"></div>Ч<div id="чPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ш\')"><div class="relative"><div id="шPre"></div>Ш<div id="шPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'щ\')"><div class="relative"><div id="щPre"></div>Щ<div id="щPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'у\')"><div class="relative"><div id="уPre"></div>У<div id="уUnder"></div><div id="уPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'ф\')"><div class="relative"><div id="фPre"></div>Ф<div id="фUnder"></div><div id="фPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'х\')"><div class="relative"><div id="хPre"></div>Х<div id="хUnder"></div><div id="хPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ц\')"><div class="relative"><div id="цPre"></div>Ц<div id="цUnder"></div><div id="цPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ч\')"><div class="relative"><div id="чPre"></div>Ч<div id="чUnder"></div><div id="чPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ш\')"><div class="relative"><div id="шPre"></div>Ш<div id="шUnder"></div><div id="шPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'щ\')"><div class="relative"><div id="щPre"></div>Щ<div id="щUnder"></div><div id="щPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:grey" onclick="speakLetter(\'ъ\')"><div class="relative"><div id="ъPre"></div>Ъ<div id="ъPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ы\')"><div class="relative"><div id="ыPre"></div>Ы<div id="ыPost"></div></div></button></td>\
-<td><button style="color:grey" onclick="speakLetter(\'ь\')"><div class="relative"><div id="ьPre"></div>Ь<div id="ьPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'э\')"><div class="relative"><div id="эPre"></div>Э<div id="эPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ю\')"><div class="relative"><div id="юPre"></div>Ю<div id="юPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'я\')"><div class="relative"><div id="яPre"></div>Я<div id="яPost"></div></div></button></td>\
+<td><button style="color:grey" onclick="speakLetter(\'ъ\')"><div class="relative"><div id="ъPre"></div>Ъ<div id="ъUnder"></div><div id="ъPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ы\')"><div class="relative"><div id="ыPre"></div>Ы<div id="ыUnder"></div><div id="ыPost"></div></div></button></td>\
+<td><button style="color:grey" onclick="speakLetter(\'ь\')"><div class="relative"><div id="ьPre"></div>Ь<div id="ьUnder"></div><div id="ьPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'э\')"><div class="relative"><div id="эPre"></div>Э<div id="эUnder"></div><div id="эPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ю\')"><div class="relative"><div id="юPre"></div>Ю<div id="юUnder"></div><div id="юPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'я\')"><div class="relative"><div id="яPre"></div>Я<div id="яUnder"></div><div id="яPost"></div></div></button></td>\
 </tr></table>';
 
 // Russian Axial Table
 tableAbcd["russian"]["axial"] = '<tr>\
-<td colspan="9" align="center"><button style="color:red" onclick="speakLetter(\'а\')"><div class="relative"><div id="аPre"></div>А<div id="аPost"></div></div></button></td>\
+<td colspan="9" align="center"><button style="color:red" onclick="speakLetter(\'а\')"><div class="relative"><div id="аPre"></div>А<div id="аUnder"></div><div id="аPost"></div></div></button></td>\
 </tr><tr><td colspan="3"></td><td colspan="3" align="center">\
-<button style="color:black" onclick="speakLetter(\'б\')"><div class="relative"><div id="бPre"></div>Б<div id="бPost"></div></div></button>\
-<button style="color:black" onclick="speakLetter(\'в\')"><div class="relative"><div id="вPre"></div>В<div id="вPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'б\')"><div class="relative"><div id="бPre"></div>Б<div id="бUnder"></div><div id="бPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'в\')"><div class="relative"><div id="вPre"></div>В<div id="вUnder"></div><div id="вPost"></div></div></button>\
 </td><td colspan="3"></td></tr><tr><td colspan="2"></td>\
-<td><button style="color:black" onclick="speakLetter(\'г\')"><div class="relative"><div id="гPre"></div>Г<div id="гPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'д\')"><div class="relative"><div id="дPre"></div>Д<div id="дPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'е\')"><div class="relative"><div id="еPre"></div>Е<div id="еPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ё\')"><div class="relative"><div id="ёPre"></div>Ё<div id="ёPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ж\')"><div class="relative"><div id="жPre"></div>Ж<div id="жPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'г\')"><div class="relative"><div id="гPre"></div>Г<div id="гUnder"></div><div id="гPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'д\')"><div class="relative"><div id="дPre"></div>Д<div id="дUnder"></div><div id="дPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'е\')"><div class="relative"><div id="еPre"></div>Е<div id="еUnder"></div><div id="еPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ё\')"><div class="relative"><div id="ёPre"></div>Ё<div id="ёUnder"></div><div id="ёPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ж\')"><div class="relative"><div id="жPre"></div>Ж<div id="жUnder"></div><div id="жPost"></div></div></button></td>\
 <td colspan="2"></td></tr><tr><td colspan="3"></td>\
-<td><button style="color:black" onclick="speakLetter(\'з\')"><div class="relative"><div id="зPre"></div>З<div id="зPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'и\')"><div class="relative"><div id="иPre"></div>И<div id="иPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'й\')"><div class="relative"><div id="йPre"></div>Й<div id="йPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'з\')"><div class="relative"><div id="зPre"></div>З<div id="зUnder"></div><div id="зPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'и\')"><div class="relative"><div id="иPre"></div>И<div id="иUnder"></div><div id="иPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'й\')"><div class="relative"><div id="йPre"></div>Й<div id="йUnder"></div><div id="йPost"></div></div></button></td>\
 <td colspan="3"></td></tr><tr>\
-<td><button style="color:black" onclick="speakLetter(\'к\')"><div class="relative"><div id="кPre"></div>К<div id="кPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'л\')"><div class="relative"><div id="лPre"></div>Л<div id="лPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'м\')"><div class="relative"><div id="мPre"></div>М<div id="мPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'н\')"><div class="relative"><div id="нPre"></div>Н<div id="нPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'о\')"><div class="relative"><div id="оPre"></div>О<div id="оPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'п\')"><div class="relative"><div id="пPre"></div>П<div id="пPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'р\')"><div class="relative"><div id="рPre"></div>Р<div id="рPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'с\')"><div class="relative"><div id="сPre"></div>С<div id="сPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'т\')"><div class="relative"><div id="тPre"></div>Т<div id="тPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'к\')"><div class="relative"><div id="кPre"></div>К<div id="кUnder"></div><div id="кPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'л\')"><div class="relative"><div id="лPre"></div>Л<div id="лUnder"></div><div id="лPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'м\')"><div class="relative"><div id="мPre"></div>М<div id="мUnder"></div><div id="мPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'н\')"><div class="relative"><div id="нPre"></div>Н<div id="нUnder"></div><div id="нPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'о\')"><div class="relative"><div id="оPre"></div>О<div id="оUnder"></div><div id="оPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'п\')"><div class="relative"><div id="пPre"></div>П<div id="пUnder"></div><div id="пPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'р\')"><div class="relative"><div id="рPre"></div>Р<div id="рUnder"></div><div id="рPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'с\')"><div class="relative"><div id="сPre"></div>С<div id="сUnder"></div><div id="сPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'т\')"><div class="relative"><div id="тPre"></div>Т<div id="тUnder"></div><div id="тPost"></div></div></button></td>\
 </tr><tr>\
-<td colspan="9" align="center"><button style="color:red" onclick="speakLetter(\'у\')"><div class="relative"><div id="уPre"></div>У<div id="уPost"></div></div></button></td>\
+<td colspan="9" align="center"><button style="color:red" onclick="speakLetter(\'у\')"><div class="relative"><div id="уPre"></div>У<div id="уUnder"></div><div id="уPost"></div></div></button></td>\
 </tr><tr><td></td><td colspan="7" align="center">\
-<button style="color:black" onclick="speakLetter(\'ф\')"><div class="relative"><div id="фPre"></div>Ф<div id="фPost"></div></div></button>\
-<button style="color:black" onclick="speakLetter(\'х\')"><div class="relative"><div id="хPre"></div>Х<div id="хPost"></div></div></button>\
-<button style="color:black" onclick="speakLetter(\'ц\')"><div class="relative"><div id="цPre"></div>Ц<div id="цPost"></div></div></button>\
-<button style="color:black" onclick="speakLetter(\'ч\')"><div class="relative"><div id="чPre"></div>Ч<div id="чPost"></div></div></button>\
-<button style="color:black" onclick="speakLetter(\'ш\')"><div class="relative"><div id="шPre"></div>Ш<div id="шPost"></div></div></button>\
-<button style="color:black" onclick="speakLetter(\'щ\')"><div class="relative"><div id="щPre"></div>Щ<div id="щPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'ф\')"><div class="relative"><div id="фPre"></div>Ф<div id="фUnder"></div><div id="фPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'х\')"><div class="relative"><div id="хPre"></div>Х<div id="хUnder"></div><div id="хPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'ц\')"><div class="relative"><div id="цPre"></div>Ц<div id="цUnder"></div><div id="цPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'ч\')"><div class="relative"><div id="чPre"></div>Ч<div id="чUnder"></div><div id="чPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'ш\')"><div class="relative"><div id="шPre"></div>Ш<div id="шUnder"></div><div id="шPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'щ\')"><div class="relative"><div id="щPre"></div>Щ<div id="щUnder"></div><div id="щPost"></div></div></button>\
 </td><td></td></tr><tr><td colspan="3"></td>\
-<td><button style="color:black" onclick="speakLetter(\'ъ\')"><div class="relative"><div id="ъPre"></div>Ъ<div id="ъPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ы\')"><div class="relative"><div id="ыPre"></div>Ы<div id="ыPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ь\')"><div class="relative"><div id="ьPre"></div>Ь<div id="ьPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ъ\')"><div class="relative"><div id="ъPre"></div>Ъ<div id="ъUnder"></div><div id="ъPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ы\')"><div class="relative"><div id="ыPre"></div>Ы<div id="ыUnder"></div><div id="ыPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ь\')"><div class="relative"><div id="ьPre"></div>Ь<div id="ьUnder"></div><div id="ьPost"></div></div></button></td>\
 <td colspan="3"></td></tr><tr><td colspan="3"></td>\
-<td><button style="color:red" onclick="speakLetter(\'э\')"><div class="relative"><div id="эPre"></div>Э<div id="эPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ю\')"><div class="relative"><div id="юPre"></div>Ю<div id="юPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'я\')"><div class="relative"><div id="яPre"></div>Я<div id="яPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'э\')"><div class="relative"><div id="эPre"></div>Э<div id="эUnder"></div><div id="эPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ю\')"><div class="relative"><div id="юPre"></div>Ю<div id="юUnder"></div><div id="юPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'я\')"><div class="relative"><div id="яPre"></div>Я<div id="яUnder"></div><div id="яPost"></div></div></button></td>\
 <td colspan="3"></td></tr></table>';
 
 // Russian Sound Correspondence
 tableAbcd["russian"]["sound"] = {};
-tableAbcd["russian"]["sound"]["а"] = [ "а", "д", " ", "б", "б", " ", "рка", "за", "с" ];
-tableAbcd["russian"]["sound"]["б"] = [ "б", " ", " ", " ", " ", " ", "ыть", "ить", "оты", "ровь", "рат" ];
-tableAbcd["russian"]["sound"]["в"] = [ "в", " ", " ", " ", "ижу", "ода", "дова" ];
-tableAbcd["russian"]["sound"]["г"] = [ "г", " ", " ", " ", " ", "че", "лаз", "усь", "ад", "рунт", "о" ];
-tableAbcd["russian"]["sound"]["д"] = [ "д", " ", " ", " ", " ", "ери", "а", "ва", "но" ];
-tableAbcd["russian"]["sound"]["е"] = [ "е", " ", " ", "н", " ", "сть", "да", " ", "ль" ];
-tableAbcd["russian"]["sound"]["ё"] = [ "ё", "л", " ", " ", "н", "ж", "лка" ];
-tableAbcd["russian"]["sound"]["ж"] = [ "ж", " ", "ло", " ", "ло", "ля", "ля", "ук", "а", "ид", "ь", "ь", "ка" ];
-tableAbcd["russian"]["sound"]["з"] = [ "з", " ", "берё", "нать", "а" ];
-tableAbcd["russian"]["sound"]["и"] = [ "и", " ", " " ];
-tableAbcd["russian"]["sound"]["й"] = [ "й", " ", " ", "мо", "ог", "од", " " ];
-tableAbcd["russian"]["sound"]["к"] = [ "к", " ", " ", "от", "лей" ];
-tableAbcd["russian"]["sound"]["л"] = [ "л", " ", " ", "со", "ба", "ев", "ево", "нце", " " ];
-tableAbcd["russian"]["sound"]["м"] = [ "м", " ", " ", " ", " ", " ", "ама", "ир", "ного", "ох", "ал" ];
-tableAbcd["russian"]["sound"]["н"] = [ "н", " ", " ", "ли", "с", "во", "во", "ос", "ас", "ия", "ег", " ", "ь" ];
-tableAbcd["russian"]["sound"]["о"] = [ "о", " ", "молок", "х", "б", "дин", " ", "лод", "рода" ];
-tableAbcd["russian"]["sound"]["п"] = [ "п", " ", " ", " ", "апа", "лыть", "ламя" ];
-tableAbcd["russian"]["sound"]["р"] = [ "р", "жа", "зе", " ", "а", "но", "ама" ];
-tableAbcd["russian"]["sound"]["с"] = [ "с", " ", " ", " ", " ", " ", " ", "естра", "ын", "кули", "ии", "иди", "ел" ];
-tableAbcd["russian"]["sound"]["т"] = [ "т", " ", " ", "смер", "от", "ри", "ь" ];
-tableAbcd["russian"]["sound"]["у"] = [ "у", " ", " ", "кл", "л", "хо", "ха", "бок", "на" ];
-tableAbcd["russian"]["sound"]["ф"] = [ "ф", " ", " ", " ", " ", "ильм", "иле", "ляга", "ляжка" ];
-tableAbcd["russian"]["sound"]["х"] = [ "х", " ", " ", " ", "леб", "олод", "ек" ];
-tableAbcd["russian"]["sound"]["ц"] = [ "ц", " ", " ", " ", "ирк", "ерковь", "ена" ];
-tableAbcd["russian"]["sound"]["ч"] = [ "ч", " ", "по", " ", "ай", "та", "адо" ];
-tableAbcd["russian"]["sound"]["ш"] = [ "ш", " ", " ", " ", " ", "ар", "арм", "арф", "орты" ];
-tableAbcd["russian"]["sound"]["щ"] = [ "щ", " ", " ", "ека", "ель" ];
-tableAbcd["russian"]["sound"]["ъ"] = [ "ъ", "с", "с", "с", "с", "с", "ем", "ешь", "ест", "езд", "ел" ];
-tableAbcd["russian"]["sound"]["ы"] = [ "ы", "м", "в", "т", " ", " ", " " ];
-tableAbcd["russian"]["sound"]["ь"] = [ "ь", "л", "ос", "ноч", "ден", "вы", " ", " ", " " ];
-tableAbcd["russian"]["sound"]["э"] = [ "э", " ", " ", " ", "то", "хо", "ра" ];
-tableAbcd["russian"]["sound"]["ю"] = [ "ю", "кл", "кр", "тр", "ч", "к", "к" ];
-tableAbcd["russian"]["sound"]["я"] = [ "я", " ", " ", " ", "вол", " ", "рость", "ркость", " " ];
+tableAbcd["russian"]["sound"]["а"] = [ "а", "д", " ", "б", "б", " ", "рка", "за", "с", "yes, and, duh", "arch", "base", "bass" ];
+tableAbcd["russian"]["sound"]["б"] = [ "б", " ", " ", " ", " ", " ", "ыть", "ить", "оты", "ровь", "рат", "to be", "to beat", "boots bots", "brow", "brother" ];
+tableAbcd["russian"]["sound"]["в"] = [ "в", " ", " ", " ", "ижу", "ода", "дова", "I see, I visualize", "water", "widow" ];
+tableAbcd["russian"]["sound"]["г"] = [ "г", " ", " ", " ", " ", "че", "лаз", "усь", "ад", "рунт", "о", "eye", "goose", "snake", "ground", "(say) wha" ];
+tableAbcd["russian"]["sound"]["д"] = [ "д", " ", " ", " ", " ", "ери", "а", "ва", "но", "(do) tear", "yes, and, duh", "two", "bottom" ];
+tableAbcd["russian"]["sound"]["е"] = [ "е", " ", " ", "н", " ", "сть", "да", " ", "ль", "is, to eat", "food", "no", "fir" ];
+tableAbcd["russian"]["sound"]["ё"] = [ "ё", "л", " ", " ", "н", "ж", "лка", "linen", "hedgehog", "fir" ];
+tableAbcd["russian"]["sound"]["ж"] = [ "ж", " ", "ло", " ", "ло", "ля", "ля", "ук", "а", "ид", "ь", "ь", "ка", "bug", "lodge", "jude", "(it's a) lie, lay", "lie (down)", "thigh (leg)" ];
+tableAbcd["russian"]["sound"]["з"] = [ "з", " ", "берё", "нать", "а", "knights, to know", "birch" ];
+tableAbcd["russian"]["sound"]["и"] = [ "и", " ", " ", " ", "мя", "and", "name" ];
+tableAbcd["russian"]["sound"]["й"] = [ "й", " ", " ", "мо", "ог", "од", " ", "yogi", "iodine", "my, wash" ];
+tableAbcd["russian"]["sound"]["к"] = [ "к", " ", " ", "от", "лей", "cat", "glue" ];
+tableAbcd["russian"]["sound"]["л"] = [ "л", " ", " ", "со", "ба", "ев", "ево", "нце", " ", "lion", "left", "sun", "ball (dance)" ];
+tableAbcd["russian"]["sound"]["м"] = [ "м", " ", " ", " ", " ", " ", "ама", "ир", "ного", "ох", "ал", "mama", "world, peace", "much, many", "moss", "small" ];
+tableAbcd["russian"]["sound"]["н"] = [ "н", " ", " ", "ли", "с", "во", "во", "ос", "ас", "ия", "ег", " ", "ь", "nose", "us", "(any) line", "snow", "yon, out!", "pong, stench" ];
+tableAbcd["russian"]["sound"]["о"] = [ "о", " ", "молок", "х", "б", "дин", " ", "лод", "рода", "one", "milk", "cold", "beard" ];
+tableAbcd["russian"]["sound"]["п"] = [ "п", " ", " ", " ", "апа", "лыть", "ламя", "papa", "to fleet", "flame" ];
+tableAbcd["russian"]["sound"]["р"] = [ "р", "жа", "зе", " ", "а", "но", "ама", "heat", "corn, grain", "frame" ];
+tableAbcd["russian"]["sound"]["с"] = [ "с", " ", " ", " ", " ", " ", " ", "естра", "ын", "кули", "ии", "иди", "ел", "sister", "son", "squeal", "the", "cd, seat", "sat" ];
+tableAbcd["russian"]["sound"]["т"] = [ "т", " ", " ", "смер", "от", "ри", "ь", "that", "three, rub", "death" ];
+tableAbcd["russian"]["sound"]["у"] = [ "у", " ", " ", "кл", "л", "хо", "ха", "бок", "на", "ear", "fish soup", "clew", "moon" ];
+tableAbcd["russian"]["sound"]["ф"] = [ "ф", " ", " ", " ", " ", "ильм", "иле", "ляга", "ляжка", "film (movie)", "fillet", "(big) flask", "(small) flask" ];
+tableAbcd["russian"]["sound"]["х"] = [ "х", " ", " ", " ", "леб", "олод", "ек", "hlaf (bread)", "cold", "hake" ];
+tableAbcd["russian"]["sound"]["ц"] = [ "ц", " ", " ", " ", "ирк", "ерковь", "ена", "circus", "church", "price" ];
+tableAbcd["russian"]["sound"]["ч"] = [ "ч", " ", "по", " ", "ай", "та", "адо", "tea", "post, mail", "child" ];
+tableAbcd["russian"]["sound"]["ш"] = [ "ш", " ", " ", " ", " ", "ар", "арм", "арф", "орты", "ball (sphere)", "charm", "scarf", "shorts" ];
+tableAbcd["russian"]["sound"]["щ"] = [ "щ", " ", " ", "ека", "ель", "cheek", "slit" ];
+tableAbcd["russian"]["sound"]["ъ"] = [ "ъ", "с", "с", "с", "с", "с", "ем", "ешь", "ест", "езд", "ел", "(I) will have eaten", "eat it, (you) will eat it", "(he, she, it) will have eaten", "congress", "have eaten" ];
+tableAbcd["russian"]["sound"]["ы"] = [ "ы", "м", "в", "т", " ", " ", " ", "we", "you", "thee" ];
+tableAbcd["russian"]["sound"]["ь"] = [ "ь", "л", "ос", "ноч", "ден", "вы", " ", " ", " ", "lions", "axis", "night", "day" ];
+tableAbcd["russian"]["sound"]["э"] = [ "э", " ", " ", " ", "то", "хо", "ра", "it", "echo", "era" ];
+tableAbcd["russian"]["sound"]["ю"] = [ "ю", "кл", "кр", "тр", "ч", "к", "к", "key", "crook, hook", "trick" ];
+tableAbcd["russian"]["sound"]["я"] = [ "я", " ", " ", " ", "вол", " ", "рость", "ркость", " ", " I ", "wrath", "brightness", "will" ];
 
 // Hebrew Linear Table
 tableAbcd["hebrew"]["linear"] = '<tr>\
@@ -826,7 +826,7 @@ function makeAeiou(languageTransmitted, layoutTransmitted, fontTransmitted) {
 
 function speakLetter(letter) {
     if (lastSpoken["symbol"] == letter) { lastSpoken["count"]++;
-        if (lastSpoken["count"] > (tableAbcd[language]["sound"][letter].length / 2)) lastSpoken["count"] = 1 ;
+        if (lastSpoken["count"] > (tableAbcd[language]["sound"][letter].length / 3)) lastSpoken["count"] = 1 ;
     } else { lastSpoken["count"] = 1 }
     lastSpoken["symbol"] = letter;
 
@@ -839,10 +839,21 @@ function speakLetter(letter) {
         case lastSpoken["count"]:
             if (font == "enhandwritten" || font == "enlowerhand" || font == "ruhandwritten" || font == "rulowerhand" ) textstroke = 0; else textstroke = 2;
             document.getElementById(letter + "Pre").innerHTML = '<div style="position: absolute; text-transform: lowercase; left: -' + (((tableAbcd[language]["sound"][letter][lastSpoken["count"]].length - 1) * 15) + 5) + 'px; top: 0px; font-weight: 900; color: gray; -webkit-text-fill-color: gray; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + tableAbcd[language]["sound"][letter][lastSpoken["count"]] + '</div>';
-            document.getElementById(letter + "Post").innerHTML = '<div style="position: absolute; text-transform: lowercase; left: 30px; top: 0px; font-weight: 900; color: gray; -webkit-text-fill-color: gray; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + ( tableAbcd[language]["sound"][letter][lastSpoken["count"] + ((tableAbcd[language]["sound"][letter].length - 1) / 2)] ) + '</div>';
-            sleep(500 + ((tableAbcd[language]["sound"][letter][lastSpoken["count"]].length + tableAbcd[language]["sound"][letter][lastSpoken["count"] + ((tableAbcd[language]["sound"][letter].length - 1) / 2)].length + 1) * 100)).then(() => {
+            document.getElementById(letter + "Post").innerHTML = '<div style="position: absolute; text-transform: lowercase; left: 30px; top: 0px; font-weight: 900; color: gray; -webkit-text-fill-color: gray; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + ( tableAbcd[language]["sound"][letter][lastSpoken["count"] + ((tableAbcd[language]["sound"][letter].length - 1) / 3)] ) + '</div>';
+            if (tableAbcd[language]["sound"][letter][lastSpoken["count"] + ((tableAbcd[language]["sound"][letter].length - 1) / 3) * 2].length > 1) {
+                var bracketLeft = "(";
+                var bracketRight = ")";
+                var underLeft = ( tableAbcd[language]["sound"][letter][lastSpoken["count"] + ((tableAbcd[language]["sound"][letter].length - 1) / 3) * 2].length ) * -4;
+            } else {
+                var bracketLeft = "";
+                var bracketRight = "";
+                var underLeft = 0;
+            }
+            document.getElementById(letter + "Under").innerHTML = '<div style="position: absolute; white-space: nowrap; text-transform: none; left: ' + underLeft + 'px; top: 30px; font-weight: 900; color: gray; -webkit-text-fill-color: gray; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + bracketLeft + ( tableAbcd[language]["sound"][letter][lastSpoken["count"] + ((tableAbcd[language]["sound"][letter].length - 1) / 3) * 2] ) + bracketRight + '</div>';
+            sleep(500 + ((tableAbcd[language]["sound"][letter][lastSpoken["count"]].length + tableAbcd[language]["sound"][letter][lastSpoken["count"] + ((tableAbcd[language]["sound"][letter].length - 1) / 3)].length + 1) * 100)).then(() => {
                 document.getElementById(letter + "Pre").innerHTML = "";
                 document.getElementById(letter + "Post").innerHTML = "";
+                document.getElementById(letter + "Under").innerHTML = "";
             });
             break;
     }
