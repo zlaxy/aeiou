@@ -103,7 +103,7 @@ tableAbcd["english"]["sound"]["i"] = [ "i", "b", "b", "t", "te", " ", " " ];
 tableAbcd["english"]["sound"]["j"] = [ "j", " ", "oy", " " ];
 tableAbcd["english"]["sound"]["k"] = [ "k", " ", " ", "id", "night", " ", " " ];
 tableAbcd["english"]["sound"]["l"] = [ "l", " ", " ", "he", "ive", "ive", "lo", " ", " ", " " ];
-tableAbcd["english"]["sound"]["m"] = [ "m", " ", " ", "ama", "me", " ", " " ];
+tableAbcd["english"]["sound"]["m"] = [ "m", " ", " ", "ama", "e", " ", " " ];
 tableAbcd["english"]["sound"]["n"] = [ "n", " ", " ", "k", "ew", "o", "ow", " ", " ", " " ];
 tableAbcd["english"]["sound"]["o"] = [ "o", "d", "d", "g", "h", "d", "g", " ", "od", "me", "me", " ", " ", " ", " ", " " ];
 tableAbcd["english"]["sound"]["p"] = [ "p", " ", " ", " ", "ut", "ick", "hone", " ", " ", " " ];
@@ -843,13 +843,10 @@ function speakLetter(letter) {
             if (tableAbcd[language]["sound"][letter][lastSpoken["count"] + ((tableAbcd[language]["sound"][letter].length - 1) / 3) * 2].length > 1) {
                 var bracketLeft = "(";
                 var bracketRight = ")";
-                var underLeft = ( tableAbcd[language]["sound"][letter][lastSpoken["count"] + ((tableAbcd[language]["sound"][letter].length - 1) / 3) * 2].length ) * -4;
-            } else {
-                var bracketLeft = "";
-                var bracketRight = "";
-                var underLeft = 0;
+                var underLeft = ( tableAbcd[language]["sound"][letter][lastSpoken["count"] + ((tableAbcd[language]["sound"][letter].length - 1) / 3) * 2].length ) * -2;
+                if (textstroke == 0) var underText = ""; else var underText = "-webkit-text-fill-color: #444444; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: white;";
+                document.getElementById(letter + "Under").innerHTML = '<div style="position: absolute; white-space: nowrap; font-size: 18px; text-transform: none; left: ' + underLeft + 'px; top: 30px; font-weight: 900; color: #444444; ' + underText + ' z-index: 10;">' + bracketLeft + ( tableAbcd[language]["sound"][letter][lastSpoken["count"] + ((tableAbcd[language]["sound"][letter].length - 1) / 3) * 2] ) + bracketRight + '</div>';
             }
-            document.getElementById(letter + "Under").innerHTML = '<div style="position: absolute; white-space: nowrap; text-transform: none; left: ' + underLeft + 'px; top: 30px; font-weight: 900; color: gray; -webkit-text-fill-color: gray; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + bracketLeft + ( tableAbcd[language]["sound"][letter][lastSpoken["count"] + ((tableAbcd[language]["sound"][letter].length - 1) / 3) * 2] ) + bracketRight + '</div>';
             sleep(500 + ((tableAbcd[language]["sound"][letter][lastSpoken["count"]].length + tableAbcd[language]["sound"][letter][lastSpoken["count"] + ((tableAbcd[language]["sound"][letter].length - 1) / 3)].length + 1) * 100)).then(() => {
                 document.getElementById(letter + "Pre").innerHTML = "";
                 document.getElementById(letter + "Post").innerHTML = "";
