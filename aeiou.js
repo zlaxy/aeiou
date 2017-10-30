@@ -529,57 +529,71 @@ tableAbcd["abjadi"]["axial"] = '<tr>\
 <button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ث</button>\
 </td></tr></table>';
 
-
 // Runes Linear Table
 tableAbcd["runes"]["linear"] = '<tr>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛆ</button></td>\
-<td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛒ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚦ</button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᛅ\')"><div class="relative"><div id="ᛅPre"></div>ᛅ<div id="ᛅUnder"></div><div id="ᛅPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛒ\')"><div class="relative"><div id="ᛒPre"></div>ᛒ<div id="ᛒUnder"></div><div id="ᛒPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚦ\')"><div class="relative"><div id="ᚦPre"></div>ᚦ<div id="ᚦUnder"></div><div id="ᚦPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛂ</button></td>\
-<td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚠ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚵ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚼ</button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᛁ\')"><div class="relative"><div id="ᛁPre"></div>ᛁ<div id="ᛁUnder"></div><div id="ᛁPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚴ\')"><div class="relative"><div id="ᚴPre"></div>ᚴ<div id="ᚴUnder"></div><div id="ᚴPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛚ\')"><div class="relative"><div id="ᛚPre"></div>ᛚ<div id="ᛚUnder"></div><div id="ᛚPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛘ\')"><div class="relative"><div id="ᛘPre"></div>ᛘ<div id="ᛘUnder"></div><div id="ᛘPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚾ\')"><div class="relative"><div id="ᚾPre"></div>ᚾ<div id="ᚾUnder"></div><div id="ᚾPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛁ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚴ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛚ</button></td>\
-<td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛘ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚿ</button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᚬ\')"><div class="relative"><div id="ᚬPre"></div>ᚬ<div id="ᚬUnder"></div><div id="ᚬPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛦ\')"><div class="relative"><div id="ᛦPre"></div>ᛦ<div id="ᛦUnder"></div><div id="ᛦPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚱ\')"><div class="relative"><div id="ᚱPre"></div>ᚱ<div id="ᚱUnder"></div><div id="ᚱPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛋ\')"><div class="relative"><div id="ᛋPre"></div>ᛋ<div id="ᛋUnder"></div><div id="ᛋPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛏ\')"><div class="relative"><div id="ᛏPre"></div>ᛏ<div id="ᛏUnder"></div><div id="ᛏPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚮ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚱ</button></td>\
-<td><button style="color:brown" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛦ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛋ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛏ</button></td>\
-<td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚢ</button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᚢ\')"><div class="relative"><div id="ᚢPre"></div>ᚢ<div id="ᚢUnder"></div><div id="ᚢPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚠ\')"><div class="relative"><div id="ᚠPre"></div>ᚠ<div id="ᚠUnder"></div><div id="ᚠPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚼ\')"><div class="relative"><div id="ᚼPre"></div>ᚼ<div id="ᚼUnder"></div><div id="ᚼPost"></div></div></button></td>\
+</tr><tr>\
 </tr></table>';
 
 // Runes Axial Table
 tableAbcd["runes"]["axial"] = '<tr>\
-<td colspan="7" align="center"><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛆ</button></td>\
-</tr><tr><td></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛒ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚦ</button></td>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛂ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚠ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚵ</button></td>\
-<td></td></tr><tr><td colspan="2"></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚼ</button></td>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛁ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚴ</button></td>\
-<td colspan="2"></td></tr><tr>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛚ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛘ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚿ</button></td>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚮ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚱ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛦ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛋ</button></td>\
-</tr><tr><td colspan="2"></td><td colspan="3" align="center">\
-<button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛏ</button>\
-<button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚢ</button>\
-</td><td colspan="2"></td></tr></table>';
+<td colspan="5" align="center"><button style="color:red" onclick="speakLetter(\'ᛅ\')"><div class="relative"><div id="ᛅPre"></div>ᛅ<div id="ᛅUnder"></div><div id="ᛅPost"></div></div></button></td>\
+</tr><tr>\
+<td><button style="color:black" onclick="speakLetter(\'ᛒ\')"><div class="relative"><div id="ᛒPre"></div>ᛒ<div id="ᛒUnder"></div><div id="ᛒPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚦ\')"><div class="relative"><div id="ᚦPre"></div>ᚦ<div id="ᚦUnder"></div><div id="ᚦPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᛁ\')"><div class="relative"><div id="ᛁPre"></div>ᛁ<div id="ᛁUnder"></div><div id="ᛁPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚴ\')"><div class="relative"><div id="ᚴPre"></div>ᚴ<div id="ᚴUnder"></div><div id="ᚴPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛚ\')"><div class="relative"><div id="ᛚPre"></div>ᛚ<div id="ᛚUnder"></div><div id="ᛚPost"></div></div></button></td>\
+</tr><tr>\
+<td><button style="color:black" onclick="speakLetter(\'ᛘ\')"><div class="relative"><div id="ᛘPre"></div>ᛘ<div id="ᛘUnder"></div><div id="ᛘPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚾ\')"><div class="relative"><div id="ᚾPre"></div>ᚾ<div id="ᚾUnder"></div><div id="ᚾPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᚬ\')"><div class="relative"><div id="ᚬPre"></div>ᚬ<div id="ᚬUnder"></div><div id="ᚬPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛦ\')"><div class="relative"><div id="ᛦPre"></div>ᛦ<div id="ᛦUnder"></div><div id="ᛦPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚱ\')"><div class="relative"><div id="ᚱPre"></div>ᚱ<div id="ᚱUnder"></div><div id="ᚱPost"></div></div></button></td>\
+</tr><tr>\
+<td><button style="color:black" onclick="speakLetter(\'ᛋ\')"><div class="relative"><div id="ᛋPre"></div>ᛋ<div id="ᛋUnder"></div><div id="ᛋPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛏ\')"><div class="relative"><div id="ᛏPre"></div>ᛏ<div id="ᛏUnder"></div><div id="ᛏPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᚢ\')"><div class="relative"><div id="ᚢPre"></div>ᚢ<div id="ᚢUnder"></div><div id="ᚢPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚠ\')"><div class="relative"><div id="ᚠPre"></div>ᚠ<div id="ᚠUnder"></div><div id="ᚠPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚼ\')"><div class="relative"><div id="ᚼPre"></div>ᚼ<div id="ᚼUnder"></div><div id="ᚼPost"></div></div></button></td>\
+</tr></table>';
+
+// Runesx Sound Correspondence
+tableAbcd["runes"]["sound"] = {};
+tableAbcd["runes"]["sound"]["ᛅ"] = [ "ᛅ", " ", "ᚱ", "ar (year, oar)" ];
+tableAbcd["runes"]["sound"]["ᛒ"] = [ "ᛒ", " ", "ᛦᚬᚱᚴ", "björk (birch)" ];
+tableAbcd["runes"]["sound"]["ᚦ"] = [ "ᚦ", " ", "ᚬᚱᚾ", "thorn (thorn, thor)" ];
+tableAbcd["runes"]["sound"]["ᛁ"] = [ "ᛁ", " ", "ᛋ", "is (ice)" ];
+tableAbcd["runes"]["sound"]["ᚴ"] = [ "ᚴ", " ", "ᚢᚾᚦ", "kynd (heat)" ];
+tableAbcd["runes"]["sound"]["ᛚ"] = [ "ᛚ", " ", "ᚬᚴᚱ", "lögr (liquid)" ];
+tableAbcd["runes"]["sound"]["ᛘ"] = [ "ᛘ", " ", "ᛅᚦᚱ", "mathr (man)" ];
+tableAbcd["runes"]["sound"]["ᚾ"] = [ "ᚾ", " ", "ᛦᚬᛏᛅ", "njota (enjoy)" ];
+tableAbcd["runes"]["sound"]["ᚬ"] = [ "ᚬ", " ", " ", "ᚴ", "ᚴᛋᚢᛚ", "ok (and)", "öxull (axis, axle)" ];
+tableAbcd["runes"]["sound"]["ᛦ"] = [ "ᛦ", " ", "ᚢ", "yew (yew)" ];
+tableAbcd["runes"]["sound"]["ᚱ"] = [ "ᚱ", " ", "ᛁᚦᛅ", "riða (ride)" ];
+tableAbcd["runes"]["sound"]["ᛋ"] = [ "ᛋ", " ", "ᚬᛚ", "sól (sun)" ];
+tableAbcd["runes"]["sound"]["ᛏ"] = [ "ᛏ", " ", "ᚢᚱ", "týr (tyr)" ];
+tableAbcd["runes"]["sound"]["ᚢ"] = [ "ᚢ", " ", "ᚱ", "úr (from)" ];
+tableAbcd["runes"]["sound"]["ᚠ"] = [ "ᚠ", " ", "ᛁ", "fé (funds)" ];
+tableAbcd["runes"]["sound"]["ᚼ"] = [ "ᚼ", " ", "ᛅᚴᛚ", "hagl (hail)" ];
 
 // Ugaritic Linear Table
 tableAbcd["ugaritic"]["linear"] = '<tr>\
@@ -685,7 +699,7 @@ var tablePostfix = '</td>\
 <tr><td><button class="controlButton" onclick="makeAeiou(\'greek\', layout, \'default\')">ΑΒΓΔ</button></td></tr>\
 <tr><td><button class="controlButton" onclick="makeAeiou(\'georgian\', layout, \'georgian\')"><font style="font-family: \'Noto Sans Georgian\', serif;">აბგდ</font></button></td></tr>\
 <tr><td><button class="controlButton" onclick="makeAeiou(\'abjadi\', layout, \'abjadi\')"><font style="font-family: \'Mirza\', cursive;">دجبا</font></button></td></tr>\
-<tr><td><button class="controlButton" onclick="makeAeiou(\'runes\', layout, \'runes\')"><font style="font-family: \'Noto Sans Runic\', sans-serif;">ᛆᛒᚦᛂ</font></button></td></tr>\
+<tr><td><button class="controlButton" onclick="makeAeiou(\'runes\', layout, \'runes\')"><font style="font-family: \'Noto Sans Runic\', sans-serif;">ᛅᛒᚦᛁ</font></button></td></tr>\
 <tr><td><button class="controlButton" onclick="makeAeiou(\'ugaritic\', layout, \'ugaritic\')"><font style="font-family: \'Noto Sans Ugaritic\', sans-serif;">𐎀𐎁𐎂𐎃</font></button></td></tr>\
 </table>\
 </td>\
@@ -738,7 +752,7 @@ function makeAeiou(languageTransmitted, layoutTransmitted, fontTransmitted) {
             result += '<a href="https://en.wikipedia.org/wiki/Arabic_alphabet" target="_blank">arabic abjad</a>';
             break;
         case 'runes':
-            result += '<a href="https://en.wikipedia.org/wiki/Runes" target="_blank">nordic runes</a>';
+            result += '<a href="https://en.wikipedia.org/wiki/Younger_Futhark" target="_blank">younger futhark</a>';
             break;
         case 'ugaritic':
             result += '<a href="https://en.wikipedia.org/wiki/Ugaritic_alphabet" target="_blank">ugaritic alphabet</a>';
@@ -837,7 +851,9 @@ function speakLetter(letter) {
 
     switch(lastSpoken["count"]) {
         case lastSpoken["count"]:
-            if (font == "enhandwritten" || font == "enlowerhand" || font == "ruhandwritten" || font == "rulowerhand" ) textstroke = 0; else textstroke = 2;
+            if (font == "enhandwritten" || font == "enlowerhand" || font == "ruhandwritten" || font == "rulowerhand" ) textstroke = 0;
+                else if (language == "runes") textstroke = 1;
+                    else textstroke = 2;
             document.getElementById(letter + "Pre").innerHTML = '<div style="position: absolute; text-transform: lowercase; left: -' + (((tableAbcd[language]["sound"][letter][lastSpoken["count"]].length - 1) * 15) + 5) + 'px; top: 0px; font-weight: 900; color: gray; -webkit-text-fill-color: gray; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + tableAbcd[language]["sound"][letter][lastSpoken["count"]] + '</div>';
             document.getElementById(letter + "Post").innerHTML = '<div style="position: absolute; text-transform: lowercase; left: 30px; top: 0px; font-weight: 900; color: gray; -webkit-text-fill-color: gray; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + ( tableAbcd[language]["sound"][letter][lastSpoken["count"] + ((tableAbcd[language]["sound"][letter].length - 1) / 3)] ) + '</div>';
             if (tableAbcd[language]["sound"][letter][lastSpoken["count"] + ((tableAbcd[language]["sound"][letter].length - 1) / 3) * 2].length > 1) {
