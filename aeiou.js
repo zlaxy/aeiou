@@ -306,16 +306,16 @@ tableAbcd["hebrew"]["axial"] = '<tr>\
 tableAbcd["greek"]["linear"] = '<tr>\
 <td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Α‎</button></td>\
 <td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Β</button></td>\
-<td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Γ</button></td>\
+<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Γ</button></td>\
 <td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Δ</button></td>\
 </tr><tr>\
 <td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Ε</button></td>\
 <td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Ζ</button></td>\
-<td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Η</button></td>\
+<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Η</button></td>\
 <td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Θ</button></td>\
 </tr><tr>\
 <td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Ι</button></td>\
-<td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Κ</button></td>\
+<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Κ</button></td>\
 <td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Λ</button></td>\
 <td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Μ</button></td>\
 <td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Ν</button></td>\
@@ -323,13 +323,13 @@ tableAbcd["greek"]["linear"] = '<tr>\
 </tr><tr>\
 <td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Ο</button></td>\
 <td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Π</button></td>\
-<td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Ρ</button></td>\
+<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Ρ</button></td>\
 <td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Σ</button></td>\
 <td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Τ</button></td>\
 </tr><tr>\
 <td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Υ</button></td>\
 <td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Φ</button></td>\
-<td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Χ</button></td>\
+<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Χ</button></td>\
 <td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Ψ</button></td>\
 <td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Ω</button></td>\
 </tr></table>';
@@ -844,8 +844,8 @@ function speakLetter(letter) {
                 var bracketLeft = "(";
                 var bracketRight = ")";
                 var underLeft = ( tableAbcd[language]["sound"][letter][lastSpoken["count"] + ((tableAbcd[language]["sound"][letter].length - 1) / 3) * 2].length ) * -2;
-                if (textstroke == 0) var underText = ""; else var underText = "-webkit-text-fill-color: #444444; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: white;";
-                document.getElementById(letter + "Under").innerHTML = '<div style="position: absolute; white-space: nowrap; font-size: 18px; text-transform: none; left: ' + underLeft + 'px; top: 30px; font-weight: 900; color: #444444; ' + underText + ' z-index: 10;">' + bracketLeft + ( tableAbcd[language]["sound"][letter][lastSpoken["count"] + ((tableAbcd[language]["sound"][letter].length - 1) / 3) * 2] ) + bracketRight + '</div>';
+                if (textstroke == 0) var underText = ""; else var underText = "-webkit-text-stroke-width: 1px; -webkit-text-stroke-color: white;";
+                document.getElementById(letter + "Under").innerHTML = '<div style="position: absolute; white-space: nowrap; font-size: 16px; text-transform: none; left: ' + underLeft + 'px; top: 30px; font-weight: 900; color: gray; ' + underText + ' z-index: 10;">' + bracketLeft + ( tableAbcd[language]["sound"][letter][lastSpoken["count"] + ((tableAbcd[language]["sound"][letter].length - 1) / 3) * 2] ) + bracketRight + '</div>';
             }
             sleep(500 + ((tableAbcd[language]["sound"][letter][lastSpoken["count"]].length + tableAbcd[language]["sound"][letter][lastSpoken["count"] + ((tableAbcd[language]["sound"][letter].length - 1) / 3)].length + 1) * 100)).then(() => {
                 document.getElementById(letter + "Pre").innerHTML = "";
