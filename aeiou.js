@@ -3,6 +3,7 @@
 var language = 'english';
 var layout = 'linear';
 var font = 'default';
+var variant = 'default';
 
 var lastSpoken = {};
 lastSpoken["symbol"] = "";
@@ -15,6 +16,7 @@ tableAbcd["hebrew"] = {};
 tableAbcd["greek"] = {};
 tableAbcd["georgian"] = {};
 tableAbcd["abjadi"] = {};
+tableAbcd["runes"] = {};
 tableAbcd["runes"] = {};
 tableAbcd["ugaritic"] = {};
 
@@ -529,7 +531,7 @@ tableAbcd["abjadi"]["axial"] = '<tr>\
 <button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ث</button>\
 </td></tr></table>';
 
-// Runes Linear Table
+// Runes Linear Table (younger futhark)
 tableAbcd["runes"]["linear"] = '<tr>\
 <td><button style="color:red" onclick="speakLetter(\'ᛅ\')"><div class="relative"><div id="ᛅPre"></div>ᛅ<div id="ᛅUnder"></div><div id="ᛅPost"></div></div></button></td>\
 <td><button style="color:black" onclick="speakLetter(\'ᛒ\')"><div class="relative"><div id="ᛒPre"></div>ᛒ<div id="ᛒUnder"></div><div id="ᛒPost"></div></div></button></td>\
@@ -553,7 +555,7 @@ tableAbcd["runes"]["linear"] = '<tr>\
 </tr><tr>\
 </tr></table>';
 
-// Runes Axial Table
+// Runes Axial Table (younger futhark)
 tableAbcd["runes"]["axial"] = '<tr>\
 <td colspan="5" align="center"><button style="color:red" onclick="speakLetter(\'ᛅ\')"><div class="relative"><div id="ᛅPre"></div>ᛅ<div id="ᛅUnder"></div><div id="ᛅPost"></div></div></button></td>\
 </tr><tr>\
@@ -576,7 +578,7 @@ tableAbcd["runes"]["axial"] = '<tr>\
 <td><button style="color:black" onclick="speakLetter(\'ᚼ\')"><div class="relative"><div id="ᚼPre"></div>ᚼ<div id="ᚼUnder"></div><div id="ᚼPost"></div></div></button></td>\
 </tr></table>';
 
-// Runesx Sound Correspondence
+// Runesx Sound Correspondence (younger futhark)
 tableAbcd["runes"]["sound"] = {};
 tableAbcd["runes"]["sound"]["ᛅ"] = [ "ᛅ", " ", "ᚱ", "ar (year, oar)" ];
 tableAbcd["runes"]["sound"]["ᛒ"] = [ "ᛒ", " ", "ᛦᚬᚱᚴ", "björk (birch)" ];
@@ -594,6 +596,57 @@ tableAbcd["runes"]["sound"]["ᛏ"] = [ "ᛏ", " ", "ᚢᚱ", "týr (tyr)" ];
 tableAbcd["runes"]["sound"]["ᚢ"] = [ "ᚢ", " ", "ᚱ", "úr (from)" ];
 tableAbcd["runes"]["sound"]["ᚠ"] = [ "ᚠ", " ", "ᛁ", "fé (funds)" ];
 tableAbcd["runes"]["sound"]["ᚼ"] = [ "ᚼ", " ", "ᛅᚴᛚ", "hagl (hail)" ];
+
+// Runes Linear Table (nordic runes)
+tableAbcd["runes"]["linear-nordic"] = '<tr>\
+<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛆ</button></td>\
+<td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛒ</button></td>\
+<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚦ</button></td>\
+</tr><tr>\
+<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛂ</button></td>\
+<td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚠ</button></td>\
+<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚵ</button></td>\
+<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚼ</button></td>\
+</tr><tr>\
+<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛁ</button></td>\
+<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚴ</button></td>\
+<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛚ</button></td>\
+<td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛘ</button></td>\
+<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚿ</button></td>\
+</tr><tr>\
+<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚮ</button></td>\
+<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚱ</button></td>\
+<td><button style="color:brown" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛦ</button></td>\
+<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛋ</button></td>\
+<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛏ</button></td>\
+<td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚢ</button></td>\
+</tr></table>';
+
+// Runes Axial Table (nordic runes)
+tableAbcd["runes"]["axial-nordic"] = '<tr>\
+<td colspan="7" align="center"><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛆ</button></td>\
+</tr><tr><td></td>\
+<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛒ</button></td>\
+<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚦ</button></td>\
+<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛂ</button></td>\
+<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚠ</button></td>\
+<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚵ</button></td>\
+<td></td></tr><tr><td colspan="2"></td>\
+<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚼ</button></td>\
+<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛁ</button></td>\
+<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚴ</button></td>\
+<td colspan="2"></td></tr><tr>\
+<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛚ</button></td>\
+<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛘ</button></td>\
+<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚿ</button></td>\
+<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚮ</button></td>\
+<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚱ</button></td>\
+<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛦ</button></td>\
+<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛋ</button></td>\
+</tr><tr><td colspan="2"></td><td colspan="3" align="center">\
+<button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛏ</button>\
+<button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚢ</button>\
+</td><td colspan="2"></td></tr></table>';
 
 // Ugaritic Linear Table
 tableAbcd["ugaritic"]["linear"] = '<tr>\
@@ -678,7 +731,7 @@ tableAbcd["ugaritic"]["axial"] = '<tr>\
 // HTML table formating
 
 var tablePrefix = '<table align = "center">\
-<tr><td align="center">\
+<tr><td></td><td align="center">\
 <table>\
 <tr>\
 <td>';
@@ -689,6 +742,8 @@ var tableAfix = '</td>\
 </td></tr>\
 <tr>\
 <td>';
+
+var tableBfix = '</td><td>';
 
 var tablePostfix = '</td>\
 <td>\
@@ -704,7 +759,7 @@ var tablePostfix = '</td>\
 </table>\
 </td>\
 </tr>\
-<tr><td align="center">\
+<tr><td></td><td align="center">\
 <table>\
 <tr><td><button class="controlButton" onclick="makeAeiou(language, \'linear\')">=</button></td>\
 <td><button class="controlButton" onclick="makeAeiou(language, \'axial\')">-|-</button></td></tr>\
@@ -718,7 +773,7 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-function makeAeiou(languageTransmitted, layoutTransmitted, fontTransmitted) {
+function makeAeiou(languageTransmitted, layoutTransmitted, fontTransmitted, variantTransmitted) {
     if (languageTransmitted === undefined) {
         languageTransmitted = language;
     }
@@ -728,9 +783,13 @@ function makeAeiou(languageTransmitted, layoutTransmitted, fontTransmitted) {
     if (fontTransmitted === undefined) {
         fontTransmitted = font;
     }
+    if (variantTransmitted === undefined) {
+        variantTransmitted = variant;
+    }
     language = languageTransmitted;
     layout = layoutTransmitted;
     font = fontTransmitted;
+    variant = variantTransmitted;
     var result = '<p align="center">';
     switch(language) {
         case 'english':
@@ -752,7 +811,14 @@ function makeAeiou(languageTransmitted, layoutTransmitted, fontTransmitted) {
             result += '<a href="https://en.wikipedia.org/wiki/Arabic_alphabet" target="_blank">arabic abjad</a>';
             break;
         case 'runes':
-            result += '<a href="https://en.wikipedia.org/wiki/Younger_Futhark" target="_blank">younger futhark</a>';
+            switch (variant) {
+                case 'default':
+                    result += '<a href="https://en.wikipedia.org/wiki/Younger_Futhark" target="_blank">younger futhark</a>';
+                    break;
+                case 'nordic':
+                    result += '<a href="https://en.wikipedia.org/wiki/Runes" target="_blank">nordic runes</a>';
+                    break;
+            }
             break;
         case 'ugaritic':
             result += '<a href="https://en.wikipedia.org/wiki/Ugaritic_alphabet" target="_blank">ugaritic alphabet</a>';
@@ -785,6 +851,28 @@ function makeAeiou(languageTransmitted, layoutTransmitted, fontTransmitted) {
     }
 
     result += tableAfix;
+
+    switch(language) {
+        case 'english':
+            break;
+        case 'russian':
+            break;
+        case 'hebrew':
+            break;
+        case 'greek':
+            break;
+        case 'georgian':
+            break;
+        case 'abjadi':
+            break;
+        case 'runes':
+            result += '<button class="controlButton" onclick="makeAeiou(language, layout, font, \'default\')">younger futhark</button><br><button class="controlButton" onclick="makeAeiou(language, layout, font, \'nordic\')">nordic runes</button>';
+            break;
+        case 'ugaritic':
+            break;
+    }
+
+    result += tableBfix;
 
     switch(font) {
         case 'default':
@@ -831,7 +919,11 @@ function makeAeiou(languageTransmitted, layoutTransmitted, fontTransmitted) {
             break;
     }
 
-    result += tableAbcd[language][layout];
+    if (variant == 'default') {
+        result += tableAbcd[language][layout];
+    } else {
+        result += tableAbcd[language][layout+'-'+variant];
+    }
 
     result += tablePostfix;
 
