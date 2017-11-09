@@ -597,8 +597,8 @@ tableAbcd["runes"]["sound"]["ᚢ"] = [ "ᚢ", " ", "ᚱ", "úr (from)" ];
 tableAbcd["runes"]["sound"]["ᚠ"] = [ "ᚠ", " ", "ᛁ", "fé (funds)" ];
 tableAbcd["runes"]["sound"]["ᚼ"] = [ "ᚼ", " ", "ᛅᚴᛚ", "hagl (hail)" ];
 
-// Runes Linear Table (nordic runes)
-tableAbcd["runes"]["linear-nordic"] = '<tr>\
+// Runes Linear Table (bornholm)
+tableAbcd["runes"]["linear-bornholm"] = '<tr>\
 <td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛆ</button></td>\
 <td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛒ</button></td>\
 <td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚦ</button></td>\
@@ -622,8 +622,8 @@ tableAbcd["runes"]["linear-nordic"] = '<tr>\
 <td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚢ</button></td>\
 </tr></table>';
 
-// Runes Axial Table (nordic runes)
-tableAbcd["runes"]["axial-nordic"] = '<tr>\
+// Runes Axial Table (bornholm)
+tableAbcd["runes"]["axial-bornholm"] = '<tr>\
 <td colspan="7" align="center"><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛆ</button></td>\
 </tr><tr><td></td>\
 <td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛒ</button></td>\
@@ -748,14 +748,14 @@ var tableBfix = '</td><td>';
 var tablePostfix = '</td>\
 <td>\
 <table>\
-<tr><td><button class="controlButton" onclick="makeAeiou(\'english\', layout, \'default\')">ABCD</button></td></tr>\
-<tr><td><button class="controlButton" onclick="makeAeiou(\'russian\', layout, \'default\')">АБВГ</button></td></tr>\
-<tr><td><button class="controlButton" onclick="makeAeiou(\'hebrew\', layout, \'hebrew\')"><font style="font-family: \'Noto Sans Hebrew\', sans-serif;">אבגד</font></button></td></tr>\
-<tr><td><button class="controlButton" onclick="makeAeiou(\'greek\', layout, \'default\')">ΑΒΓΔ</button></td></tr>\
-<tr><td><button class="controlButton" onclick="makeAeiou(\'georgian\', layout, \'georgian\')"><font style="font-family: \'Noto Sans Georgian\', serif;">აბგდ</font></button></td></tr>\
-<tr><td><button class="controlButton" onclick="makeAeiou(\'abjadi\', layout, \'abjadi\')"><font style="font-family: \'Mirza\', cursive;">دجبا</font></button></td></tr>\
-<tr><td><button class="controlButton" onclick="makeAeiou(\'runes\', layout, \'runes\')"><font style="font-family: \'Noto Sans Runic\', sans-serif;">ᛅᛒᚦᛁ</font></button></td></tr>\
-<tr><td><button class="controlButton" onclick="makeAeiou(\'ugaritic\', layout, \'ugaritic\')"><font style="font-family: \'Noto Sans Ugaritic\', sans-serif;">𐎀𐎁𐎂𐎃</font></button></td></tr>\
+<tr><td><button class="controlButton" onclick="makeAeiou(\'english\', layout, \'default\', \'default\')">ABCD</button></td></tr>\
+<tr><td><button class="controlButton" onclick="makeAeiou(\'russian\', layout, \'default\', \'default\')">АБВГ</button></td></tr>\
+<tr><td><button class="controlButton" onclick="makeAeiou(\'hebrew\', layout, \'hebrew\', \'default\')"><font style="font-family: \'Noto Sans Hebrew\', sans-serif;">אבגד</font></button></td></tr>\
+<tr><td><button class="controlButton" onclick="makeAeiou(\'greek\', layout, \'default\', \'default\')">ΑΒΓΔ</button></td></tr>\
+<tr><td><button class="controlButton" onclick="makeAeiou(\'georgian\', layout, \'georgian\', \'default\')"><font style="font-family: \'Noto Sans Georgian\', serif;">აბგდ</font></button></td></tr>\
+<tr><td><button class="controlButton" onclick="makeAeiou(\'abjadi\', layout, \'abjadi\', \'default\')"><font style="font-family: \'Mirza\', cursive;">دجبا</font></button></td></tr>\
+<tr><td><button class="controlButton" onclick="makeAeiou(\'runes\', layout, \'runes\', \'default\')"><font style="font-family: \'Noto Sans Runic\', sans-serif;">ᛅᛒᚦᛁ</font></button></td></tr>\
+<tr><td><button class="controlButton" onclick="makeAeiou(\'ugaritic\', layout, \'ugaritic\', \'default\')"><font style="font-family: \'Noto Sans Ugaritic\', sans-serif;">𐎀𐎁𐎂𐎃</font></button></td></tr>\
 </table>\
 </td>\
 </tr>\
@@ -815,8 +815,8 @@ function makeAeiou(languageTransmitted, layoutTransmitted, fontTransmitted, vari
                 case 'default':
                     result += '<a href="https://en.wikipedia.org/wiki/Younger_Futhark" target="_blank">younger futhark</a>';
                     break;
-                case 'nordic':
-                    result += '<a href="https://en.wikipedia.org/wiki/Runes" target="_blank">nordic runes</a>';
+                case 'bornholm':
+                    result += '<a href="https://en.wikipedia.org/wiki/Runes" target="_blank">bornholm</a>';
                     break;
             }
             break;
@@ -866,7 +866,7 @@ function makeAeiou(languageTransmitted, layoutTransmitted, fontTransmitted, vari
         case 'abjadi':
             break;
         case 'runes':
-            result += '<button class="controlButton" onclick="makeAeiou(language, layout, font, \'default\')">younger futhark</button><br><button class="controlButton" onclick="makeAeiou(language, layout, font, \'nordic\')">nordic runes</button>';
+            result += '<button class="controlButton" onclick="makeAeiou(language, layout, font, \'default\')">younger futhark</button><br><button class="controlButton" onclick="makeAeiou(language, layout, font, \'bornholm\')">bornholm</button>';
             break;
         case 'ugaritic':
             break;
