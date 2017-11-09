@@ -17,7 +17,7 @@ tableAbcd["greek"] = {};
 tableAbcd["georgian"] = {};
 tableAbcd["abjadi"] = {};
 tableAbcd["runes"] = {};
-tableAbcd["runes"] = {};
+tableAbcd["runes-bornholm"] = {};
 tableAbcd["ugaritic"] = {};
 
 // English Linear Table
@@ -578,7 +578,7 @@ tableAbcd["runes"]["axial"] = '<tr>\
 <td><button style="color:black" onclick="speakLetter(\'ᚼ\')"><div class="relative"><div id="ᚼPre"></div>ᚼ<div id="ᚼUnder"></div><div id="ᚼPost"></div></div></button></td>\
 </tr></table>';
 
-// Runesx Sound Correspondence (younger futhark)
+// Runes Sound Correspondence (younger futhark)
 tableAbcd["runes"]["sound"] = {};
 tableAbcd["runes"]["sound"]["ᛅ"] = [ "ᛅ", " ", "ᚱ", "ar (year, oar)" ];
 tableAbcd["runes"]["sound"]["ᛒ"] = [ "ᛒ", " ", "ᛦᚬᚱᚴ", "björk (birch)" ];
@@ -599,54 +599,75 @@ tableAbcd["runes"]["sound"]["ᚼ"] = [ "ᚼ", " ", "ᛅᚴᛚ", "hagl (hail)" ];
 
 // Runes Linear Table (bornholm)
 tableAbcd["runes"]["linear-bornholm"] = '<tr>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛆ</button></td>\
-<td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛒ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚦ</button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᛆ\')"><div class="relative"><div id="ᛆPre"></div>ᛆ<div id="ᛆUnder"></div><div id="ᛆPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'ᛒ\')"><div class="relative"><div id="ᛒPre"></div>ᛒ<div id="ᛒUnder"></div><div id="ᛒPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚦ\')"><div class="relative"><div id="ᚦPre"></div>ᚦ<div id="ᚦUnder"></div><div id="ᚦPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛂ</button></td>\
-<td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚠ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚵ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚼ</button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᛂ\')"><div class="relative"><div id="ᛂPre"></div>ᛂ<div id="ᛂUnder"></div><div id="ᛂPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'ᚠ\')"><div class="relative"><div id="ᚠPre"></div>ᚠ<div id="ᚠUnder"></div><div id="ᚠPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚵ\')"><div class="relative"><div id="ᚵPre"></div>ᚵ<div id="ᚵUnder"></div><div id="ᚵPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚼ\')"><div class="relative"><div id="ᚼPre"></div>ᚼ<div id="ᚼUnder"></div><div id="ᚼPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛁ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚴ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛚ</button></td>\
-<td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛘ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚿ</button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᛁ\')"><div class="relative"><div id="ᛁPre"></div>ᛁ<div id="ᛁUnder"></div><div id="ᛁPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚴ\')"><div class="relative"><div id="ᚴPre"></div>ᚴ<div id="ᚴUnder"></div><div id="ᚴPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛚ\')"><div class="relative"><div id="ᛚPre"></div>ᛚ<div id="ᛚUnder"></div><div id="ᛚPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'ᛘ\')"><div class="relative"><div id="ᛘPre"></div>ᛘ<div id="ᛘUnder"></div><div id="ᛘPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚿ\')"><div class="relative"><div id="ᚿPre"></div>ᚿ<div id="ᚿUnder"></div><div id="ᚿPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚮ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚱ</button></td>\
-<td><button style="color:brown" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛦ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛋ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛏ</button></td>\
-<td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚢ</button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᚮ\')"><div class="relative"><div id="ᚮPre"></div>ᚮ<div id="ᚮUnder"></div><div id="ᚮPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚱ\')"><div class="relative"><div id="ᚱPre"></div>ᚱ<div id="ᚱUnder"></div><div id="ᚱPost"></div></div></button></td>\
+<td><button style="color:brown" onclick="speakLetter(\'ᛦ\')"><div class="relative"><div id="ᛦPre"></div>ᛦ<div id="ᛦUnder"></div><div id="ᛦPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛋ\')"><div class="relative"><div id="ᛋPre"></div>ᛋ<div id="ᛋUnder"></div><div id="ᛋPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛏ\')"><div class="relative"><div id="ᛏPre"></div>ᛏ<div id="ᛏUnder"></div><div id="ᛏPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'ᚢ\')"><div class="relative"><div id="ᚢPre"></div>ᚢ<div id="ᚢUnder"></div><div id="ᚢPost"></div></div></button></td>\
 </tr></table>';
 
 // Runes Axial Table (bornholm)
 tableAbcd["runes"]["axial-bornholm"] = '<tr>\
-<td colspan="7" align="center"><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛆ</button></td>\
+<td colspan="7" align="center"><button style="color:red" onclick="speakLetter(\'ᛆ\')"><div class="relative"><div id="ᛆPre"></div>ᛆ<div id="ᛆUnder"></div><div id="ᛆPost"></div></div></button></td>\
 </tr><tr><td></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛒ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚦ</button></td>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛂ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚠ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚵ</button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛒ\')"><div class="relative"><div id="ᛒPre"></div>ᛒ<div id="ᛒUnder"></div><div id="ᛒPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚦ\')"><div class="relative"><div id="ᚦPre"></div>ᚦ<div id="ᚦUnder"></div><div id="ᚦPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᛂ\')"><div class="relative"><div id="ᛂPre"></div>ᛂ<div id="ᛂUnder"></div><div id="ᛂPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚠ\')"><div class="relative"><div id="ᚠPre"></div>ᚠ<div id="ᚠUnder"></div><div id="ᚠPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚵ\')"><div class="relative"><div id="ᚵPre"></div>ᚵ<div id="ᚵUnder"></div><div id="ᚵPost"></div></div></button></td>\
 <td></td></tr><tr><td colspan="2"></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚼ</button></td>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛁ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚴ</button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚼ\')"><div class="relative"><div id="ᚼPre"></div>ᚼ<div id="ᚼUnder"></div><div id="ᚼPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᛁ\')"><div class="relative"><div id="ᛁPre"></div>ᛁ<div id="ᛁUnder"></div><div id="ᛁPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚴ\')"><div class="relative"><div id="ᚴPre"></div>ᚴ<div id="ᚴUnder"></div><div id="ᚴPost"></div></div></button></td>\
 <td colspan="2"></td></tr><tr>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛚ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛘ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚿ</button></td>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚮ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚱ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛦ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛋ</button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛚ\')"><div class="relative"><div id="ᛚPre"></div>ᛚ<div id="ᛚUnder"></div><div id="ᛚPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛘ\')"><div class="relative"><div id="ᛘPre"></div>ᛘ<div id="ᛘUnder"></div><div id="ᛘPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚿ\')"><div class="relative"><div id="ᚿPre"></div>ᚿ<div id="ᚿUnder"></div><div id="ᚿPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᚮ\')"><div class="relative"><div id="ᚮPre"></div>ᚮ<div id="ᚮUnder"></div><div id="ᚮPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚱ\')"><div class="relative"><div id="ᚱPre"></div>ᚱ<div id="ᚱUnder"></div><div id="ᚱPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛦ\')"><div class="relative"><div id="ᛦPre"></div>ᛦ<div id="ᛦUnder"></div><div id="ᛦPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛋ\')"><div class="relative"><div id="ᛋPre"></div>ᛋ<div id="ᛋUnder"></div><div id="ᛋPost"></div></div></button></td>\
 </tr><tr><td colspan="2"></td><td colspan="3" align="center">\
-<button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᛏ</button>\
-<button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">ᚢ</button>\
+<button style="color:black" onclick="speakLetter(\'ᛏ\')"><div class="relative"><div id="ᛏPre"></div>ᛏ<div id="ᛏUnder"></div><div id="ᛏPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'ᚢ\')"><div class="relative"><div id="ᚢPre"></div>ᚢ<div id="ᚢUnder"></div><div id="ᚢPost"></div></div></button>\
 </td><td colspan="2"></td></tr></table>';
+
+// Runes Sound Correspondence (bornholm)
+tableAbcd["runes-bornholm"]["sound"] = {};
+tableAbcd["runes-bornholm"]["sound"]["ᛆ"] = [ "ᛆ", " ", "ᚱ", "ar (year, oar)" ];
+tableAbcd["runes-bornholm"]["sound"]["ᛒ"] = [ "ᛒ", " ", "ᛦᚮᚱᚴ", "björk (birch)" ];
+tableAbcd["runes-bornholm"]["sound"]["ᚦ"] = [ "ᚦ", " ", "ᚮᚱᚿ", "thorn (thorn, thor)" ];
+tableAbcd["runes-bornholm"]["sound"]["ᛂ"] = [ "ᛂ", "ᚠ", " ", "fé (funds)" ];
+tableAbcd["runes-bornholm"]["sound"]["ᚠ"] = [ "ᚠ", " ", "ᛂ", "fé (funds)" ];
+tableAbcd["runes-bornholm"]["sound"]["ᚵ"] = [ "ᚵ", "ᚼᛆ", "ᛚ", "hagl (hail)" ];
+tableAbcd["runes-bornholm"]["sound"]["ᚼ"] = [ "ᚼ", " ", "ᛆᚵᛚ", "hagl (hail)" ];
+tableAbcd["runes-bornholm"]["sound"]["ᛁ"] = [ "ᛁ", " ", "ᛋ", "is (ice)" ];
+tableAbcd["runes-bornholm"]["sound"]["ᚴ"] = [ "ᚴ", " ", "ᚢᚿᚦ", "kynd (heat)" ];
+tableAbcd["runes-bornholm"]["sound"]["ᛚ"] = [ "ᛚ", " ", "ᚮᚴᚱ", "lögr (liquid)" ];
+tableAbcd["runes-bornholm"]["sound"]["ᛘ"] = [ "ᛘ", " ", "ᛆᚦᚱ", "mathr (man)" ];
+tableAbcd["runes-bornholm"]["sound"]["ᚿ"] = [ "ᚿ", " ", "ᛦᚮᛏᛆ", "njota (enjoy)" ];
+tableAbcd["runes-bornholm"]["sound"]["ᚮ"] = [ "ᚮ", " ", " ", "ᚴ", "ᚴᛋᚢᛚ", "ok (and)", "öxull (axis, axle)" ];
+tableAbcd["runes-bornholm"]["sound"]["ᚱ"] = [ "ᚱ", " ", " ", "ᛂᛁᚦ", "ᛁᚦᛆ", "reið (angry)", "riða (ride)" ];
+tableAbcd["runes-bornholm"]["sound"]["ᛦ"] = [ "ᛦ", " ", "ᚢ", "yew (yew)" ];
+tableAbcd["runes-bornholm"]["sound"]["ᛋ"] = [ "ᛋ", " ", "ᚮᛚ", "sól (sun)" ];
+tableAbcd["runes-bornholm"]["sound"]["ᛏ"] = [ "ᛏ", " ", "ᚢᚱ", "týr (tyr)" ];
+tableAbcd["runes-bornholm"]["sound"]["ᚢ"] = [ "ᚢ", " ", "ᚱ", "úr (from)" ];
 
 // Ugaritic Linear Table
 tableAbcd["ugaritic"]["linear"] = '<tr>\
@@ -931,13 +952,16 @@ function makeAeiou(languageTransmitted, layoutTransmitted, fontTransmitted, vari
 }
 
 function speakLetter(letter) {
+    if (variant == 'default') speakLanguage = language;
+        else speakLanguage = language + '-' + variant;
+
     if (lastSpoken["symbol"] == letter) { lastSpoken["count"]++;
-        if (lastSpoken["count"] > (tableAbcd[language]["sound"][letter].length / 3)) lastSpoken["count"] = 1 ;
+        if (lastSpoken["count"] > (tableAbcd[speakLanguage]["sound"][letter].length / 3)) lastSpoken["count"] = 1 ;
     } else { lastSpoken["count"] = 1 }
     lastSpoken["symbol"] = letter;
 
     var audio = new Audio();
-    file = 'sounds/'+ language + '/' + letter + '_' + lastSpoken["count"] + '.mp3';
+    file = 'sounds/'+ speakLanguage + '/' + letter + '_' + lastSpoken["count"] + '.mp3';
     audio.src = file;
     audio.autoplay = true;
 
@@ -946,16 +970,16 @@ function speakLetter(letter) {
             if (font == "enhandwritten" || font == "enlowerhand" || font == "ruhandwritten" || font == "rulowerhand" ) textstroke = 0;
                 else if (language == "runes") textstroke = 1;
                     else textstroke = 2;
-            document.getElementById(letter + "Pre").innerHTML = '<div style="position: absolute; text-transform: lowercase; left: -' + (((tableAbcd[language]["sound"][letter][lastSpoken["count"]].length - 1) * 15) + 5) + 'px; top: 0px; font-weight: 900; color: gray; -webkit-text-fill-color: gray; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + tableAbcd[language]["sound"][letter][lastSpoken["count"]] + '</div>';
-            document.getElementById(letter + "Post").innerHTML = '<div style="position: absolute; text-transform: lowercase; left: 30px; top: 0px; font-weight: 900; color: gray; -webkit-text-fill-color: gray; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + ( tableAbcd[language]["sound"][letter][lastSpoken["count"] + ((tableAbcd[language]["sound"][letter].length - 1) / 3)] ) + '</div>';
-            if (tableAbcd[language]["sound"][letter][lastSpoken["count"] + ((tableAbcd[language]["sound"][letter].length - 1) / 3) * 2].length > 1) {
+            document.getElementById(letter + "Pre").innerHTML = '<div style="position: absolute; text-transform: lowercase; left: -' + (((tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"]].length - 1) * 15) + 5) + 'px; top: 0px; font-weight: 900; color: gray; -webkit-text-fill-color: gray; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"]] + '</div>';
+            document.getElementById(letter + "Post").innerHTML = '<div style="position: absolute; text-transform: lowercase; left: 30px; top: 0px; font-weight: 900; color: gray; -webkit-text-fill-color: gray; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + ( tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"] + ((tableAbcd[speakLanguage]["sound"][letter].length - 1) / 3)] ) + '</div>';
+            if (tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"] + ((tableAbcd[speakLanguage]["sound"][letter].length - 1) / 3) * 2].length > 1) {
                 var bracketLeft = "(";
                 var bracketRight = ")";
-                var underLeft = ( tableAbcd[language]["sound"][letter][lastSpoken["count"] + ((tableAbcd[language]["sound"][letter].length - 1) / 3) * 2].length ) * -2;
+                var underLeft = ( tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"] + ((tableAbcd[speakLanguage]["sound"][letter].length - 1) / 3) * 2].length ) * -2;
                 if (textstroke == 0) var underText = ""; else var underText = "-webkit-text-stroke-width: 1px; -webkit-text-stroke-color: white;";
-                document.getElementById(letter + "Under").innerHTML = '<div style="position: absolute; white-space: nowrap; font-size: 16px; text-transform: none; left: ' + underLeft + 'px; top: 30px; font-weight: 900; color: gray; ' + underText + ' z-index: 10;">' + bracketLeft + ( tableAbcd[language]["sound"][letter][lastSpoken["count"] + ((tableAbcd[language]["sound"][letter].length - 1) / 3) * 2] ) + bracketRight + '</div>';
+                document.getElementById(letter + "Under").innerHTML = '<div style="position: absolute; white-space: nowrap; font-size: 16px; text-transform: none; left: ' + underLeft + 'px; top: 30px; font-weight: 900; color: gray; ' + underText + ' z-index: 10;">' + bracketLeft + ( tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"] + ((tableAbcd[speakLanguage]["sound"][letter].length - 1) / 3) * 2] ) + bracketRight + '</div>';
             }
-            sleep(500 + ((tableAbcd[language]["sound"][letter][lastSpoken["count"]].length + tableAbcd[language]["sound"][letter][lastSpoken["count"] + ((tableAbcd[language]["sound"][letter].length - 1) / 3)].length + 1) * 100)).then(() => {
+            sleep(500 + ((tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"]].length + tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"] + ((tableAbcd[speakLanguage]["sound"][letter].length - 1) / 3)].length + 1) * 100)).then(() => {
                 document.getElementById(letter + "Pre").innerHTML = "";
                 document.getElementById(letter + "Post").innerHTML = "";
                 document.getElementById(letter + "Under").innerHTML = "";
