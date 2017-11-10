@@ -22,226 +22,225 @@ tableAbcd["ugaritic"] = {};
 
 // English Linear Table
 tableAbcd["english"]["linear"] = '<tr>\
-<td><button style="color:red" onclick="speakLetter(\'a\')"><div class="relative"><div id="aPre"></div>A<div id="aUnder"></div><div id="aPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'b\')"><div class="relative"><div id="bPre"></div>B<div id="bUnder"></div><div id="bPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'c\')"><div class="relative"><div id="cPre"></div>C<div id="cUnder"></div><div id="cPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'d\')"><div class="relative"><div id="dPre"></div>D<div id="dUnder"></div><div id="dPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'a\')"><div class="relative"><div id="aPre"></div><div id="aLetter">A</div><div id="aUnder"></div><div id="aPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'b\')"><div class="relative"><div id="bPre"></div><div id="bLetter">B</div><div id="bUnder"></div><div id="bPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'c\')"><div class="relative"><div id="cPre"></div><div id="cLetter">C</div><div id="cUnder"></div><div id="cPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'d\')"><div class="relative"><div id="dPre"></div><div id="dLetter">D</div><div id="dUnder"></div><div id="dPost"></div></div></button></td>\
 <td></td><td></td></tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'e\')"><div class="relative"><div id="ePre"></div>E<div id="eUnder"></div><div id="ePost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'f\')"><div class="relative"><div id="fPre"></div>F<div id="fUnder"></div><div id="fPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'g\')"><div class="relative"><div id="gPre"></div>G<div id="gUnder"></div><div id="gPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'h\')"><div class="relative"><div id="hPre"></div>H<div id="hUnder"></div><div id="hPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'e\')"><div class="relative"><div id="ePre"></div><div id="eLetter">E</div><div id="eUnder"></div><div id="ePost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'f\')"><div class="relative"><div id="fPre"></div><div id="fLetter">F</div><div id="fUnder"></div><div id="fPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'g\')"><div class="relative"><div id="gPre"></div><div id="gLetter">G</div><div id="gUnder"></div><div id="gPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'h\')"><div class="relative"><div id="hPre"></div><div id="hLetter">H</div><div id="hUnder"></div><div id="hPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'i\')"><div class="relative"><div id="iPre"></div>I<div id="iUnder"></div><div id="iPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'j\')"><div class="relative"><div id="jPre"></div>J<div id="jUnder"></div><div id="jPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'k\')"><div class="relative"><div id="kPre"></div>K<div id="kUnder"></div><div id="kPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'l\')"><div class="relative"><div id="lPre"></div>L<div id="lUnder"></div><div id="lPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'m\')"><div class="relative"><div id="mPre"></div>M<div id="mUnder"></div><div id="mPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'n\')"><div class="relative"><div id="nPre"></div>N<div id="nUnder"></div><div id="nPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'i\')"><div class="relative"><div id="iPre"></div><div id="iLetter">I</div><div id="iUnder"></div><div id="iPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'j\')"><div class="relative"><div id="jPre"></div><div id="jLetter">J</div><div id="jUnder"></div><div id="jPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'k\')"><div class="relative"><div id="kPre"></div><div id="kLetter">K</div><div id="kUnder"></div><div id="kPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'l\')"><div class="relative"><div id="lPre"></div><div id="lLetter">L</div><div id="lUnder"></div><div id="lPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'m\')"><div class="relative"><div id="mPre"></div><div id="mLetter">M</div><div id="mUnder"></div><div id="mPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'n\')"><div class="relative"><div id="nPre"></div><div id="nLetter">N</div><div id="nUnder"></div><div id="nPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'o\')"><div class="relative"><div id="oPre"></div>O<div id="oUnder"></div><div id="oPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'p\')"><div class="relative"><div id="pPre"></div>P<div id="pUnder"></div><div id="pPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'q\')"><div class="relative"><div id="qPre"></div>Q<div id="qUnder"></div><div id="qPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'r\')"><div class="relative"><div id="rPre"></div>R<div id="rUnder"></div><div id="rPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'s\')"><div class="relative"><div id="sPre"></div>S<div id="sUnder"></div><div id="sPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'t\')"><div class="relative"><div id="tPre"></div>T<div id="tUnder"></div><div id="tPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'o\')"><div class="relative"><div id="oPre"></div><div id="oLetter">O</div><div id="oUnder"></div><div id="oPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'p\')"><div class="relative"><div id="pPre"></div><div id="pLetter">P</div><div id="pUnder"></div><div id="pPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'q\')"><div class="relative"><div id="qPre"></div><div id="qLetter">Q</div><div id="qUnder"></div><div id="qPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'r\')"><div class="relative"><div id="rPre"></div><div id="rLetter">R</div><div id="rUnder"></div><div id="rPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'s\')"><div class="relative"><div id="sPre"></div><div id="sLetter">S</div><div id="sUnder"></div><div id="sPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'t\')"><div class="relative"><div id="tPre"></div><div id="tLetter">T</div><div id="tUnder"></div><div id="tPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'u\')"><div class="relative"><div id="uPre"></div>U<div id="uUnder"></div><div id="uPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'v\')"><div class="relative"><div id="vPre"></div>V<div id="vUnder"></div><div id="vPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'w\')"><div class="relative"><div id="wPre"></div>W<div id="wUnder"></div><div id="wPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'x\')"><div class="relative"><div id="xPre"></div>X<div id="xUnder"></div><div id="xPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'y\')"><div class="relative"><div id="yPre"></div>Y<div id="yUnder"></div><div id="yPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'z\')"><div class="relative"><div id="zPre"></div>Z<div id="zUnder"></div><div id="zPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'u\')"><div class="relative"><div id="uPre"></div><div id="uLetter">U</div><div id="uUnder"></div><div id="uPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'v\')"><div class="relative"><div id="vPre"></div><div id="vLetter">V</div><div id="vUnder"></div><div id="vPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'w\')"><div class="relative"><div id="wPre"></div><div id="wLetter">W</div><div id="wUnder"></div><div id="wPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'x\')"><div class="relative"><div id="xPre"></div><div id="xLetter">X</div><div id="xUnder"></div><div id="xPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'y\')"><div class="relative"><div id="yPre"></div><div id="yLetter">Y</div><div id="yUnder"></div><div id="yPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'z\')"><div class="relative"><div id="zPre"></div><div id="zLetter">Z</div><div id="zUnder"></div><div id="zPost"></div></div></button></td>\
 </tr></table>';
 
 // English Axial Table
 tableAbcd["english"]["axial"] = '<tr>\
-<td colspan="7" align="center"><button style="color:red" onclick="speakLetter(\'a\')"><div class="relative"><div id="aPre"></div>A<div id="aUnder"></div><div id="aPost"></div></div></button></td>\
+<td colspan="7" align="center"><button style="color:red" onclick="speakLetter(\'a\')"><div class="relative"><div id="aPre"></div><div id="aLetter">A</div><div id="aUnder"></div><div id="aPost"></div></div></button></td>\
 </tr><tr><td colspan="2"></td><td colspan="3" align="center">\
-<button style="color:black" onclick="speakLetter(\'b\')"><div class="relative"><div id="bPre"></div>B<div id="bUnder"></div><div id="bPost"></div></div></button>\
-<button style="color:black" onclick="speakLetter(\'c\')"><div class="relative"><div id="cPre"></div>C<div id="cUnder"></div><div id="cPost"></div></div></button>\
-</td><td colspan="2"></td>\
-</tr><tr><td colspan="2"></td>\
-<td><button style="color:black" onclick="speakLetter(\'d\')"><div class="relative"><div id="dPre"></div>D<div id="dUnder"></div><div id="dPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'e\')"><div class="relative"><div id="ePre"></div>E<div id="eUnder"></div><div id="ePost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'f\')"><div class="relative"><div id="fPre"></div>F<div id="fUnder"></div><div id="fPost"></div></div></button></td>\
+<button style="color:black" onclick="speakLetter(\'b\')"><div class="relative"><div id="bPre"></div><div id="bLetter">B</div><div id="bUnder"></div><div id="bPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'c\')"><div class="relative"><div id="cPre"></div><div id="cLetter">C</div><div id="cUnder"></div><div id="cPost"></div></div></button>\
+</td><td colspan="2"></td></tr><tr><td colspan="2"></td>\
+<td><button style="color:black" onclick="speakLetter(\'d\')"><div class="relative"><div id="dPre"></div><div id="dLetter">D</div><div id="dUnder"></div><div id="dPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'e\')"><div class="relative"><div id="ePre"></div><div id="eLetter">E</div><div id="eUnder"></div><div id="ePost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'f\')"><div class="relative"><div id="fPre"></div><div id="fLetter">F</div><div id="fUnder"></div><div id="fPost"></div></div></button></td>\
 <td colspan="2"></td></tr><tr>\
-<td></td><td><button style="color:black" onclick="speakLetter(\'g\')"><div class="relative"><div id="gPre"></div>G<div id="gUnder"></div><div id="gPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'h\')"><div class="relative"><div id="hPre"></div>H<div id="hUnder"></div><div id="hPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'i\')"><div class="relative"><div id="iPre"></div>I<div id="iUnder"></div><div id="iPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'j\')"><div class="relative"><div id="jPre"></div>J<div id="jUnder"></div><div id="jPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'k\')"><div class="relative"><div id="kPre"></div>K<div id="kUnder"></div><div id="kPost"></div></div></button></td>\
+<td></td><td><button style="color:black" onclick="speakLetter(\'g\')"><div class="relative"><div id="gPre"></div><div id="gLetter">G</div><div id="gUnder"></div><div id="gPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'h\')"><div class="relative"><div id="hPre"></div><div id="hLetter">H</div><div id="hUnder"></div><div id="hPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'i\')"><div class="relative"><div id="iPre"></div><div id="iLetter">I</div><div id="iUnder"></div><div id="iPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'j\')"><div class="relative"><div id="jPre"></div><div id="jLetter">J</div><div id="jUnder"></div><div id="jPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'k\')"><div class="relative"><div id="kPre"></div><div id="kLetter">K</div><div id="kUnder"></div><div id="kPost"></div></div></button></td>\
 <td></td></tr><tr>\
-<td><button style="color:black" onclick="speakLetter(\'l\')"><div class="relative"><div id="lPre"></div>L<div id="lUnder"></div><div id="lPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'m\')"><div class="relative"><div id="mPre"></div>M<div id="mUnder"></div><div id="mPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'n\')"><div class="relative"><div id="nPre"></div>N<div id="nUnder"></div><div id="nPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'o\')"><div class="relative"><div id="oPre"></div>O<div id="oUnder"></div><div id="oPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'p\')"><div class="relative"><div id="pPre"></div>P<div id="pUnder"></div><div id="pPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'q\')"><div class="relative"><div id="qPre"></div>Q<div id="qUnder"></div><div id="qPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'r\')"><div class="relative"><div id="rPre"></div>R<div id="rUnder"></div><div id="rPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'l\')"><div class="relative"><div id="lPre"></div><div id="lLetter">L</div><div id="lUnder"></div><div id="lPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'m\')"><div class="relative"><div id="mPre"></div><div id="mLetter">M</div><div id="mUnder"></div><div id="mPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'n\')"><div class="relative"><div id="nPre"></div><div id="nLetter">N</div><div id="nUnder"></div><div id="nPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'o\')"><div class="relative"><div id="oPre"></div><div id="oLetter">O</div><div id="oUnder"></div><div id="oPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'p\')"><div class="relative"><div id="pPre"></div><div id="pLetter">P</div><div id="pUnder"></div><div id="pPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'q\')"><div class="relative"><div id="qPre"></div><div id="qLetter">Q</div><div id="qUnder"></div><div id="qPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'r\')"><div class="relative"><div id="rPre"></div><div id="rLetter">R</div><div id="rUnder"></div><div id="rPost"></div></div></button></td>\
 </tr><tr>\
-<td></td><td><button style="color:black" onclick="speakLetter(\'s\')"><div class="relative"><div id="sPre"></div>S<div id="sUnder"></div><div id="sPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'t\')"><div class="relative"><div id="tPre"></div>T<div id="tUnder"></div><div id="tPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'u\')"><div class="relative"><div id="uPre"></div>U<div id="uUnder"></div><div id="uPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'v\')"><div class="relative"><div id="vPre"></div>V<div id="vUnder"></div><div id="vPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'w\')"><div class="relative"><div id="wPre"></div>W<div id="wUnder"></div><div id="wPost"></div></div></button></td>\
+<td></td><td><button style="color:black" onclick="speakLetter(\'s\')"><div class="relative"><div id="sPre"></div><div id="sLetter">S</div><div id="sUnder"></div><div id="sPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'t\')"><div class="relative"><div id="tPre"></div><div id="tLetter">T</div><div id="tUnder"></div><div id="tPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'u\')"><div class="relative"><div id="uPre"></div><div id="uLetter">U</div><div id="uUnder"></div><div id="uPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'v\')"><div class="relative"><div id="vPre"></div><div id="vLetter">V</div><div id="vUnder"></div><div id="vPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'w\')"><div class="relative"><div id="wPre"></div><div id="wLetter">W</div><div id="wUnder"></div><div id="wPost"></div></div></button></td>\
 <td></td></tr><tr><td colspan="2"></td>\
-<td><button style="color:black" onclick="speakLetter(\'x\')"><div class="relative"><div id="xPre"></div>X<div id="xUnder"></div><div id="xPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'y\')"><div class="relative"><div id="yPre"></div>Y<div id="yUnder"></div><div id="yPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'z\')"><div class="relative"><div id="zPre"></div>Z<div id="zUnder"></div><div id="zPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'x\')"><div class="relative"><div id="xPre"></div><div id="xLetter">X</div><div id="xUnder"></div><div id="xPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'y\')"><div class="relative"><div id="yPre"></div><div id="yLetter">Y</div><div id="yUnder"></div><div id="yPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'z\')"><div class="relative"><div id="zPre"></div><div id="zLetter">Z</div><div id="zUnder"></div><div id="zPost"></div></div></button></td>\
 </tr></table>';
 
 // English Sound Correspondence
 tableAbcd["english"]["sound"] = {};
-tableAbcd["english"]["sound"]["a"] = [ "a", "c", " ", "c", "c", "t", "pe", "r", "ll", "", "", "", "" ];
-tableAbcd["english"]["sound"]["b"] = [ "b", " ", "la", "lam", "ee", " ", " ", "", "", "" ];
-tableAbcd["english"]["sound"]["c"] = [ "c", " ", " ", " ", "ity", "at", "hip", "", "", "" ];
-tableAbcd["english"]["sound"]["d"] = [ "d", " ", " ", "o", "eep", "", "" ];
-tableAbcd["english"]["sound"]["e"] = [ "e", "b", "b", "s", "s", "sw", "sw", "hom", "d", "d", " ", "t", "e", "a", "et", "at", " ", "ar", "al", "", "", "", "", "", "", "", "", "" ];
-tableAbcd["english"]["sound"]["f"] = [ "f", " ", " ", "eel", "ly", "", "" ];
-tableAbcd["english"]["sound"]["g"] = [ "g", " ", " ", "bri", "ood", "ene", "ht", "", "", "" ];
-tableAbcd["english"]["sound"]["h"] = [ "h", " ", " ", "igh", "ot", "", "" ];
-tableAbcd["english"]["sound"]["i"] = [ "i", "b", "b", "t", "te", "", "" ];
+tableAbcd["english"]["sound"]["a"] = [ "a", "a", "a", "a", "c", " ", "c", "c", "t", "pe", "r", "ll", "", "", "", "" ];
+tableAbcd["english"]["sound"]["b"] = [ "b", "b", "b", " ", "la", "lam", "ee", " ", " ", "", "", "" ];
+tableAbcd["english"]["sound"]["c"] = [ "c", "c", "c", " ", " ", " ", "ity", "at", "hip", "", "", "" ];
+tableAbcd["english"]["sound"]["d"] = [ "d", "d", " ", " ", "o", "eep", "", "" ];
+tableAbcd["english"]["sound"]["e"] = [ "e", "e", "e", "e", "e", "e", "e", "e", "e", "b", "b", "s", "s", "sw", "sw", "hom", "d", "d", " ", "t", "e", "a", "et", "at", " ", "ar", "al", "", "", "", "", "", "", "", "", "" ];
+tableAbcd["english"]["sound"]["f"] = [ "f", "f", " ", " ", "eel", "ly", "", "" ];
+tableAbcd["english"]["sound"]["g"] = [ "g", "g", "g", " ", " ", "bri", "ood", "ene", "ht", "", "", "" ];
+tableAbcd["english"]["sound"]["h"] = [ "h", "h", " ", " ", "igh", "ot", "", "" ];
+tableAbcd["english"]["sound"]["i"] = [ "i", "i", "b", "b", "t", "te", "", "" ];
 tableAbcd["english"]["sound"]["j"] = [ "j", " ", "oy", "" ];
-tableAbcd["english"]["sound"]["k"] = [ "k", " ", " ", "id", "night", "", "" ];
-tableAbcd["english"]["sound"]["l"] = [ "l", " ", " ", "he", "ive", "ive", "lo", "", "", "" ];
-tableAbcd["english"]["sound"]["m"] = [ "m", " ", " ", "ama", "e", "", "" ];
-tableAbcd["english"]["sound"]["n"] = [ "n", " ", " ", "k", "ew", "o", "ow", "", "", "" ];
-tableAbcd["english"]["sound"]["o"] = [ "o", "d", "d", "g", "h", "d", "g", " ", "od", "me", "me", "", "", "", "", "" ];
-tableAbcd["english"]["sound"]["p"] = [ "p", " ", " ", " ", "ut", "ick", "hone", "", "", "" ];
-tableAbcd["english"]["sound"]["q"] = [ "q", " ", " ", " ", "ueen", "uit", "uick", "", "", "" ];
-tableAbcd["english"]["sound"]["r"] = [ "r", " ", "a", "ock", "c", "", "" ];
-tableAbcd["english"]["sound"]["s"] = [ "s", " ", " ", " ", " ", "aw", "ow", "ee", "he", "", "", "", "" ];
-tableAbcd["english"]["sound"]["t"] = [ "t", " ", " ", " ", "ake", "ip", "his", "", "", "" ];
-tableAbcd["english"]["sound"]["u"] = [ "u", " ", "b", "se", "s", "", "" ];
-tableAbcd["english"]["sound"]["v"] = [ "v", " ", "lo", "ow", "e", "", "" ];
-tableAbcd["english"]["sound"]["w"] = [ "w", " ", " ", "ho", "ne", "hat", "ho", " ", " ", "", "", "", "" ];
-tableAbcd["english"]["sound"]["x"] = [ "x", "e", " ", " ", "enos", "", "" ];
-tableAbcd["english"]["sound"]["y"] = [ "y", " ", "jo", "e", "wh", "ver", "var", "ou", " ", "e", " ", " ", " ", "", "", "", "", "", "" ];
-tableAbcd["english"]["sound"]["z"] = [ "z", " ", "wi", "ip", " ", "", "" ];
+tableAbcd["english"]["sound"]["k"] = [ "k", "k", " ", " ", "id", "night", "", "" ];
+tableAbcd["english"]["sound"]["l"] = [ "l", "l", "l", " ", " ", "he", "ive", "ive", "lo", "", "", "" ];
+tableAbcd["english"]["sound"]["m"] = [ "m", "m", " ", " ", "ama", "e", "", "" ];
+tableAbcd["english"]["sound"]["n"] = [ "n", "n", "n", " ", " ", "k", "ew", "o", "ow", "", "", "" ];
+tableAbcd["english"]["sound"]["o"] = [ "o", "o", "o", "o", "o", "d", "d", "g", "h", "d", "g", " ", "od", "me", "me", "", "", "", "", "" ];
+tableAbcd["english"]["sound"]["p"] = [ "p", "p", "p", " ", " ", " ", "ut", "ick", "hone", "", "", "" ];
+tableAbcd["english"]["sound"]["q"] = [ "q", "q", "q", " ", " ", " ", "ueen", "uit", "uick", "", "", "" ];
+tableAbcd["english"]["sound"]["r"] = [ "r", "r", " ", "a", "ock", "c", "", "" ];
+tableAbcd["english"]["sound"]["s"] = [ "s", "s", "s", "s", " ", " ", " ", " ", "aw", "ow", "ee", "he", "", "", "", "" ];
+tableAbcd["english"]["sound"]["t"] = [ "t", "t", "t", " ", " ", " ", "ake", "ip", "his", "", "", "" ];
+tableAbcd["english"]["sound"]["u"] = [ "u", "u", " ", "b", "se", "s", "", "" ];
+tableAbcd["english"]["sound"]["v"] = [ "v", "v", " ", "lo", "ow", "e", "", "" ];
+tableAbcd["english"]["sound"]["w"] = [ "w", "w", "w", "w", " ", " ", "ho", "ne", "hat", "ho", " ", " ", "", "", "", "" ];
+tableAbcd["english"]["sound"]["x"] = [ "x", "x", "e", " ", " ", "enos", "", "" ];
+tableAbcd["english"]["sound"]["y"] = [ "y", "y", "y", "y", "y", "y", " ", "jo", "e", "wh", "ver", "var", "ou", " ", "e", " ", " ", " ", "", "", "", "", "", "" ];
+tableAbcd["english"]["sound"]["z"] = [ "z", "z", " ", "wi", "ip", " ", "", "" ];
 
 // Russian Linear Table
 tableAbcd["russian"]["linear"] = '<tr>\
-<td><button style="color:red" onclick="speakLetter(\'а\')"><div class="relative"><div id="аPre"></div>А<div id="аUnder"></div><div id="аPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'б\')"><div class="relative"><div id="бPre"></div>Б<div id="бUnder"></div><div id="бPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'в\')"><div class="relative"><div id="вPre"></div>В<div id="вUnder"></div><div id="вPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'г\')"><div class="relative"><div id="гPre"></div>Г<div id="гUnder"></div><div id="гPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'д\')"><div class="relative"><div id="дPre"></div>Д<div id="дUnder"></div><div id="дPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'а\')"><div class="relative"><div id="аPre"></div><div id="аLetter">А</div><div id="аUnder"></div><div id="аPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'б\')"><div class="relative"><div id="бPre"></div><div id="бLetter">Б</div><div id="бUnder"></div><div id="бPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'в\')"><div class="relative"><div id="вPre"></div><div id="вLetter">В</div><div id="вUnder"></div><div id="вPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'г\')"><div class="relative"><div id="гPre"></div><div id="гLetter">Г</div><div id="гUnder"></div><div id="гPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'д\')"><div class="relative"><div id="дPre"></div><div id="дLetter">Д</div><div id="дUnder"></div><div id="дPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'е\')"><div class="relative"><div id="еPre"></div>Е<div id="еUnder"></div><div id="еPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ё\')"><div class="relative"><div id="ёPre"></div>Ё<div id="ёUnder"></div><div id="ёPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ж\')"><div class="relative"><div id="жPre"></div>Ж<div id="жUnder"></div><div id="жPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'з\')"><div class="relative"><div id="зPre"></div>З<div id="зUnder"></div><div id="зPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'е\')"><div class="relative"><div id="еPre"></div><div id="еLetter">Е</div><div id="еUnder"></div><div id="еPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ё\')"><div class="relative"><div id="ёPre"></div><div id="ёLetter">Ё</div><div id="ёUnder"></div><div id="ёPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ж\')"><div class="relative"><div id="жPre"></div><div id="жLetter">Ж</div><div id="жUnder"></div><div id="жPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'з\')"><div class="relative"><div id="зPre"></div><div id="зLetter">З</div><div id="зUnder"></div><div id="зPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'и\')"><div class="relative"><div id="иPre"></div>И<div id="иUnder"></div><div id="иPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'й\')"><div class="relative"><div id="йPre"></div>Й<div id="йUnder"></div><div id="йPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'к\')"><div class="relative"><div id="кPre"></div>К<div id="кUnder"></div><div id="кPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'л\')"><div class="relative"><div id="лPre"></div><div id="лUnder"></div>Л<div id="лPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'м\')"><div class="relative"><div id="мPre"></div>М<div id="мUnder"></div><div id="мPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'н\')"><div class="relative"><div id="нPre"></div>Н<div id="нUnder"></div><div id="нPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'и\')"><div class="relative"><div id="иPre"></div><div id="иLetter">И</div><div id="иUnder"></div><div id="иPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'й\')"><div class="relative"><div id="йPre"></div><div id="йLetter">Й</div><div id="йUnder"></div><div id="йPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'к\')"><div class="relative"><div id="кPre"></div><div id="кLetter">К</div><div id="кUnder"></div><div id="кPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'л\')"><div class="relative"><div id="лPre"></div><div id="лLetter">Л</div><div id="лUnder"></div><div id="лPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'м\')"><div class="relative"><div id="мPre"></div><div id="мLetter">М</div><div id="мUnder"></div><div id="мPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'н\')"><div class="relative"><div id="нPre"></div><div id="нLetter">Н</div><div id="нUnder"></div><div id="нPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'о\')"><div class="relative"><div id="оPre"></div>О<div id="оUnder"></div><div id="оPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'п\')"><div class="relative"><div id="пPre"></div>П<div id="пUnder"></div><div id="пPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'р\')"><div class="relative"><div id="рPre"></div>Р<div id="рUnder"></div><div id="рPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'с\')"><div class="relative"><div id="сPre"></div>С<div id="сUnder"></div><div id="сPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'т\')"><div class="relative"><div id="тPre"></div>Т<div id="тUnder"></div><div id="тPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'о\')"><div class="relative"><div id="оPre"></div><div id="оLetter">О</div><div id="оUnder"></div><div id="оPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'п\')"><div class="relative"><div id="пPre"></div><div id="пLetter">П</div><div id="пUnder"></div><div id="пPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'р\')"><div class="relative"><div id="рPre"></div><div id="рLetter">Р</div><div id="рUnder"></div><div id="рPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'с\')"><div class="relative"><div id="сPre"></div><div id="сLetter">С</div><div id="сUnder"></div><div id="сPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'т\')"><div class="relative"><div id="тPre"></div><div id="тLetter">Т</div><div id="тUnder"></div><div id="тPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'у\')"><div class="relative"><div id="уPre"></div>У<div id="уUnder"></div><div id="уPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'ф\')"><div class="relative"><div id="фPre"></div>Ф<div id="фUnder"></div><div id="фPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'х\')"><div class="relative"><div id="хPre"></div>Х<div id="хUnder"></div><div id="хPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ц\')"><div class="relative"><div id="цPre"></div>Ц<div id="цUnder"></div><div id="цPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ч\')"><div class="relative"><div id="чPre"></div>Ч<div id="чUnder"></div><div id="чPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ш\')"><div class="relative"><div id="шPre"></div>Ш<div id="шUnder"></div><div id="шPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'щ\')"><div class="relative"><div id="щPre"></div>Щ<div id="щUnder"></div><div id="щPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'у\')"><div class="relative"><div id="уPre"></div><div id="уLetter">У</div><div id="уUnder"></div><div id="уPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'ф\')"><div class="relative"><div id="фPre"></div><div id="фLetter">Ф</div><div id="фUnder"></div><div id="фPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'х\')"><div class="relative"><div id="хPre"></div><div id="хLetter">Х</div><div id="хUnder"></div><div id="хPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ц\')"><div class="relative"><div id="цPre"></div><div id="цLetter">Ц</div><div id="цUnder"></div><div id="цPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ч\')"><div class="relative"><div id="чPre"></div><div id="чLetter">Ч</div><div id="чUnder"></div><div id="чPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ш\')"><div class="relative"><div id="шPre"></div><div id="шLetter">Ш</div><div id="шUnder"></div><div id="шPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'щ\')"><div class="relative"><div id="щPre"></div><div id="щLetter">Щ</div><div id="щUnder"></div><div id="щPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:grey" onclick="speakLetter(\'ъ\')"><div class="relative"><div id="ъPre"></div>Ъ<div id="ъUnder"></div><div id="ъPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ы\')"><div class="relative"><div id="ыPre"></div>Ы<div id="ыUnder"></div><div id="ыPost"></div></div></button></td>\
-<td><button style="color:grey" onclick="speakLetter(\'ь\')"><div class="relative"><div id="ьPre"></div>Ь<div id="ьUnder"></div><div id="ьPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'э\')"><div class="relative"><div id="эPre"></div>Э<div id="эUnder"></div><div id="эPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ю\')"><div class="relative"><div id="юPre"></div>Ю<div id="юUnder"></div><div id="юPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'я\')"><div class="relative"><div id="яPre"></div>Я<div id="яUnder"></div><div id="яPost"></div></div></button></td>\
+<td><button style="color:grey" onclick="speakLetter(\'ъ\')"><div class="relative"><div id="ъPre"></div><div id="ъLetter">Ъ</div><div id="ъUnder"></div><div id="ъPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ы\')"><div class="relative"><div id="ыPre"></div><div id="ыLetter">Ы</div><div id="ыUnder"></div><div id="ыPost"></div></div></button></td>\
+<td><button style="color:grey" onclick="speakLetter(\'ь\')"><div class="relative"><div id="ьPre"></div><div id="ьLetter">Ь</div><div id="ьUnder"></div><div id="ьPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'э\')"><div class="relative"><div id="эPre"></div><div id="эLetter">Э</div><div id="эUnder"></div><div id="эPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ю\')"><div class="relative"><div id="юPre"></div><div id="юLetter">Ю</div><div id="юUnder"></div><div id="юPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'я\')"><div class="relative"><div id="яPre"></div><div id="яLetter">Я</div><div id="яUnder"></div><div id="яPost"></div></div></button></td>\
 </tr></table>';
 
 // Russian Axial Table
 tableAbcd["russian"]["axial"] = '<tr>\
-<td colspan="9" align="center"><button style="color:red" onclick="speakLetter(\'а\')"><div class="relative"><div id="аPre"></div>А<div id="аUnder"></div><div id="аPost"></div></div></button></td>\
+<td colspan="9" align="center"><button style="color:red" onclick="speakLetter(\'а\')"><div class="relative"><div id="аPre"></div><div id="аLetter">А</div><div id="аUnder"></div><div id="аPost"></div></div></button></td>\
 </tr><tr><td colspan="3"></td><td colspan="3" align="center">\
-<button style="color:black" onclick="speakLetter(\'б\')"><div class="relative"><div id="бPre"></div>Б<div id="бUnder"></div><div id="бPost"></div></div></button>\
-<button style="color:black" onclick="speakLetter(\'в\')"><div class="relative"><div id="вPre"></div>В<div id="вUnder"></div><div id="вPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'б\')"><div class="relative"><div id="бPre"></div><div id="бLetter">Б</div><div id="бUnder"></div><div id="бPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'в\')"><div class="relative"><div id="вPre"></div><div id="вLetter">В</div><div id="вUnder"></div><div id="вPost"></div></div></button>\
 </td><td colspan="3"></td></tr><tr><td colspan="2"></td>\
-<td><button style="color:black" onclick="speakLetter(\'г\')"><div class="relative"><div id="гPre"></div>Г<div id="гUnder"></div><div id="гPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'д\')"><div class="relative"><div id="дPre"></div>Д<div id="дUnder"></div><div id="дPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'е\')"><div class="relative"><div id="еPre"></div>Е<div id="еUnder"></div><div id="еPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ё\')"><div class="relative"><div id="ёPre"></div>Ё<div id="ёUnder"></div><div id="ёPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ж\')"><div class="relative"><div id="жPre"></div>Ж<div id="жUnder"></div><div id="жPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'г\')"><div class="relative"><div id="гPre"></div><div id="гLetter">Г</div><div id="гUnder"></div><div id="гPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'д\')"><div class="relative"><div id="дPre"></div><div id="дLetter">Д</div><div id="дUnder"></div><div id="дPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'е\')"><div class="relative"><div id="еPre"></div><div id="еLetter">Е</div><div id="еUnder"></div><div id="еPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ё\')"><div class="relative"><div id="ёPre"></div><div id="ёLetter">Ё</div><div id="ёUnder"></div><div id="ёPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ж\')"><div class="relative"><div id="жPre"></div><div id="жLetter">Ж</div><div id="жUnder"></div><div id="жPost"></div></div></button></td>\
 <td colspan="2"></td></tr><tr><td colspan="3"></td>\
-<td><button style="color:black" onclick="speakLetter(\'з\')"><div class="relative"><div id="зPre"></div>З<div id="зUnder"></div><div id="зPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'и\')"><div class="relative"><div id="иPre"></div>И<div id="иUnder"></div><div id="иPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'й\')"><div class="relative"><div id="йPre"></div>Й<div id="йUnder"></div><div id="йPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'з\')"><div class="relative"><div id="зPre"></div><div id="зLetter">З</div><div id="зUnder"></div><div id="зPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'и\')"><div class="relative"><div id="иPre"></div><div id="иLetter">И</div><div id="иUnder"></div><div id="иPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'й\')"><div class="relative"><div id="йPre"></div><div id="йLetter">Й</div><div id="йUnder"></div><div id="йPost"></div></div></button></td>\
 <td colspan="3"></td></tr><tr>\
-<td><button style="color:black" onclick="speakLetter(\'к\')"><div class="relative"><div id="кPre"></div>К<div id="кUnder"></div><div id="кPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'л\')"><div class="relative"><div id="лPre"></div>Л<div id="лUnder"></div><div id="лPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'м\')"><div class="relative"><div id="мPre"></div>М<div id="мUnder"></div><div id="мPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'н\')"><div class="relative"><div id="нPre"></div>Н<div id="нUnder"></div><div id="нPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'о\')"><div class="relative"><div id="оPre"></div>О<div id="оUnder"></div><div id="оPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'п\')"><div class="relative"><div id="пPre"></div>П<div id="пUnder"></div><div id="пPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'р\')"><div class="relative"><div id="рPre"></div>Р<div id="рUnder"></div><div id="рPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'с\')"><div class="relative"><div id="сPre"></div>С<div id="сUnder"></div><div id="сPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'т\')"><div class="relative"><div id="тPre"></div>Т<div id="тUnder"></div><div id="тPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'к\')"><div class="relative"><div id="кPre"></div><div id="кLetter">К</div><div id="кUnder"></div><div id="кPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'л\')"><div class="relative"><div id="лPre"></div><div id="лLetter">Л</div><div id="лUnder"></div><div id="лPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'м\')"><div class="relative"><div id="мPre"></div><div id="мLetter">М</div><div id="мUnder"></div><div id="мPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'н\')"><div class="relative"><div id="нPre"></div><div id="нLetter">Н</div><div id="нUnder"></div><div id="нPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'о\')"><div class="relative"><div id="оPre"></div><div id="оLetter">О</div><div id="оUnder"></div><div id="оPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'п\')"><div class="relative"><div id="пPre"></div><div id="пLetter">П</div><div id="пUnder"></div><div id="пPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'р\')"><div class="relative"><div id="рPre"></div><div id="рLetter">Р</div><div id="рUnder"></div><div id="рPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'с\')"><div class="relative"><div id="сPre"></div><div id="сLetter">С</div><div id="сUnder"></div><div id="сPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'т\')"><div class="relative"><div id="тPre"></div><div id="тLetter">Т</div><div id="тUnder"></div><div id="тPost"></div></div></button></td>\
 </tr><tr>\
-<td colspan="9" align="center"><button style="color:red" onclick="speakLetter(\'у\')"><div class="relative"><div id="уPre"></div>У<div id="уUnder"></div><div id="уPost"></div></div></button></td>\
+<td colspan="9" align="center"><button style="color:red" onclick="speakLetter(\'у\')"><div class="relative"><div id="уPre"></div><div id="уLetter">У</div><div id="уUnder"></div><div id="уPost"></div></div></button></td>\
 </tr><tr><td></td><td colspan="7" align="center">\
-<button style="color:black" onclick="speakLetter(\'ф\')"><div class="relative"><div id="фPre"></div>Ф<div id="фUnder"></div><div id="фPost"></div></div></button>\
-<button style="color:black" onclick="speakLetter(\'х\')"><div class="relative"><div id="хPre"></div>Х<div id="хUnder"></div><div id="хPost"></div></div></button>\
-<button style="color:black" onclick="speakLetter(\'ц\')"><div class="relative"><div id="цPre"></div>Ц<div id="цUnder"></div><div id="цPost"></div></div></button>\
-<button style="color:black" onclick="speakLetter(\'ч\')"><div class="relative"><div id="чPre"></div>Ч<div id="чUnder"></div><div id="чPost"></div></div></button>\
-<button style="color:black" onclick="speakLetter(\'ш\')"><div class="relative"><div id="шPre"></div>Ш<div id="шUnder"></div><div id="шPost"></div></div></button>\
-<button style="color:black" onclick="speakLetter(\'щ\')"><div class="relative"><div id="щPre"></div>Щ<div id="щUnder"></div><div id="щPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'ф\')"><div class="relative"><div id="фPre"></div><div id="фLetter">Ф</div><div id="фUnder"></div><div id="фPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'х\')"><div class="relative"><div id="хPre"></div><div id="хLetter">Х</div><div id="хUnder"></div><div id="хPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'ц\')"><div class="relative"><div id="цPre"></div><div id="цLetter">Ц</div><div id="цUnder"></div><div id="цPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'ч\')"><div class="relative"><div id="чPre"></div><div id="чLetter">Ч</div><div id="чUnder"></div><div id="чPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'ш\')"><div class="relative"><div id="шPre"></div><div id="шLetter">Ш</div><div id="шUnder"></div><div id="шPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'щ\')"><div class="relative"><div id="щPre"></div><div id="щLetter">Щ</div><div id="щUnder"></div><div id="щPost"></div></div></button>\
 </td><td></td></tr><tr><td colspan="3"></td>\
-<td><button style="color:black" onclick="speakLetter(\'ъ\')"><div class="relative"><div id="ъPre"></div>Ъ<div id="ъUnder"></div><div id="ъPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ы\')"><div class="relative"><div id="ыPre"></div>Ы<div id="ыUnder"></div><div id="ыPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ь\')"><div class="relative"><div id="ьPre"></div>Ь<div id="ьUnder"></div><div id="ьPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ъ\')"><div class="relative"><div id="ъPre"></div><div id="ъLetter">Ъ</div><div id="ъUnder"></div><div id="ъPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ы\')"><div class="relative"><div id="ыPre"></div><div id="ыLetter">Ы</div><div id="ыUnder"></div><div id="ыPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ь\')"><div class="relative"><div id="ьPre"></div><div id="ьLetter">Ь</div><div id="ьUnder"></div><div id="ьPost"></div></div></button></td>\
 <td colspan="3"></td></tr><tr><td colspan="3"></td>\
-<td><button style="color:red" onclick="speakLetter(\'э\')"><div class="relative"><div id="эPre"></div>Э<div id="эUnder"></div><div id="эPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ю\')"><div class="relative"><div id="юPre"></div>Ю<div id="юUnder"></div><div id="юPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'я\')"><div class="relative"><div id="яPre"></div>Я<div id="яUnder"></div><div id="яPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'э\')"><div class="relative"><div id="эPre"></div><div id="эLetter">Э</div><div id="эUnder"></div><div id="эPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ю\')"><div class="relative"><div id="юPre"></div><div id="юLetter">Ю</div><div id="юUnder"></div><div id="юPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'я\')"><div class="relative"><div id="яPre"></div><div id="яLetter">Я</div><div id="яUnder"></div><div id="яPost"></div></div></button></td>\
 <td colspan="3"></td></tr></table>';
 
 // Russian Sound Correspondence
 tableAbcd["russian"]["sound"] = {};
-tableAbcd["russian"]["sound"]["а"] = [ "а", "д", " ", "б", "б", " ", "рка", "за", "с", "yes, and, duh", "arch", "base", "bass" ];
-tableAbcd["russian"]["sound"]["б"] = [ "б", " ", " ", " ", " ", " ", "ыть", "ить", "оты", "ровь", "рат", "to be", "to beat", "boots bots", "brow", "brother" ];
-tableAbcd["russian"]["sound"]["в"] = [ "в", " ", " ", " ", "ижу", "ода", "дова", "I see, I visualize", "water", "widow" ];
-tableAbcd["russian"]["sound"]["г"] = [ "г", " ", " ", " ", " ", "че", "лаз", "усь", "ад", "рунт", "о", "eye", "goose", "snake", "ground", "(say) wha" ];
-tableAbcd["russian"]["sound"]["д"] = [ "д", " ", " ", " ", " ", "ери", "а", "ва", "но", "(do) tear", "yes, and, duh", "two", "bottom" ];
-tableAbcd["russian"]["sound"]["е"] = [ "е", " ", " ", "н", " ", "сть", "да", " ", "ль", "is, to eat", "food", "no", "fir" ];
-tableAbcd["russian"]["sound"]["ё"] = [ "ё", "л", " ", " ", "н", "ж", "лка", "linen", "hedgehog", "fir" ];
-tableAbcd["russian"]["sound"]["ж"] = [ "ж", " ", "ло", " ", "ло", "ля", "ля", "ук", "а", "ид", "ь", "ь", "ка", "bug", "lodge", "jude", "(it's a) lie, lay", "lie (down)", "thigh (leg)" ];
-tableAbcd["russian"]["sound"]["з"] = [ "з", " ", "берё", "нать", "а", "knights, to know", "birch" ];
-tableAbcd["russian"]["sound"]["и"] = [ "и", " ", " ", " ", "мя", "and", "name" ];
-tableAbcd["russian"]["sound"]["й"] = [ "й", " ", " ", "мо", "ог", "од", " ", "yogi", "iodine", "my, wash" ];
-tableAbcd["russian"]["sound"]["к"] = [ "к", " ", " ", "от", "лей", "cat", "glue" ];
-tableAbcd["russian"]["sound"]["л"] = [ "л", " ", " ", "со", "ба", "ев", "ево", "нце", " ", "lion", "left", "sun", "ball (dance)" ];
-tableAbcd["russian"]["sound"]["м"] = [ "м", " ", " ", " ", " ", " ", "ама", "ир", "ного", "ох", "ал", "mama", "world, peace", "much, many", "moss", "small" ];
-tableAbcd["russian"]["sound"]["н"] = [ "н", " ", " ", "ли", "с", "во", "во", "ос", "ас", "ия", "ег", " ", "ь", "nose", "us", "(any) line", "snow", "yon, out!", "pong, stench" ];
-tableAbcd["russian"]["sound"]["о"] = [ "о", " ", "молок", "х", "б", "дин", " ", "лод", "рода", "one", "milk", "cold", "beard" ];
-tableAbcd["russian"]["sound"]["п"] = [ "п", " ", " ", " ", "апа", "лыть", "ламя", "papa", "to fleet", "flame" ];
-tableAbcd["russian"]["sound"]["р"] = [ "р", "жа", "зе", " ", "а", "но", "ама", "heat", "corn, grain", "frame" ];
-tableAbcd["russian"]["sound"]["с"] = [ "с", " ", " ", " ", " ", " ", " ", "естра", "ын", "кули", "ии", "иди", "ел", "sister", "son", "squeal", "the", "cd, seat", "sat" ];
-tableAbcd["russian"]["sound"]["т"] = [ "т", " ", " ", "смер", "от", "ри", "ь", "that", "three, rub", "death" ];
-tableAbcd["russian"]["sound"]["у"] = [ "у", " ", " ", "кл", "л", "хо", "ха", "бок", "на", "ear", "fish soup", "clew", "moon" ];
-tableAbcd["russian"]["sound"]["ф"] = [ "ф", " ", " ", " ", " ", "ильм", "иле", "ляга", "ляжка", "film (movie)", "fillet", "(big) flask", "(small) flask" ];
-tableAbcd["russian"]["sound"]["х"] = [ "х", " ", " ", " ", "леб", "олод", "ек", "hlaf (bread)", "cold", "hake" ];
-tableAbcd["russian"]["sound"]["ц"] = [ "ц", " ", " ", " ", "ирк", "ерковь", "ена", "circus", "church", "price" ];
-tableAbcd["russian"]["sound"]["ч"] = [ "ч", " ", "по", " ", "ай", "та", "адо", "tea", "post, mail", "child" ];
-tableAbcd["russian"]["sound"]["ш"] = [ "ш", " ", " ", " ", " ", "ар", "арм", "арф", "орты", "ball (sphere)", "charm", "scarf", "shorts" ];
-tableAbcd["russian"]["sound"]["щ"] = [ "щ", " ", " ", "ека", "ель", "cheek", "slit" ];
-tableAbcd["russian"]["sound"]["ъ"] = [ "ъ", "с", "с", "с", "с", "с", "ем", "ешь", "ест", "езд", "ел", "(I) will have eaten", "eat it, (you) will eat it", "(he, she, it) will have eaten", "congress", "have eaten" ];
-tableAbcd["russian"]["sound"]["ы"] = [ "ы", "м", "в", "т", " ", " ", " ", "we", "you", "thee" ];
-tableAbcd["russian"]["sound"]["ь"] = [ "ь", "л", "ос", "ноч", "ден", "вы", " ", " ", " ", "lions", "axis", "night", "day" ];
-tableAbcd["russian"]["sound"]["э"] = [ "э", " ", " ", " ", "то", "хо", "ра", "it", "echo", "era" ];
-tableAbcd["russian"]["sound"]["ю"] = [ "ю", "кл", "кр", "тр", "ч", "к", "к", "key", "crook, hook", "trick" ];
-tableAbcd["russian"]["sound"]["я"] = [ "я", " ", " ", " ", "вол", " ", "рость", "ркость", " ", "I", "wrath", "brightness", "will" ];
+tableAbcd["russian"]["sound"]["а"] = [ "а", "а", "а", "а", "д", " ", "б", "б", " ", "рка", "за", "с", "yes, and, duh", "arch", "base", "bass" ];
+tableAbcd["russian"]["sound"]["б"] = [ "б", "б", "б", "б", "б", " ", " ", " ", " ", " ", "ыть", "ить", "оты", "ровь", "рат", "to be", "to beat", "boots bots", "brow", "brother" ];
+tableAbcd["russian"]["sound"]["в"] = [ "в", "в", "в", " ", " ", " ", "ижу", "ода", "дова", "I see, I visualize", "water", "widow" ];
+tableAbcd["russian"]["sound"]["г"] = [ "г", "г", "г", "г", "г", " ", " ", " ", " ", "че", "лаз", "усь", "ад", "рунт", "о", "eye", "goose", "snake", "ground", "(say) wha" ];
+tableAbcd["russian"]["sound"]["д"] = [ "д", "д", "д", "д", " ", " ", " ", " ", "ери", "а", "ва", "но", "(do) tear", "yes, and, duh", "two", "bottom" ];
+tableAbcd["russian"]["sound"]["е"] = [ "е", "е", "е", "е", " ", " ", "н", " ", "сть", "да", " ", "ль", "is, to eat", "food", "no", "fir" ];
+tableAbcd["russian"]["sound"]["ё"] = [ "ё", "ё", "ё", "л", " ", " ", "н", "ж", "лка", "linen", "hedgehog", "fir" ];
+tableAbcd["russian"]["sound"]["ж"] = [ "ж", "ж", "ж", "ж", "ж", "ж", " ", "ло", " ", "ло", "ля", "ля", "ук", "а", "ид", "ь", "ь", "ка", "bug", "lodge", "jude", "(it's a) lie, lay", "lie (down)", "thigh (leg)" ];
+tableAbcd["russian"]["sound"]["з"] = [ "з", "з", " ", "берё", "нать", "а", "knights, to know", "birch" ];
+tableAbcd["russian"]["sound"]["и"] = [ "и", "и", " ", " ", " ", "мя", "and", "name" ];
+tableAbcd["russian"]["sound"]["й"] = [ "й", "й", "й", " ", " ", "мо", "ог", "од", " ", "yogi", "iodine", "my, wash" ];
+tableAbcd["russian"]["sound"]["к"] = [ "к", "к", " ", " ", "от", "лей", "cat", "glue" ];
+tableAbcd["russian"]["sound"]["л"] = [ "л", "л", "л", "л", " ", " ", "со", "ба", "ев", "ево", "нце", " ", "lion", "left", "sun", "ball (dance)" ];
+tableAbcd["russian"]["sound"]["м"] = [ "м", "м", "м", "м", "м", " ", " ", " ", " ", " ", "ама", "ир", "ного", "ох", "ал", "mama", "world, peace", "much, many", "moss", "small" ];
+tableAbcd["russian"]["sound"]["н"] = [ "н", "н", "н", "н", "н", "н", " ", " ", "ли", "с", "во", "во", "ос", "ас", "ия", "ег", " ", "ь", "nose", "us", "(any) line", "snow", "yon, out!", "pong, stench" ];
+tableAbcd["russian"]["sound"]["о"] = [ "о", "о", "о", "о", " ", "молок", "х", "б", "дин", " ", "лод", "рода", "one", "milk", "cold", "beard" ];
+tableAbcd["russian"]["sound"]["п"] = [ "п", "п", "п", " ", " ", " ", "апа", "лыть", "ламя", "papa", "to fleet", "flame" ];
+tableAbcd["russian"]["sound"]["р"] = [ "р", "р", "р", "жа", "зе", " ", "а", "но", "ама", "heat", "corn, grain", "frame" ];
+tableAbcd["russian"]["sound"]["с"] = [ "с", "с", "с", "с", "с", "с", " ", " ", " ", " ", " ", " ", "естра", "ын", "кули", "ии", "иди", "ел", "sister", "son", "squeal", "the", "cd, seat", "sat" ];
+tableAbcd["russian"]["sound"]["т"] = [ "т", "т", "т", " ", " ", "смер", "от", "ри", "ь", "that", "three, rub", "death" ];
+tableAbcd["russian"]["sound"]["у"] = [ "у", "у", "у", "у", " ", " ", "кл", "л", "хо", "ха", "бок", "на", "ear", "fish soup", "clew", "moon" ];
+tableAbcd["russian"]["sound"]["ф"] = [ "ф", "ф", "ф", "ф", " ", " ", " ", " ", "ильм", "иле", "ляга", "ляжка", "film (movie)", "fillet", "(big) flask", "(small) flask" ];
+tableAbcd["russian"]["sound"]["х"] = [ "х", "х", "х", " ", " ", " ", "леб", "олод", "ек", "hlaf (bread)", "cold", "hake" ];
+tableAbcd["russian"]["sound"]["ц"] = [ "ц", "ц", "ц", " ", " ", " ", "ирк", "ерковь", "ена", "circus", "church", "price" ];
+tableAbcd["russian"]["sound"]["ч"] = [ "ч", "ч", "ч", " ", "по", " ", "ай", "та", "адо", "tea", "post, mail", "child" ];
+tableAbcd["russian"]["sound"]["ш"] = [ "ш", "ш", "ш", "ш", " ", " ", " ", " ", "ар", "арм", "арф", "орты", "ball (sphere)", "charm", "scarf", "shorts" ];
+tableAbcd["russian"]["sound"]["щ"] = [ "щ", "щ", " ", " ", "ека", "ель", "cheek", "slit" ];
+tableAbcd["russian"]["sound"]["ъ"] = [ "ъ", "ъ", "ъ", "ъ", "ъ", "с", "с", "с", "с", "с", "ем", "ешь", "ест", "езд", "ел", "(I) will have eaten", "eat it, (you) will eat it", "(he, she, it) will have eaten", "congress", "have eaten" ];
+tableAbcd["russian"]["sound"]["ы"] = [ "ы", "ы", "ы", "м", "в", "т", " ", " ", " ", "we", "you", "thee" ];
+tableAbcd["russian"]["sound"]["ь"] = [ "ь", "ь", "ь", "ь", "л", "ос", "ноч", "ден", "вы", " ", " ", " ", "lions", "axis", "night", "day" ];
+tableAbcd["russian"]["sound"]["э"] = [ "э", "э", "э", " ", " ", " ", "то", "хо", "ра", "it", "echo", "era" ];
+tableAbcd["russian"]["sound"]["ю"] = [ "ю", "ю", "ю", "кл", "кр", "тр", "ч", "к", "к", "key", "crook, hook", "trick" ];
+tableAbcd["russian"]["sound"]["я"] = [ "я", "я", "я", "я", " ", " ", " ", "вол", " ", "рость", "ркость", " ", "I", "wrath", "brightness", "will" ];
 
 // Hebrew Linear Table
 tableAbcd["hebrew"]["linear"] = '<tr>\
@@ -306,97 +305,97 @@ tableAbcd["hebrew"]["axial"] = '<tr>\
 
 // Greek Linear Table
 tableAbcd["greek"]["linear"] = '<tr>\
-<td><button style="color:red" onclick="speakLetter(\'α\')"><div class="relative"><div id="αPre"></div>Α<div id="αUnder"></div><div id="αPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'β\')"><div class="relative"><div id="βPre"></div>Β<div id="βUnder"></div><div id="βPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'γ\')"><div class="relative"><div id="γPre"></div>Γ<div id="γUnder"></div><div id="γPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'δ\')"><div class="relative"><div id="δPre"></div>Δ<div id="δUnder"></div><div id="δPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'α\')"><div class="relative"><div id="αPre"></div><div id="αLetter">Α</div><div id="αUnder"></div><div id="αPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'β\')"><div class="relative"><div id="βPre"></div><div id="βLetter">Β</div><div id="βUnder"></div><div id="βPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'γ\')"><div class="relative"><div id="γPre"></div><div id="γLetter">Γ</div><div id="γUnder"></div><div id="γPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'δ\')"><div class="relative"><div id="δPre"></div><div id="δLetter">Δ</div><div id="δUnder"></div><div id="δPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'ε\')"><div class="relative"><div id="εPre"></div>Ε<div id="εUnder"></div><div id="εPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'ζ\')"><div class="relative"><div id="ζPre"></div>Ζ<div id="ζUnder"></div><div id="ζPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'η\')"><div class="relative"><div id="ηPre"></div>Η<div id="ηUnder"></div><div id="ηPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'θ\')"><div class="relative"><div id="θPre"></div>Θ<div id="θUnder"></div><div id="θPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ε\')"><div class="relative"><div id="εPre"></div><div id="εLetter">Ε</div><div id="εUnder"></div><div id="εPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'ζ\')"><div class="relative"><div id="ζPre"></div><div id="ζLetter">Ζ</div><div id="ζUnder"></div><div id="ζPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'η\')"><div class="relative"><div id="ηPre"></div><div id="ηLetter">Η</div><div id="ηUnder"></div><div id="ηPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'θ\')"><div class="relative"><div id="θPre"></div><div id="θLetter">Θ</div><div id="θUnder"></div><div id="θPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'ι\')"><div class="relative"><div id="ιPre"></div>Ι<div id="ιUnder"></div><div id="ιPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'κ\')"><div class="relative"><div id="κPre"></div>Κ<div id="κUnder"></div><div id="κPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'λ\')"><div class="relative"><div id="λPre"></div>Λ<div id="λUnder"></div><div id="λPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'μ\')"><div class="relative"><div id="μPre"></div>Μ<div id="μUnder"></div><div id="μPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'ν\')"><div class="relative"><div id="νPre"></div>Ν<div id="νUnder"></div><div id="νPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'ξ\')"><div class="relative"><div id="ξPre"></div>Ξ<div id="ξUnder"></div><div id="ξPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ι\')"><div class="relative"><div id="ιPre"></div><div id="ιLetter">Ι</div><div id="ιUnder"></div><div id="ιPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'κ\')"><div class="relative"><div id="κPre"></div><div id="κLetter">Κ</div><div id="κUnder"></div><div id="κPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'λ\')"><div class="relative"><div id="λPre"></div><div id="λLetter">Λ</div><div id="λUnder"></div><div id="λPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'μ\')"><div class="relative"><div id="μPre"></div><div id="μLetter">Μ</div><div id="μUnder"></div><div id="μPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'ν\')"><div class="relative"><div id="νPre"></div><div id="νLetter">Ν</div><div id="νUnder"></div><div id="νPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'ξ\')"><div class="relative"><div id="ξPre"></div><div id="ξLetter">Ξ</div><div id="ξUnder"></div><div id="ξPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'ο\')"><div class="relative"><div id="οPre"></div>Ο<div id="οUnder"></div><div id="οPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'π\')"><div class="relative"><div id="πPre"></div>Π<div id="πUnder"></div><div id="πPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'ρ\')"><div class="relative"><div id="ρPre"></div>Ρ<div id="ρUnder"></div><div id="ρPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'σ\')"><div class="relative"><div id="σPre"></div>Σ<div id="σUnder"></div><div id="σPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'τ\')"><div class="relative"><div id="τPre"></div>Τ<div id="τUnder"></div><div id="τPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ο\')"><div class="relative"><div id="οPre"></div><div id="οLetter">Ο</div><div id="οUnder"></div><div id="οPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'π\')"><div class="relative"><div id="πPre"></div><div id="πLetter">Π</div><div id="πUnder"></div><div id="πPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'ρ\')"><div class="relative"><div id="ρPre"></div><div id="ρLetter">Ρ</div><div id="ρUnder"></div><div id="ρPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'σ\')"><div class="relative"><div id="σPre"></div><div id="σLetter">Σ</div><div id="σUnder"></div><div id="σPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'τ\')"><div class="relative"><div id="τPre"></div><div id="τLetter">Τ</div><div id="τUnder"></div><div id="τPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'υ\')"><div class="relative"><div id="υPre"></div>Υ<div id="υUnder"></div><div id="υPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'φ\')"><div class="relative"><div id="φPre"></div>Φ<div id="φUnder"></div><div id="φPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'χ\')"><div class="relative"><div id="χPre"></div>Χ<div id="χUnder"></div><div id="χPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'ψ\')"><div class="relative"><div id="ψPre"></div>Ψ<div id="ψUnder"></div><div id="ψPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ω\')"><div class="relative"><div id="ωPre"></div>Ω<div id="ωUnder"></div><div id="ωPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'υ\')"><div class="relative"><div id="υPre"></div><div id="υLetter">Υ</div><div id="υUnder"></div><div id="υPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'φ\')"><div class="relative"><div id="φPre"></div><div id="φLetter">Φ</div><div id="φUnder"></div><div id="φPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'χ\')"><div class="relative"><div id="χPre"></div><div id="χLetter">Χ</div><div id="χUnder"></div><div id="χPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'ψ\')"><div class="relative"><div id="ψPre"></div><div id="ψLetter">Ψ</div><div id="ψUnder"></div><div id="ψPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ω\')"><div class="relative"><div id="ωPre"></div><div id="ωLetter">Ω</div><div id="ωUnder"></div><div id="ωPost"></div></div></button></td>\
 </tr></table>';
 
 // Greek Axial Table
 tableAbcd["greek"]["axial"] = '<tr>\
-<td colspan="7" align="center"><button style="color:red" onclick="speakLetter(\'α\')"><div class="relative"><div id="αPre"></div>Α<div id="αUnder"></div><div id="αPost"></div></div></button></td>\
+<td colspan="7" align="center"><button style="color:red" onclick="speakLetter(\'α\')"><div class="relative"><div id="αPre"></div><div id="αLetter">Α</div><div id="αUnder"></div><div id="αPost"></div></div></button></td>\
 </tr><tr><td colspan="2"></td><td colspan="3" align="center">\
-<button style="color:black" onclick="speakLetter(\'β\')"><div class="relative"><div id="βPre"></div>Β<div id="βUnder"></div><div id="βPost"></div></div></button>\
-<button style="color:black" onclick="speakLetter(\'γ\')"><div class="relative"><div id="γPre"></div>Γ<div id="γUnder"></div><div id="γPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'β\')"><div class="relative"><div id="βPre"></div><div id="βLetter">Β</div><div id="βUnder"></div><div id="βPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'γ\')"><div class="relative"><div id="γPre"></div><div id="γLetter">Γ</div><div id="γUnder"></div><div id="γPost"></div></div></button>\
 </td><td colspan="2"></td></tr><tr><td colspan="2"></td>\
-<td><button style="color:black" onclick="speakLetter(\'δ\')"><div class="relative"><div id="δPre"></div>Δ<div id="δUnder"></div><div id="δPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ε\')"><div class="relative"><div id="εPre"></div>Ε<div id="εUnder"></div><div id="εPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ζ\')"><div class="relative"><div id="ζPre"></div>Ζ<div id="ζUnder"></div><div id="ζPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'δ\')"><div class="relative"><div id="δPre"></div><div id="δLetter">Δ</div><div id="δUnder"></div><div id="δPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ε\')"><div class="relative"><div id="εPre"></div><div id="εLetter">Ε</div><div id="εUnder"></div><div id="εPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ζ\')"><div class="relative"><div id="ζPre"></div><div id="ζLetter">Ζ</div><div id="ζUnder"></div><div id="ζPost"></div></div></button></td>\
 <td colspan="2"></td></tr><tr><td></td>\
-<td><button style="color:black" onclick="speakLetter(\'η\')"><div class="relative"><div id="ηPre"></div>Η<div id="ηUnder"></div><div id="ηPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'θ\')"><div class="relative"><div id="θPre"></div>Θ<div id="θUnder"></div><div id="θPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ι\')"><div class="relative"><div id="ιPre"></div>Ι<div id="ιUnder"></div><div id="ιPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'κ\')"><div class="relative"><div id="κPre"></div>Κ<div id="κUnder"></div><div id="κPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'λ\')"><div class="relative"><div id="λPre"></div>Λ<div id="λUnder"></div><div id="λPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'η\')"><div class="relative"><div id="ηPre"></div><div id="ηLetter">Η</div><div id="ηUnder"></div><div id="ηPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'θ\')"><div class="relative"><div id="θPre"></div><div id="θLetter">Θ</div><div id="θUnder"></div><div id="θPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ι\')"><div class="relative"><div id="ιPre"></div><div id="ιLetter">Ι</div><div id="ιUnder"></div><div id="ιPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'κ\')"><div class="relative"><div id="κPre"></div><div id="κLetter">Κ</div><div id="κUnder"></div><div id="κPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'λ\')"><div class="relative"><div id="λPre"></div><div id="λLetter">Λ</div><div id="λUnder"></div><div id="λPost"></div></div></button></td>\
 <td></td></tr><tr>\
-<td><button style="color:black" onclick="speakLetter(\'μ\')"><div class="relative"><div id="μPre"></div>Μ<div id="μUnder"></div><div id="μPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ν\')"><div class="relative"><div id="νPre"></div>Ν<div id="νUnder"></div><div id="νPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ξ\')"><div class="relative"><div id="ξPre"></div>Ξ<div id="ξUnder"></div><div id="ξPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ο\')"><div class="relative"><div id="οPre"></div>Ο<div id="οUnder"></div><div id="οPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'π\')"><div class="relative"><div id="πPre"></div>Π<div id="πUnder"></div><div id="πPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ρ\')"><div class="relative"><div id="ρPre"></div>Ρ<div id="ρUnder"></div><div id="ρPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'σ\')"><div class="relative"><div id="σPre"></div>Σ<div id="σUnder"></div><div id="σPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'μ\')"><div class="relative"><div id="μPre"></div><div id="μLetter">Μ</div><div id="μUnder"></div><div id="μPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ν\')"><div class="relative"><div id="νPre"></div><div id="νLetter">Ν</div><div id="νUnder"></div><div id="νPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ξ\')"><div class="relative"><div id="ξPre"></div><div id="ξLetter">Ξ</div><div id="ξUnder"></div><div id="ξPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ο\')"><div class="relative"><div id="οPre"></div><div id="οLetter">Ο</div><div id="οUnder"></div><div id="οPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'π\')"><div class="relative"><div id="πPre"></div><div id="πLetter">Π</div><div id="πUnder"></div><div id="πPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ρ\')"><div class="relative"><div id="ρPre"></div><div id="ρLetter">Ρ</div><div id="ρUnder"></div><div id="ρPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'σ\')"><div class="relative"><div id="σPre"></div><div id="σLetter">Σ</div><div id="σUnder"></div><div id="σPost"></div></div></button></td>\
 </tr><tr><td colspan="2"></td>\
-<td><button style="color:black" onclick="speakLetter(\'τ\')"><div class="relative"><div id="τPre"></div>Τ<div id="τUnder"></div><div id="τPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'υ\')"><div class="relative"><div id="υPre"></div>Υ<div id="υUnder"></div><div id="υPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'φ\')"><div class="relative"><div id="φPre"></div>Φ<div id="φUnder"></div><div id="φPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'τ\')"><div class="relative"><div id="τPre"></div><div id="τLetter">Τ</div><div id="τUnder"></div><div id="τPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'υ\')"><div class="relative"><div id="υPre"></div><div id="υLetter">Υ</div><div id="υUnder"></div><div id="υPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'φ\')"><div class="relative"><div id="φPre"></div><div id="φLetter">Φ</div><div id="φUnder"></div><div id="φPost"></div></div></button></td>\
 <td colspan="2"></td></tr><tr><td colspan="2"></td><td colspan="3" align="center">\
-<button style="color:black" onclick="speakLetter(\'χ\')"><div class="relative"><div id="χPre"></div>Χ<div id="χUnder"></div><div id="χPost"></div></div></button>\
-<button style="color:black" onclick="speakLetter(\'ψ\')"><div class="relative"><div id="ψPre"></div>Ψ<div id="ψUnder"></div><div id="ψPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'χ\')"><div class="relative"><div id="χPre"></div><div id="χLetter">Χ</div><div id="χUnder"></div><div id="χPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'ψ\')"><div class="relative"><div id="ψPre"></div><div id="ψLetter">Ψ</div><div id="ψUnder"></div><div id="ψPost"></div></div></button>\
 </td><td colspan="2"></td></tr><tr>\
-<td colspan="7" align="center"><button style="color:red" onclick="speakLetter(\'ω\')"><div class="relative"><div id="ωPre"></div>Ω<div id="ωUnder"></div><div id="ωPost"></div></div></button></td>\
+<td colspan="7" align="center"><button style="color:red" onclick="speakLetter(\'ω\')"><div class="relative"><div id="ωPre"></div><div id="ωLetter">Ω</div><div id="ωUnder"></div><div id="ωPost"></div></div></button></td>\
 </tr></table>';
 
 // Greek Sound Correspondence
 tableAbcd["greek"]["sound"] = {};
-tableAbcd["greek"]["sound"]["α"] = [ "ἄ", " ", " ", " ", " ", " ", "βαξ", "λα", "λτ", "ν", "ρμα", "abacus", "alright", "halt", "if", "chariot" ];
-tableAbcd["greek"]["sound"]["β"] = [ "β", " ", " ", " ", "άβα", "άτα", "ρέ", "granny", "cotton", "hey you!" ];
-tableAbcd["greek"]["sound"]["γ"] = [ "γ", " ", " ", " ", "ἐ", "ἐ", " ", "άδος", "ειά", "ϰάζι", "γύς", "ώ", "ῆ", "cod", "hi", "gas, throttle", "near", "I", "earth" ];
-tableAbcd["greek"]["sound"]["δ"] = [ "δ", " ", " ", " ", "άδα", "έ", "εῖ", "torch", "and, but", "should" ];
-tableAbcd["greek"]["sound"]["ε"] = [ "ἔ", " ", " ", " ", "χω", "λα", "ἰ", "I have", "come!", "if" ];
-tableAbcd["greek"]["sound"]["ζ"] = [ "ζ", " ", " ", " ", "ῆν", "άω", "ῶ", "to live", "I eat", "I live" ];
-tableAbcd["greek"]["sound"]["η"] = [ "η", " ", " ", " ", " ", "ώς", "χος", "or", "dawn", "sound" ];
-tableAbcd["greek"]["sound"]["θ"] = [ "θ", " ", " ", " ", "έα", "εά", "έμα", "view", "goddess", "theme" ];
-tableAbcd["greek"]["sound"]["ι"] = [ "ἰ", " ", " ", " ", "δού", "στός", "χϑύς", "take it", "mast", "fish" ];
-tableAbcd["greek"]["sound"]["κ"] = [ "κ", " ", " ", " ", " ", "άδη", "αί", "ακά", "αλά", "bucket", "and", "bad", "good" ];
-tableAbcd["greek"]["sound"]["λ"] = [ "λ", " ", " ", " ", " ", "άβα", "αιμά", "έω", "άκα", "lava", "neck", "I say", "lacquer" ];
-tableAbcd["greek"]["sound"]["μ"] = [ "μ", " ", " ", " ", " ", " ", "ῆλο", "οῦ", "πρός", "ά", "άζα", "apple", "me", "forward", "but, however", "mass" ];
-tableAbcd["greek"]["sound"]["ν"] = [ "ν", " ", " ", " ", " ", "αί", "οῦς", "τάμα", "το", "yes", "mind, nous", "lady, checkers", "note do, C, ut" ];
-tableAbcd["greek"]["sound"]["ξ"] = [ "ξ", " ", " ", " ", "ύλο", "ηρά", "ανθή", "wood", "land", "blond, blonde" ];
-tableAbcd["greek"]["sound"]["ο"] = [ "ο", " ", " ", " ", " ", " ", "δός", "ἶκος", "υχί", "χι", "ν", "street", "house, home", "no", "no, not, non", "being" ];
-tableAbcd["greek"]["sound"]["π"] = [ "π", " ", " ", " ", " ", "ιά", "ανί", "άλη", "έδη", "no more", "cloth", "fight", "fetters, clog" ];
-tableAbcd["greek"]["sound"]["ρ"] = [ "ρ", " ", " ", "άγ", "έμα", "οῦς", "α", "stream", "flow", "hunt" ];
-tableAbcd["greek"]["sound"]["σ"] = [ "σ", " ", " ", " ", "ύ", "ύν", "ούπα", "thou", "with", "soup" ];
-tableAbcd["greek"]["sound"]["τ"] = [ "τ", " ", " ", "ά", "ρεῖς", "ί", "ι", "three", "what", "etc." ];
-tableAbcd["greek"]["sound"]["υ"] = [ "υ", " ", "ε", " ", "λ", "α", "ε", "πό", "ρύς", "δωρ", "σσα", "λή", " ", "under", "wide", "water", "rage", "court", "good" ];
-tableAbcd["greek"]["sound"]["φ"] = [ "φ", " ", " ", " ", "άβα", "ήμη", "άκα", "peas", "fame, rumour", "trap" ];
-tableAbcd["greek"]["sound"]["χ"] = [ "χ", " ", " ", " ", " ", "έρι", "αρά", "άρη", "θές", "hand", "joy", "grace", "yesterday" ];
-tableAbcd["greek"]["sound"]["ψ"] = [ "ψ", " ", " ", " ", " ", "άρι", "ωμί", "έμα", "ές", "fish", "bread", "lies", "last night" ];
-tableAbcd["greek"]["sound"]["ω"] = [ "ω", " ", " ", " ", "ρα", "μά", "ς", "hour", "raw, blunt", "as" ];
+tableAbcd["greek"]["sound"]["α"] = [ "ἄ", "ἄ", "ἄ", "ἄ", "ἄ", " ", " ", " ", " ", " ", "βαξ", "λα", "λτ", "ν", "ρμα", "abacus", "alright", "halt", "if", "chariot" ];
+tableAbcd["greek"]["sound"]["β"] = [ "β", "β", "β", " ", " ", " ", "άβα", "άτα", "ρέ", "granny", "cotton", "hey you!" ];
+tableAbcd["greek"]["sound"]["γ"] = [ "γ", "γ", "γ", "γ", "γ", "γ", " ", " ", " ", "ἐ", "ἐ", " ", "άδος", "ειά", "ϰάζι", "γύς", "ώ", "ῆ", "cod", "hi", "gas, throttle", "near", "I", "earth" ];
+tableAbcd["greek"]["sound"]["δ"] = [ "δ", "δ", "δ", " ", " ", " ", "άδα", "έ", "εῖ", "torch", "and, but", "should" ];
+tableAbcd["greek"]["sound"]["ε"] = [ "ἔ", "ἔ", "ε", " ", " ", " ", "χω", "λα", "ἰ", "I have", "come!", "if" ];
+tableAbcd["greek"]["sound"]["ζ"] = [ "ζ", "ζ", "ζ", " ", " ", " ", "ῆν", "άω", "ῶ", "to live", "I eat", "I live" ];
+tableAbcd["greek"]["sound"]["η"] = [ "ἤ", "ἠ", "ἦ", " ", " ", " ", " ", "ώς", "χος", "or", "dawn", "sound" ];
+tableAbcd["greek"]["sound"]["θ"] = [ "θ", "θ", "θ", " ", " ", " ", "έα", "εά", "έμα", "view", "goddess", "theme" ];
+tableAbcd["greek"]["sound"]["ι"] = [ "ἰ", "ἰ", "ἰ", " ", " ", " ", "δού", "στός", "χϑύς", "take it", "mast", "fish" ];
+tableAbcd["greek"]["sound"]["κ"] = [ "κ", "κ", "κ", "κ", " ", " ", " ", " ", "άδη", "αί", "ακά", "αλά", "bucket", "and", "bad", "good" ];
+tableAbcd["greek"]["sound"]["λ"] = [ "λ", "λ", "λ", "λ", " ", " ", " ", " ", "άβα", "αιμά", "έω", "άκα", "lava", "neck", "I say", "lacquer" ];
+tableAbcd["greek"]["sound"]["μ"] = [ "μ", "μ", "μ", "μ", "μ", " ", " ", " ", " ", " ", "ῆλο", "οῦ", "πρός", "ά", "άζα", "apple", "me", "forward", "but, however", "mass" ];
+tableAbcd["greek"]["sound"]["ν"] = [ "ν", "ν", "ν", "ν", " ", " ", " ", " ", "αί", "οῦς", "τάμα", "το", "yes", "mind, nous", "lady, checkers", "note do, C, ut" ];
+tableAbcd["greek"]["sound"]["ξ"] = [ "ξ", "ξ", "ξ", " ", " ", " ", "ύλο", "ηρά", "ανθή", "wood", "land", "blond, blonde" ];
+tableAbcd["greek"]["sound"]["ο"] = [ "ὁ", "ο", "ο", "ό", "ὄ", " ", " ", " ", " ", " ", "δός", "ἶκος", "υχί", "χι", "ν", "street", "house, home", "no", "no, not, non", "being" ];
+tableAbcd["greek"]["sound"]["π"] = [ "π", "π", "π", "π", " ", " ", " ", " ", "ιά", "ανί", "άλη", "έδη", "no more", "cloth", "fight", "fetters, clog" ];
+tableAbcd["greek"]["sound"]["ρ"] = [ "ρ", "ρ", "ρ", " ", " ", "άγ", "έμα", "οῦς", "α", "stream", "flow", "hunt" ];
+tableAbcd["greek"]["sound"]["σ"] = [ "σ", "σ", "σ", " ", " ", " ", "ύ", "ύν", "ούπα", "thou", "with", "soup" ];
+tableAbcd["greek"]["sound"]["τ"] = [ "τ", "τ", "τ", " ", " ", "ά", "ρεῖς", "ί", "ι", "three", "what", "etc." ];
+tableAbcd["greek"]["sound"]["υ"] = [ "ὑ", "ὐ", "ὕ", "ύ", "ὐ", "ὖ", " ", "ε", " ", "λ", "α", "ε", "πό", "ρύς", "δωρ", "σσα", "λή", " ", "under", "wide", "water", "rage", "court", "good" ];
+tableAbcd["greek"]["sound"]["φ"] = [ "φ", "φ", "φ", " ", " ", " ", "άβα", "ήμη", "άκα", "peas", "fame, rumour", "trap" ];
+tableAbcd["greek"]["sound"]["χ"] = [ "χ", "χ", "χ", "χ", " ", " ", " ", " ", "έρι", "αρά", "άρη", "θές", "hand", "joy", "grace", "yesterday" ];
+tableAbcd["greek"]["sound"]["ψ"] = [ "ψ", "ψ", "ψ", "ψ", " ", " ", " ", " ", "άρι", "ωμί", "έμα", "ές", "fish", "bread", "lies", "last night" ];
+tableAbcd["greek"]["sound"]["ω"] = [ "ὤ", "ὠ", "ὡ", " ", " ", " ", "ρα", "μά", "ς", "hour", "raw, blunt", "as" ];
 
 // Georgian Linear Table
 tableAbcd["georgian"]["linear"] = '<tr>\
@@ -560,49 +559,49 @@ tableAbcd["abjadi"]["axial"] = '<tr>\
 
 // Runes Linear Table (younger futhark)
 tableAbcd["runes"]["linear"] = '<tr>\
-<td><button style="color:red" onclick="speakLetter(\'ᛅ\')"><div class="relative"><div id="ᛅPre"></div>ᛅ<div id="ᛅUnder"></div><div id="ᛅPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛒ\')"><div class="relative"><div id="ᛒPre"></div>ᛒ<div id="ᛒUnder"></div><div id="ᛒPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚦ\')"><div class="relative"><div id="ᚦPre"></div>ᚦ<div id="ᚦUnder"></div><div id="ᚦPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᛅ\')"><div class="relative"><div id="ᛅPre"></div><div id="ᛅLetter">ᛅ</div><div id="ᛅUnder"></div><div id="ᛅPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛒ\')"><div class="relative"><div id="ᛒPre"></div><div id="ᛒLetter">ᛒ</div><div id="ᛒUnder"></div><div id="ᛒPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚦ\')"><div class="relative"><div id="ᚦPre"></div><div id="ᚦLetter">ᚦ</div><div id="ᚦUnder"></div><div id="ᚦPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'ᛁ\')"><div class="relative"><div id="ᛁPre"></div>ᛁ<div id="ᛁUnder"></div><div id="ᛁPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚴ\')"><div class="relative"><div id="ᚴPre"></div>ᚴ<div id="ᚴUnder"></div><div id="ᚴPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛚ\')"><div class="relative"><div id="ᛚPre"></div>ᛚ<div id="ᛚUnder"></div><div id="ᛚPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛘ\')"><div class="relative"><div id="ᛘPre"></div>ᛘ<div id="ᛘUnder"></div><div id="ᛘPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚾ\')"><div class="relative"><div id="ᚾPre"></div>ᚾ<div id="ᚾUnder"></div><div id="ᚾPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᛁ\')"><div class="relative"><div id="ᛁPre"></div><div id="ᛁLetter">ᛁ</div><div id="ᛁUnder"></div><div id="ᛁPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚴ\')"><div class="relative"><div id="ᚴPre"></div><div id="ᚴLetter">ᚴ</div><div id="ᚴUnder"></div><div id="ᚴPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛚ\')"><div class="relative"><div id="ᛚPre"></div><div id="ᛚLetter">ᛚ</div><div id="ᛚUnder"></div><div id="ᛚPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛘ\')"><div class="relative"><div id="ᛘPre"></div><div id="ᛘLetter">ᛘ</div><div id="ᛘUnder"></div><div id="ᛘPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚾ\')"><div class="relative"><div id="ᚾPre"></div><div id="ᚾLetter">ᚾ</div><div id="ᚾUnder"></div><div id="ᚾPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'ᚬ\')"><div class="relative"><div id="ᚬPre"></div>ᚬ<div id="ᚬUnder"></div><div id="ᚬPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛦ\')"><div class="relative"><div id="ᛦPre"></div>ᛦ<div id="ᛦUnder"></div><div id="ᛦPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚱ\')"><div class="relative"><div id="ᚱPre"></div>ᚱ<div id="ᚱUnder"></div><div id="ᚱPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛋ\')"><div class="relative"><div id="ᛋPre"></div>ᛋ<div id="ᛋUnder"></div><div id="ᛋPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛏ\')"><div class="relative"><div id="ᛏPre"></div>ᛏ<div id="ᛏUnder"></div><div id="ᛏPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᚬ\')"><div class="relative"><div id="ᚬPre"></div><div id="ᚬLetter">ᚬ</div><div id="ᚬUnder"></div><div id="ᚬPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛦ\')"><div class="relative"><div id="ᛦPre"></div><div id="ᛦLetter">ᛦ</div><div id="ᛦUnder"></div><div id="ᛦPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚱ\')"><div class="relative"><div id="ᚱPre"></div><div id="ᚱLetter">ᚱ</div><div id="ᚱUnder"></div><div id="ᚱPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛋ\')"><div class="relative"><div id="ᛋPre"></div><div id="ᛋLetter">ᛋ</div><div id="ᛋUnder"></div><div id="ᛋPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛏ\')"><div class="relative"><div id="ᛏPre"></div><div id="ᛏLetter">ᛏ</div><div id="ᛏUnder"></div><div id="ᛏPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'ᚢ\')"><div class="relative"><div id="ᚢPre"></div>ᚢ<div id="ᚢUnder"></div><div id="ᚢPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚠ\')"><div class="relative"><div id="ᚠPre"></div>ᚠ<div id="ᚠUnder"></div><div id="ᚠPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚼ\')"><div class="relative"><div id="ᚼPre"></div>ᚼ<div id="ᚼUnder"></div><div id="ᚼPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᚢ\')"><div class="relative"><div id="ᚢPre"></div><div id="ᚢLetter">ᚢ</div><div id="ᚢUnder"></div><div id="ᚢPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚠ\')"><div class="relative"><div id="ᚠPre"></div><div id="ᚠLetter">ᚠ</div><div id="ᚠUnder"></div><div id="ᚠPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚼ\')"><div class="relative"><div id="ᚼPre"></div><div id="ᚼLetter">ᚼ</div><div id="ᚼUnder"></div><div id="ᚼPost"></div></div></button></td>\
 </tr><tr>\
 </tr></table>';
 
 // Runes Axial Table (younger futhark)
 tableAbcd["runes"]["axial"] = '<tr>\
-<td colspan="5" align="center"><button style="color:red" onclick="speakLetter(\'ᛅ\')"><div class="relative"><div id="ᛅPre"></div>ᛅ<div id="ᛅUnder"></div><div id="ᛅPost"></div></div></button></td>\
+<td colspan="5" align="center"><button style="color:red" onclick="speakLetter(\'ᛅ\')"><div class="relative"><div id="ᛅPre"></div><div id="ᛅLetter">ᛅ</div><div id="ᛅUnder"></div><div id="ᛅPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:black" onclick="speakLetter(\'ᛒ\')"><div class="relative"><div id="ᛒPre"></div>ᛒ<div id="ᛒUnder"></div><div id="ᛒPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚦ\')"><div class="relative"><div id="ᚦPre"></div>ᚦ<div id="ᚦUnder"></div><div id="ᚦPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ᛁ\')"><div class="relative"><div id="ᛁPre"></div>ᛁ<div id="ᛁUnder"></div><div id="ᛁPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚴ\')"><div class="relative"><div id="ᚴPre"></div>ᚴ<div id="ᚴUnder"></div><div id="ᚴPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛚ\')"><div class="relative"><div id="ᛚPre"></div>ᛚ<div id="ᛚUnder"></div><div id="ᛚPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛒ\')"><div class="relative"><div id="ᛒPre"></div><div id="ᛒLetter">ᛒ</div><div id="ᛒUnder"></div><div id="ᛒPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚦ\')"><div class="relative"><div id="ᚦPre"></div><div id="ᚦLetter">ᚦ</div><div id="ᚦUnder"></div><div id="ᚦPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᛁ\')"><div class="relative"><div id="ᛁPre"></div><div id="ᛁLetter">ᛁ</div><div id="ᛁUnder"></div><div id="ᛁPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚴ\')"><div class="relative"><div id="ᚴPre"></div><div id="ᚴLetter">ᚴ</div><div id="ᚴUnder"></div><div id="ᚴPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛚ\')"><div class="relative"><div id="ᛚPre"></div><div id="ᛚLetter">ᛚ</div><div id="ᛚUnder"></div><div id="ᛚPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:black" onclick="speakLetter(\'ᛘ\')"><div class="relative"><div id="ᛘPre"></div>ᛘ<div id="ᛘUnder"></div><div id="ᛘPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚾ\')"><div class="relative"><div id="ᚾPre"></div>ᚾ<div id="ᚾUnder"></div><div id="ᚾPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ᚬ\')"><div class="relative"><div id="ᚬPre"></div>ᚬ<div id="ᚬUnder"></div><div id="ᚬPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛦ\')"><div class="relative"><div id="ᛦPre"></div>ᛦ<div id="ᛦUnder"></div><div id="ᛦPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚱ\')"><div class="relative"><div id="ᚱPre"></div>ᚱ<div id="ᚱUnder"></div><div id="ᚱPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛘ\')"><div class="relative"><div id="ᛘPre"></div><div id="ᛘLetter">ᛘ</div><div id="ᛘUnder"></div><div id="ᛘPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚾ\')"><div class="relative"><div id="ᚾPre"></div><div id="ᚾLetter">ᚾ</div><div id="ᚾUnder"></div><div id="ᚾPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᚬ\')"><div class="relative"><div id="ᚬPre"></div><div id="ᚬLetter">ᚬ</div><div id="ᚬUnder"></div><div id="ᚬPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛦ\')"><div class="relative"><div id="ᛦPre"></div><div id="ᛦLetter">ᛦ</div><div id="ᛦUnder"></div><div id="ᛦPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚱ\')"><div class="relative"><div id="ᚱPre"></div><div id="ᚱLetter">ᚱ</div><div id="ᚱUnder"></div><div id="ᚱPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:black" onclick="speakLetter(\'ᛋ\')"><div class="relative"><div id="ᛋPre"></div>ᛋ<div id="ᛋUnder"></div><div id="ᛋPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛏ\')"><div class="relative"><div id="ᛏPre"></div>ᛏ<div id="ᛏUnder"></div><div id="ᛏPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ᚢ\')"><div class="relative"><div id="ᚢPre"></div>ᚢ<div id="ᚢUnder"></div><div id="ᚢPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚠ\')"><div class="relative"><div id="ᚠPre"></div>ᚠ<div id="ᚠUnder"></div><div id="ᚠPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚼ\')"><div class="relative"><div id="ᚼPre"></div>ᚼ<div id="ᚼUnder"></div><div id="ᚼPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛋ\')"><div class="relative"><div id="ᛋPre"></div><div id="ᛋLetter">ᛋ</div><div id="ᛋUnder"></div><div id="ᛋPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛏ\')"><div class="relative"><div id="ᛏPre"></div><div id="ᛏLetter">ᛏ</div><div id="ᛏUnder"></div><div id="ᛏPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᚢ\')"><div class="relative"><div id="ᚢPre"></div><div id="ᚢLetter">ᚢ</div><div id="ᚢUnder"></div><div id="ᚢPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚠ\')"><div class="relative"><div id="ᚠPre"></div><div id="ᚠLetter">ᚠ</div><div id="ᚠUnder"></div><div id="ᚠPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚼ\')"><div class="relative"><div id="ᚼPre"></div><div id="ᚼLetter">ᚼ</div><div id="ᚼUnder"></div><div id="ᚼPost"></div></div></button></td>\
 </tr></table>';
 
 // Runes Sound Correspondence (younger futhark)
@@ -615,7 +614,7 @@ tableAbcd["runes"]["sound"]["ᚴ"] = [ "ᚴ", " ", "ᚢᚾᚦ", "kynd (heat)" ];
 tableAbcd["runes"]["sound"]["ᛚ"] = [ "ᛚ", " ", "ᚬᚴᚱ", "lögr (liquid)" ];
 tableAbcd["runes"]["sound"]["ᛘ"] = [ "ᛘ", " ", "ᛅᚦᚱ", "mathr (man)" ];
 tableAbcd["runes"]["sound"]["ᚾ"] = [ "ᚾ", " ", "ᛦᚬᛏᛅ", "njota (enjoy)" ];
-tableAbcd["runes"]["sound"]["ᚬ"] = [ "ᚬ", " ", " ", "ᚴ", "ᚴᛋᚢᛚ", "ok (and)", "öxull (axis, axle)" ];
+tableAbcd["runes"]["sound"]["ᚬ"] = [ "ᚬ", "ᚬ", " ", " ", "ᚴ", "ᚴᛋᚢᛚ", "ok (and)", "öxull (axis, axle)" ];
 tableAbcd["runes"]["sound"]["ᛦ"] = [ "ᛦ", " ", "ᚢ", "yew (yew)" ];
 tableAbcd["runes"]["sound"]["ᚱ"] = [ "ᚱ", " ", "ᛁᚦᛅ", "riða (ride)" ];
 tableAbcd["runes"]["sound"]["ᛋ"] = [ "ᛋ", " ", "ᚬᛚ", "sól (sun)" ];
@@ -626,53 +625,53 @@ tableAbcd["runes"]["sound"]["ᚼ"] = [ "ᚼ", " ", "ᛅᚴᛚ", "hagl (hail)" ];
 
 // Runes Linear Table (bornholm)
 tableAbcd["runes-bornholm"]["linear"] = '<tr>\
-<td><button style="color:red" onclick="speakLetter(\'ᛆ\')"><div class="relative"><div id="ᛆPre"></div>ᛆ<div id="ᛆUnder"></div><div id="ᛆPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'ᛒ\')"><div class="relative"><div id="ᛒPre"></div>ᛒ<div id="ᛒUnder"></div><div id="ᛒPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚦ\')"><div class="relative"><div id="ᚦPre"></div>ᚦ<div id="ᚦUnder"></div><div id="ᚦPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᛆ\')"><div class="relative"><div id="ᛆPre"></div><div id="ᛆLetter">ᛆ</div><div id="ᛆUnder"></div><div id="ᛆPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'ᛒ\')"><div class="relative"><div id="ᛒPre"></div><div id="ᛒLetter">ᛒ</div><div id="ᛒUnder"></div><div id="ᛒPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚦ\')"><div class="relative"><div id="ᚦPre"></div><div id="ᚦLetter">ᚦ</div><div id="ᚦUnder"></div><div id="ᚦPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'ᛂ\')"><div class="relative"><div id="ᛂPre"></div>ᛂ<div id="ᛂUnder"></div><div id="ᛂPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'ᚠ\')"><div class="relative"><div id="ᚠPre"></div>ᚠ<div id="ᚠUnder"></div><div id="ᚠPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚵ\')"><div class="relative"><div id="ᚵPre"></div>ᚵ<div id="ᚵUnder"></div><div id="ᚵPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚼ\')"><div class="relative"><div id="ᚼPre"></div>ᚼ<div id="ᚼUnder"></div><div id="ᚼPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᛂ\')"><div class="relative"><div id="ᛂPre"></div><div id="ᛂLetter">ᛂ</div><div id="ᛂUnder"></div><div id="ᛂPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'ᚠ\')"><div class="relative"><div id="ᚠPre"></div><div id="ᚠLetter">ᚠ</div><div id="ᚠUnder"></div><div id="ᚠPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚵ\')"><div class="relative"><div id="ᚵPre"></div><div id="ᚵLetter">ᚵ</div><div id="ᚵUnder"></div><div id="ᚵPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚼ\')"><div class="relative"><div id="ᚼPre"></div><div id="ᚼLetter">ᚼ</div><div id="ᚼUnder"></div><div id="ᚼPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'ᛁ\')"><div class="relative"><div id="ᛁPre"></div>ᛁ<div id="ᛁUnder"></div><div id="ᛁPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚴ\')"><div class="relative"><div id="ᚴPre"></div>ᚴ<div id="ᚴUnder"></div><div id="ᚴPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛚ\')"><div class="relative"><div id="ᛚPre"></div>ᛚ<div id="ᛚUnder"></div><div id="ᛚPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'ᛘ\')"><div class="relative"><div id="ᛘPre"></div>ᛘ<div id="ᛘUnder"></div><div id="ᛘPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚿ\')"><div class="relative"><div id="ᚿPre"></div>ᚿ<div id="ᚿUnder"></div><div id="ᚿPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᛁ\')"><div class="relative"><div id="ᛁPre"></div><div id="ᛁLetter">ᛁ</div><div id="ᛁUnder"></div><div id="ᛁPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚴ\')"><div class="relative"><div id="ᚴPre"></div><div id="ᚴLetter">ᚴ</div><div id="ᚴUnder"></div><div id="ᚴPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛚ\')"><div class="relative"><div id="ᛚPre"></div><div id="ᛚLetter">ᛚ</div><div id="ᛚUnder"></div><div id="ᛚPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'ᛘ\')"><div class="relative"><div id="ᛘPre"></div><div id="ᛘLetter">ᛘ</div><div id="ᛘUnder"></div><div id="ᛘPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚿ\')"><div class="relative"><div id="ᚿPre"></div><div id="ᚿLetter">ᚿ</div><div id="ᚿUnder"></div><div id="ᚿPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'ᚮ\')"><div class="relative"><div id="ᚮPre"></div>ᚮ<div id="ᚮUnder"></div><div id="ᚮPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚱ\')"><div class="relative"><div id="ᚱPre"></div>ᚱ<div id="ᚱUnder"></div><div id="ᚱPost"></div></div></button></td>\
-<td><button style="color:brown" onclick="speakLetter(\'ᛦ\')"><div class="relative"><div id="ᛦPre"></div>ᛦ<div id="ᛦUnder"></div><div id="ᛦPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛋ\')"><div class="relative"><div id="ᛋPre"></div>ᛋ<div id="ᛋUnder"></div><div id="ᛋPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛏ\')"><div class="relative"><div id="ᛏPre"></div>ᛏ<div id="ᛏUnder"></div><div id="ᛏPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'ᚢ\')"><div class="relative"><div id="ᚢPre"></div>ᚢ<div id="ᚢUnder"></div><div id="ᚢPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᚮ\')"><div class="relative"><div id="ᚮPre"></div><div id="ᚮLetter">ᚮ</div><div id="ᚮUnder"></div><div id="ᚮPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚱ\')"><div class="relative"><div id="ᚱPre"></div><div id="ᚱLetter">ᚱ</div><div id="ᚱUnder"></div><div id="ᚱPost"></div></div></button></td>\
+<td><button style="color:brown" onclick="speakLetter(\'ᛦ\')"><div class="relative"><div id="ᛦPre"></div><div id="ᛦLetter">ᛦ</div><div id="ᛦUnder"></div><div id="ᛦPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛋ\')"><div class="relative"><div id="ᛋPre"></div><div id="ᛋLetter">ᛋ</div><div id="ᛋUnder"></div><div id="ᛋPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛏ\')"><div class="relative"><div id="ᛏPre"></div><div id="ᛏLetter">ᛏ</div><div id="ᛏUnder"></div><div id="ᛏPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'ᚢ\')"><div class="relative"><div id="ᚢPre"></div><div id="ᚢLetter">ᚢ</div><div id="ᚢUnder"></div><div id="ᚢPost"></div></div></button></td>\
 </tr></table>';
 
 // Runes Axial Table (bornholm)
 tableAbcd["runes-bornholm"]["axial"] = '<tr>\
-<td colspan="7" align="center"><button style="color:red" onclick="speakLetter(\'ᛆ\')"><div class="relative"><div id="ᛆPre"></div>ᛆ<div id="ᛆUnder"></div><div id="ᛆPost"></div></div></button></td>\
+<td colspan="7" align="center"><button style="color:red" onclick="speakLetter(\'ᛆ\')"><div class="relative"><div id="ᛆPre"></div><div id="ᛆLetter">ᛆ</div><div id="ᛆUnder"></div><div id="ᛆPost"></div></div></button></td>\
 </tr><tr><td></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛒ\')"><div class="relative"><div id="ᛒPre"></div>ᛒ<div id="ᛒUnder"></div><div id="ᛒPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚦ\')"><div class="relative"><div id="ᚦPre"></div>ᚦ<div id="ᚦUnder"></div><div id="ᚦPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ᛂ\')"><div class="relative"><div id="ᛂPre"></div>ᛂ<div id="ᛂUnder"></div><div id="ᛂPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚠ\')"><div class="relative"><div id="ᚠPre"></div>ᚠ<div id="ᚠUnder"></div><div id="ᚠPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚵ\')"><div class="relative"><div id="ᚵPre"></div>ᚵ<div id="ᚵUnder"></div><div id="ᚵPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛒ\')"><div class="relative"><div id="ᛒPre"></div><div id="ᛒLetter">ᛒ</div><div id="ᛒUnder"></div><div id="ᛒPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚦ\')"><div class="relative"><div id="ᚦPre"></div><div id="ᚦLetter">ᚦ</div><div id="ᚦUnder"></div><div id="ᚦPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᛂ\')"><div class="relative"><div id="ᛂPre"></div><div id="ᛂLetter">ᛂ</div><div id="ᛂUnder"></div><div id="ᛂPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚠ\')"><div class="relative"><div id="ᚠPre"></div><div id="ᚠLetter">ᚠ</div><div id="ᚠUnder"></div><div id="ᚠPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚵ\')"><div class="relative"><div id="ᚵPre"></div><div id="ᚵLetter">ᚵ</div><div id="ᚵUnder"></div><div id="ᚵPost"></div></div></button></td>\
 <td></td></tr><tr><td colspan="2"></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚼ\')"><div class="relative"><div id="ᚼPre"></div>ᚼ<div id="ᚼUnder"></div><div id="ᚼPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ᛁ\')"><div class="relative"><div id="ᛁPre"></div>ᛁ<div id="ᛁUnder"></div><div id="ᛁPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚴ\')"><div class="relative"><div id="ᚴPre"></div>ᚴ<div id="ᚴUnder"></div><div id="ᚴPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚼ\')"><div class="relative"><div id="ᚼPre"></div><div id="ᚼLetter">ᚼ</div><div id="ᚼUnder"></div><div id="ᚼPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᛁ\')"><div class="relative"><div id="ᛁPre"></div><div id="ᛁLetter">ᛁ</div><div id="ᛁUnder"></div><div id="ᛁPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚴ\')"><div class="relative"><div id="ᚴPre"></div><div id="ᚴLetter">ᚴ</div><div id="ᚴUnder"></div><div id="ᚴPost"></div></div></button></td>\
 <td colspan="2"></td></tr><tr>\
-<td><button style="color:black" onclick="speakLetter(\'ᛚ\')"><div class="relative"><div id="ᛚPre"></div>ᛚ<div id="ᛚUnder"></div><div id="ᛚPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛘ\')"><div class="relative"><div id="ᛘPre"></div>ᛘ<div id="ᛘUnder"></div><div id="ᛘPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚿ\')"><div class="relative"><div id="ᚿPre"></div>ᚿ<div id="ᚿUnder"></div><div id="ᚿPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ᚮ\')"><div class="relative"><div id="ᚮPre"></div>ᚮ<div id="ᚮUnder"></div><div id="ᚮPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚱ\')"><div class="relative"><div id="ᚱPre"></div>ᚱ<div id="ᚱUnder"></div><div id="ᚱPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛦ\')"><div class="relative"><div id="ᛦPre"></div>ᛦ<div id="ᛦUnder"></div><div id="ᛦPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛋ\')"><div class="relative"><div id="ᛋPre"></div>ᛋ<div id="ᛋUnder"></div><div id="ᛋPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛚ\')"><div class="relative"><div id="ᛚPre"></div><div id="ᛚLetter">ᛚ</div><div id="ᛚUnder"></div><div id="ᛚPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛘ\')"><div class="relative"><div id="ᛘPre"></div><div id="ᛘLetter">ᛘ</div><div id="ᛘUnder"></div><div id="ᛘPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚿ\')"><div class="relative"><div id="ᚿPre"></div><div id="ᚿLetter">ᚿ</div><div id="ᚿUnder"></div><div id="ᚿPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᚮ\')"><div class="relative"><div id="ᚮPre"></div><div id="ᚮLetter">ᚮ</div><div id="ᚮUnder"></div><div id="ᚮPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚱ\')"><div class="relative"><div id="ᚱPre"></div><div id="ᚱLetter">ᚱ</div><div id="ᚱUnder"></div><div id="ᚱPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛦ\')"><div class="relative"><div id="ᛦPre"></div><div id="ᛦLetter">ᛦ</div><div id="ᛦUnder"></div><div id="ᛦPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛋ\')"><div class="relative"><div id="ᛋPre"></div><div id="ᛋLetter">ᛋ</div><div id="ᛋUnder"></div><div id="ᛋPost"></div></div></button></td>\
 </tr><tr><td colspan="2"></td><td colspan="3" align="center">\
-<button style="color:black" onclick="speakLetter(\'ᛏ\')"><div class="relative"><div id="ᛏPre"></div>ᛏ<div id="ᛏUnder"></div><div id="ᛏPost"></div></div></button>\
-<button style="color:black" onclick="speakLetter(\'ᚢ\')"><div class="relative"><div id="ᚢPre"></div>ᚢ<div id="ᚢUnder"></div><div id="ᚢPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'ᛏ\')"><div class="relative"><div id="ᛏPre"></div><div id="ᛏLetter">ᛏ</div><div id="ᛏUnder"></div><div id="ᛏPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'ᚢ\')"><div class="relative"><div id="ᚢPre"></div><div id="ᚢLetter">ᚢ</div><div id="ᚢUnder"></div><div id="ᚢPost"></div></div></button>\
 </td><td colspan="2"></td></tr></table>';
 
 // Runes Sound Correspondence (bornholm)
@@ -689,8 +688,8 @@ tableAbcd["runes-bornholm"]["sound"]["ᚴ"] = [ "ᚴ", " ", "ᚢᚿᚦ", "kynd (
 tableAbcd["runes-bornholm"]["sound"]["ᛚ"] = [ "ᛚ", " ", "ᚮᚴᚱ", "lögr (liquid)" ];
 tableAbcd["runes-bornholm"]["sound"]["ᛘ"] = [ "ᛘ", " ", "ᛆᚦᚱ", "mathr (man)" ];
 tableAbcd["runes-bornholm"]["sound"]["ᚿ"] = [ "ᚿ", " ", "ᛦᚮᛏᛆ", "njota (enjoy)" ];
-tableAbcd["runes-bornholm"]["sound"]["ᚮ"] = [ "ᚮ", " ", " ", "ᚴ", "ᚴᛋᚢᛚ", "ok (and)", "öxull (axis, axle)" ];
-tableAbcd["runes-bornholm"]["sound"]["ᚱ"] = [ "ᚱ", " ", " ", "ᛂᛁᚦ", "ᛁᚦᛆ", "reið (angry)", "riða (ride)" ];
+tableAbcd["runes-bornholm"]["sound"]["ᚮ"] = [ "ᚮ", "ᚮ", " ", " ", "ᚴ", "ᚴᛋᚢᛚ", "ok (and)", "öxull (axis, axle)" ];
+tableAbcd["runes-bornholm"]["sound"]["ᚱ"] = [ "ᚱ", "ᚱ", " ", " ", "ᛂᛁᚦ", "ᛁᚦᛆ", "reið (angry)", "riða (ride)" ];
 tableAbcd["runes-bornholm"]["sound"]["ᛦ"] = [ "ᛦ", " ", "ᚢ", "yew (yew)" ];
 tableAbcd["runes-bornholm"]["sound"]["ᛋ"] = [ "ᛋ", " ", "ᚮᛚ", "sól (sun)" ];
 tableAbcd["runes-bornholm"]["sound"]["ᛏ"] = [ "ᛏ", " ", "ᚢᚱ", "týr (tyr)" ];
@@ -983,7 +982,7 @@ function speakLetter(letter) {
         else speakLanguage = language + '-' + variant;
 
     if (lastSpoken["symbol"] == letter) { lastSpoken["count"]++;
-        if (lastSpoken["count"] > (tableAbcd[speakLanguage]["sound"][letter].length / 3)) lastSpoken["count"] = 1 ;
+        if (lastSpoken["count"] > (tableAbcd[speakLanguage]["sound"][letter].length / 4)) lastSpoken["count"] = 1 ;
     } else { lastSpoken["count"] = 1 }
     lastSpoken["symbol"] = letter;
 
@@ -997,17 +996,24 @@ function speakLetter(letter) {
             if (font == "enhandwritten" || font == "enlowerhand" || font == "ruhandwritten" || font == "rulowerhand" ) textstroke = 0;
                 else if (language == "runes") textstroke = 1;
                     else textstroke = 2;
-            document.getElementById(letter + "Pre").innerHTML = '<div style="position: absolute; text-transform: lowercase; left: -' + (((tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"]].length - 1) * 15) + 5) + 'px; top: 0px; font-weight: 900; color: gray; -webkit-text-fill-color: gray; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"]] + '</div>';
-            document.getElementById(letter + "Post").innerHTML = '<div style="position: absolute; text-transform: lowercase; left: 30px; top: 0px; font-weight: 900; color: gray; -webkit-text-fill-color: gray; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + ( tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"] + ((tableAbcd[speakLanguage]["sound"][letter].length - 1) / 3)] ) + '</div>';
-            if (tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"] + ((tableAbcd[speakLanguage]["sound"][letter].length - 1) / 3) * 2].length > 0) {
+            document.getElementById(letter + "Pre").innerHTML = '<div style="position: absolute; text-transform: lowercase; left: -' + (((tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) - 1) + lastSpoken["count"]].length - 1) * 15) + 5) + 'px; top: 0px; font-weight: 900; color: gray; -webkit-text-fill-color: gray; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) - 1) + lastSpoken["count"]] + '</div>';
+            document.getElementById(letter + "Letter").innerHTML = tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"] - 1];
+            document.getElementById(letter + "Post").innerHTML = '<div style="position: absolute; text-transform: lowercase; left: 30px; top: 0px; font-weight: 900; color: gray; -webkit-text-fill-color: gray; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + ( tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"] + (((tableAbcd[speakLanguage]["sound"][letter].length / 4) * 2) - 1)] ) + '</div>';
+            
+            // lastSpoken["count"] + ((tableAbcd[speakLanguage]["sound"][letter].length - 1) / 3) * 2
+            // (((tableAbcd[speakLanguage]["sound"][letter].length / 4) * 3) - 1)
+            // ((tableAbcd[speakLanguage]["sound"][letter].length / 4) * 3) - 1 + lastSpoken["count"]
+
+            if (tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) * 3) - 1 + lastSpoken["count"]].length > 0) {
                 var bracketLeft = "(";
                 var bracketRight = ")";
-                var underLeft = ( tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"] + ((tableAbcd[speakLanguage]["sound"][letter].length - 1) / 3) * 2].length ) * -2;
+                var underLeft = ( tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) * 3) - 1 + lastSpoken["count"]].length ) * -2;
                 if (textstroke == 0) var underText = ""; else var underText = "-webkit-text-stroke-width: 1px; -webkit-text-stroke-color: white;";
-                document.getElementById(letter + "Under").innerHTML = '<div style="position: absolute; white-space: nowrap; font-size: 16px; text-transform: none; left: ' + underLeft + 'px; top: 30px; font-weight: 900; color: gray; ' + underText + ' z-index: 10;">' + bracketLeft + ( tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"] + ((tableAbcd[speakLanguage]["sound"][letter].length - 1) / 3) * 2] ) + bracketRight + '</div>';
+                document.getElementById(letter + "Under").innerHTML = '<div style="position: absolute; white-space: nowrap; font-size: 16px; text-transform: none; left: ' + underLeft + 'px; top: 30px; font-weight: 900; color: gray; ' + underText + ' z-index: 10;">' + bracketLeft + ( tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) * 3) - 1 + lastSpoken["count"]] ) + bracketRight + '</div>';
             }
-            sleep(500 + ((tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"]].length + tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"] + ((tableAbcd[speakLanguage]["sound"][letter].length - 1) / 3)].length + 1) * 100)).then(() => {
+            sleep(500 + ((tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) - 1) + lastSpoken["count"]].length + tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"] + (((tableAbcd[speakLanguage]["sound"][letter].length / 4) * 2) - 1)].length + 1) * 100)).then(() => {
                 document.getElementById(letter + "Pre").innerHTML = "";
+                document.getElementById(letter + "Letter").innerHTML = letter;
                 document.getElementById(letter + "Post").innerHTML = "";
                 document.getElementById(letter + "Under").innerHTML = "";
             });
