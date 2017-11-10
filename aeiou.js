@@ -93,32 +93,32 @@ tableAbcd["english"]["axial"] = '<tr>\
 
 // English Sound Correspondence
 tableAbcd["english"]["sound"] = {};
-tableAbcd["english"]["sound"]["a"] = [ "a", "c", " ", "c", "c", "t", "pe", "r", "ll", " ", " ", " ", " " ];
-tableAbcd["english"]["sound"]["b"] = [ "b", " ", "la", "lam", "ee", " ", " ", " ", " ", " " ];
-tableAbcd["english"]["sound"]["c"] = [ "c", " ", " ", " ", "ity", "at", "hip", " ", " ", " " ];
-tableAbcd["english"]["sound"]["d"] = [ "d", " ", " ", "o", "eep", " ", " " ];
-tableAbcd["english"]["sound"]["e"] = [ "e", "b", "b", "s", "s", "sw", "sw", "hom", "d", "d", " ", "t", "e", "a", "et", "at", " ", "ar", "al", " ", " ", " ", " ", " ", " ", " ", " ", " " ];
-tableAbcd["english"]["sound"]["f"] = [ "f", " ", " ", "eel", "ly", " ", " " ];
-tableAbcd["english"]["sound"]["g"] = [ "g", " ", " ", "bri", "ood", "ene", "ht", " ", " ", " " ];
-tableAbcd["english"]["sound"]["h"] = [ "h", " ", " ", "igh", "ot", " ", " " ];
-tableAbcd["english"]["sound"]["i"] = [ "i", "b", "b", "t", "te", " ", " " ];
-tableAbcd["english"]["sound"]["j"] = [ "j", " ", "oy", " " ];
-tableAbcd["english"]["sound"]["k"] = [ "k", " ", " ", "id", "night", " ", " " ];
-tableAbcd["english"]["sound"]["l"] = [ "l", " ", " ", "he", "ive", "ive", "lo", " ", " ", " " ];
-tableAbcd["english"]["sound"]["m"] = [ "m", " ", " ", "ama", "e", " ", " " ];
-tableAbcd["english"]["sound"]["n"] = [ "n", " ", " ", "k", "ew", "o", "ow", " ", " ", " " ];
-tableAbcd["english"]["sound"]["o"] = [ "o", "d", "d", "g", "h", "d", "g", " ", "od", "me", "me", " ", " ", " ", " ", " " ];
-tableAbcd["english"]["sound"]["p"] = [ "p", " ", " ", " ", "ut", "ick", "hone", " ", " ", " " ];
-tableAbcd["english"]["sound"]["q"] = [ "q", " ", " ", " ", "ueen", "uit", "uick", " ", " ", " " ];
-tableAbcd["english"]["sound"]["r"] = [ "r", " ", "a", "ock", "c", " ", " " ];
-tableAbcd["english"]["sound"]["s"] = [ "s", " ", " ", " ", " ", "aw", "ow", "ee", "he", " ", " ", " ", " " ];
-tableAbcd["english"]["sound"]["t"] = [ "t", " ", " ", " ", "ake", "ip", "his", " ", " ", " " ];
-tableAbcd["english"]["sound"]["u"] = [ "u", " ", "b", "se", "s", " ", " " ];
-tableAbcd["english"]["sound"]["v"] = [ "v", " ", "lo", "ow", "e", " ", " " ];
-tableAbcd["english"]["sound"]["w"] = [ "w", " ", " ", "ho", "ne", "hat", "ho", " ", " ", " ", " ", " ", " " ];
-tableAbcd["english"]["sound"]["x"] = [ "x", "e", " ", " ", "enos", " ", " " ];
-tableAbcd["english"]["sound"]["y"] = [ "y", " ", "jo", "e", "wh", "ver", "var", "ou", " ", "e", " ", " ", " ", " ", " ", " ", " ", " ", " " ];
-tableAbcd["english"]["sound"]["z"] = [ "z", " ", "wi", "ip", " ", " ", " " ];
+tableAbcd["english"]["sound"]["a"] = [ "a", "c", " ", "c", "c", "t", "pe", "r", "ll", "", "", "", "" ];
+tableAbcd["english"]["sound"]["b"] = [ "b", " ", "la", "lam", "ee", " ", " ", "", "", "" ];
+tableAbcd["english"]["sound"]["c"] = [ "c", " ", " ", " ", "ity", "at", "hip", "", "", "" ];
+tableAbcd["english"]["sound"]["d"] = [ "d", " ", " ", "o", "eep", "", "" ];
+tableAbcd["english"]["sound"]["e"] = [ "e", "b", "b", "s", "s", "sw", "sw", "hom", "d", "d", " ", "t", "e", "a", "et", "at", " ", "ar", "al", "", "", "", "", "", "", "", "", "" ];
+tableAbcd["english"]["sound"]["f"] = [ "f", " ", " ", "eel", "ly", "", "" ];
+tableAbcd["english"]["sound"]["g"] = [ "g", " ", " ", "bri", "ood", "ene", "ht", "", "", "" ];
+tableAbcd["english"]["sound"]["h"] = [ "h", " ", " ", "igh", "ot", "", "" ];
+tableAbcd["english"]["sound"]["i"] = [ "i", "b", "b", "t", "te", "", "" ];
+tableAbcd["english"]["sound"]["j"] = [ "j", " ", "oy", "" ];
+tableAbcd["english"]["sound"]["k"] = [ "k", " ", " ", "id", "night", "", "" ];
+tableAbcd["english"]["sound"]["l"] = [ "l", " ", " ", "he", "ive", "ive", "lo", "", "", "" ];
+tableAbcd["english"]["sound"]["m"] = [ "m", " ", " ", "ama", "e", "", "" ];
+tableAbcd["english"]["sound"]["n"] = [ "n", " ", " ", "k", "ew", "o", "ow", "", "", "" ];
+tableAbcd["english"]["sound"]["o"] = [ "o", "d", "d", "g", "h", "d", "g", " ", "od", "me", "me", "", "", "", "", "" ];
+tableAbcd["english"]["sound"]["p"] = [ "p", " ", " ", " ", "ut", "ick", "hone", "", "", "" ];
+tableAbcd["english"]["sound"]["q"] = [ "q", " ", " ", " ", "ueen", "uit", "uick", "", "", "" ];
+tableAbcd["english"]["sound"]["r"] = [ "r", " ", "a", "ock", "c", "", "" ];
+tableAbcd["english"]["sound"]["s"] = [ "s", " ", " ", " ", " ", "aw", "ow", "ee", "he", "", "", "", "" ];
+tableAbcd["english"]["sound"]["t"] = [ "t", " ", " ", " ", "ake", "ip", "his", "", "", "" ];
+tableAbcd["english"]["sound"]["u"] = [ "u", " ", "b", "se", "s", "", "" ];
+tableAbcd["english"]["sound"]["v"] = [ "v", " ", "lo", "ow", "e", "", "" ];
+tableAbcd["english"]["sound"]["w"] = [ "w", " ", " ", "ho", "ne", "hat", "ho", " ", " ", "", "", "", "" ];
+tableAbcd["english"]["sound"]["x"] = [ "x", "e", " ", " ", "enos", "", "" ];
+tableAbcd["english"]["sound"]["y"] = [ "y", " ", "jo", "e", "wh", "ver", "var", "ou", " ", "e", " ", " ", " ", "", "", "", "", "", "" ];
+tableAbcd["english"]["sound"]["z"] = [ "z", " ", "wi", "ip", " ", "", "" ];
 
 // Russian Linear Table
 tableAbcd["russian"]["linear"] = '<tr>\
@@ -241,7 +241,7 @@ tableAbcd["russian"]["sound"]["ы"] = [ "ы", "м", "в", "т", " ", " ", " ", "
 tableAbcd["russian"]["sound"]["ь"] = [ "ь", "л", "ос", "ноч", "ден", "вы", " ", " ", " ", "lions", "axis", "night", "day" ];
 tableAbcd["russian"]["sound"]["э"] = [ "э", " ", " ", " ", "то", "хо", "ра", "it", "echo", "era" ];
 tableAbcd["russian"]["sound"]["ю"] = [ "ю", "кл", "кр", "тр", "ч", "к", "к", "key", "crook, hook", "trick" ];
-tableAbcd["russian"]["sound"]["я"] = [ "я", " ", " ", " ", "вол", " ", "рость", "ркость", " ", " I ", "wrath", "brightness", "will" ];
+tableAbcd["russian"]["sound"]["я"] = [ "я", " ", " ", " ", "вол", " ", "рость", "ркость", " ", "I", "wrath", "brightness", "will" ];
 
 // Hebrew Linear Table
 tableAbcd["hebrew"]["linear"] = '<tr>\
@@ -306,70 +306,97 @@ tableAbcd["hebrew"]["axial"] = '<tr>\
 
 // Greek Linear Table
 tableAbcd["greek"]["linear"] = '<tr>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Α‎</button></td>\
-<td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Β</button></td>\
-<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Γ</button></td>\
-<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Δ</button></td>\
+<td><button style="color:red" onclick="speakLetter(\'α\')"><div class="relative"><div id="αPre"></div>Α<div id="αUnder"></div><div id="αPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'β\')"><div class="relative"><div id="βPre"></div>Β<div id="βUnder"></div><div id="βPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'γ\')"><div class="relative"><div id="γPre"></div>Γ<div id="γUnder"></div><div id="γPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'δ\')"><div class="relative"><div id="δPre"></div>Δ<div id="δUnder"></div><div id="δPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Ε</button></td>\
-<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Ζ</button></td>\
-<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Η</button></td>\
-<td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Θ</button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ε\')"><div class="relative"><div id="εPre"></div>Ε<div id="εUnder"></div><div id="εPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'ζ\')"><div class="relative"><div id="ζPre"></div>Ζ<div id="ζUnder"></div><div id="ζPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'η\')"><div class="relative"><div id="ηPre"></div>Η<div id="ηUnder"></div><div id="ηPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'θ\')"><div class="relative"><div id="θPre"></div>Θ<div id="θUnder"></div><div id="θPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Ι</button></td>\
-<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Κ</button></td>\
-<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Λ</button></td>\
-<td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Μ</button></td>\
-<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Ν</button></td>\
-<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Ξ</button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ι\')"><div class="relative"><div id="ιPre"></div>Ι<div id="ιUnder"></div><div id="ιPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'κ\')"><div class="relative"><div id="κPre"></div>Κ<div id="κUnder"></div><div id="κPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'λ\')"><div class="relative"><div id="λPre"></div>Λ<div id="λUnder"></div><div id="λPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'μ\')"><div class="relative"><div id="μPre"></div>Μ<div id="μUnder"></div><div id="μPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'ν\')"><div class="relative"><div id="νPre"></div>Ν<div id="νUnder"></div><div id="νPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'ξ\')"><div class="relative"><div id="ξPre"></div>Ξ<div id="ξUnder"></div><div id="ξPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Ο</button></td>\
-<td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Π</button></td>\
-<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Ρ</button></td>\
-<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Σ</button></td>\
-<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Τ</button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ο\')"><div class="relative"><div id="οPre"></div>Ο<div id="οUnder"></div><div id="οPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'π\')"><div class="relative"><div id="πPre"></div>Π<div id="πUnder"></div><div id="πPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'ρ\')"><div class="relative"><div id="ρPre"></div>Ρ<div id="ρUnder"></div><div id="ρPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'σ\')"><div class="relative"><div id="σPre"></div>Σ<div id="σUnder"></div><div id="σPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'τ\')"><div class="relative"><div id="τPre"></div>Τ<div id="τUnder"></div><div id="τPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Υ</button></td>\
-<td><button style="color:blue" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Φ</button></td>\
-<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Χ</button></td>\
-<td><button style="color:green" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Ψ</button></td>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Ω</button></td>\
+<td><button style="color:red" onclick="speakLetter(\'υ\')"><div class="relative"><div id="υPre"></div>Υ<div id="υUnder"></div><div id="υPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'φ\')"><div class="relative"><div id="φPre"></div>Φ<div id="φUnder"></div><div id="φPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'χ\')"><div class="relative"><div id="χPre"></div>Χ<div id="χUnder"></div><div id="χPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'ψ\')"><div class="relative"><div id="ψPre"></div>Ψ<div id="ψUnder"></div><div id="ψPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ω\')"><div class="relative"><div id="ωPre"></div>Ω<div id="ωUnder"></div><div id="ωPost"></div></div></button></td>\
 </tr></table>';
 
 // Greek Axial Table
 tableAbcd["greek"]["axial"] = '<tr>\
-<td colspan="7" align="center"><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Α‎</button></td>\
+<td colspan="7" align="center"><button style="color:red" onclick="speakLetter(\'α\')"><div class="relative"><div id="αPre"></div>Α<div id="αUnder"></div><div id="αPost"></div></div></button></td>\
 </tr><tr><td colspan="2"></td><td colspan="3" align="center">\
-<button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Β</button>\
-<button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Γ</button>\
+<button style="color:black" onclick="speakLetter(\'β\')"><div class="relative"><div id="βPre"></div>Β<div id="βUnder"></div><div id="βPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'γ\')"><div class="relative"><div id="γPre"></div>Γ<div id="γUnder"></div><div id="γPost"></div></div></button>\
 </td><td colspan="2"></td></tr><tr><td colspan="2"></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Δ</button></td>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Ε</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Ζ</button></td>\
+<td><button style="color:black" onclick="speakLetter(\'δ\')"><div class="relative"><div id="δPre"></div>Δ<div id="δUnder"></div><div id="δPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ε\')"><div class="relative"><div id="εPre"></div>Ε<div id="εUnder"></div><div id="εPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ζ\')"><div class="relative"><div id="ζPre"></div>Ζ<div id="ζUnder"></div><div id="ζPost"></div></div></button></td>\
 <td colspan="2"></td></tr><tr><td></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Η</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Θ</button></td>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Ι</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Κ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Λ</button></td>\
+<td><button style="color:black" onclick="speakLetter(\'η\')"><div class="relative"><div id="ηPre"></div>Η<div id="ηUnder"></div><div id="ηPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'θ\')"><div class="relative"><div id="θPre"></div>Θ<div id="θUnder"></div><div id="θPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ι\')"><div class="relative"><div id="ιPre"></div>Ι<div id="ιUnder"></div><div id="ιPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'κ\')"><div class="relative"><div id="κPre"></div>Κ<div id="κUnder"></div><div id="κPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'λ\')"><div class="relative"><div id="λPre"></div>Λ<div id="λUnder"></div><div id="λPost"></div></div></button></td>\
 <td></td></tr><tr>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Μ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Ν</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Ξ</button></td>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Ο</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Π</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Ρ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Σ</button></td>\
+<td><button style="color:black" onclick="speakLetter(\'μ\')"><div class="relative"><div id="μPre"></div>Μ<div id="μUnder"></div><div id="μPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ν\')"><div class="relative"><div id="νPre"></div>Ν<div id="νUnder"></div><div id="νPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ξ\')"><div class="relative"><div id="ξPre"></div>Ξ<div id="ξUnder"></div><div id="ξPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ο\')"><div class="relative"><div id="οPre"></div>Ο<div id="οUnder"></div><div id="οPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'π\')"><div class="relative"><div id="πPre"></div>Π<div id="πUnder"></div><div id="πPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ρ\')"><div class="relative"><div id="ρPre"></div>Ρ<div id="ρUnder"></div><div id="ρPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'σ\')"><div class="relative"><div id="σPre"></div>Σ<div id="σUnder"></div><div id="σPost"></div></div></button></td>\
 </tr><tr><td colspan="2"></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Τ</button></td>\
-<td><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Υ</button></td>\
-<td><button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Φ</button></td>\
+<td><button style="color:black" onclick="speakLetter(\'τ\')"><div class="relative"><div id="τPre"></div>Τ<div id="τUnder"></div><div id="τPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'υ\')"><div class="relative"><div id="υPre"></div>Υ<div id="υUnder"></div><div id="υPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'φ\')"><div class="relative"><div id="φPre"></div>Φ<div id="φUnder"></div><div id="φPost"></div></div></button></td>\
 <td colspan="2"></td></tr><tr><td colspan="2"></td><td colspan="3" align="center">\
-<button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Χ</button>\
-<button style="color:black" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Ψ</button>\
+<button style="color:black" onclick="speakLetter(\'χ\')"><div class="relative"><div id="χPre"></div>Χ<div id="χUnder"></div><div id="χPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'ψ\')"><div class="relative"><div id="ψPre"></div>Ψ<div id="ψUnder"></div><div id="ψPost"></div></div></button>\
 </td><td colspan="2"></td></tr><tr>\
-<td colspan="7" align="center"><button style="color:red" onclick="speak(false, \'english,en-uk\', \'a, e, i, o, u\')">Ω</button></td>\
+<td colspan="7" align="center"><button style="color:red" onclick="speakLetter(\'ω\')"><div class="relative"><div id="ωPre"></div>Ω<div id="ωUnder"></div><div id="ωPost"></div></div></button></td>\
 </tr></table>';
+
+// Greek Sound Correspondence
+tableAbcd["greek"]["sound"] = {};
+tableAbcd["greek"]["sound"]["α"] = [ "ἄ", " ", " ", " ", " ", " ", "βαξ", "λα", "λτ", "ν", "ρμα", "abacus", "alright", "halt", "if", "chariot" ];
+tableAbcd["greek"]["sound"]["β"] = [ "β", " ", " ", " ", "άβα", "άτα", "ρέ", "granny", "cotton", "hey you!" ];
+tableAbcd["greek"]["sound"]["γ"] = [ "γ", " ", " ", " ", "ἐ", "ἐ", " ", "άδος", "ειά", "ϰάζι", "γύς", "ώ", "ῆ", "cod", "hi", "gas, throttle", "near", "I", "earth" ];
+tableAbcd["greek"]["sound"]["δ"] = [ "δ", " ", " ", " ", "άδα", "έ", "εῖ", "torch", "and, but", "should" ];
+tableAbcd["greek"]["sound"]["ε"] = [ "ἔ", " ", " ", " ", "χω", "λα", "ἰ", "I have", "come!", "if" ];
+tableAbcd["greek"]["sound"]["ζ"] = [ "ζ", " ", " ", " ", "ῆν", "άω", "ῶ", "to live", "I eat", "I live" ];
+tableAbcd["greek"]["sound"]["η"] = [ "η", " ", " ", " ", " ", "ώς", "χος", "or", "dawn", "sound" ];
+tableAbcd["greek"]["sound"]["θ"] = [ "θ", " ", " ", " ", "έα", "εά", "έμα", "view", "goddess", "theme" ];
+tableAbcd["greek"]["sound"]["ι"] = [ "ἰ", " ", " ", " ", "δού", "στός", "χϑύς", "take it", "mast", "fish" ];
+tableAbcd["greek"]["sound"]["κ"] = [ "κ", " ", " ", " ", " ", "άδη", "αί", "ακά", "αλά", "bucket", "and", "bad", "good" ];
+tableAbcd["greek"]["sound"]["λ"] = [ "λ", " ", " ", " ", " ", "άβα", "αιμά", "έω", "άκα", "lava", "neck", "I say", "lacquer" ];
+tableAbcd["greek"]["sound"]["μ"] = [ "μ", " ", " ", " ", " ", " ", "ῆλο", "οῦ", "πρός", "ά", "άζα", "apple", "me", "forward", "but, however", "mass" ];
+tableAbcd["greek"]["sound"]["ν"] = [ "ν", " ", " ", " ", " ", "αί", "οῦς", "τάμα", "το", "yes", "mind, nous", "lady, checkers", "note do, C, ut" ];
+tableAbcd["greek"]["sound"]["ξ"] = [ "ξ", " ", " ", " ", "ύλο", "ηρά", "ανθή", "wood", "land", "blond, blonde" ];
+tableAbcd["greek"]["sound"]["ο"] = [ "ο", " ", " ", " ", " ", " ", "δός", "ἶκος", "υχί", "χι", "ν", "street", "house, home", "no", "no, not, non", "being" ];
+tableAbcd["greek"]["sound"]["π"] = [ "π", " ", " ", " ", " ", "ιά", "ανί", "άλη", "έδη", "no more", "cloth", "fight", "fetters, clog" ];
+tableAbcd["greek"]["sound"]["ρ"] = [ "ρ", " ", " ", "άγ", "έμα", "οῦς", "α", "stream", "flow", "hunt" ];
+tableAbcd["greek"]["sound"]["σ"] = [ "σ", " ", " ", " ", "ύ", "ύν", "ούπα", "thou", "with", "soup" ];
+tableAbcd["greek"]["sound"]["τ"] = [ "τ", " ", " ", "ά", "ρεῖς", "ί", "ι", "three", "what", "etc." ];
+tableAbcd["greek"]["sound"]["υ"] = [ "υ", " ", "ε", " ", "λ", "α", "ε", "πό", "ρύς", "δωρ", "σσα", "λή", " ", "under", "wide", "water", "rage", "court", "good" ];
+tableAbcd["greek"]["sound"]["φ"] = [ "φ", " ", " ", " ", "άβα", "ήμη", "άκα", "peas", "fame, rumour", "trap" ];
+tableAbcd["greek"]["sound"]["χ"] = [ "χ", " ", " ", " ", " ", "έρι", "αρά", "άρη", "θές", "hand", "joy", "grace", "yesterday" ];
+tableAbcd["greek"]["sound"]["ψ"] = [ "ψ", " ", " ", " ", " ", "άρι", "ωμί", "έμα", "ές", "fish", "bread", "lies", "last night" ];
+tableAbcd["greek"]["sound"]["ω"] = [ "ω", " ", " ", " ", "ρα", "μά", "ς", "hour", "raw, blunt", "as" ];
 
 // Georgian Linear Table
 tableAbcd["georgian"]["linear"] = '<tr>\
@@ -598,7 +625,7 @@ tableAbcd["runes"]["sound"]["ᚠ"] = [ "ᚠ", " ", "ᛁ", "fé (funds)" ];
 tableAbcd["runes"]["sound"]["ᚼ"] = [ "ᚼ", " ", "ᛅᚴᛚ", "hagl (hail)" ];
 
 // Runes Linear Table (bornholm)
-tableAbcd["runes"]["linear-bornholm"] = '<tr>\
+tableAbcd["runes-bornholm"]["linear"] = '<tr>\
 <td><button style="color:red" onclick="speakLetter(\'ᛆ\')"><div class="relative"><div id="ᛆPre"></div>ᛆ<div id="ᛆUnder"></div><div id="ᛆPost"></div></div></button></td>\
 <td><button style="color:blue" onclick="speakLetter(\'ᛒ\')"><div class="relative"><div id="ᛒPre"></div>ᛒ<div id="ᛒUnder"></div><div id="ᛒPost"></div></div></button></td>\
 <td><button style="color:black" onclick="speakLetter(\'ᚦ\')"><div class="relative"><div id="ᚦPre"></div>ᚦ<div id="ᚦUnder"></div><div id="ᚦPost"></div></div></button></td>\
@@ -623,7 +650,7 @@ tableAbcd["runes"]["linear-bornholm"] = '<tr>\
 </tr></table>';
 
 // Runes Axial Table (bornholm)
-tableAbcd["runes"]["axial-bornholm"] = '<tr>\
+tableAbcd["runes-bornholm"]["axial"] = '<tr>\
 <td colspan="7" align="center"><button style="color:red" onclick="speakLetter(\'ᛆ\')"><div class="relative"><div id="ᛆPre"></div>ᛆ<div id="ᛆUnder"></div><div id="ᛆPost"></div></div></button></td>\
 </tr><tr><td></td>\
 <td><button style="color:black" onclick="speakLetter(\'ᛒ\')"><div class="relative"><div id="ᛒPre"></div>ᛒ<div id="ᛒUnder"></div><div id="ᛒPost"></div></div></button></td>\
@@ -943,7 +970,7 @@ function makeAeiou(languageTransmitted, layoutTransmitted, fontTransmitted, vari
     if (variant == 'default') {
         result += tableAbcd[language][layout];
     } else {
-        result += tableAbcd[language][layout+'-'+variant];
+        result += tableAbcd[language+'-'+variant][layout];
     }
 
     result += tablePostfix;
@@ -972,7 +999,7 @@ function speakLetter(letter) {
                     else textstroke = 2;
             document.getElementById(letter + "Pre").innerHTML = '<div style="position: absolute; text-transform: lowercase; left: -' + (((tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"]].length - 1) * 15) + 5) + 'px; top: 0px; font-weight: 900; color: gray; -webkit-text-fill-color: gray; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"]] + '</div>';
             document.getElementById(letter + "Post").innerHTML = '<div style="position: absolute; text-transform: lowercase; left: 30px; top: 0px; font-weight: 900; color: gray; -webkit-text-fill-color: gray; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + ( tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"] + ((tableAbcd[speakLanguage]["sound"][letter].length - 1) / 3)] ) + '</div>';
-            if (tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"] + ((tableAbcd[speakLanguage]["sound"][letter].length - 1) / 3) * 2].length > 1) {
+            if (tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"] + ((tableAbcd[speakLanguage]["sound"][letter].length - 1) / 3) * 2].length > 0) {
                 var bracketLeft = "(";
                 var bracketRight = ")";
                 var underLeft = ( tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"] + ((tableAbcd[speakLanguage]["sound"][letter].length - 1) / 3) * 2].length ) * -2;
