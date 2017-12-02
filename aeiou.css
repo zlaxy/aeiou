@@ -20,6 +20,12 @@
     src: local("alsscrp"),
     url(fonts/als-script/alsscrp.ttf);
 }
+/* https://www.fontsquirrel.com/fonts/VAG-HandWritten */
+@font-face {
+    font-family: VAGHandWritten;
+    src: local("VAGHandWritten"),
+    url("fonts/vag-handwritten/VAG-HandWritten.otf") format("opentype");
+}
 
 html {
     font-family: 'Open Sans', sans-serif;
@@ -47,6 +53,10 @@ html {
 
 .hehandwritten tr td button {
     font-family: 'YOAVCB', cursive;
+}
+
+.grhandwritten tr td button {
+    font-family: 'VAGHandWritten', cursive;
 }
 
 .hebrew tr td button {

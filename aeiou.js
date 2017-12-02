@@ -885,7 +885,7 @@ function makeAeiou(languageTransmitted, layoutTransmitted, fontTransmitted, vari
             result += '<button class="controlButton" onclick="makeAeiou(language, layout, \'hebrew\')"><font style="font-family: \'Noto Sans Hebrew\', sans-serif">אבגד</font></button></td><td><button class="controlButton" onclick="makeAeiou(language, layout, \'hehandwritten\')"><font style="font-family: \'YOAVCB\', cursive">אבגד</font></button>';
             break;
         case 'greek':
-            result += '<button class="controlButton" onclick="makeAeiou(language, layout, \'default\')">ΑΒΓΔ</button></td><td><button class="controlButton" onclick="makeAeiou(language, layout, \'lowercase\')">αβγδ</button>';
+            result += '<button class="controlButton" onclick="makeAeiou(language, layout, \'default\')">ΑΒΓΔ</button></td><td><button class="controlButton" onclick="makeAeiou(language, layout, \'lowercase\')">αβγδ</button><button class="controlButton" onclick="makeAeiou(language, layout, \'grhandwritten\')"><font style="font-family: \'VAGHandWritten\', cursive">ΑΒΓΔ</font></button></td><td><button class="controlButton" onclick="makeAeiou(language, layout, \'grlowerhand\')"><font style="font-family: \'VAGHandWritten\', cursive">αβγδ</font></button>';
             break;
         case 'georgian':
             break;
@@ -946,6 +946,12 @@ function makeAeiou(languageTransmitted, layoutTransmitted, fontTransmitted, vari
         case 'enlowerhand':
             result += '<table class="abcdTable enhandwritten lower">';
             break;
+        case 'grhandwritten':
+            result += '<table class="abcdTable grhandwritten upper">';
+            break;
+        case 'grlowerhand':
+            result += '<table class="abcdTable grhandwritten lower">';
+            break;
         case 'rulowerhand':
             result += '<table class="abcdTable ruhandwritten lower">';
             break;
@@ -988,7 +994,7 @@ function speakLetter(letter) {
 
     switch(lastSpoken["count"]) {
         case lastSpoken["count"]:
-            if (font == "enhandwritten" || font == "enlowerhand" || font == "ruhandwritten" || font == "rulowerhand" ) textstroke = 0;
+            if (font == "enhandwritten" || font == "enlowerhand" || font == "ruhandwritten" || font == "rulowerhand" || font == "grhandwritten" || font == "grlowerhand") textstroke = 0;
                 else if (language == "runes") textstroke = 1;
                     else textstroke = 2;
             document.getElementById(letter + "Pre").innerHTML = '<div style="position: absolute; text-transform: lowercase; left: -' + (((tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) - 1) + lastSpoken["count"]].length - 1) * 15) + 5) + 'px; top: 0px; font-weight: 900; color: gray; -webkit-text-fill-color: gray; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) - 1) + lastSpoken["count"]] + '</div>';
