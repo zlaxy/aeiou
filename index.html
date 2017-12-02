@@ -11,53 +11,8 @@
         <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
         <title>aeiou</title>
         <script type="text/javascript" src="aeiou.js"></script>
-
-        <!-- https://github.com/Jip-Hop/espeak/tree/emscripten/emscripten -->
-        <script type="text/javascript" src="js/espeak.js"></script>
-
     </head>
 <body onload="makeAeiou();">
     <div id="aeiou"></div>
-
-    <script type="text/javascript">
-// ========================= temporary espeak =========================
-    espeak = new Espeak('js/espeak.worker.js', function cb() {
-        espeak.listVoices(function(result) {
-          var sel = document.getElementById('voice');
-          var index = 0;
-          for (voice of result) {
-            for (lang of voice.languages) {
-              var opt = document.createElement('option');
-              opt.text = voice.name + ' (' + lang.name + ')';
-              opt.value = [voice.name, lang.name];
-              sel.add(opt);
-              if (voice.name === 'default') {
-                opt.id = 'default-voice'
-                opt.selected = true;
-              }
-            }
-          }
-        });
-        var xhr = new XMLHttpRequest();
-        xhr.open('GET', 'data/church-schellingwoude.ogg', true);
-        xhr.responseType = 'arraybuffer';
-        function convolverLoadFail(e) {
-         console.log("Error with decoding audio data" , e);
-         document.getElementById('preachit').disabled = true;
-         document.body.classList.remove('loading');
-        }
-        xhr.onerror = convolverLoadFail;
-        xhr.onload = function() {
-          var audioData = xhr.response;
-          ctx.decodeAudioData(audioData, function(buffer) {
-            convolver.buffer = buffer;
-            document.body.classList.remove('loading');
-          }, convolverLoadFail);
-        }
-        xhr.send();
-    });
-// ========================= temporary espeak =========================
-    </script>
-
 </body>
 </html>
