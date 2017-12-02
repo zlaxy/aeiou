@@ -22,72 +22,72 @@ tableAbcd["ugaritic"] = {};
 
 // English Linear Table
 tableAbcd["english"]["linear"] = '<tr>\
-<td><button style="color:red" onclick="speakLetter(\'a\')"><div class="relative"><div id="aPre"></div><div id="aLetter">A</div><div id="aUnder"></div><div id="aPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'b\')"><div class="relative"><div id="bPre"></div><div id="bLetter">B</div><div id="bUnder"></div><div id="bPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'c\')"><div class="relative"><div id="cPre"></div><div id="cLetter">C</div><div id="cUnder"></div><div id="cPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'d\')"><div class="relative"><div id="dPre"></div><div id="dLetter">D</div><div id="dUnder"></div><div id="dPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'a\'); new Audio(\'sounds/english/a_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="aPre"></div><div id="aLetter">A</div><div id="aUnder"></div><div id="aPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'b\'); new Audio(\'sounds/english/b_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="bPre"></div><div id="bLetter">B</div><div id="bUnder"></div><div id="bPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'c\'); new Audio(\'sounds/english/c_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="cPre"></div><div id="cLetter">C</div><div id="cUnder"></div><div id="cPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'d\'); new Audio(\'sounds/english/d_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="dPre"></div><div id="dLetter">D</div><div id="dUnder"></div><div id="dPost"></div></div></button></td>\
 <td></td><td></td></tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'e\')"><div class="relative"><div id="ePre"></div><div id="eLetter">E</div><div id="eUnder"></div><div id="ePost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'f\')"><div class="relative"><div id="fPre"></div><div id="fLetter">F</div><div id="fUnder"></div><div id="fPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'g\')"><div class="relative"><div id="gPre"></div><div id="gLetter">G</div><div id="gUnder"></div><div id="gPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'h\')"><div class="relative"><div id="hPre"></div><div id="hLetter">H</div><div id="hUnder"></div><div id="hPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'e\'); new Audio(\'sounds/english/e_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ePre"></div><div id="eLetter">E</div><div id="eUnder"></div><div id="ePost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'f\'); new Audio(\'sounds/english/f_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="fPre"></div><div id="fLetter">F</div><div id="fUnder"></div><div id="fPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'g\'); new Audio(\'sounds/english/g_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="gPre"></div><div id="gLetter">G</div><div id="gUnder"></div><div id="gPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'h\'); new Audio(\'sounds/english/h_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="hPre"></div><div id="hLetter">H</div><div id="hUnder"></div><div id="hPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'i\')"><div class="relative"><div id="iPre"></div><div id="iLetter">I</div><div id="iUnder"></div><div id="iPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'j\')"><div class="relative"><div id="jPre"></div><div id="jLetter">J</div><div id="jUnder"></div><div id="jPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'k\')"><div class="relative"><div id="kPre"></div><div id="kLetter">K</div><div id="kUnder"></div><div id="kPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'l\')"><div class="relative"><div id="lPre"></div><div id="lLetter">L</div><div id="lUnder"></div><div id="lPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'m\')"><div class="relative"><div id="mPre"></div><div id="mLetter">M</div><div id="mUnder"></div><div id="mPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'n\')"><div class="relative"><div id="nPre"></div><div id="nLetter">N</div><div id="nUnder"></div><div id="nPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'i\'); new Audio(\'sounds/english/i_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="iPre"></div><div id="iLetter">I</div><div id="iUnder"></div><div id="iPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'j\'); new Audio(\'sounds/english/j_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="jPre"></div><div id="jLetter">J</div><div id="jUnder"></div><div id="jPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'k\'); new Audio(\'sounds/english/k_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="kPre"></div><div id="kLetter">K</div><div id="kUnder"></div><div id="kPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'l\'); new Audio(\'sounds/english/l_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="lPre"></div><div id="lLetter">L</div><div id="lUnder"></div><div id="lPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'m\'); new Audio(\'sounds/english/m_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="mPre"></div><div id="mLetter">M</div><div id="mUnder"></div><div id="mPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'n\'); new Audio(\'sounds/english/n_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="nPre"></div><div id="nLetter">N</div><div id="nUnder"></div><div id="nPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'o\')"><div class="relative"><div id="oPre"></div><div id="oLetter">O</div><div id="oUnder"></div><div id="oPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'p\')"><div class="relative"><div id="pPre"></div><div id="pLetter">P</div><div id="pUnder"></div><div id="pPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'q\')"><div class="relative"><div id="qPre"></div><div id="qLetter">Q</div><div id="qUnder"></div><div id="qPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'r\')"><div class="relative"><div id="rPre"></div><div id="rLetter">R</div><div id="rUnder"></div><div id="rPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'s\')"><div class="relative"><div id="sPre"></div><div id="sLetter">S</div><div id="sUnder"></div><div id="sPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'t\')"><div class="relative"><div id="tPre"></div><div id="tLetter">T</div><div id="tUnder"></div><div id="tPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'o\'); new Audio(\'sounds/english/o_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="oPre"></div><div id="oLetter">O</div><div id="oUnder"></div><div id="oPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'p\'); new Audio(\'sounds/english/p_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="pPre"></div><div id="pLetter">P</div><div id="pUnder"></div><div id="pPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'q\'); new Audio(\'sounds/english/q_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="qPre"></div><div id="qLetter">Q</div><div id="qUnder"></div><div id="qPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'r\'); new Audio(\'sounds/english/r_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="rPre"></div><div id="rLetter">R</div><div id="rUnder"></div><div id="rPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'s\'); new Audio(\'sounds/english/s_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="sPre"></div><div id="sLetter">S</div><div id="sUnder"></div><div id="sPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'t\'); new Audio(\'sounds/english/t_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="tPre"></div><div id="tLetter">T</div><div id="tUnder"></div><div id="tPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'u\')"><div class="relative"><div id="uPre"></div><div id="uLetter">U</div><div id="uUnder"></div><div id="uPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'v\')"><div class="relative"><div id="vPre"></div><div id="vLetter">V</div><div id="vUnder"></div><div id="vPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'w\')"><div class="relative"><div id="wPre"></div><div id="wLetter">W</div><div id="wUnder"></div><div id="wPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'x\')"><div class="relative"><div id="xPre"></div><div id="xLetter">X</div><div id="xUnder"></div><div id="xPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'y\')"><div class="relative"><div id="yPre"></div><div id="yLetter">Y</div><div id="yUnder"></div><div id="yPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'z\')"><div class="relative"><div id="zPre"></div><div id="zLetter">Z</div><div id="zUnder"></div><div id="zPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'u\'); new Audio(\'sounds/english/u_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="uPre"></div><div id="uLetter">U</div><div id="uUnder"></div><div id="uPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'v\'); new Audio(\'sounds/english/v_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="vPre"></div><div id="vLetter">V</div><div id="vUnder"></div><div id="vPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'w\'); new Audio(\'sounds/english/w_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="wPre"></div><div id="wLetter">W</div><div id="wUnder"></div><div id="wPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'x\'); new Audio(\'sounds/english/x_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="xPre"></div><div id="xLetter">X</div><div id="xUnder"></div><div id="xPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'y\'); new Audio(\'sounds/english/y_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="yPre"></div><div id="yLetter">Y</div><div id="yUnder"></div><div id="yPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'z\'); new Audio(\'sounds/english/z_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="zPre"></div><div id="zLetter">Z</div><div id="zUnder"></div><div id="zPost"></div></div></button></td>\
 </tr></table>';
 
 // English Axial Table
 tableAbcd["english"]["axial"] = '<tr>\
-<td colspan="7" align="center"><button style="color:red" onclick="speakLetter(\'a\')"><div class="relative"><div id="aPre"></div><div id="aLetter">A</div><div id="aUnder"></div><div id="aPost"></div></div></button></td>\
+<td colspan="7" align="center"><button style="color:red" onclick="speakLetter(\'a\'); new Audio(\'sounds/english/a_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="aPre"></div><div id="aLetter">A</div><div id="aUnder"></div><div id="aPost"></div></div></button></td>\
 </tr><tr><td colspan="2"></td><td colspan="3" align="center">\
-<button style="color:black" onclick="speakLetter(\'b\')"><div class="relative"><div id="bPre"></div><div id="bLetter">B</div><div id="bUnder"></div><div id="bPost"></div></div></button>\
-<button style="color:black" onclick="speakLetter(\'c\')"><div class="relative"><div id="cPre"></div><div id="cLetter">C</div><div id="cUnder"></div><div id="cPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'b\'); new Audio(\'sounds/english/b_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="bPre"></div><div id="bLetter">B</div><div id="bUnder"></div><div id="bPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'c\'); new Audio(\'sounds/english/c_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="cPre"></div><div id="cLetter">C</div><div id="cUnder"></div><div id="cPost"></div></div></button>\
 </td><td colspan="2"></td></tr><tr><td colspan="2"></td>\
-<td><button style="color:black" onclick="speakLetter(\'d\')"><div class="relative"><div id="dPre"></div><div id="dLetter">D</div><div id="dUnder"></div><div id="dPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'e\')"><div class="relative"><div id="ePre"></div><div id="eLetter">E</div><div id="eUnder"></div><div id="ePost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'f\')"><div class="relative"><div id="fPre"></div><div id="fLetter">F</div><div id="fUnder"></div><div id="fPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'d\'); new Audio(\'sounds/english/d_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="dPre"></div><div id="dLetter">D</div><div id="dUnder"></div><div id="dPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'e\'); new Audio(\'sounds/english/e_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ePre"></div><div id="eLetter">E</div><div id="eUnder"></div><div id="ePost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'f\'); new Audio(\'sounds/english/f_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="fPre"></div><div id="fLetter">F</div><div id="fUnder"></div><div id="fPost"></div></div></button></td>\
 <td colspan="2"></td></tr><tr>\
-<td></td><td><button style="color:black" onclick="speakLetter(\'g\')"><div class="relative"><div id="gPre"></div><div id="gLetter">G</div><div id="gUnder"></div><div id="gPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'h\')"><div class="relative"><div id="hPre"></div><div id="hLetter">H</div><div id="hUnder"></div><div id="hPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'i\')"><div class="relative"><div id="iPre"></div><div id="iLetter">I</div><div id="iUnder"></div><div id="iPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'j\')"><div class="relative"><div id="jPre"></div><div id="jLetter">J</div><div id="jUnder"></div><div id="jPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'k\')"><div class="relative"><div id="kPre"></div><div id="kLetter">K</div><div id="kUnder"></div><div id="kPost"></div></div></button></td>\
+<td></td><td><button style="color:black" onclick="speakLetter(\'g\'); new Audio(\'sounds/english/g_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="gPre"></div><div id="gLetter">G</div><div id="gUnder"></div><div id="gPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'h\'); new Audio(\'sounds/english/h_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="hPre"></div><div id="hLetter">H</div><div id="hUnder"></div><div id="hPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'i\'); new Audio(\'sounds/english/i_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="iPre"></div><div id="iLetter">I</div><div id="iUnder"></div><div id="iPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'j\'); new Audio(\'sounds/english/j_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="jPre"></div><div id="jLetter">J</div><div id="jUnder"></div><div id="jPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'k\'); new Audio(\'sounds/english/k_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="kPre"></div><div id="kLetter">K</div><div id="kUnder"></div><div id="kPost"></div></div></button></td>\
 <td></td></tr><tr>\
-<td><button style="color:black" onclick="speakLetter(\'l\')"><div class="relative"><div id="lPre"></div><div id="lLetter">L</div><div id="lUnder"></div><div id="lPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'m\')"><div class="relative"><div id="mPre"></div><div id="mLetter">M</div><div id="mUnder"></div><div id="mPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'n\')"><div class="relative"><div id="nPre"></div><div id="nLetter">N</div><div id="nUnder"></div><div id="nPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'o\')"><div class="relative"><div id="oPre"></div><div id="oLetter">O</div><div id="oUnder"></div><div id="oPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'p\')"><div class="relative"><div id="pPre"></div><div id="pLetter">P</div><div id="pUnder"></div><div id="pPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'q\')"><div class="relative"><div id="qPre"></div><div id="qLetter">Q</div><div id="qUnder"></div><div id="qPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'r\')"><div class="relative"><div id="rPre"></div><div id="rLetter">R</div><div id="rUnder"></div><div id="rPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'l\'); new Audio(\'sounds/english/l_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="lPre"></div><div id="lLetter">L</div><div id="lUnder"></div><div id="lPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'m\'); new Audio(\'sounds/english/m_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="mPre"></div><div id="mLetter">M</div><div id="mUnder"></div><div id="mPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'n\'); new Audio(\'sounds/english/n_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="nPre"></div><div id="nLetter">N</div><div id="nUnder"></div><div id="nPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'o\'); new Audio(\'sounds/english/o_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="oPre"></div><div id="oLetter">O</div><div id="oUnder"></div><div id="oPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'p\'); new Audio(\'sounds/english/p_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="pPre"></div><div id="pLetter">P</div><div id="pUnder"></div><div id="pPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'q\'); new Audio(\'sounds/english/q_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="qPre"></div><div id="qLetter">Q</div><div id="qUnder"></div><div id="qPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'r\'); new Audio(\'sounds/english/r_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="rPre"></div><div id="rLetter">R</div><div id="rUnder"></div><div id="rPost"></div></div></button></td>\
 </tr><tr>\
-<td></td><td><button style="color:black" onclick="speakLetter(\'s\')"><div class="relative"><div id="sPre"></div><div id="sLetter">S</div><div id="sUnder"></div><div id="sPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'t\')"><div class="relative"><div id="tPre"></div><div id="tLetter">T</div><div id="tUnder"></div><div id="tPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'u\')"><div class="relative"><div id="uPre"></div><div id="uLetter">U</div><div id="uUnder"></div><div id="uPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'v\')"><div class="relative"><div id="vPre"></div><div id="vLetter">V</div><div id="vUnder"></div><div id="vPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'w\')"><div class="relative"><div id="wPre"></div><div id="wLetter">W</div><div id="wUnder"></div><div id="wPost"></div></div></button></td>\
+<td></td><td><button style="color:black" onclick="speakLetter(\'s\'); new Audio(\'sounds/english/s_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="sPre"></div><div id="sLetter">S</div><div id="sUnder"></div><div id="sPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'t\'); new Audio(\'sounds/english/t_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="tPre"></div><div id="tLetter">T</div><div id="tUnder"></div><div id="tPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'u\'); new Audio(\'sounds/english/u_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="uPre"></div><div id="uLetter">U</div><div id="uUnder"></div><div id="uPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'v\'); new Audio(\'sounds/english/v_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="vPre"></div><div id="vLetter">V</div><div id="vUnder"></div><div id="vPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'w\'); new Audio(\'sounds/english/w_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="wPre"></div><div id="wLetter">W</div><div id="wUnder"></div><div id="wPost"></div></div></button></td>\
 <td></td></tr><tr><td colspan="2"></td>\
-<td><button style="color:black" onclick="speakLetter(\'x\')"><div class="relative"><div id="xPre"></div><div id="xLetter">X</div><div id="xUnder"></div><div id="xPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'y\')"><div class="relative"><div id="yPre"></div><div id="yLetter">Y</div><div id="yUnder"></div><div id="yPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'z\')"><div class="relative"><div id="zPre"></div><div id="zLetter">Z</div><div id="zUnder"></div><div id="zPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'x\'); new Audio(\'sounds/english/x_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="xPre"></div><div id="xLetter">X</div><div id="xUnder"></div><div id="xPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'y\'); new Audio(\'sounds/english/y_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="yPre"></div><div id="yLetter">Y</div><div id="yUnder"></div><div id="yPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'z\'); new Audio(\'sounds/english/z_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="zPre"></div><div id="zLetter">Z</div><div id="zUnder"></div><div id="zPost"></div></div></button></td>\
 </tr></table>';
 
 // English Sound Correspondence
@@ -121,89 +121,89 @@ tableAbcd["english"]["sound"]["z"] = [ "z", "z", " ", "wi", "ip", " ", "", "" ];
 
 // Russian Linear Table
 tableAbcd["russian"]["linear"] = '<tr>\
-<td><button style="color:red" onclick="speakLetter(\'а\')"><div class="relative"><div id="аPre"></div><div id="аLetter">А</div><div id="аUnder"></div><div id="аPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'б\')"><div class="relative"><div id="бPre"></div><div id="бLetter">Б</div><div id="бUnder"></div><div id="бPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'в\')"><div class="relative"><div id="вPre"></div><div id="вLetter">В</div><div id="вUnder"></div><div id="вPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'г\')"><div class="relative"><div id="гPre"></div><div id="гLetter">Г</div><div id="гUnder"></div><div id="гPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'д\')"><div class="relative"><div id="дPre"></div><div id="дLetter">Д</div><div id="дUnder"></div><div id="дPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'а\'); new Audio(\'sounds/russian/а_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="аPre"></div><div id="аLetter">А</div><div id="аUnder"></div><div id="аPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'б\'); new Audio(\'sounds/russian/б_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="бPre"></div><div id="бLetter">Б</div><div id="бUnder"></div><div id="бPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'в\'); new Audio(\'sounds/russian/в_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="вPre"></div><div id="вLetter">В</div><div id="вUnder"></div><div id="вPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'г\'); new Audio(\'sounds/russian/г_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="гPre"></div><div id="гLetter">Г</div><div id="гUnder"></div><div id="гPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'д\'); new Audio(\'sounds/russian/д_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="дPre"></div><div id="дLetter">Д</div><div id="дUnder"></div><div id="дPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'е\')"><div class="relative"><div id="еPre"></div><div id="еLetter">Е</div><div id="еUnder"></div><div id="еPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ё\')"><div class="relative"><div id="ёPre"></div><div id="ёLetter">Ё</div><div id="ёUnder"></div><div id="ёPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ж\')"><div class="relative"><div id="жPre"></div><div id="жLetter">Ж</div><div id="жUnder"></div><div id="жPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'з\')"><div class="relative"><div id="зPre"></div><div id="зLetter">З</div><div id="зUnder"></div><div id="зPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'е\'); new Audio(\'sounds/russian/е_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="еPre"></div><div id="еLetter">Е</div><div id="еUnder"></div><div id="еPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ё\'); new Audio(\'sounds/russian/ё_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ёPre"></div><div id="ёLetter">Ё</div><div id="ёUnder"></div><div id="ёPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ж\'); new Audio(\'sounds/russian/ж_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="жPre"></div><div id="жLetter">Ж</div><div id="жUnder"></div><div id="жPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'з\'); new Audio(\'sounds/russian/з_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="зPre"></div><div id="зLetter">З</div><div id="зUnder"></div><div id="зPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'и\')"><div class="relative"><div id="иPre"></div><div id="иLetter">И</div><div id="иUnder"></div><div id="иPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'й\')"><div class="relative"><div id="йPre"></div><div id="йLetter">Й</div><div id="йUnder"></div><div id="йPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'к\')"><div class="relative"><div id="кPre"></div><div id="кLetter">К</div><div id="кUnder"></div><div id="кPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'л\')"><div class="relative"><div id="лPre"></div><div id="лLetter">Л</div><div id="лUnder"></div><div id="лPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'м\')"><div class="relative"><div id="мPre"></div><div id="мLetter">М</div><div id="мUnder"></div><div id="мPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'н\')"><div class="relative"><div id="нPre"></div><div id="нLetter">Н</div><div id="нUnder"></div><div id="нPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'и\'); new Audio(\'sounds/russian/и_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="иPre"></div><div id="иLetter">И</div><div id="иUnder"></div><div id="иPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'й\'); new Audio(\'sounds/russian/й_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="йPre"></div><div id="йLetter">Й</div><div id="йUnder"></div><div id="йPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'к\'); new Audio(\'sounds/russian/к_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="кPre"></div><div id="кLetter">К</div><div id="кUnder"></div><div id="кPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'л\'); new Audio(\'sounds/russian/л_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="лPre"></div><div id="лLetter">Л</div><div id="лUnder"></div><div id="лPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'м\'); new Audio(\'sounds/russian/м_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="мPre"></div><div id="мLetter">М</div><div id="мUnder"></div><div id="мPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'н\'); new Audio(\'sounds/russian/н_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="нPre"></div><div id="нLetter">Н</div><div id="нUnder"></div><div id="нPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'о\')"><div class="relative"><div id="оPre"></div><div id="оLetter">О</div><div id="оUnder"></div><div id="оPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'п\')"><div class="relative"><div id="пPre"></div><div id="пLetter">П</div><div id="пUnder"></div><div id="пPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'р\')"><div class="relative"><div id="рPre"></div><div id="рLetter">Р</div><div id="рUnder"></div><div id="рPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'с\')"><div class="relative"><div id="сPre"></div><div id="сLetter">С</div><div id="сUnder"></div><div id="сPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'т\')"><div class="relative"><div id="тPre"></div><div id="тLetter">Т</div><div id="тUnder"></div><div id="тPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'о\'); new Audio(\'sounds/russian/о_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="оPre"></div><div id="оLetter">О</div><div id="оUnder"></div><div id="оPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'п\'); new Audio(\'sounds/russian/п_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="пPre"></div><div id="пLetter">П</div><div id="пUnder"></div><div id="пPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'р\'); new Audio(\'sounds/russian/р_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="рPre"></div><div id="рLetter">Р</div><div id="рUnder"></div><div id="рPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'с\'); new Audio(\'sounds/russian/с_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="сPre"></div><div id="сLetter">С</div><div id="сUnder"></div><div id="сPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'т\'); new Audio(\'sounds/russian/т_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="тPre"></div><div id="тLetter">Т</div><div id="тUnder"></div><div id="тPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'у\')"><div class="relative"><div id="уPre"></div><div id="уLetter">У</div><div id="уUnder"></div><div id="уPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'ф\')"><div class="relative"><div id="фPre"></div><div id="фLetter">Ф</div><div id="фUnder"></div><div id="фPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'х\')"><div class="relative"><div id="хPre"></div><div id="хLetter">Х</div><div id="хUnder"></div><div id="хPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ц\')"><div class="relative"><div id="цPre"></div><div id="цLetter">Ц</div><div id="цUnder"></div><div id="цPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ч\')"><div class="relative"><div id="чPre"></div><div id="чLetter">Ч</div><div id="чUnder"></div><div id="чPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ш\')"><div class="relative"><div id="шPre"></div><div id="шLetter">Ш</div><div id="шUnder"></div><div id="шPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'щ\')"><div class="relative"><div id="щPre"></div><div id="щLetter">Щ</div><div id="щUnder"></div><div id="щPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'у\'); new Audio(\'sounds/russian/у_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="уPre"></div><div id="уLetter">У</div><div id="уUnder"></div><div id="уPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'ф\'); new Audio(\'sounds/russian/ф_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="фPre"></div><div id="фLetter">Ф</div><div id="фUnder"></div><div id="фPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'х\'); new Audio(\'sounds/russian/х_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="хPre"></div><div id="хLetter">Х</div><div id="хUnder"></div><div id="хPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ц\'); new Audio(\'sounds/russian/ц_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="цPre"></div><div id="цLetter">Ц</div><div id="цUnder"></div><div id="цPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ч\'); new Audio(\'sounds/russian/ч_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="чPre"></div><div id="чLetter">Ч</div><div id="чUnder"></div><div id="чPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ш\'); new Audio(\'sounds/russian/ш_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="шPre"></div><div id="шLetter">Ш</div><div id="шUnder"></div><div id="шPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'щ\'); new Audio(\'sounds/russian/щ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="щPre"></div><div id="щLetter">Щ</div><div id="щUnder"></div><div id="щPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:grey" onclick="speakLetter(\'ъ\')"><div class="relative"><div id="ъPre"></div><div id="ъLetter">Ъ</div><div id="ъUnder"></div><div id="ъPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ы\')"><div class="relative"><div id="ыPre"></div><div id="ыLetter">Ы</div><div id="ыUnder"></div><div id="ыPost"></div></div></button></td>\
-<td><button style="color:grey" onclick="speakLetter(\'ь\')"><div class="relative"><div id="ьPre"></div><div id="ьLetter">Ь</div><div id="ьUnder"></div><div id="ьPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'э\')"><div class="relative"><div id="эPre"></div><div id="эLetter">Э</div><div id="эUnder"></div><div id="эPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ю\')"><div class="relative"><div id="юPre"></div><div id="юLetter">Ю</div><div id="юUnder"></div><div id="юPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'я\')"><div class="relative"><div id="яPre"></div><div id="яLetter">Я</div><div id="яUnder"></div><div id="яPost"></div></div></button></td>\
+<td><button style="color:grey" onclick="speakLetter(\'ъ\'); new Audio(\'sounds/russian/ъ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ъPre"></div><div id="ъLetter">Ъ</div><div id="ъUnder"></div><div id="ъPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ы\'); new Audio(\'sounds/russian/ы_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ыPre"></div><div id="ыLetter">Ы</div><div id="ыUnder"></div><div id="ыPost"></div></div></button></td>\
+<td><button style="color:grey" onclick="speakLetter(\'ь\'); new Audio(\'sounds/russian/ь_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ьPre"></div><div id="ьLetter">Ь</div><div id="ьUnder"></div><div id="ьPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'э\'); new Audio(\'sounds/russian/э_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="эPre"></div><div id="эLetter">Э</div><div id="эUnder"></div><div id="эPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ю\'); new Audio(\'sounds/russian/ю_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="юPre"></div><div id="юLetter">Ю</div><div id="юUnder"></div><div id="юPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'я\'); new Audio(\'sounds/russian/я_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="яPre"></div><div id="яLetter">Я</div><div id="яUnder"></div><div id="яPost"></div></div></button></td>\
 </tr></table>';
 
 // Russian Axial Table
 tableAbcd["russian"]["axial"] = '<tr>\
-<td colspan="9" align="center"><button style="color:red" onclick="speakLetter(\'а\')"><div class="relative"><div id="аPre"></div><div id="аLetter">А</div><div id="аUnder"></div><div id="аPost"></div></div></button></td>\
+<td colspan="9" align="center"><button style="color:red" onclick="speakLetter(\'а\'); new Audio(\'sounds/russian/а_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="аPre"></div><div id="аLetter">А</div><div id="аUnder"></div><div id="аPost"></div></div></button></td>\
 </tr><tr><td colspan="3"></td><td colspan="3" align="center">\
-<button style="color:black" onclick="speakLetter(\'б\')"><div class="relative"><div id="бPre"></div><div id="бLetter">Б</div><div id="бUnder"></div><div id="бPost"></div></div></button>\
-<button style="color:black" onclick="speakLetter(\'в\')"><div class="relative"><div id="вPre"></div><div id="вLetter">В</div><div id="вUnder"></div><div id="вPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'б\'); new Audio(\'sounds/russian/б_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="бPre"></div><div id="бLetter">Б</div><div id="бUnder"></div><div id="бPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'в\'); new Audio(\'sounds/russian/в_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="вPre"></div><div id="вLetter">В</div><div id="вUnder"></div><div id="вPost"></div></div></button>\
 </td><td colspan="3"></td></tr><tr><td colspan="2"></td>\
-<td><button style="color:black" onclick="speakLetter(\'г\')"><div class="relative"><div id="гPre"></div><div id="гLetter">Г</div><div id="гUnder"></div><div id="гPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'д\')"><div class="relative"><div id="дPre"></div><div id="дLetter">Д</div><div id="дUnder"></div><div id="дPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'е\')"><div class="relative"><div id="еPre"></div><div id="еLetter">Е</div><div id="еUnder"></div><div id="еPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ё\')"><div class="relative"><div id="ёPre"></div><div id="ёLetter">Ё</div><div id="ёUnder"></div><div id="ёPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ж\')"><div class="relative"><div id="жPre"></div><div id="жLetter">Ж</div><div id="жUnder"></div><div id="жPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'г\'); new Audio(\'sounds/russian/г_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="гPre"></div><div id="гLetter">Г</div><div id="гUnder"></div><div id="гPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'д\'); new Audio(\'sounds/russian/д_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="дPre"></div><div id="дLetter">Д</div><div id="дUnder"></div><div id="дPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'е\'); new Audio(\'sounds/russian/е_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="еPre"></div><div id="еLetter">Е</div><div id="еUnder"></div><div id="еPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ё\'); new Audio(\'sounds/russian/ё_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ёPre"></div><div id="ёLetter">Ё</div><div id="ёUnder"></div><div id="ёPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ж\'); new Audio(\'sounds/russian/ж_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="жPre"></div><div id="жLetter">Ж</div><div id="жUnder"></div><div id="жPost"></div></div></button></td>\
 <td colspan="2"></td></tr><tr><td colspan="3"></td>\
-<td><button style="color:black" onclick="speakLetter(\'з\')"><div class="relative"><div id="зPre"></div><div id="зLetter">З</div><div id="зUnder"></div><div id="зPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'и\')"><div class="relative"><div id="иPre"></div><div id="иLetter">И</div><div id="иUnder"></div><div id="иPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'й\')"><div class="relative"><div id="йPre"></div><div id="йLetter">Й</div><div id="йUnder"></div><div id="йPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'з\'); new Audio(\'sounds/russian/з_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="зPre"></div><div id="зLetter">З</div><div id="зUnder"></div><div id="зPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'и\'); new Audio(\'sounds/russian/и_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="иPre"></div><div id="иLetter">И</div><div id="иUnder"></div><div id="иPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'й\'); new Audio(\'sounds/russian/й_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="йPre"></div><div id="йLetter">Й</div><div id="йUnder"></div><div id="йPost"></div></div></button></td>\
 <td colspan="3"></td></tr><tr>\
-<td><button style="color:black" onclick="speakLetter(\'к\')"><div class="relative"><div id="кPre"></div><div id="кLetter">К</div><div id="кUnder"></div><div id="кPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'л\')"><div class="relative"><div id="лPre"></div><div id="лLetter">Л</div><div id="лUnder"></div><div id="лPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'м\')"><div class="relative"><div id="мPre"></div><div id="мLetter">М</div><div id="мUnder"></div><div id="мPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'н\')"><div class="relative"><div id="нPre"></div><div id="нLetter">Н</div><div id="нUnder"></div><div id="нPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'о\')"><div class="relative"><div id="оPre"></div><div id="оLetter">О</div><div id="оUnder"></div><div id="оPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'п\')"><div class="relative"><div id="пPre"></div><div id="пLetter">П</div><div id="пUnder"></div><div id="пPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'р\')"><div class="relative"><div id="рPre"></div><div id="рLetter">Р</div><div id="рUnder"></div><div id="рPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'с\')"><div class="relative"><div id="сPre"></div><div id="сLetter">С</div><div id="сUnder"></div><div id="сPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'т\')"><div class="relative"><div id="тPre"></div><div id="тLetter">Т</div><div id="тUnder"></div><div id="тPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'к\'); new Audio(\'sounds/russian/к_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="кPre"></div><div id="кLetter">К</div><div id="кUnder"></div><div id="кPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'л\'); new Audio(\'sounds/russian/л_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="лPre"></div><div id="лLetter">Л</div><div id="лUnder"></div><div id="лPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'м\'); new Audio(\'sounds/russian/м_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="мPre"></div><div id="мLetter">М</div><div id="мUnder"></div><div id="мPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'н\'); new Audio(\'sounds/russian/н_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="нPre"></div><div id="нLetter">Н</div><div id="нUnder"></div><div id="нPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'о\'); new Audio(\'sounds/russian/о_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="оPre"></div><div id="оLetter">О</div><div id="оUnder"></div><div id="оPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'п\'); new Audio(\'sounds/russian/п_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="пPre"></div><div id="пLetter">П</div><div id="пUnder"></div><div id="пPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'р\'); new Audio(\'sounds/russian/р_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="рPre"></div><div id="рLetter">Р</div><div id="рUnder"></div><div id="рPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'с\'); new Audio(\'sounds/russian/с_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="сPre"></div><div id="сLetter">С</div><div id="сUnder"></div><div id="сPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'т\'); new Audio(\'sounds/russian/т_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="тPre"></div><div id="тLetter">Т</div><div id="тUnder"></div><div id="тPost"></div></div></button></td>\
 </tr><tr>\
-<td colspan="9" align="center"><button style="color:red" onclick="speakLetter(\'у\')"><div class="relative"><div id="уPre"></div><div id="уLetter">У</div><div id="уUnder"></div><div id="уPost"></div></div></button></td>\
+<td colspan="9" align="center"><button style="color:red" onclick="speakLetter(\'у\'); new Audio(\'sounds/russian/у_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="уPre"></div><div id="уLetter">У</div><div id="уUnder"></div><div id="уPost"></div></div></button></td>\
 </tr><tr><td></td><td colspan="7" align="center">\
-<button style="color:black" onclick="speakLetter(\'ф\')"><div class="relative"><div id="фPre"></div><div id="фLetter">Ф</div><div id="фUnder"></div><div id="фPost"></div></div></button>\
-<button style="color:black" onclick="speakLetter(\'х\')"><div class="relative"><div id="хPre"></div><div id="хLetter">Х</div><div id="хUnder"></div><div id="хPost"></div></div></button>\
-<button style="color:black" onclick="speakLetter(\'ц\')"><div class="relative"><div id="цPre"></div><div id="цLetter">Ц</div><div id="цUnder"></div><div id="цPost"></div></div></button>\
-<button style="color:black" onclick="speakLetter(\'ч\')"><div class="relative"><div id="чPre"></div><div id="чLetter">Ч</div><div id="чUnder"></div><div id="чPost"></div></div></button>\
-<button style="color:black" onclick="speakLetter(\'ш\')"><div class="relative"><div id="шPre"></div><div id="шLetter">Ш</div><div id="шUnder"></div><div id="шPost"></div></div></button>\
-<button style="color:black" onclick="speakLetter(\'щ\')"><div class="relative"><div id="щPre"></div><div id="щLetter">Щ</div><div id="щUnder"></div><div id="щPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'ф\'); new Audio(\'sounds/russian/ф_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="фPre"></div><div id="фLetter">Ф</div><div id="фUnder"></div><div id="фPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'х\'); new Audio(\'sounds/russian/х_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="хPre"></div><div id="хLetter">Х</div><div id="хUnder"></div><div id="хPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'ц\'); new Audio(\'sounds/russian/ц_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="цPre"></div><div id="цLetter">Ц</div><div id="цUnder"></div><div id="цPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'ч\'); new Audio(\'sounds/russian/ч_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="чPre"></div><div id="чLetter">Ч</div><div id="чUnder"></div><div id="чPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'ш\'); new Audio(\'sounds/russian/ш_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="шPre"></div><div id="шLetter">Ш</div><div id="шUnder"></div><div id="шPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'щ\'); new Audio(\'sounds/russian/щ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="щPre"></div><div id="щLetter">Щ</div><div id="щUnder"></div><div id="щPost"></div></div></button>\
 </td><td></td></tr><tr><td colspan="3"></td>\
-<td><button style="color:black" onclick="speakLetter(\'ъ\')"><div class="relative"><div id="ъPre"></div><div id="ъLetter">Ъ</div><div id="ъUnder"></div><div id="ъPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ы\')"><div class="relative"><div id="ыPre"></div><div id="ыLetter">Ы</div><div id="ыUnder"></div><div id="ыPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ь\')"><div class="relative"><div id="ьPre"></div><div id="ьLetter">Ь</div><div id="ьUnder"></div><div id="ьPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ъ\'); new Audio(\'sounds/russian/ъ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ъPre"></div><div id="ъLetter">Ъ</div><div id="ъUnder"></div><div id="ъPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ы\'); new Audio(\'sounds/russian/ы_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ыPre"></div><div id="ыLetter">Ы</div><div id="ыUnder"></div><div id="ыPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ь\'); new Audio(\'sounds/russian/ь_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ьPre"></div><div id="ьLetter">Ь</div><div id="ьUnder"></div><div id="ьPost"></div></div></button></td>\
 <td colspan="3"></td></tr><tr><td colspan="3"></td>\
-<td><button style="color:red" onclick="speakLetter(\'э\')"><div class="relative"><div id="эPre"></div><div id="эLetter">Э</div><div id="эUnder"></div><div id="эPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ю\')"><div class="relative"><div id="юPre"></div><div id="юLetter">Ю</div><div id="юUnder"></div><div id="юPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'я\')"><div class="relative"><div id="яPre"></div><div id="яLetter">Я</div><div id="яUnder"></div><div id="яPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'э\'); new Audio(\'sounds/russian/э_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="эPre"></div><div id="эLetter">Э</div><div id="эUnder"></div><div id="эPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ю\'); new Audio(\'sounds/russian/ю_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="юPre"></div><div id="юLetter">Ю</div><div id="юUnder"></div><div id="юPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'я\'); new Audio(\'sounds/russian/я_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="яPre"></div><div id="яLetter">Я</div><div id="яUnder"></div><div id="яPost"></div></div></button></td>\
 <td colspan="3"></td></tr></table>';
 
 // Russian Sound Correspondence
@@ -305,69 +305,69 @@ tableAbcd["hebrew"]["axial"] = '<tr>\
 
 // Greek Linear Table
 tableAbcd["greek"]["linear"] = '<tr>\
-<td><button style="color:red" onclick="speakLetter(\'α\')"><div class="relative"><div id="αPre"></div><div id="αLetter">Α</div><div id="αUnder"></div><div id="αPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'β\')"><div class="relative"><div id="βPre"></div><div id="βLetter">Β</div><div id="βUnder"></div><div id="βPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'γ\')"><div class="relative"><div id="γPre"></div><div id="γLetter">Γ</div><div id="γUnder"></div><div id="γPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'δ\')"><div class="relative"><div id="δPre"></div><div id="δLetter">Δ</div><div id="δUnder"></div><div id="δPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'α\'); new Audio(\'sounds/greek/α_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="αPre"></div><div id="αLetter">Α</div><div id="αUnder"></div><div id="αPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'β\'); new Audio(\'sounds/greek/β_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="βPre"></div><div id="βLetter">Β</div><div id="βUnder"></div><div id="βPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'γ\'); new Audio(\'sounds/greek/γ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="γPre"></div><div id="γLetter">Γ</div><div id="γUnder"></div><div id="γPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'δ\'); new Audio(\'sounds/greek/δ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="δPre"></div><div id="δLetter">Δ</div><div id="δUnder"></div><div id="δPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'ε\')"><div class="relative"><div id="εPre"></div><div id="εLetter">Ε</div><div id="εUnder"></div><div id="εPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'ζ\')"><div class="relative"><div id="ζPre"></div><div id="ζLetter">Ζ</div><div id="ζUnder"></div><div id="ζPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'η\')"><div class="relative"><div id="ηPre"></div><div id="ηLetter">Η</div><div id="ηUnder"></div><div id="ηPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'θ\')"><div class="relative"><div id="θPre"></div><div id="θLetter">Θ</div><div id="θUnder"></div><div id="θPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ε\'); new Audio(\'sounds/greek/ε_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="εPre"></div><div id="εLetter">Ε</div><div id="εUnder"></div><div id="εPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'ζ\'); new Audio(\'sounds/greek/ζ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ζPre"></div><div id="ζLetter">Ζ</div><div id="ζUnder"></div><div id="ζPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'η\'); new Audio(\'sounds/greek/η_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ηPre"></div><div id="ηLetter">Η</div><div id="ηUnder"></div><div id="ηPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'θ\'); new Audio(\'sounds/greek/θ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="θPre"></div><div id="θLetter">Θ</div><div id="θUnder"></div><div id="θPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'ι\')"><div class="relative"><div id="ιPre"></div><div id="ιLetter">Ι</div><div id="ιUnder"></div><div id="ιPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'κ\')"><div class="relative"><div id="κPre"></div><div id="κLetter">Κ</div><div id="κUnder"></div><div id="κPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'λ\')"><div class="relative"><div id="λPre"></div><div id="λLetter">Λ</div><div id="λUnder"></div><div id="λPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'μ\')"><div class="relative"><div id="μPre"></div><div id="μLetter">Μ</div><div id="μUnder"></div><div id="μPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'ν\')"><div class="relative"><div id="νPre"></div><div id="νLetter">Ν</div><div id="νUnder"></div><div id="νPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'ξ\')"><div class="relative"><div id="ξPre"></div><div id="ξLetter">Ξ</div><div id="ξUnder"></div><div id="ξPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ι\'); new Audio(\'sounds/greek/ι_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ιPre"></div><div id="ιLetter">Ι</div><div id="ιUnder"></div><div id="ιPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'κ\'); new Audio(\'sounds/greek/κ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="κPre"></div><div id="κLetter">Κ</div><div id="κUnder"></div><div id="κPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'λ\'); new Audio(\'sounds/greek/λ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="λPre"></div><div id="λLetter">Λ</div><div id="λUnder"></div><div id="λPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'μ\'); new Audio(\'sounds/greek/μ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="μPre"></div><div id="μLetter">Μ</div><div id="μUnder"></div><div id="μPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'ν\'); new Audio(\'sounds/greek/ν_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="νPre"></div><div id="νLetter">Ν</div><div id="νUnder"></div><div id="νPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'ξ\'); new Audio(\'sounds/greek/ξ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ξPre"></div><div id="ξLetter">Ξ</div><div id="ξUnder"></div><div id="ξPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'ο\')"><div class="relative"><div id="οPre"></div><div id="οLetter">Ο</div><div id="οUnder"></div><div id="οPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'π\')"><div class="relative"><div id="πPre"></div><div id="πLetter">Π</div><div id="πUnder"></div><div id="πPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'ρ\')"><div class="relative"><div id="ρPre"></div><div id="ρLetter">Ρ</div><div id="ρUnder"></div><div id="ρPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'σ\')"><div class="relative"><div id="σPre"></div><div id="σLetter">Σ</div><div id="σUnder"></div><div id="σPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'τ\')"><div class="relative"><div id="τPre"></div><div id="τLetter">Τ</div><div id="τUnder"></div><div id="τPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ο\'); new Audio(\'sounds/greek/ο_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="οPre"></div><div id="οLetter">Ο</div><div id="οUnder"></div><div id="οPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'π\'); new Audio(\'sounds/greek/π_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="πPre"></div><div id="πLetter">Π</div><div id="πUnder"></div><div id="πPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'ρ\'); new Audio(\'sounds/greek/ρ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ρPre"></div><div id="ρLetter">Ρ</div><div id="ρUnder"></div><div id="ρPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'σ\'); new Audio(\'sounds/greek/σ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="σPre"></div><div id="σLetter">Σ</div><div id="σUnder"></div><div id="σPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'τ\'); new Audio(\'sounds/greek/τ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="τPre"></div><div id="τLetter">Τ</div><div id="τUnder"></div><div id="τPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'υ\')"><div class="relative"><div id="υPre"></div><div id="υLetter">Υ</div><div id="υUnder"></div><div id="υPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'φ\')"><div class="relative"><div id="φPre"></div><div id="φLetter">Φ</div><div id="φUnder"></div><div id="φPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'χ\')"><div class="relative"><div id="χPre"></div><div id="χLetter">Χ</div><div id="χUnder"></div><div id="χPost"></div></div></button></td>\
-<td><button style="color:green" onclick="speakLetter(\'ψ\')"><div class="relative"><div id="ψPre"></div><div id="ψLetter">Ψ</div><div id="ψUnder"></div><div id="ψPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ω\')"><div class="relative"><div id="ωPre"></div><div id="ωLetter">Ω</div><div id="ωUnder"></div><div id="ωPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'υ\'); new Audio(\'sounds/greek/υ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="υPre"></div><div id="υLetter">Υ</div><div id="υUnder"></div><div id="υPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'φ\'); new Audio(\'sounds/greek/φ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="φPre"></div><div id="φLetter">Φ</div><div id="φUnder"></div><div id="φPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'χ\'); new Audio(\'sounds/greek/χ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="χPre"></div><div id="χLetter">Χ</div><div id="χUnder"></div><div id="χPost"></div></div></button></td>\
+<td><button style="color:green" onclick="speakLetter(\'ψ\'); new Audio(\'sounds/greek/ψ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ψPre"></div><div id="ψLetter">Ψ</div><div id="ψUnder"></div><div id="ψPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ω\'); new Audio(\'sounds/greek/ω_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ωPre"></div><div id="ωLetter">Ω</div><div id="ωUnder"></div><div id="ωPost"></div></div></button></td>\
 </tr></table>';
 
 // Greek Axial Table
 tableAbcd["greek"]["axial"] = '<tr>\
-<td colspan="7" align="center"><button style="color:red" onclick="speakLetter(\'α\')"><div class="relative"><div id="αPre"></div><div id="αLetter">Α</div><div id="αUnder"></div><div id="αPost"></div></div></button></td>\
+<td colspan="7" align="center"><button style="color:red" onclick="speakLetter(\'α\'); new Audio(\'sounds/greek/α_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="αPre"></div><div id="αLetter">Α</div><div id="αUnder"></div><div id="αPost"></div></div></button></td>\
 </tr><tr><td colspan="2"></td><td colspan="3" align="center">\
-<button style="color:black" onclick="speakLetter(\'β\')"><div class="relative"><div id="βPre"></div><div id="βLetter">Β</div><div id="βUnder"></div><div id="βPost"></div></div></button>\
-<button style="color:black" onclick="speakLetter(\'γ\')"><div class="relative"><div id="γPre"></div><div id="γLetter">Γ</div><div id="γUnder"></div><div id="γPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'β\'); new Audio(\'sounds/greek/β_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="βPre"></div><div id="βLetter">Β</div><div id="βUnder"></div><div id="βPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'γ\'); new Audio(\'sounds/greek/γ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="γPre"></div><div id="γLetter">Γ</div><div id="γUnder"></div><div id="γPost"></div></div></button>\
 </td><td colspan="2"></td></tr><tr><td colspan="2"></td>\
-<td><button style="color:black" onclick="speakLetter(\'δ\')"><div class="relative"><div id="δPre"></div><div id="δLetter">Δ</div><div id="δUnder"></div><div id="δPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ε\')"><div class="relative"><div id="εPre"></div><div id="εLetter">Ε</div><div id="εUnder"></div><div id="εPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ζ\')"><div class="relative"><div id="ζPre"></div><div id="ζLetter">Ζ</div><div id="ζUnder"></div><div id="ζPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'δ\'); new Audio(\'sounds/greek/δ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="δPre"></div><div id="δLetter">Δ</div><div id="δUnder"></div><div id="δPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ε\'); new Audio(\'sounds/greek/ε_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="εPre"></div><div id="εLetter">Ε</div><div id="εUnder"></div><div id="εPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ζ\'); new Audio(\'sounds/greek/ζ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ζPre"></div><div id="ζLetter">Ζ</div><div id="ζUnder"></div><div id="ζPost"></div></div></button></td>\
 <td colspan="2"></td></tr><tr><td></td>\
-<td><button style="color:black" onclick="speakLetter(\'η\')"><div class="relative"><div id="ηPre"></div><div id="ηLetter">Η</div><div id="ηUnder"></div><div id="ηPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'θ\')"><div class="relative"><div id="θPre"></div><div id="θLetter">Θ</div><div id="θUnder"></div><div id="θPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ι\')"><div class="relative"><div id="ιPre"></div><div id="ιLetter">Ι</div><div id="ιUnder"></div><div id="ιPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'κ\')"><div class="relative"><div id="κPre"></div><div id="κLetter">Κ</div><div id="κUnder"></div><div id="κPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'λ\')"><div class="relative"><div id="λPre"></div><div id="λLetter">Λ</div><div id="λUnder"></div><div id="λPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'η\'); new Audio(\'sounds/greek/η_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ηPre"></div><div id="ηLetter">Η</div><div id="ηUnder"></div><div id="ηPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'θ\'); new Audio(\'sounds/greek/θ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="θPre"></div><div id="θLetter">Θ</div><div id="θUnder"></div><div id="θPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ι\'); new Audio(\'sounds/greek/ι_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ιPre"></div><div id="ιLetter">Ι</div><div id="ιUnder"></div><div id="ιPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'κ\'); new Audio(\'sounds/greek/κ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="κPre"></div><div id="κLetter">Κ</div><div id="κUnder"></div><div id="κPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'λ\'); new Audio(\'sounds/greek/λ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="λPre"></div><div id="λLetter">Λ</div><div id="λUnder"></div><div id="λPost"></div></div></button></td>\
 <td></td></tr><tr>\
-<td><button style="color:black" onclick="speakLetter(\'μ\')"><div class="relative"><div id="μPre"></div><div id="μLetter">Μ</div><div id="μUnder"></div><div id="μPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ν\')"><div class="relative"><div id="νPre"></div><div id="νLetter">Ν</div><div id="νUnder"></div><div id="νPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ξ\')"><div class="relative"><div id="ξPre"></div><div id="ξLetter">Ξ</div><div id="ξUnder"></div><div id="ξPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ο\')"><div class="relative"><div id="οPre"></div><div id="οLetter">Ο</div><div id="οUnder"></div><div id="οPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'π\')"><div class="relative"><div id="πPre"></div><div id="πLetter">Π</div><div id="πUnder"></div><div id="πPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ρ\')"><div class="relative"><div id="ρPre"></div><div id="ρLetter">Ρ</div><div id="ρUnder"></div><div id="ρPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'σ\')"><div class="relative"><div id="σPre"></div><div id="σLetter">Σ</div><div id="σUnder"></div><div id="σPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'μ\'); new Audio(\'sounds/greek/μ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="μPre"></div><div id="μLetter">Μ</div><div id="μUnder"></div><div id="μPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ν\'); new Audio(\'sounds/greek/ν_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="νPre"></div><div id="νLetter">Ν</div><div id="νUnder"></div><div id="νPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ξ\'); new Audio(\'sounds/greek/ξ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ξPre"></div><div id="ξLetter">Ξ</div><div id="ξUnder"></div><div id="ξPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ο\'); new Audio(\'sounds/greek/ο_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="οPre"></div><div id="οLetter">Ο</div><div id="οUnder"></div><div id="οPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'π\'); new Audio(\'sounds/greek/π_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="πPre"></div><div id="πLetter">Π</div><div id="πUnder"></div><div id="πPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ρ\'); new Audio(\'sounds/greek/ρ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ρPre"></div><div id="ρLetter">Ρ</div><div id="ρUnder"></div><div id="ρPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'σ\'); new Audio(\'sounds/greek/σ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="σPre"></div><div id="σLetter">Σ</div><div id="σUnder"></div><div id="σPost"></div></div></button></td>\
 </tr><tr><td colspan="2"></td>\
-<td><button style="color:black" onclick="speakLetter(\'τ\')"><div class="relative"><div id="τPre"></div><div id="τLetter">Τ</div><div id="τUnder"></div><div id="τPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'υ\')"><div class="relative"><div id="υPre"></div><div id="υLetter">Υ</div><div id="υUnder"></div><div id="υPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'φ\')"><div class="relative"><div id="φPre"></div><div id="φLetter">Φ</div><div id="φUnder"></div><div id="φPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'τ\'); new Audio(\'sounds/greek/τ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="τPre"></div><div id="τLetter">Τ</div><div id="τUnder"></div><div id="τPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'υ\'); new Audio(\'sounds/greek/υ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="υPre"></div><div id="υLetter">Υ</div><div id="υUnder"></div><div id="υPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'φ\'); new Audio(\'sounds/greek/φ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="φPre"></div><div id="φLetter">Φ</div><div id="φUnder"></div><div id="φPost"></div></div></button></td>\
 <td colspan="2"></td></tr><tr><td colspan="2"></td><td colspan="3" align="center">\
-<button style="color:black" onclick="speakLetter(\'χ\')"><div class="relative"><div id="χPre"></div><div id="χLetter">Χ</div><div id="χUnder"></div><div id="χPost"></div></div></button>\
-<button style="color:black" onclick="speakLetter(\'ψ\')"><div class="relative"><div id="ψPre"></div><div id="ψLetter">Ψ</div><div id="ψUnder"></div><div id="ψPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'χ\'); new Audio(\'sounds/greek/χ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="χPre"></div><div id="χLetter">Χ</div><div id="χUnder"></div><div id="χPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'ψ\'); new Audio(\'sounds/greek/ψ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ψPre"></div><div id="ψLetter">Ψ</div><div id="ψUnder"></div><div id="ψPost"></div></div></button>\
 </td><td colspan="2"></td></tr><tr>\
-<td colspan="7" align="center"><button style="color:red" onclick="speakLetter(\'ω\')"><div class="relative"><div id="ωPre"></div><div id="ωLetter">Ω</div><div id="ωUnder"></div><div id="ωPost"></div></div></button></td>\
+<td colspan="7" align="center"><button style="color:red" onclick="speakLetter(\'ω\'); new Audio(\'sounds/greek/ω_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ωPre"></div><div id="ωLetter">Ω</div><div id="ωUnder"></div><div id="ωPost"></div></div></button></td>\
 </tr></table>';
 
 // Greek Sound Correspondence
@@ -559,49 +559,49 @@ tableAbcd["abjadi"]["axial"] = '<tr>\
 
 // Runes Linear Table (younger futhark)
 tableAbcd["runes"]["linear"] = '<tr>\
-<td><button style="color:red" onclick="speakLetter(\'ᛅ\')"><div class="relative"><div id="ᛅPre"></div><div id="ᛅLetter">ᛅ</div><div id="ᛅUnder"></div><div id="ᛅPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛒ\')"><div class="relative"><div id="ᛒPre"></div><div id="ᛒLetter">ᛒ</div><div id="ᛒUnder"></div><div id="ᛒPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚦ\')"><div class="relative"><div id="ᚦPre"></div><div id="ᚦLetter">ᚦ</div><div id="ᚦUnder"></div><div id="ᚦPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᛅ\'); new Audio(\'sounds/runes/ᛅ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛅPre"></div><div id="ᛅLetter">ᛅ</div><div id="ᛅUnder"></div><div id="ᛅPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛒ\'); new Audio(\'sounds/runes/ᛒ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛒPre"></div><div id="ᛒLetter">ᛒ</div><div id="ᛒUnder"></div><div id="ᛒPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚦ\'); new Audio(\'sounds/runes/ᚦ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚦPre"></div><div id="ᚦLetter">ᚦ</div><div id="ᚦUnder"></div><div id="ᚦPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'ᛁ\')"><div class="relative"><div id="ᛁPre"></div><div id="ᛁLetter">ᛁ</div><div id="ᛁUnder"></div><div id="ᛁPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚴ\')"><div class="relative"><div id="ᚴPre"></div><div id="ᚴLetter">ᚴ</div><div id="ᚴUnder"></div><div id="ᚴPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛚ\')"><div class="relative"><div id="ᛚPre"></div><div id="ᛚLetter">ᛚ</div><div id="ᛚUnder"></div><div id="ᛚPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛘ\')"><div class="relative"><div id="ᛘPre"></div><div id="ᛘLetter">ᛘ</div><div id="ᛘUnder"></div><div id="ᛘPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚾ\')"><div class="relative"><div id="ᚾPre"></div><div id="ᚾLetter">ᚾ</div><div id="ᚾUnder"></div><div id="ᚾPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᛁ\'); new Audio(\'sounds/runes/ᛁ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛁPre"></div><div id="ᛁLetter">ᛁ</div><div id="ᛁUnder"></div><div id="ᛁPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚴ\'); new Audio(\'sounds/runes/ᚴ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚴPre"></div><div id="ᚴLetter">ᚴ</div><div id="ᚴUnder"></div><div id="ᚴPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛚ\'); new Audio(\'sounds/runes/ᛚ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛚPre"></div><div id="ᛚLetter">ᛚ</div><div id="ᛚUnder"></div><div id="ᛚPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛘ\'); new Audio(\'sounds/runes/ᛘ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛘPre"></div><div id="ᛘLetter">ᛘ</div><div id="ᛘUnder"></div><div id="ᛘPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚾ\'); new Audio(\'sounds/runes/ᚾ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚾPre"></div><div id="ᚾLetter">ᚾ</div><div id="ᚾUnder"></div><div id="ᚾPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'ᚬ\')"><div class="relative"><div id="ᚬPre"></div><div id="ᚬLetter">ᚬ</div><div id="ᚬUnder"></div><div id="ᚬPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛦ\')"><div class="relative"><div id="ᛦPre"></div><div id="ᛦLetter">ᛦ</div><div id="ᛦUnder"></div><div id="ᛦPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚱ\')"><div class="relative"><div id="ᚱPre"></div><div id="ᚱLetter">ᚱ</div><div id="ᚱUnder"></div><div id="ᚱPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛋ\')"><div class="relative"><div id="ᛋPre"></div><div id="ᛋLetter">ᛋ</div><div id="ᛋUnder"></div><div id="ᛋPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛏ\')"><div class="relative"><div id="ᛏPre"></div><div id="ᛏLetter">ᛏ</div><div id="ᛏUnder"></div><div id="ᛏPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᚬ\'); new Audio(\'sounds/runes/ᚬ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚬPre"></div><div id="ᚬLetter">ᚬ</div><div id="ᚬUnder"></div><div id="ᚬPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛦ\'); new Audio(\'sounds/runes/ᛦ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛦPre"></div><div id="ᛦLetter">ᛦ</div><div id="ᛦUnder"></div><div id="ᛦPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚱ\'); new Audio(\'sounds/runes/ᚱ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚱPre"></div><div id="ᚱLetter">ᚱ</div><div id="ᚱUnder"></div><div id="ᚱPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛋ\'); new Audio(\'sounds/runes/ᛋ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛋPre"></div><div id="ᛋLetter">ᛋ</div><div id="ᛋUnder"></div><div id="ᛋPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛏ\'); new Audio(\'sounds/runes/ᛏ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛏPre"></div><div id="ᛏLetter">ᛏ</div><div id="ᛏUnder"></div><div id="ᛏPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'ᚢ\')"><div class="relative"><div id="ᚢPre"></div><div id="ᚢLetter">ᚢ</div><div id="ᚢUnder"></div><div id="ᚢPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚠ\')"><div class="relative"><div id="ᚠPre"></div><div id="ᚠLetter">ᚠ</div><div id="ᚠUnder"></div><div id="ᚠPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚼ\')"><div class="relative"><div id="ᚼPre"></div><div id="ᚼLetter">ᚼ</div><div id="ᚼUnder"></div><div id="ᚼPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᚢ\'); new Audio(\'sounds/runes/ᚢ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚢPre"></div><div id="ᚢLetter">ᚢ</div><div id="ᚢUnder"></div><div id="ᚢPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚠ\'); new Audio(\'sounds/runes/ᚠ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚠPre"></div><div id="ᚠLetter">ᚠ</div><div id="ᚠUnder"></div><div id="ᚠPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚼ\'); new Audio(\'sounds/runes/ᚼ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚼPre"></div><div id="ᚼLetter">ᚼ</div><div id="ᚼUnder"></div><div id="ᚼPost"></div></div></button></td>\
 </tr><tr>\
 </tr></table>';
 
 // Runes Axial Table (younger futhark)
 tableAbcd["runes"]["axial"] = '<tr>\
-<td colspan="5" align="center"><button style="color:red" onclick="speakLetter(\'ᛅ\')"><div class="relative"><div id="ᛅPre"></div><div id="ᛅLetter">ᛅ</div><div id="ᛅUnder"></div><div id="ᛅPost"></div></div></button></td>\
+<td colspan="5" align="center"><button style="color:red" onclick="speakLetter(\'ᛅ\'); new Audio(\'sounds/runes/ᛅ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛅPre"></div><div id="ᛅLetter">ᛅ</div><div id="ᛅUnder"></div><div id="ᛅPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:black" onclick="speakLetter(\'ᛒ\')"><div class="relative"><div id="ᛒPre"></div><div id="ᛒLetter">ᛒ</div><div id="ᛒUnder"></div><div id="ᛒPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚦ\')"><div class="relative"><div id="ᚦPre"></div><div id="ᚦLetter">ᚦ</div><div id="ᚦUnder"></div><div id="ᚦPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ᛁ\')"><div class="relative"><div id="ᛁPre"></div><div id="ᛁLetter">ᛁ</div><div id="ᛁUnder"></div><div id="ᛁPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚴ\')"><div class="relative"><div id="ᚴPre"></div><div id="ᚴLetter">ᚴ</div><div id="ᚴUnder"></div><div id="ᚴPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛚ\')"><div class="relative"><div id="ᛚPre"></div><div id="ᛚLetter">ᛚ</div><div id="ᛚUnder"></div><div id="ᛚPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛒ\'); new Audio(\'sounds/runes/ᛒ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛒPre"></div><div id="ᛒLetter">ᛒ</div><div id="ᛒUnder"></div><div id="ᛒPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚦ\'); new Audio(\'sounds/runes/ᚦ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚦPre"></div><div id="ᚦLetter">ᚦ</div><div id="ᚦUnder"></div><div id="ᚦPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᛁ\'); new Audio(\'sounds/runes/ᛁ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛁPre"></div><div id="ᛁLetter">ᛁ</div><div id="ᛁUnder"></div><div id="ᛁPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚴ\'); new Audio(\'sounds/runes/ᚴ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚴPre"></div><div id="ᚴLetter">ᚴ</div><div id="ᚴUnder"></div><div id="ᚴPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛚ\'); new Audio(\'sounds/runes/ᛚ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛚPre"></div><div id="ᛚLetter">ᛚ</div><div id="ᛚUnder"></div><div id="ᛚPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:black" onclick="speakLetter(\'ᛘ\')"><div class="relative"><div id="ᛘPre"></div><div id="ᛘLetter">ᛘ</div><div id="ᛘUnder"></div><div id="ᛘPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚾ\')"><div class="relative"><div id="ᚾPre"></div><div id="ᚾLetter">ᚾ</div><div id="ᚾUnder"></div><div id="ᚾPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ᚬ\')"><div class="relative"><div id="ᚬPre"></div><div id="ᚬLetter">ᚬ</div><div id="ᚬUnder"></div><div id="ᚬPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛦ\')"><div class="relative"><div id="ᛦPre"></div><div id="ᛦLetter">ᛦ</div><div id="ᛦUnder"></div><div id="ᛦPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚱ\')"><div class="relative"><div id="ᚱPre"></div><div id="ᚱLetter">ᚱ</div><div id="ᚱUnder"></div><div id="ᚱPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛘ\'); new Audio(\'sounds/runes/ᛘ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛘPre"></div><div id="ᛘLetter">ᛘ</div><div id="ᛘUnder"></div><div id="ᛘPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚾ\'); new Audio(\'sounds/runes/ᚾ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚾPre"></div><div id="ᚾLetter">ᚾ</div><div id="ᚾUnder"></div><div id="ᚾPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᚬ\'); new Audio(\'sounds/runes/ᚬ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚬPre"></div><div id="ᚬLetter">ᚬ</div><div id="ᚬUnder"></div><div id="ᚬPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛦ\'); new Audio(\'sounds/runes/ᛦ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛦPre"></div><div id="ᛦLetter">ᛦ</div><div id="ᛦUnder"></div><div id="ᛦPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚱ\'); new Audio(\'sounds/runes/ᚱ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚱPre"></div><div id="ᚱLetter">ᚱ</div><div id="ᚱUnder"></div><div id="ᚱPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:black" onclick="speakLetter(\'ᛋ\')"><div class="relative"><div id="ᛋPre"></div><div id="ᛋLetter">ᛋ</div><div id="ᛋUnder"></div><div id="ᛋPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛏ\')"><div class="relative"><div id="ᛏPre"></div><div id="ᛏLetter">ᛏ</div><div id="ᛏUnder"></div><div id="ᛏPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ᚢ\')"><div class="relative"><div id="ᚢPre"></div><div id="ᚢLetter">ᚢ</div><div id="ᚢUnder"></div><div id="ᚢPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚠ\')"><div class="relative"><div id="ᚠPre"></div><div id="ᚠLetter">ᚠ</div><div id="ᚠUnder"></div><div id="ᚠPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚼ\')"><div class="relative"><div id="ᚼPre"></div><div id="ᚼLetter">ᚼ</div><div id="ᚼUnder"></div><div id="ᚼPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛋ\'); new Audio(\'sounds/runes/ᛋ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛋPre"></div><div id="ᛋLetter">ᛋ</div><div id="ᛋUnder"></div><div id="ᛋPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛏ\'); new Audio(\'sounds/runes/ᛏ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛏPre"></div><div id="ᛏLetter">ᛏ</div><div id="ᛏUnder"></div><div id="ᛏPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᚢ\'); new Audio(\'sounds/runes/ᚢ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚢPre"></div><div id="ᚢLetter">ᚢ</div><div id="ᚢUnder"></div><div id="ᚢPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚠ\'); new Audio(\'sounds/runes/ᚠ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚠPre"></div><div id="ᚠLetter">ᚠ</div><div id="ᚠUnder"></div><div id="ᚠPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚼ\'); new Audio(\'sounds/runes/ᚼ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚼPre"></div><div id="ᚼLetter">ᚼ</div><div id="ᚼUnder"></div><div id="ᚼPost"></div></div></button></td>\
 </tr></table>';
 
 // Runes Sound Correspondence (younger futhark)
@@ -625,53 +625,53 @@ tableAbcd["runes"]["sound"]["ᚼ"] = [ "ᚼ", " ", "ᛅᚴᛚ", "hagl (hail)" ];
 
 // Runes Linear Table (bornholm)
 tableAbcd["runes-bornholm"]["linear"] = '<tr>\
-<td><button style="color:red" onclick="speakLetter(\'ᛆ\')"><div class="relative"><div id="ᛆPre"></div><div id="ᛆLetter">ᛆ</div><div id="ᛆUnder"></div><div id="ᛆPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'ᛒ\')"><div class="relative"><div id="ᛒPre"></div><div id="ᛒLetter">ᛒ</div><div id="ᛒUnder"></div><div id="ᛒPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚦ\')"><div class="relative"><div id="ᚦPre"></div><div id="ᚦLetter">ᚦ</div><div id="ᚦUnder"></div><div id="ᚦPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᛆ\'); new Audio(\'sounds/runes-bornholm/ᛆ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛆPre"></div><div id="ᛆLetter">ᛆ</div><div id="ᛆUnder"></div><div id="ᛆPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'ᛒ\'); new Audio(\'sounds/runes-bornholm/ᛒ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛒPre"></div><div id="ᛒLetter">ᛒ</div><div id="ᛒUnder"></div><div id="ᛒPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚦ\'); new Audio(\'sounds/runes-bornholm/ᚦ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚦPre"></div><div id="ᚦLetter">ᚦ</div><div id="ᚦUnder"></div><div id="ᚦPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'ᛂ\')"><div class="relative"><div id="ᛂPre"></div><div id="ᛂLetter">ᛂ</div><div id="ᛂUnder"></div><div id="ᛂPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'ᚠ\')"><div class="relative"><div id="ᚠPre"></div><div id="ᚠLetter">ᚠ</div><div id="ᚠUnder"></div><div id="ᚠPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚵ\')"><div class="relative"><div id="ᚵPre"></div><div id="ᚵLetter">ᚵ</div><div id="ᚵUnder"></div><div id="ᚵPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚼ\')"><div class="relative"><div id="ᚼPre"></div><div id="ᚼLetter">ᚼ</div><div id="ᚼUnder"></div><div id="ᚼPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᛂ\'); new Audio(\'sounds/runes-bornholm/ᛂ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛂPre"></div><div id="ᛂLetter">ᛂ</div><div id="ᛂUnder"></div><div id="ᛂPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'ᚠ\'); new Audio(\'sounds/runes-bornholm/ᚠ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚠPre"></div><div id="ᚠLetter">ᚠ</div><div id="ᚠUnder"></div><div id="ᚠPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚵ\'); new Audio(\'sounds/runes-bornholm/ᚵ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚵPre"></div><div id="ᚵLetter">ᚵ</div><div id="ᚵUnder"></div><div id="ᚵPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚼ\'); new Audio(\'sounds/runes-bornholm/ᚼ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚼPre"></div><div id="ᚼLetter">ᚼ</div><div id="ᚼUnder"></div><div id="ᚼPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'ᛁ\')"><div class="relative"><div id="ᛁPre"></div><div id="ᛁLetter">ᛁ</div><div id="ᛁUnder"></div><div id="ᛁPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚴ\')"><div class="relative"><div id="ᚴPre"></div><div id="ᚴLetter">ᚴ</div><div id="ᚴUnder"></div><div id="ᚴPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛚ\')"><div class="relative"><div id="ᛚPre"></div><div id="ᛚLetter">ᛚ</div><div id="ᛚUnder"></div><div id="ᛚPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'ᛘ\')"><div class="relative"><div id="ᛘPre"></div><div id="ᛘLetter">ᛘ</div><div id="ᛘUnder"></div><div id="ᛘPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚿ\')"><div class="relative"><div id="ᚿPre"></div><div id="ᚿLetter">ᚿ</div><div id="ᚿUnder"></div><div id="ᚿPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᛁ\'); new Audio(\'sounds/runes-bornholm/ᛁ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛁPre"></div><div id="ᛁLetter">ᛁ</div><div id="ᛁUnder"></div><div id="ᛁPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚴ\'); new Audio(\'sounds/runes-bornholm/ᚴ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚴPre"></div><div id="ᚴLetter">ᚴ</div><div id="ᚴUnder"></div><div id="ᚴPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛚ\'); new Audio(\'sounds/runes-bornholm/ᛚ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛚPre"></div><div id="ᛚLetter">ᛚ</div><div id="ᛚUnder"></div><div id="ᛚPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'ᛘ\'); new Audio(\'sounds/runes-bornholm/ᛘ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛘPre"></div><div id="ᛘLetter">ᛘ</div><div id="ᛘUnder"></div><div id="ᛘPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚿ\'); new Audio(\'sounds/runes-bornholm/ᚿ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚿPre"></div><div id="ᚿLetter">ᚿ</div><div id="ᚿUnder"></div><div id="ᚿPost"></div></div></button></td>\
 </tr><tr>\
-<td><button style="color:red" onclick="speakLetter(\'ᚮ\')"><div class="relative"><div id="ᚮPre"></div><div id="ᚮLetter">ᚮ</div><div id="ᚮUnder"></div><div id="ᚮPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚱ\')"><div class="relative"><div id="ᚱPre"></div><div id="ᚱLetter">ᚱ</div><div id="ᚱUnder"></div><div id="ᚱPost"></div></div></button></td>\
-<td><button style="color:brown" onclick="speakLetter(\'ᛦ\')"><div class="relative"><div id="ᛦPre"></div><div id="ᛦLetter">ᛦ</div><div id="ᛦUnder"></div><div id="ᛦPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛋ\')"><div class="relative"><div id="ᛋPre"></div><div id="ᛋLetter">ᛋ</div><div id="ᛋUnder"></div><div id="ᛋPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛏ\')"><div class="relative"><div id="ᛏPre"></div><div id="ᛏLetter">ᛏ</div><div id="ᛏUnder"></div><div id="ᛏPost"></div></div></button></td>\
-<td><button style="color:blue" onclick="speakLetter(\'ᚢ\')"><div class="relative"><div id="ᚢPre"></div><div id="ᚢLetter">ᚢ</div><div id="ᚢUnder"></div><div id="ᚢPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᚮ\'); new Audio(\'sounds/runes-bornholm/ᚮ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚮPre"></div><div id="ᚮLetter">ᚮ</div><div id="ᚮUnder"></div><div id="ᚮPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚱ\'); new Audio(\'sounds/runes-bornholm/ᚱ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚱPre"></div><div id="ᚱLetter">ᚱ</div><div id="ᚱUnder"></div><div id="ᚱPost"></div></div></button></td>\
+<td><button style="color:brown" onclick="speakLetter(\'ᛦ\'); new Audio(\'sounds/runes-bornholm/ᛦ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛦPre"></div><div id="ᛦLetter">ᛦ</div><div id="ᛦUnder"></div><div id="ᛦPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛋ\'); new Audio(\'sounds/runes-bornholm/ᛋ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛋPre"></div><div id="ᛋLetter">ᛋ</div><div id="ᛋUnder"></div><div id="ᛋPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛏ\'); new Audio(\'sounds/runes-bornholm/ᛏ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛏPre"></div><div id="ᛏLetter">ᛏ</div><div id="ᛏUnder"></div><div id="ᛏPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="speakLetter(\'ᚢ\'); new Audio(\'sounds/runes-bornholm/ᚢ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚢPre"></div><div id="ᚢLetter">ᚢ</div><div id="ᚢUnder"></div><div id="ᚢPost"></div></div></button></td>\
 </tr></table>';
 
 // Runes Axial Table (bornholm)
 tableAbcd["runes-bornholm"]["axial"] = '<tr>\
-<td colspan="7" align="center"><button style="color:red" onclick="speakLetter(\'ᛆ\')"><div class="relative"><div id="ᛆPre"></div><div id="ᛆLetter">ᛆ</div><div id="ᛆUnder"></div><div id="ᛆPost"></div></div></button></td>\
+<td colspan="7" align="center"><button style="color:red" onclick="speakLetter(\'ᛆ\'); new Audio(\'sounds/runes-bornholm/ᛆ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛆPre"></div><div id="ᛆLetter">ᛆ</div><div id="ᛆUnder"></div><div id="ᛆPost"></div></div></button></td>\
 </tr><tr><td></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛒ\')"><div class="relative"><div id="ᛒPre"></div><div id="ᛒLetter">ᛒ</div><div id="ᛒUnder"></div><div id="ᛒPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚦ\')"><div class="relative"><div id="ᚦPre"></div><div id="ᚦLetter">ᚦ</div><div id="ᚦUnder"></div><div id="ᚦPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ᛂ\')"><div class="relative"><div id="ᛂPre"></div><div id="ᛂLetter">ᛂ</div><div id="ᛂUnder"></div><div id="ᛂPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚠ\')"><div class="relative"><div id="ᚠPre"></div><div id="ᚠLetter">ᚠ</div><div id="ᚠUnder"></div><div id="ᚠPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚵ\')"><div class="relative"><div id="ᚵPre"></div><div id="ᚵLetter">ᚵ</div><div id="ᚵUnder"></div><div id="ᚵPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛒ\'); new Audio(\'sounds/runes-bornholm/ᛒ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛒPre"></div><div id="ᛒLetter">ᛒ</div><div id="ᛒUnder"></div><div id="ᛒPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚦ\'); new Audio(\'sounds/runes-bornholm/ᚦ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚦPre"></div><div id="ᚦLetter">ᚦ</div><div id="ᚦUnder"></div><div id="ᚦPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᛂ\'); new Audio(\'sounds/runes-bornholm/ᛂ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛂPre"></div><div id="ᛂLetter">ᛂ</div><div id="ᛂUnder"></div><div id="ᛂPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚠ\'); new Audio(\'sounds/runes-bornholm/ᚠ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚠPre"></div><div id="ᚠLetter">ᚠ</div><div id="ᚠUnder"></div><div id="ᚠPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚵ\'); new Audio(\'sounds/runes-bornholm/ᚵ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚵPre"></div><div id="ᚵLetter">ᚵ</div><div id="ᚵUnder"></div><div id="ᚵPost"></div></div></button></td>\
 <td></td></tr><tr><td colspan="2"></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚼ\')"><div class="relative"><div id="ᚼPre"></div><div id="ᚼLetter">ᚼ</div><div id="ᚼUnder"></div><div id="ᚼPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ᛁ\')"><div class="relative"><div id="ᛁPre"></div><div id="ᛁLetter">ᛁ</div><div id="ᛁUnder"></div><div id="ᛁPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚴ\')"><div class="relative"><div id="ᚴPre"></div><div id="ᚴLetter">ᚴ</div><div id="ᚴUnder"></div><div id="ᚴPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚼ\'); new Audio(\'sounds/runes-bornholm/ᚼ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚼPre"></div><div id="ᚼLetter">ᚼ</div><div id="ᚼUnder"></div><div id="ᚼPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᛁ\'); new Audio(\'sounds/runes-bornholm/ᛁ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛁPre"></div><div id="ᛁLetter">ᛁ</div><div id="ᛁUnder"></div><div id="ᛁPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚴ\'); new Audio(\'sounds/runes-bornholm/ᚴ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚴPre"></div><div id="ᚴLetter">ᚴ</div><div id="ᚴUnder"></div><div id="ᚴPost"></div></div></button></td>\
 <td colspan="2"></td></tr><tr>\
-<td><button style="color:black" onclick="speakLetter(\'ᛚ\')"><div class="relative"><div id="ᛚPre"></div><div id="ᛚLetter">ᛚ</div><div id="ᛚUnder"></div><div id="ᛚPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛘ\')"><div class="relative"><div id="ᛘPre"></div><div id="ᛘLetter">ᛘ</div><div id="ᛘUnder"></div><div id="ᛘPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚿ\')"><div class="relative"><div id="ᚿPre"></div><div id="ᚿLetter">ᚿ</div><div id="ᚿUnder"></div><div id="ᚿPost"></div></div></button></td>\
-<td><button style="color:red" onclick="speakLetter(\'ᚮ\')"><div class="relative"><div id="ᚮPre"></div><div id="ᚮLetter">ᚮ</div><div id="ᚮUnder"></div><div id="ᚮPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᚱ\')"><div class="relative"><div id="ᚱPre"></div><div id="ᚱLetter">ᚱ</div><div id="ᚱUnder"></div><div id="ᚱPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛦ\')"><div class="relative"><div id="ᛦPre"></div><div id="ᛦLetter">ᛦ</div><div id="ᛦUnder"></div><div id="ᛦPost"></div></div></button></td>\
-<td><button style="color:black" onclick="speakLetter(\'ᛋ\')"><div class="relative"><div id="ᛋPre"></div><div id="ᛋLetter">ᛋ</div><div id="ᛋUnder"></div><div id="ᛋPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛚ\'); new Audio(\'sounds/runes-bornholm/ᛚ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛚPre"></div><div id="ᛚLetter">ᛚ</div><div id="ᛚUnder"></div><div id="ᛚPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛘ\'); new Audio(\'sounds/runes-bornholm/ᛘ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛘPre"></div><div id="ᛘLetter">ᛘ</div><div id="ᛘUnder"></div><div id="ᛘPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚿ\'); new Audio(\'sounds/runes-bornholm/ᚿ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚿPre"></div><div id="ᚿLetter">ᚿ</div><div id="ᚿUnder"></div><div id="ᚿPost"></div></div></button></td>\
+<td><button style="color:red" onclick="speakLetter(\'ᚮ\'); new Audio(\'sounds/runes-bornholm/ᚮ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚮPre"></div><div id="ᚮLetter">ᚮ</div><div id="ᚮUnder"></div><div id="ᚮPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᚱ\'); new Audio(\'sounds/runes-bornholm/ᚱ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚱPre"></div><div id="ᚱLetter">ᚱ</div><div id="ᚱUnder"></div><div id="ᚱPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛦ\'); new Audio(\'sounds/runes-bornholm/ᛦ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛦPre"></div><div id="ᛦLetter">ᛦ</div><div id="ᛦUnder"></div><div id="ᛦPost"></div></div></button></td>\
+<td><button style="color:black" onclick="speakLetter(\'ᛋ\'); new Audio(\'sounds/runes-bornholm/ᛋ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛋPre"></div><div id="ᛋLetter">ᛋ</div><div id="ᛋUnder"></div><div id="ᛋPost"></div></div></button></td>\
 </tr><tr><td colspan="2"></td><td colspan="3" align="center">\
-<button style="color:black" onclick="speakLetter(\'ᛏ\')"><div class="relative"><div id="ᛏPre"></div><div id="ᛏLetter">ᛏ</div><div id="ᛏUnder"></div><div id="ᛏPost"></div></div></button>\
-<button style="color:black" onclick="speakLetter(\'ᚢ\')"><div class="relative"><div id="ᚢPre"></div><div id="ᚢLetter">ᚢ</div><div id="ᚢUnder"></div><div id="ᚢPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'ᛏ\'); new Audio(\'sounds/runes-bornholm/ᛏ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᛏPre"></div><div id="ᛏLetter">ᛏ</div><div id="ᛏUnder"></div><div id="ᛏPost"></div></div></button>\
+<button style="color:black" onclick="speakLetter(\'ᚢ\'); new Audio(\'sounds/runes-bornholm/ᚢ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ᚢPre"></div><div id="ᚢLetter">ᚢ</div><div id="ᚢUnder"></div><div id="ᚢPost"></div></div></button>\
 </td><td colspan="2"></td></tr></table>';
 
 // Runes Sound Correspondence (bornholm)
@@ -986,11 +986,6 @@ function speakLetter(letter) {
     } else { lastSpoken["count"] = 1 }
     lastSpoken["symbol"] = letter;
 
-    var audio = new Audio();
-    file = 'sounds/'+ speakLanguage + '/' + letter + '_' + lastSpoken["count"] + '.mp3';
-    audio.src = file;
-    audio.autoplay = true;
-
     switch(lastSpoken["count"]) {
         case lastSpoken["count"]:
             if (font == "enhandwritten" || font == "enlowerhand" || font == "ruhandwritten" || font == "rulowerhand" ) textstroke = 0;
@@ -999,11 +994,6 @@ function speakLetter(letter) {
             document.getElementById(letter + "Pre").innerHTML = '<div style="position: absolute; text-transform: lowercase; left: -' + (((tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) - 1) + lastSpoken["count"]].length - 1) * 15) + 5) + 'px; top: 0px; font-weight: 900; color: gray; -webkit-text-fill-color: gray; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) - 1) + lastSpoken["count"]] + '</div>';
             document.getElementById(letter + "Letter").innerHTML = tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"] - 1];
             document.getElementById(letter + "Post").innerHTML = '<div style="position: absolute; text-transform: lowercase; left: 30px; top: 0px; font-weight: 900; color: gray; -webkit-text-fill-color: gray; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + ( tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"] + (((tableAbcd[speakLanguage]["sound"][letter].length / 4) * 2) - 1)] ) + '</div>';
-            
-            // lastSpoken["count"] + ((tableAbcd[speakLanguage]["sound"][letter].length - 1) / 3) * 2
-            // (((tableAbcd[speakLanguage]["sound"][letter].length / 4) * 3) - 1)
-            // ((tableAbcd[speakLanguage]["sound"][letter].length / 4) * 3) - 1 + lastSpoken["count"]
-
             if (tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) * 3) - 1 + lastSpoken["count"]].length > 0) {
                 var bracketLeft = "(";
                 var bracketRight = ")";
