@@ -243,7 +243,7 @@ tableAbcd["russian"]["sound"]["ю"] = [ "ю", "ю", "ю", "кл", "кр", "тр"
 tableAbcd["russian"]["sound"]["я"] = [ "я", "я", "я", "я", " ", " ", " ", "вол", " ", "рость", "ркость", " ", "I", "wrath", "brightness", "will" ];
 
 // Hebrew Linear Table
-tableAbcd["hebrew"]["linear"] = '<div id="underDevelopment"></div><tr>\
+tableAbcd["hebrew"]["linear"] = '<div id="underDevelopment">&nbsp;</div><tr>\
 <tr><td colspan="3"></td>\
 <td><button style="color:black" onclick="underDevelopment();">ד</button></td>\
 <td><button style="color:black" onclick="underDevelopment();">ג</button></td>\
@@ -273,7 +273,7 @@ tableAbcd["hebrew"]["linear"] = '<div id="underDevelopment"></div><tr>\
 </tr></table>';
 
 // Hebrew Axial Table
-tableAbcd["hebrew"]["axial"] = '<div id="underDevelopment"></div><tr>\
+tableAbcd["hebrew"]["axial"] = '<div id="underDevelopment">&nbsp;</div><tr>\
 <td colspan="7" align="center"><button style="color:red" onclick="underDevelopment();">א</button></td>\
 </tr><tr><td colspan="2"></td><td colspan="3" align="center">\
 <button style="color:black" onclick="underDevelopment();">ג</button>\
@@ -398,7 +398,7 @@ tableAbcd["greek"]["sound"]["ψ"] = [ "ψ", "ψ", "ψ", "ψ", " ", " ", " ", " "
 tableAbcd["greek"]["sound"]["ω"] = [ "ὤ", "ὠ", "ὡ", " ", " ", " ", "ρα", "μά", "ς", "hour", "raw, blunt", "as" ];
 
 // Georgian Linear Table
-tableAbcd["georgian"]["linear"] = '<div id="underDevelopment"></div><tr>\
+tableAbcd["georgian"]["linear"] = '<div id="underDevelopment">&nbsp;</div><tr>\
 <td><button style="color:red" onclick="underDevelopment();">ა‎</button></td>\
 <td><button style="color:blue" onclick="underDevelopment();">ბ</button></td>\
 <td><button style="color:green" onclick="underDevelopment();">გ</button></td>\
@@ -440,7 +440,7 @@ tableAbcd["georgian"]["linear"] = '<div id="underDevelopment"></div><tr>\
 </tr></table>';
 
 // Georgian Axial Table
-tableAbcd["georgian"]["axial"] = '<div id="underDevelopment"></div><tr>\
+tableAbcd["georgian"]["axial"] = '<div id="underDevelopment">&nbsp;</div><tr>\
 <td colspan="11" align="center"><button style="color:red" onclick="underDevelopment();">ა‎</button></td>\
 </tr><tr><td colspan="4"></td><td colspan="3" align="center">\
 <button style="color:black" onclick="underDevelopment();">ბ</button>\
@@ -483,7 +483,7 @@ tableAbcd["georgian"]["axial"] = '<div id="underDevelopment"></div><tr>\
 </td></tr></table>';
 
 // Abjadi Linear Table
-tableAbcd["abjadi"]["linear"] = '<div id="underDevelopment"></div><tr>\
+tableAbcd["abjadi"]["linear"] = '<div id="underDevelopment">&nbsp;</div><tr>\
 <td colspan="4"></td>\
 <td><button style="color:black" onclick="underDevelopment();">د</button></td>\
 <td><button style="color:black" onclick="underDevelopment();">ج</button></td>\
@@ -520,7 +520,7 @@ tableAbcd["abjadi"]["linear"] = '<div id="underDevelopment"></div><tr>\
 </tr></table>';
 
 // Abjadi Axial Table
-tableAbcd["abjadi"]["axial"] = '<div id="underDevelopment"></div><tr>\
+tableAbcd["abjadi"]["axial"] = '<div id="underDevelopment">&nbsp;</div><tr>\
 <td colspan="7" align="center"><button style="color:red" onclick="underDevelopment();">ا</button></td>\
 </tr><tr><td colspan="2"></td><td colspan="3" align="center">\
 <button style="color:black" onclick="underDevelopment();">ج</button>\
@@ -696,7 +696,7 @@ tableAbcd["runes-bornholm"]["sound"]["ᛏ"] = [ "ᛏ", " ", "ᚢᚱ", "týr (tyr
 tableAbcd["runes-bornholm"]["sound"]["ᚢ"] = [ "ᚢ", " ", "ᚱ", "úr (from)" ];
 
 // Ugaritic Linear Table
-tableAbcd["ugaritic"]["linear"] = '<div id="underDevelopment"></div><tr>\
+tableAbcd["ugaritic"]["linear"] = '<div id="underDevelopment">&nbsp;</div><tr>\
 <td><button style="color:red" onclick="underDevelopment();">𐎀</button></td>\
 <td><button style="color:blue" onclick="underDevelopment();">𐎁</button></td>\
 <td><button style="color:black" onclick="underDevelopment();">𐎂</button></td>\
@@ -735,7 +735,7 @@ tableAbcd["ugaritic"]["linear"] = '<div id="underDevelopment"></div><tr>\
 </tr></table>';
 
 // Ugaritic Axial Table
-tableAbcd["ugaritic"]["axial"] = '<div id="underDevelopment"></div><tr>\
+tableAbcd["ugaritic"]["axial"] = '<div id="underDevelopment">&nbsp;</div><tr>\
 <td colspan="13" align="center"><button style="color:red" onclick="underDevelopment();">𐎀</button></td>\
 </tr><tr><td colspan="5"></td><td colspan="3" align="center">\
 <button style="color:black" onclick="underDevelopment();">𐎁</button>\
@@ -1020,6 +1020,6 @@ function speakLetter(letter) {
 function underDevelopment() {
     document.getElementById("underDevelopment").innerHTML = "under development";
     sleep(1234).then(() => {
-        document.getElementById("underDevelopment").innerHTML = "";
+        document.getElementById("underDevelopment").innerHTML = "&nbsp;";
     });
 }
