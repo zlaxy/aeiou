@@ -1,6 +1,6 @@
 // Global vars
 
-var language = 'english';
+var alphabetos = 'english';
 var layout = 'linear';
 var font = 'default';
 var variant = 'default';
@@ -808,8 +808,8 @@ var tablePostfix = '</td>\
 </tr>\
 <tr><td></td><td align="center">\
 <table>\
-<tr><td><button class="controlButton" onclick="makeAeiou(language, \'linear\')">=</button></td>\
-<td><button class="controlButton" onclick="makeAeiou(language, \'axial\')">-|-</button></td></tr>\
+<tr><td><button class="controlButton" onclick="makeAeiou(alphabetos, \'linear\')">=</button></td>\
+<td><button class="controlButton" onclick="makeAeiou(alphabetos, \'axial\')">-|-</button></td></tr>\
 </table>\
 </td></tr>\
 </table>';
@@ -820,9 +820,9 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-function makeAeiou(languageTransmitted, layoutTransmitted, fontTransmitted, variantTransmitted) {
-    if (languageTransmitted === undefined) {
-        languageTransmitted = language;
+function makeAeiou(alphabetosTransmitted, layoutTransmitted, fontTransmitted, variantTransmitted) {
+    if (alphabetosTransmitted === undefined) {
+        alphabetosTransmitted = alphabetos;
     }
     if (layoutTransmitted === undefined) {
         layoutTransmitted = layout;
@@ -833,12 +833,12 @@ function makeAeiou(languageTransmitted, layoutTransmitted, fontTransmitted, vari
     if (variantTransmitted === undefined) {
         variantTransmitted = variant;
     }
-    language = languageTransmitted;
+    alphabetos = alphabetosTransmitted;
     layout = layoutTransmitted;
     font = fontTransmitted;
     variant = variantTransmitted;
     var result = '<p align="center">';
-    switch(language) {
+    switch(alphabetos) {
         case 'english':
             result += '<a href="https://en.wikipedia.org/wiki/English_alphabet" target="_blank">english alphabet</a>';
             break;
@@ -874,18 +874,18 @@ function makeAeiou(languageTransmitted, layoutTransmitted, fontTransmitted, vari
     result += "</p>";
     result += tablePrefix;
 
-    switch(language) {
+    switch(alphabetos) {
         case 'english':
-            result += '<button class="controlButton" onclick="makeAeiou(language, layout, \'default\')">ABCD</button></td><td><button class="controlButton" onclick="makeAeiou(language, layout, \'lowercase\')">abcd</button></td><td><button class="controlButton" onclick="makeAeiou(language, layout, \'enhandwritten\')"><font style="font-family: \'alsscrp\', cursive">ABCD</font></button></td><td><button class="controlButton" onclick="makeAeiou(language, layout, \'enlowerhand\')"><font style="font-family: \'alsscrp\', cursive">abcd</font></button>';
+            result += '<button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'default\')">ABCD</button></td><td><button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'lowercase\')">abcd</button></td><td><button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'enhandwritten\')"><font style="font-family: \'alsscrp\', cursive">ABCD</font></button></td><td><button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'enlowerhand\')"><font style="font-family: \'alsscrp\', cursive">abcd</font></button>';
             break;
         case 'russian':
-            result += '<button class="controlButton" onclick="makeAeiou(language, layout, \'default\')">АБВГ</button></td><td><button class="controlButton" onclick="makeAeiou(language, layout, \'lowercase\')">абвг</button></td><td><button class="controlButton" onclick="makeAeiou(language, layout, \'ruhandwritten\')"><font style="font-family: \'Marck Script\', cursive">АБВГ</font></button></td><td><button class="controlButton" onclick="makeAeiou(language, layout, \'rulowerhand\')"><font style="font-family: \'Marck Script\', cursive">абвг</font></button>';
+            result += '<button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'default\')">АБВГ</button></td><td><button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'lowercase\')">абвг</button></td><td><button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'ruhandwritten\')"><font style="font-family: \'Marck Script\', cursive">АБВГ</font></button></td><td><button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'rulowerhand\')"><font style="font-family: \'Marck Script\', cursive">абвг</font></button>';
             break;
         case 'hebrew':
-            result += '<button class="controlButton" onclick="makeAeiou(language, layout, \'hebrew\')"><font style="font-family: \'Noto Sans Hebrew\', sans-serif">אבגד</font></button></td><td><button class="controlButton" onclick="makeAeiou(language, layout, \'hehandwritten\')"><font style="font-family: \'YOAVCB\', cursive">אבגד</font></button>';
+            result += '<button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'hebrew\')"><font style="font-family: \'Noto Sans Hebrew\', sans-serif">אבגד</font></button></td><td><button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'hehandwritten\')"><font style="font-family: \'YOAVCB\', cursive">אבגד</font></button>';
             break;
         case 'greek':
-            result += '<button class="controlButton" onclick="makeAeiou(language, layout, \'default\')">ΑΒΓΔ</button></td><td><button class="controlButton" onclick="makeAeiou(language, layout, \'lowercase\')">αβγδ</button><button class="controlButton" onclick="makeAeiou(language, layout, \'grhandwritten\')"><font style="font-family: \'VAGHandWritten\', cursive">ΑΒΓΔ</font></button></td><td><button class="controlButton" onclick="makeAeiou(language, layout, \'grlowerhand\')"><font style="font-family: \'VAGHandWritten\', cursive">αβγδ</font></button>';
+            result += '<button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'default\')">ΑΒΓΔ</button></td><td><button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'lowercase\')">αβγδ</button><button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'grhandwritten\')"><font style="font-family: \'VAGHandWritten\', cursive">ΑΒΓΔ</font></button></td><td><button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'grlowerhand\')"><font style="font-family: \'VAGHandWritten\', cursive">αβγδ</font></button>';
             break;
         case 'georgian':
             break;
@@ -899,7 +899,7 @@ function makeAeiou(languageTransmitted, layoutTransmitted, fontTransmitted, vari
 
     result += tableAfix;
 
-    switch(language) {
+    switch(alphabetos) {
         case 'english':
             break;
         case 'russian':
@@ -913,7 +913,7 @@ function makeAeiou(languageTransmitted, layoutTransmitted, fontTransmitted, vari
         case 'abjadi':
             break;
         case 'runes':
-            result += '<button class="controlButton" onclick="makeAeiou(language, layout, font, \'default\')">younger futhark</button><br><button class="controlButton" onclick="makeAeiou(language, layout, font, \'bornholm\')">bornholm</button>';
+            result += '<button class="controlButton" onclick="makeAeiou(alphabetos, layout, font, \'default\')">younger futhark</button><br><button class="controlButton" onclick="makeAeiou(alphabetos, layout, font, \'bornholm\')">bornholm</button>';
             break;
         case 'ugaritic':
             break;
@@ -973,9 +973,9 @@ function makeAeiou(languageTransmitted, layoutTransmitted, fontTransmitted, vari
     }
 
     if (variant == 'default') {
-        result += tableAbcd[language][layout];
+        result += tableAbcd[alphabetos][layout];
     } else {
-        result += tableAbcd[language+'-'+variant][layout];
+        result += tableAbcd[alphabetos+'-'+variant][layout];
     }
 
     result += tablePostfix;
@@ -984,8 +984,8 @@ function makeAeiou(languageTransmitted, layoutTransmitted, fontTransmitted, vari
 }
 
 function speakLetter(letter) {
-    if (variant == 'default') speakLanguage = language;
-        else speakLanguage = language + '-' + variant;
+    if (variant == 'default') speakLanguage = alphabetos;
+        else speakLanguage = alphabetos + '-' + variant;
 
     if (lastSpoken["symbol"] == letter) { lastSpoken["count"]++;
         if (lastSpoken["count"] > (tableAbcd[speakLanguage]["sound"][letter].length / 4)) lastSpoken["count"] = 1 ;
@@ -995,7 +995,7 @@ function speakLetter(letter) {
     switch(lastSpoken["count"]) {
         case lastSpoken["count"]:
             if (font == "enhandwritten" || font == "enlowerhand" || font == "ruhandwritten" || font == "rulowerhand" || font == "grhandwritten" || font == "grlowerhand") textstroke = 0;
-                else if (language == "runes") textstroke = 1;
+                else if (alphabetos == "runes") textstroke = 1;
                     else textstroke = 2;
             document.getElementById(letter + "Pre").innerHTML = '<div style="position: absolute; text-transform: lowercase; left: -' + (((tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) - 1) + lastSpoken["count"]].length - 1) * 15) + 5) + 'px; top: 0px; font-weight: 900; color: gray; -webkit-text-fill-color: gray; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) - 1) + lastSpoken["count"]] + '</div>';
             document.getElementById(letter + "Letter").innerHTML = tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"] - 1];
