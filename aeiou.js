@@ -12,6 +12,7 @@ lastSpoken["count"] = 0;
 var tableAbcd = {};
 tableAbcd["english"] = {};
 tableAbcd["russian"] = {};
+tableAbcd["russian-bulgarian"] = {};
 tableAbcd["hebrew"] = {};
 tableAbcd["greek"] = {};
 tableAbcd["georgian"] = {};
@@ -241,6 +242,122 @@ tableAbcd["russian"]["sound"]["ь"] = [ "ь", "ь", "ь", "ь", "л", "ос", "�
 tableAbcd["russian"]["sound"]["э"] = [ "э", "э", "э", " ", " ", " ", "то", "хо", "ра", "it", "echo", "era" ];
 tableAbcd["russian"]["sound"]["ю"] = [ "ю", "ю", "ю", "кл", "кр", "тр", "ч", "к", "к", "key", "crook, hook", "trick" ];
 tableAbcd["russian"]["sound"]["я"] = [ "я", "я", "я", "я", " ", " ", " ", "вол", " ", "рость", "ркость", " ", "I", "wrath", "brightness", "will" ];
+
+// Bulgarian Linear Table
+tableAbcd["russian-bulgarian"]["linear"] = '<tr>\
+<td><button style="color:red" onclick="showLetter(\'а\'); new Audio(\'sounds/russian-bulgarian/а_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="аPre"></div><div id="аLetter">А</div><div id="аUnder"></div><div id="аPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="showLetter(\'б\'); new Audio(\'sounds/russian-bulgarian/б_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="бPre"></div><div id="бLetter">Б</div><div id="бUnder"></div><div id="бPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="showLetter(\'в\'); new Audio(\'sounds/russian-bulgarian/в_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="вPre"></div><div id="вLetter">В</div><div id="вUnder"></div><div id="вPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'г\'); new Audio(\'sounds/russian-bulgarian/г_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="гPre"></div><div id="гLetter">Г</div><div id="гUnder"></div><div id="гPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'д\'); new Audio(\'sounds/russian-bulgarian/д_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="дPre"></div><div id="дLetter">Д</div><div id="дUnder"></div><div id="дPost"></div></div></button></td>\
+</tr><tr>\
+<td><button style="color:red" onclick="showLetter(\'е\'); new Audio(\'sounds/russian-bulgarian/е_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="еPre"></div><div id="еLetter">Е</div><div id="еUnder"></div><div id="еPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'ж\'); new Audio(\'sounds/russian-bulgarian/ж_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="жPre"></div><div id="жLetter">Ж</div><div id="жUnder"></div><div id="жPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'з\'); new Audio(\'sounds/russian-bulgarian/з_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="зPre"></div><div id="зLetter">З</div><div id="зUnder"></div><div id="зPost"></div></div></button></td>\
+</tr><tr>\
+<td><button style="color:red" onclick="showLetter(\'и\'); new Audio(\'sounds/russian-bulgarian/и_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="иPre"></div><div id="иLetter">И</div><div id="иUnder"></div><div id="иPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'й\'); new Audio(\'sounds/russian-bulgarian/й_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="йPre"></div><div id="йLetter">Й</div><div id="йUnder"></div><div id="йPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'к\'); new Audio(\'sounds/russian-bulgarian/к_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="кPre"></div><div id="кLetter">К</div><div id="кUnder"></div><div id="кPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'л\'); new Audio(\'sounds/russian-bulgarian/л_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="лPre"></div><div id="лLetter">Л</div><div id="лUnder"></div><div id="лPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="showLetter(\'м\'); new Audio(\'sounds/russian-bulgarian/м_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="мPre"></div><div id="мLetter">М</div><div id="мUnder"></div><div id="мPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'н\'); new Audio(\'sounds/russian-bulgarian/н_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="нPre"></div><div id="нLetter">Н</div><div id="нUnder"></div><div id="нPost"></div></div></button></td>\
+</tr><tr>\
+<td><button style="color:red" onclick="showLetter(\'о\'); new Audio(\'sounds/russian-bulgarian/о_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="оPre"></div><div id="оLetter">О</div><div id="оUnder"></div><div id="оPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="showLetter(\'п\'); new Audio(\'sounds/russian-bulgarian/п_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="пPre"></div><div id="пLetter">П</div><div id="пUnder"></div><div id="пPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'р\'); new Audio(\'sounds/russian-bulgarian/р_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="рPre"></div><div id="рLetter">Р</div><div id="рUnder"></div><div id="рPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'с\'); new Audio(\'sounds/russian-bulgarian/с_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="сPre"></div><div id="сLetter">С</div><div id="сUnder"></div><div id="сPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'т\'); new Audio(\'sounds/russian-bulgarian/т_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="тPre"></div><div id="тLetter">Т</div><div id="тUnder"></div><div id="тPost"></div></div></button></td>\
+</tr><tr>\
+<td><button style="color:red" onclick="showLetter(\'у\'); new Audio(\'sounds/russian-bulgarian/у_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="уPre"></div><div id="уLetter">У</div><div id="уUnder"></div><div id="уPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="showLetter(\'ф\'); new Audio(\'sounds/russian-bulgarian/ф_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="фPre"></div><div id="фLetter">Ф</div><div id="фUnder"></div><div id="фPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'х\'); new Audio(\'sounds/russian-bulgarian/х_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="хPre"></div><div id="хLetter">Х</div><div id="хUnder"></div><div id="хPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'ц\'); new Audio(\'sounds/russian-bulgarian/ц_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="цPre"></div><div id="цLetter">Ц</div><div id="цUnder"></div><div id="цPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'ч\'); new Audio(\'sounds/russian-bulgarian/ч_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="чPre"></div><div id="чLetter">Ч</div><div id="чUnder"></div><div id="чPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'ш\'); new Audio(\'sounds/russian-bulgarian/ш_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="шPre"></div><div id="шLetter">Ш</div><div id="шUnder"></div><div id="шPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'щ\'); new Audio(\'sounds/russian-bulgarian/щ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="щPre"></div><div id="щLetter">Щ</div><div id="щUnder"></div><div id="щPost"></div></div></button></td>\
+</tr><tr>\
+<td><button style="color:red" onclick="showLetter(\'ъ\'); new Audio(\'sounds/russian-bulgarian/ъ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ъPre"></div><div id="ъLetter">Ъ</div><div id="ъUnder"></div><div id="ъPost"></div></div></button></td>\
+<td><button style="color:grey" onclick="showLetter(\'ь\'); new Audio(\'sounds/russian-bulgarian/ь_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ьPre"></div><div id="ьLetter">Ь</div><div id="ьUnder"></div><div id="ьPost"></div></div></button></td>\
+<td><button style="color:red" onclick="showLetter(\'ю\'); new Audio(\'sounds/russian-bulgarian/ю_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="юPre"></div><div id="юLetter">Ю</div><div id="юUnder"></div><div id="юPost"></div></div></button></td>\
+<td><button style="color:red" onclick="showLetter(\'я\'); new Audio(\'sounds/russian-bulgarian/я_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="яPre"></div><div id="яLetter">Я</div><div id="яUnder"></div><div id="яPost"></div></div></button></td>\
+</tr></table>';
+
+// Bulgarian Axial Table
+tableAbcd["russian-bulgarian"]["axial"] = '<tr>\
+<td colspan="7" align="center"><button style="color:red" onclick="showLetter(\'а\'); new Audio(\'sounds/russian-bulgarian/а_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="аPre"></div><div id="аLetter">А</div><div id="аUnder"></div><div id="аPost"></div></div></button></td>\
+</tr><tr><td colspan="2"></td><td colspan="3" align="center">\
+<button style="color:black" onclick="showLetter(\'б\'); new Audio(\'sounds/russian-bulgarian/б_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="бPre"></div><div id="бLetter">Б</div><div id="бUnder"></div><div id="бPost"></div></div></button>\
+<button style="color:black" onclick="showLetter(\'в\'); new Audio(\'sounds/russian-bulgarian/в_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="вPre"></div><div id="вLetter">В</div><div id="вUnder"></div><div id="вPost"></div></div></button>\
+</td><td colspan="2"></td></tr><tr><td></td>\
+<td><button style="color:black" onclick="showLetter(\'г\'); new Audio(\'sounds/russian-bulgarian/г_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="гPre"></div><div id="гLetter">Г</div><div id="гUnder"></div><div id="гPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'д\'); new Audio(\'sounds/russian-bulgarian/д_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="дPre"></div><div id="дLetter">Д</div><div id="дUnder"></div><div id="дPost"></div></div></button></td>\
+<td><button style="color:red" onclick="showLetter(\'е\'); new Audio(\'sounds/russian-bulgarian/е_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="еPre"></div><div id="еLetter">Е</div><div id="еUnder"></div><div id="еPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'ж\'); new Audio(\'sounds/russian-bulgarian/ж_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="жPre"></div><div id="жLetter">Ж</div><div id="жUnder"></div><div id="жPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'з\'); new Audio(\'sounds/russian-bulgarian/з_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="зPre"></div><div id="зLetter">З</div><div id="зUnder"></div><div id="зPost"></div></div></button></td>\
+<td></td></tr><tr><td colspan="3"></td>\
+<td><button style="color:red" onclick="showLetter(\'и\'); new Audio(\'sounds/russian-bulgarian/и_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="иPre"></div><div id="иLetter">И</div><div id="иUnder"></div><div id="иPost"></div></div></button></td>\
+<td colspan="3"></td></tr><tr><td></td><td colspan="5" align="center">\
+<button style="color:black" onclick="showLetter(\'й\'); new Audio(\'sounds/russian-bulgarian/й_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="йPre"></div><div id="йLetter">Й</div><div id="йUnder"></div><div id="йPost"></div></div></button>\
+<button style="color:black" onclick="showLetter(\'к\'); new Audio(\'sounds/russian-bulgarian/к_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="кPre"></div><div id="кLetter">К</div><div id="кUnder"></div><div id="кPost"></div></div></button>\
+<button style="color:black" onclick="showLetter(\'л\'); new Audio(\'sounds/russian-bulgarian/л_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="лPre"></div><div id="лLetter">Л</div><div id="лUnder"></div><div id="лPost"></div></div></button>\
+<button style="color:black" onclick="showLetter(\'м\'); new Audio(\'sounds/russian-bulgarian/м_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="мPre"></div><div id="мLetter">М</div><div id="мUnder"></div><div id="мPost"></div></div></button>\
+</td><td></td></tr><tr><td colspan="2"></td>\
+<td><button style="color:black" onclick="showLetter(\'н\'); new Audio(\'sounds/russian-bulgarian/н_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="нPre"></div><div id="нLetter">Н</div><div id="нUnder"></div><div id="нPost"></div></div></button></td>\
+<td><button style="color:red" onclick="showLetter(\'о\'); new Audio(\'sounds/russian-bulgarian/о_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="оPre"></div><div id="оLetter">О</div><div id="оUnder"></div><div id="оPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'п\'); new Audio(\'sounds/russian-bulgarian/п_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="пPre"></div><div id="пLetter">П</div><div id="пUnder"></div><div id="пPost"></div></div></button></td>\
+</td><td colspan="2"></tr><tr>\
+<td><button style="color:black" onclick="showLetter(\'р\'); new Audio(\'sounds/russian-bulgarian/р_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="рPre"></div><div id="рLetter">Р</div><div id="рUnder"></div><div id="рPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'с\'); new Audio(\'sounds/russian-bulgarian/с_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="сPre"></div><div id="сLetter">С</div><div id="сUnder"></div><div id="сPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'т\'); new Audio(\'sounds/russian-bulgarian/т_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="тPre"></div><div id="тLetter">Т</div><div id="тUnder"></div><div id="тPost"></div></div></button></td>\
+<td><button style="color:red" onclick="showLetter(\'у\'); new Audio(\'sounds/russian-bulgarian/у_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="уPre"></div><div id="уLetter">У</div><div id="уUnder"></div><div id="уPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'ф\'); new Audio(\'sounds/russian-bulgarian/ф_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="фPre"></div><div id="фLetter">Ф</div><div id="фUnder"></div><div id="фPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'х\'); new Audio(\'sounds/russian-bulgarian/х_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="хPre"></div><div id="хLetter">Х</div><div id="хUnder"></div><div id="хPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'ц\'); new Audio(\'sounds/russian-bulgarian/ц_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="цPre"></div><div id="цLetter">Ц</div><div id="цUnder"></div><div id="цPost"></div></div></button></td>\
+</tr><tr><td colspan="2"></td><td colspan="3" align="center">\
+<button style="color:black" onclick="showLetter(\'ч\'); new Audio(\'sounds/russian-bulgarian/ч_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="чPre"></div><div id="чLetter">Ч</div><div id="чUnder"></div><div id="чPost"></div></div></button>\
+<button style="color:black" onclick="showLetter(\'ш\'); new Audio(\'sounds/russian-bulgarian/ш_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="шPre"></div><div id="шLetter">Ш</div><div id="шUnder"></div><div id="шPost"></div></div></button>\
+</td><td colspan="2"></td></tr><tr><td colspan="2"></td>\
+<td><button style="color:black" onclick="showLetter(\'щ\'); new Audio(\'sounds/russian-bulgarian/щ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="щPre"></div><div id="щLetter">Щ</div><div id="щUnder"></div><div id="щPost"></div></div></button></td>\
+<td><button style="color:red" onclick="showLetter(\'ъ\'); new Audio(\'sounds/russian-bulgarian/ъ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ъPre"></div><div id="ъLetter">Ъ</div><div id="ъUnder"></div><div id="ъPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'ь\'); new Audio(\'sounds/russian-bulgarian/ь_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ьPre"></div><div id="ьLetter">Ь</div><div id="ьUnder"></div><div id="ьPost"></div></div></button></td>\
+</td><td colspan="2"></tr><tr>\
+<td colspan="7" align="center"><button style="color:red" onclick="showLetter(\'ю\'); new Audio(\'sounds/russian-bulgarian/ю_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="юPre"></div><div id="юLetter">Ю</div><div id="юUnder"></div><div id="юPost"></div></div></button></td>\
+</tr><tr>\
+<td colspan="7" align="center"><button style="color:red" onclick="showLetter(\'я\'); new Audio(\'sounds/russian-bulgarian/я_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="яPre"></div><div id="яLetter">Я</div><div id="яUnder"></div><div id="яPost"></div></div></button></td>\
+</tr></table>';
+
+// Bulgarian Sound Correspondence
+tableAbcd["russian-bulgarian"]["sound"] = {};
+tableAbcd["russian-bulgarian"]["sound"]["а"] = [ "а", "а", "а", "а", "а", " ", "д", " ", "б", "б", "з", " ", "рка", "за", "с", "I", "yes, and, duh", "arch", "base", "bass" ];
+tableAbcd["russian-bulgarian"]["sound"]["б"] = [ "б", "б", "б", "б", "б", "б", " ", " ", " ", " ", " ", " ", "уки", "ъде", "ия", "отуши", "рат", "ебе", "beeches", "to be", "to beat", "boots", "brother", "baby" ];
+tableAbcd["russian-bulgarian"]["sound"]["в"] = [ "в", "в", "в", " ", " ", " ", "ижте", "ода", "дова", "see, visualize", "water", "widow" ];
+tableAbcd["russian-bulgarian"]["sound"]["г"] = [ "г", "г", "г", "г", " ", " ", " ", " ", "ама", "ъеска", "ад", "рунд", "gamma, gamut", "goose", "snake", "ground" ];
+tableAbcd["russian-bulgarian"]["sound"]["д"] = [ "д", "д", "д", "д", " ", " ", " ", " ", "а", "ва", "ен", "ъно", "yes, and, duh", "two", "day", "bottom" ];
+tableAbcd["russian-bulgarian"]["sound"]["е"] = [ "е", "е", " ", "н", " ", " ", "is", "no" ];
+tableAbcd["russian-bulgarian"]["sound"]["ж"] = [ "ж", "ж", "ж", " ", "ло", "лъ", "акет", "а", "а", "jacket", "lodge", "lie" ];
+tableAbcd["russian-bulgarian"]["sound"]["з"] = [ "з", "з", " ", "бре", "ахар", "а", "sugar", "birch" ];
+tableAbcd["russian-bulgarian"]["sound"]["и"] = [ "и", "и", " ", " ", " ", "ме", "and", "name" ];
+tableAbcd["russian-bulgarian"]["sound"]["й"] = [ "й", "й", "й", " ", " ", "мо", "ог", "од", " ", "yogi", "iodine", "my, wash" ];
+tableAbcd["russian-bulgarian"]["sound"]["к"] = [ "к", "к", " ", " ", "отка", "ей", "cat", "quai" ];
+tableAbcd["russian-bulgarian"]["sound"]["л"] = [ "л", "л", "л", "л", " ", " ", "с", "ба", "ъв", "яво", "ънцето", " ", "lion", "left", "sun", "ball (dance)" ];
+tableAbcd["russian-bulgarian"]["sound"]["м"] = [ "м", "м", "м", "м", "м", "м", " ", " ", " ", " ", " ", " ", "ама", "ир", "ир", "ного", "ъх", "е", "mama", "world", "peace", "much, many", "moss", "me" ];
+tableAbcd["russian-bulgarian"]["sound"]["н"] = [ "н", "н", "н", "н", "н", "н", " ", " ", "ли", "с", "въ", "во", "ос", "ас", "ия", "яг", " ", "я", "nose", "us", "(any) line", "snow", "yon, out!", "pong, stench" ];
+tableAbcd["russian-bulgarian"]["sound"]["о"] = [ "о", "о", "о", " ", " ", " ", "вес", "тец", "гън", "oats", "father", "fire" ];
+tableAbcd["russian-bulgarian"]["sound"]["п"] = [ "п", "п", " ", " ", "лувам", "ламък", "float, swim", "flame" ];
+tableAbcd["russian-bulgarian"]["sound"]["р"] = [ "р", "р", "р", "жа", "зъ", " ", " ", "но", "ама", "fire, heat", "corn, grain", "frame" ];
+tableAbcd["russian-bulgarian"]["sound"]["с"] = [ "с", "с", "с", "с", " ", " ", " ", " ", "естра", "ин", "едни", "еднах", "sister", "son", "seat", "sat" ];
+tableAbcd["russian-bulgarian"]["sound"]["т"] = [ "т", "т", "т", "т", " ", " ", " ", "смър", "е", "ези", "ри", " ", "thee, they", "these", "three", "death" ];
+tableAbcd["russian-bulgarian"]["sound"]["у"] = [ "у", "у", "у", "у", " ", " ", " ", " ", " ", "тро", "тре", "хо", "in", "morning", "tomorrow", "ear" ];
+tableAbcd["russian-bulgarian"]["sound"]["ф"] = [ "ф", "ф", "ф", " ", " ", " ", "илм", "иле", "лакон", "film (movie)", "fillet", "flask" ];
+tableAbcd["russian-bulgarian"]["sound"]["х"] = [ "х", "х", "х", " ", " ", " ", "ляб", "айде", "ек", "hlaf (bread)", "come on", "hake" ];
+tableAbcd["russian-bulgarian"]["sound"]["ц"] = [ "ц", "ц", "ц", " ", " ", " ", "ирк", "ърква", "ена", "circus", "church", "price" ];
+tableAbcd["russian-bulgarian"]["sound"]["ч"] = [ "ч", "ч", "ч", "ч", " ", "ве", " ", " ", "ай", "е", "едо", "ар", "tea", "yet, more", "child", "charm" ];
+tableAbcd["russian-bulgarian"]["sound"]["ш"] = [ "ш", "ш", "ш", "ш", "ш", " ", " ", "има", "види", " ", "анс", "ал", " ", " ", "орти", "chance", "scarf", "you have", "you see", "shorts" ];
+tableAbcd["russian-bulgarian"]["sound"]["щ"] = [ "щ", "щ", "щ", "щ", "щ", "щ", " ", "за", "за", "не", "ни", "по", "о", "о", "ото", "о", "о", "а", "what", "why", "because", "something", "nothing", "post (mail)" ];
+tableAbcd["russian-bulgarian"]["sound"]["ъ"] = [ "ъ", "ъ", "ъ", "п", "б", "п", "рво", "де", "т", "first", "to be", "path, time" ];
+tableAbcd["russian-bulgarian"]["sound"]["ь"] = [ "ь", "ь", "ь", "шоф", "бул", "кан", "ор", "он", "он", "chauffeur", "bouillon", "canyon" ];
+tableAbcd["russian-bulgarian"]["sound"]["ю"] = [ "ю", "ю", "ю", "ю", "кл", " ", "л", "н", "ч", "г", "бов", " ", "key", "south", "love", "new" ];
+tableAbcd["russian-bulgarian"]["sound"]["я"] = [ "я", "я", "я", " ", " ", "ц", "сно", "вно", "л", "clear (fair, plain)", "obviously", "full" ];
 
 // Hebrew Linear Table
 tableAbcd["hebrew"]["linear"] = '<div id="underDevelopment">&nbsp;</div><tr>\
@@ -796,11 +913,11 @@ var tablePostfix = '</td>\
 <td>\
 <table>\
 <tr><td><button class="controlButton" onclick="makeAeiou(\'english\', layout, \'default\', \'default\')">ABCD</button></td></tr>\
-<tr><td><button class="controlButton" onclick="makeAeiou(\'russian\', layout, \'default\', \'default\')">АБВГ</button></td></tr>\
-<tr><td><button class="controlButton" onclick="makeAeiou(\'hebrew\', layout, \'hebrew\', \'default\')"><font style="font-family: \'Noto Sans Hebrew\', sans-serif;">אבגד</font></button></td></tr>\
 <tr><td><button class="controlButton" onclick="makeAeiou(\'greek\', layout, \'default\', \'default\')">ΑΒΓΔ</button></td></tr>\
-<tr><td><button class="controlButton" onclick="makeAeiou(\'georgian\', layout, \'georgian\', \'default\')"><font style="font-family: \'Noto Sans Georgian\', serif;">აბგდ</font></button></td></tr>\
+<tr><td><button class="controlButton" onclick="makeAeiou(\'russian\', layout, \'default\', \'default\')">АБВГ</button></td></tr>\
 <tr><td><button class="controlButton" onclick="makeAeiou(\'abjadi\', layout, \'abjadi\', \'default\')"><font style="font-family: \'Mirza\', cursive;">دجبا</font></button></td></tr>\
+<tr><td><button class="controlButton" onclick="makeAeiou(\'hebrew\', layout, \'hebrew\', \'default\')"><font style="font-family: \'Noto Sans Hebrew\', sans-serif;">אבגד</font></button></td></tr>\
+<tr><td><button class="controlButton" onclick="makeAeiou(\'georgian\', layout, \'georgian\', \'default\')"><font style="font-family: \'Noto Sans Georgian\', serif;">აბგდ</font></button></td></tr>\
 <tr><td><button class="controlButton" onclick="makeAeiou(\'runes\', layout, \'runes\', \'default\')"><font style="font-family: \'Noto Sans Runic\', sans-serif;">ᛅᛒᚦᛁ</font></button></td></tr>\
 <tr><td><button class="controlButton" onclick="makeAeiou(\'ugaritic\', layout, \'ugaritic\', \'default\')"><font style="font-family: \'Noto Sans Ugaritic\', sans-serif;">𐎀𐎁𐎂𐎃</font></button></td></tr>\
 </table>\
@@ -833,7 +950,10 @@ function showLetter(letter) {
     var leftPre = ((((tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) - 1) + lastSpoken["count"]].length - 1) * 15) + 5) * (-1));
     var leftPost = 30;
 
-    // English handwritten fonts view fix:
+    // English view fix:
+    if (alphabetos == "english" && variant == "default" && letter == "g") {
+        leftPre = -20;
+    }
     if ((font == "enhandwritten" || font == "enlowerhand") && alphabetos == "english" && variant == "default") {
         leftPre = ((((tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) - 1) + lastSpoken["count"]].length - 1) * 5) + 1) * (-1));
         leftPost = 33;
@@ -896,7 +1016,14 @@ function makeAeiou(alphabetosTransmitted, layoutTransmitted, fontTransmitted, va
             result += '<a href="https://en.wikipedia.org/wiki/English_alphabet" target="_blank">english alphabet</a>';
             break;
         case 'russian':
-            result += '<a href="https://en.wikipedia.org/wiki/Russian_alphabet" target="_blank">russian alphabet</a>';
+            switch (variant) {
+                case 'default':
+                    result += '<a href="https://en.wikipedia.org/wiki/Russian_alphabet" target="_blank">russian alphabet</a>';
+                    break;
+                case 'bulgarian':
+                    result += '<a href="https://en.wikipedia.org/wiki/Bulgarian_alphabet" target="_blank">bulgarian alphabet</a>';
+                    break;
+            }
             break;
         case 'hebrew':
             result += '<a href="https://en.wikipedia.org/wiki/Hebrew_alphabet" target="_blank">hebrew alphabet</a>';
@@ -956,6 +1083,7 @@ function makeAeiou(alphabetosTransmitted, layoutTransmitted, fontTransmitted, va
         case 'english':
             break;
         case 'russian':
+            result += '<button class="controlButton" onclick="makeAeiou(alphabetos, layout, font, \'default\')">russian alphabet</button><br><button class="controlButton" onclick="makeAeiou(alphabetos, layout, font, \'bulgarian\')">bulgarian alphabet</button>';
             break;
         case 'hebrew':
             break;
