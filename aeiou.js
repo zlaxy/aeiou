@@ -925,8 +925,10 @@ var tablePostfix = '</td>\
 </tr>\
 <tr><td></td><td align="center">\
 <table>\
-<tr><td><button class="controlButton" onclick="makeAeiou(alphabetos, \'linear\')">=</button></td>\
-<td><button class="controlButton" onclick="makeAeiou(alphabetos, \'axial\')">-|-</button></td></tr>\
+<tr>\
+<td><button class="controlButton" onclick="makeAeiou(alphabetos, \'linear\')">=</button></td>';
+
+tablePostpostfix = '</tr>\
 </table>\
 </td></tr>\
 </table>';
@@ -1038,7 +1040,7 @@ function makeAeiou(alphabetosTransmitted, layoutTransmitted, fontTransmitted, va
             result += '<a href="https://en.wikipedia.org/wiki/Arabic_alphabet" target="_blank">arabic abjad</a>';
             break;
         case 'runes':
-            switch (variant) {
+            switch(variant) {
                 case 'default':
                     result += '<a href="https://en.wikipedia.org/wiki/Younger_Futhark" target="_blank">younger futhark</a>';
                     break;
@@ -1160,6 +1162,23 @@ function makeAeiou(alphabetosTransmitted, layoutTransmitted, fontTransmitted, va
     }
 
     result += tablePostfix;
+
+    switch(alphabetos) {
+        case 'russian':
+            switch(variant) {
+                case 'default':
+                    break;
+                default:
+                    result +=  '<td><button class="controlButton" onclick="makeAeiou(alphabetos, \'axial\')">-|-</button></td>';
+                    break;
+            }
+            break;
+        default:
+            result +=  '<td><button class="controlButton" onclick="makeAeiou(alphabetos, \'axial\')">-|-</button></td>';
+            break;
+    }
+
+    result += tablePostpostfix;
 
     document.getElementById("aeiou").innerHTML = result;
 }
