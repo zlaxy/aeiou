@@ -915,11 +915,11 @@ var tablePostfix = '</td>\
 <tr><td><button class="controlButton" onclick="makeAeiou(\'english\', layout, \'default\', \'default\')">ABCD</button></td></tr>\
 <tr><td><button class="controlButton" onclick="makeAeiou(\'greek\', layout, \'default\', \'default\')">ΑΒΓΔ</button></td></tr>\
 <tr><td><button class="controlButton" onclick="makeAeiou(\'russian\', layout, \'default\', \'default\')">АБВГ</button></td></tr>\
-<tr><td><button class="controlButton" onclick="makeAeiou(\'abjadi\', layout, \'abjadi\', \'default\')"><font style="color:#D2D2D2" style="font-family: \'Mirza\', cursive;">دجبا</font></button></td></tr>\
-<tr><td><button class="controlButton" onclick="makeAeiou(\'hebrew\', layout, \'hebrew\', \'default\')"><font style="color:#D2D2D2" style="font-family: \'Noto Sans Hebrew\', sans-serif;">אבגד</font></button></td></tr>\
-<tr><td><button class="controlButton" onclick="makeAeiou(\'georgian\', layout, \'georgian\', \'default\')"><font style="color:#D2D2D2" style="font-family: \'Noto Sans Georgian\', serif;">აბგდ</font></button></td></tr>\
-<tr><td><button class="controlButton" onclick="makeAeiou(\'runes\', layout, \'runes\', \'default\')"><font style="font-family: \'Noto Sans Runic\', sans-serif;">ᛅᛒᚦᛁ</font></button></td></tr>\
-<tr><td><button class="controlButton" onclick="makeAeiou(\'ugaritic\', layout, \'ugaritic\', \'default\')"><font style="color:#D2D2D2" style="font-family: \'Noto Sans Ugaritic\', sans-serif;">𐎀𐎁𐎂𐎃</font></button></td></tr>\
+<tr><td><button class="controlButton" onclick="makeAeiou(\'abjadi\', layout, \'abjadi\', \'default\')"><span style="color:#D2D2D2" style="font-family: \'Mirza\', cursive;">دجبا</span></button></td></tr>\
+<tr><td><button class="controlButton" onclick="makeAeiou(\'hebrew\', layout, \'hebrew\', \'default\')"><span style="color:#D2D2D2" style="font-family: \'Noto Sans Hebrew\', sans-serif;">אבגד</span></button></td></tr>\
+<tr><td><button class="controlButton" onclick="makeAeiou(\'georgian\', layout, \'georgian\', \'default\')"><span style="color:#D2D2D2" style="font-family: \'Noto Sans Georgian\', serif;">აბგდ</span></button></td></tr>\
+<tr><td><button class="controlButton" onclick="makeAeiou(\'runes\', layout, \'runes\', \'default\')"><span style="font-family: \'Noto Sans Runic\', sans-serif;">ᛅᛒᚦᛁ</span></button></td></tr>\
+<tr><td><button class="controlButton" onclick="makeAeiou(\'ugaritic\', layout, \'ugaritic\', \'default\')"><span style="color:#D2D2D2" style="font-family: \'Noto Sans Ugaritic\', sans-serif;">𐎀𐎁𐎂𐎃</span></button></td></tr>\
 </table>\
 </td>\
 </tr>\
@@ -1012,6 +1012,7 @@ function makeAeiou(alphabetosTransmitted, layoutTransmitted, fontTransmitted, va
     layout = layoutTransmitted;
     font = fontTransmitted;
     variant = variantTransmitted;
+    if ((alphabetos == 'russian') && (layout == 'axial') && (variant == 'default')) layout = 'linear';
     var result = '<p align="center">';
     switch(alphabetos) {
         case 'english':
@@ -1058,16 +1059,16 @@ function makeAeiou(alphabetosTransmitted, layoutTransmitted, fontTransmitted, va
 
     switch(alphabetos) {
         case 'english':
-            result += '<button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'default\')">ABCD</button></td><td><button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'lowercase\')">abcd</button></td><td><button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'enhandwritten\')"><font style="font-family: \'alsscrp\', cursive">ABCD</font></button></td><td><button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'enlowerhand\')"><font style="font-family: \'alsscrp\', cursive">abcd</font></button>';
+            result += '<button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'default\')">ABCD</button></td><td><button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'lowercase\')">abcd</button></td><td><button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'enhandwritten\')"><span style="font-family: \'alsscrp\', cursive">ABCD</span></button></td><td><button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'enlowerhand\')"><span style="font-family: \'alsscrp\', cursive">abcd</span></button>';
             break;
         case 'russian':
-            result += '<button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'default\')">АБВГ</button></td><td><button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'lowercase\')">абвг</button></td><td><button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'ruhandwritten\')"><font style="font-family: \'Marck Script\', cursive">АБВГ</font></button></td><td><button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'rulowerhand\')"><font style="font-family: \'Marck Script\', cursive">абвг</font></button>';
+            result += '<button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'default\')">АБВГ</button></td><td><button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'lowercase\')">абвг</button></td><td><button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'ruhandwritten\')"><span style="font-family: \'Marck Script\', cursive">АБВГ</span></button></td><td><button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'rulowerhand\')"><span style="font-family: \'Marck Script\', cursive">абвг</span></button>';
             break;
         case 'hebrew':
-            result += '<button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'hebrew\')"><font style="font-family: \'Noto Sans Hebrew\', sans-serif">אבגד</font></button></td><td><button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'hehandwritten\')"><font style="font-family: \'YOAVCB\', cursive">אבגד</font></button>';
+            result += '<button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'hebrew\')"><span style="font-family: \'Noto Sans Hebrew\', sans-serif">אבגד</span></button></td><td><button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'hehandwritten\')"><span style="font-family: \'YOAVCB\', cursive">אבגד</span></button>';
             break;
         case 'greek':
-            result += '<button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'default\')">ΑΒΓΔ</button></td><td><button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'lowercase\')">αβγδ</button><button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'grhandwritten\')"><font style="font-family: \'VAGHandWritten\', cursive">ΑΒΓΔ</font></button></td><td><button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'grlowerhand\')"><font style="font-family: \'VAGHandWritten\', cursive">αβγδ</font></button>';
+            result += '<button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'default\')">ΑΒΓΔ</button></td><td><button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'lowercase\')">αβγδ</button><button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'grhandwritten\')"><span style="font-family: \'VAGHandWritten\', cursive">ΑΒΓΔ</span></button></td><td><button class="controlButton" onclick="makeAeiou(alphabetos, layout, \'grlowerhand\')"><span style="font-family: \'VAGHandWritten\', cursive">αβγδ</span></button>';
             break;
         case 'georgian':
             break;
