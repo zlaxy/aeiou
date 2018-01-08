@@ -915,11 +915,11 @@ var tablePostfix = '</td>\
 <tr><td><button class="controlButton" onclick="makeAeiou(\'english\', layout, \'default\', \'default\')">ABCD</button></td></tr>\
 <tr><td><button class="controlButton" onclick="makeAeiou(\'greek\', layout, \'default\', \'default\')">ΑΒΓΔ</button></td></tr>\
 <tr><td><button class="controlButton" onclick="makeAeiou(\'russian\', layout, \'default\', \'default\')">АБВГ</button></td></tr>\
-<tr><td><button class="controlButton" onclick="makeAeiou(\'abjadi\', layout, \'abjadi\', \'default\')"><font style="font-family: \'Mirza\', cursive;">دجبا</font></button></td></tr>\
-<tr><td><button class="controlButton" onclick="makeAeiou(\'hebrew\', layout, \'hebrew\', \'default\')"><font style="font-family: \'Noto Sans Hebrew\', sans-serif;">אבגד</font></button></td></tr>\
-<tr><td><button class="controlButton" onclick="makeAeiou(\'georgian\', layout, \'georgian\', \'default\')"><font style="font-family: \'Noto Sans Georgian\', serif;">აბგდ</font></button></td></tr>\
+<tr><td><button class="controlButton" onclick="makeAeiou(\'abjadi\', layout, \'abjadi\', \'default\')"><font style="color:#D2D2D2" style="font-family: \'Mirza\', cursive;">دجبا</font></button></td></tr>\
+<tr><td><button class="controlButton" onclick="makeAeiou(\'hebrew\', layout, \'hebrew\', \'default\')"><font style="color:#D2D2D2" style="font-family: \'Noto Sans Hebrew\', sans-serif;">אבגד</font></button></td></tr>\
+<tr><td><button class="controlButton" onclick="makeAeiou(\'georgian\', layout, \'georgian\', \'default\')"><font style="color:#D2D2D2" style="font-family: \'Noto Sans Georgian\', serif;">აბგდ</font></button></td></tr>\
 <tr><td><button class="controlButton" onclick="makeAeiou(\'runes\', layout, \'runes\', \'default\')"><font style="font-family: \'Noto Sans Runic\', sans-serif;">ᛅᛒᚦᛁ</font></button></td></tr>\
-<tr><td><button class="controlButton" onclick="makeAeiou(\'ugaritic\', layout, \'ugaritic\', \'default\')"><font style="font-family: \'Noto Sans Ugaritic\', sans-serif;">𐎀𐎁𐎂𐎃</font></button></td></tr>\
+<tr><td><button class="controlButton" onclick="makeAeiou(\'ugaritic\', layout, \'ugaritic\', \'default\')"><font style="color:#D2D2D2" style="font-family: \'Noto Sans Ugaritic\', sans-serif;">𐎀𐎁𐎂𐎃</font></button></td></tr>\
 </table>\
 </td>\
 </tr>\
