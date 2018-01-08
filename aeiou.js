@@ -25,34 +25,34 @@ tableAbcd["ugaritic"] = {};
 tableAbcd["english"]["linear"] = '<tr>\
 <td><button style="color:red" onclick="showLetter(\'a\'); new Audio(\'sounds/english/a_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="aPre"></div><div id="aLetter">A</div><div id="aUnder"></div><div id="aPost"></div></div></button></td>\
 <td><button style="color:blue" onclick="showLetter(\'b\'); new Audio(\'sounds/english/b_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="bPre"></div><div id="bLetter">B</div><div id="bUnder"></div><div id="bPost"></div></div></button></td>\
-<td><button style="color:green" onclick="showLetter(\'c\'); new Audio(\'sounds/english/c_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="cPre"></div><div id="cLetter">C</div><div id="cUnder"></div><div id="cPost"></div></div></button></td>\
-<td><button style="color:green" onclick="showLetter(\'d\'); new Audio(\'sounds/english/d_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="dPre"></div><div id="dLetter">D</div><div id="dUnder"></div><div id="dPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'c\'); new Audio(\'sounds/english/c_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="cPre"></div><div id="cLetter">C</div><div id="cUnder"></div><div id="cPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'d\'); new Audio(\'sounds/english/d_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="dPre"></div><div id="dLetter">D</div><div id="dUnder"></div><div id="dPost"></div></div></button></td>\
 <td></td><td></td></tr><tr>\
 <td><button style="color:red" onclick="showLetter(\'e\'); new Audio(\'sounds/english/e_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ePre"></div><div id="eLetter">E</div><div id="eUnder"></div><div id="ePost"></div></div></button></td>\
 <td><button style="color:blue" onclick="showLetter(\'f\'); new Audio(\'sounds/english/f_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="fPre"></div><div id="fLetter">F</div><div id="fUnder"></div><div id="fPost"></div></div></button></td>\
-<td><button style="color:green" onclick="showLetter(\'g\'); new Audio(\'sounds/english/g_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="gPre"></div><div id="gLetter">G</div><div id="gUnder"></div><div id="gPost"></div></div></button></td>\
-<td><button style="color:green" onclick="showLetter(\'h\'); new Audio(\'sounds/english/h_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="hPre"></div><div id="hLetter">H</div><div id="hUnder"></div><div id="hPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'g\'); new Audio(\'sounds/english/g_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="gPre"></div><div id="gLetter">G</div><div id="gUnder"></div><div id="gPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'h\'); new Audio(\'sounds/english/h_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="hPre"></div><div id="hLetter">H</div><div id="hUnder"></div><div id="hPost"></div></div></button></td>\
 </tr><tr>\
 <td><button style="color:red" onclick="showLetter(\'i\'); new Audio(\'sounds/english/i_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="iPre"></div><div id="iLetter">I</div><div id="iUnder"></div><div id="iPost"></div></div></button></td>\
-<td><button style="color:green" onclick="showLetter(\'j\'); new Audio(\'sounds/english/j_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="jPre"></div><div id="jLetter">J</div><div id="jUnder"></div><div id="jPost"></div></div></button></td>\
-<td><button style="color:green" onclick="showLetter(\'k\'); new Audio(\'sounds/english/k_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="kPre"></div><div id="kLetter">K</div><div id="kUnder"></div><div id="kPost"></div></div></button></td>\
-<td><button style="color:green" onclick="showLetter(\'l\'); new Audio(\'sounds/english/l_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="lPre"></div><div id="lLetter">L</div><div id="lUnder"></div><div id="lPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'j\'); new Audio(\'sounds/english/j_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="jPre"></div><div id="jLetter">J</div><div id="jUnder"></div><div id="jPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'k\'); new Audio(\'sounds/english/k_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="kPre"></div><div id="kLetter">K</div><div id="kUnder"></div><div id="kPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'l\'); new Audio(\'sounds/english/l_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="lPre"></div><div id="lLetter">L</div><div id="lUnder"></div><div id="lPost"></div></div></button></td>\
 <td><button style="color:blue" onclick="showLetter(\'m\'); new Audio(\'sounds/english/m_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="mPre"></div><div id="mLetter">M</div><div id="mUnder"></div><div id="mPost"></div></div></button></td>\
-<td><button style="color:green" onclick="showLetter(\'n\'); new Audio(\'sounds/english/n_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="nPre"></div><div id="nLetter">N</div><div id="nUnder"></div><div id="nPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'n\'); new Audio(\'sounds/english/n_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="nPre"></div><div id="nLetter">N</div><div id="nUnder"></div><div id="nPost"></div></div></button></td>\
 </tr><tr>\
 <td><button style="color:red" onclick="showLetter(\'o\'); new Audio(\'sounds/english/o_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="oPre"></div><div id="oLetter">O</div><div id="oUnder"></div><div id="oPost"></div></div></button></td>\
 <td><button style="color:blue" onclick="showLetter(\'p\'); new Audio(\'sounds/english/p_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="pPre"></div><div id="pLetter">P</div><div id="pUnder"></div><div id="pPost"></div></div></button></td>\
-<td><button style="color:green" onclick="showLetter(\'q\'); new Audio(\'sounds/english/q_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="qPre"></div><div id="qLetter">Q</div><div id="qUnder"></div><div id="qPost"></div></div></button></td>\
-<td><button style="color:green" onclick="showLetter(\'r\'); new Audio(\'sounds/english/r_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="rPre"></div><div id="rLetter">R</div><div id="rUnder"></div><div id="rPost"></div></div></button></td>\
-<td><button style="color:green" onclick="showLetter(\'s\'); new Audio(\'sounds/english/s_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="sPre"></div><div id="sLetter">S</div><div id="sUnder"></div><div id="sPost"></div></div></button></td>\
-<td><button style="color:green" onclick="showLetter(\'t\'); new Audio(\'sounds/english/t_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="tPre"></div><div id="tLetter">T</div><div id="tUnder"></div><div id="tPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'q\'); new Audio(\'sounds/english/q_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="qPre"></div><div id="qLetter">Q</div><div id="qUnder"></div><div id="qPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'r\'); new Audio(\'sounds/english/r_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="rPre"></div><div id="rLetter">R</div><div id="rUnder"></div><div id="rPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'s\'); new Audio(\'sounds/english/s_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="sPre"></div><div id="sLetter">S</div><div id="sUnder"></div><div id="sPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'t\'); new Audio(\'sounds/english/t_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="tPre"></div><div id="tLetter">T</div><div id="tUnder"></div><div id="tPost"></div></div></button></td>\
 </tr><tr>\
 <td><button style="color:red" onclick="showLetter(\'u\'); new Audio(\'sounds/english/u_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="uPre"></div><div id="uLetter">U</div><div id="uUnder"></div><div id="uPost"></div></div></button></td>\
 <td><button style="color:blue" onclick="showLetter(\'v\'); new Audio(\'sounds/english/v_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="vPre"></div><div id="vLetter">V</div><div id="vUnder"></div><div id="vPost"></div></div></button></td>\
 <td><button style="color:blue" onclick="showLetter(\'w\'); new Audio(\'sounds/english/w_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="wPre"></div><div id="wLetter">W</div><div id="wUnder"></div><div id="wPost"></div></div></button></td>\
-<td><button style="color:green" onclick="showLetter(\'x\'); new Audio(\'sounds/english/x_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="xPre"></div><div id="xLetter">X</div><div id="xUnder"></div><div id="xPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'x\'); new Audio(\'sounds/english/x_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="xPre"></div><div id="xLetter">X</div><div id="xUnder"></div><div id="xPost"></div></div></button></td>\
 <td><button style="color:red" onclick="showLetter(\'y\'); new Audio(\'sounds/english/y_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="yPre"></div><div id="yLetter">Y</div><div id="yUnder"></div><div id="yPost"></div></div></button></td>\
-<td><button style="color:green" onclick="showLetter(\'z\'); new Audio(\'sounds/english/z_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="zPre"></div><div id="zLetter">Z</div><div id="zUnder"></div><div id="zPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'z\'); new Audio(\'sounds/english/z_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="zPre"></div><div id="zLetter">Z</div><div id="zUnder"></div><div id="zPost"></div></div></button></td>\
 </tr></table>';
 
 // English Axial Table
@@ -424,31 +424,31 @@ tableAbcd["hebrew"]["axial"] = '<div id="underDevelopment">&nbsp;</div><tr>\
 tableAbcd["greek"]["linear"] = '<tr>\
 <td><button style="color:red" onclick="showLetter(\'α\'); new Audio(\'sounds/greek/α_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="αPre"></div><div id="αLetter">Α</div><div id="αUnder"></div><div id="αPost"></div></div></button></td>\
 <td><button style="color:blue" onclick="showLetter(\'β\'); new Audio(\'sounds/greek/β_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="βPre"></div><div id="βLetter">Β</div><div id="βUnder"></div><div id="βPost"></div></div></button></td>\
-<td><button style="color:green" onclick="showLetter(\'γ\'); new Audio(\'sounds/greek/γ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="γPre"></div><div id="γLetter">Γ</div><div id="γUnder"></div><div id="γPost"></div></div></button></td>\
-<td><button style="color:green" onclick="showLetter(\'δ\'); new Audio(\'sounds/greek/δ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="δPre"></div><div id="δLetter">Δ</div><div id="δUnder"></div><div id="δPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'γ\'); new Audio(\'sounds/greek/γ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="γPre"></div><div id="γLetter">Γ</div><div id="γUnder"></div><div id="γPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'δ\'); new Audio(\'sounds/greek/δ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="δPre"></div><div id="δLetter">Δ</div><div id="δUnder"></div><div id="δPost"></div></div></button></td>\
 </tr><tr>\
 <td><button style="color:red" onclick="showLetter(\'ε\'); new Audio(\'sounds/greek/ε_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="εPre"></div><div id="εLetter">Ε</div><div id="εUnder"></div><div id="εPost"></div></div></button></td>\
-<td><button style="color:green" onclick="showLetter(\'ζ\'); new Audio(\'sounds/greek/ζ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ζPre"></div><div id="ζLetter">Ζ</div><div id="ζUnder"></div><div id="ζPost"></div></div></button></td>\
-<td><button style="color:green" onclick="showLetter(\'η\'); new Audio(\'sounds/greek/η_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ηPre"></div><div id="ηLetter">Η</div><div id="ηUnder"></div><div id="ηPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'ζ\'); new Audio(\'sounds/greek/ζ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ζPre"></div><div id="ζLetter">Ζ</div><div id="ζUnder"></div><div id="ζPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'η\'); new Audio(\'sounds/greek/η_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ηPre"></div><div id="ηLetter">Η</div><div id="ηUnder"></div><div id="ηPost"></div></div></button></td>\
 <td><button style="color:blue" onclick="showLetter(\'θ\'); new Audio(\'sounds/greek/θ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="θPre"></div><div id="θLetter">Θ</div><div id="θUnder"></div><div id="θPost"></div></div></button></td>\
 </tr><tr>\
 <td><button style="color:red" onclick="showLetter(\'ι\'); new Audio(\'sounds/greek/ι_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ιPre"></div><div id="ιLetter">Ι</div><div id="ιUnder"></div><div id="ιPost"></div></div></button></td>\
-<td><button style="color:green" onclick="showLetter(\'κ\'); new Audio(\'sounds/greek/κ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="κPre"></div><div id="κLetter">Κ</div><div id="κUnder"></div><div id="κPost"></div></div></button></td>\
-<td><button style="color:green" onclick="showLetter(\'λ\'); new Audio(\'sounds/greek/λ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="λPre"></div><div id="λLetter">Λ</div><div id="λUnder"></div><div id="λPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'κ\'); new Audio(\'sounds/greek/κ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="κPre"></div><div id="κLetter">Κ</div><div id="κUnder"></div><div id="κPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'λ\'); new Audio(\'sounds/greek/λ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="λPre"></div><div id="λLetter">Λ</div><div id="λUnder"></div><div id="λPost"></div></div></button></td>\
 <td><button style="color:blue" onclick="showLetter(\'μ\'); new Audio(\'sounds/greek/μ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="μPre"></div><div id="μLetter">Μ</div><div id="μUnder"></div><div id="μPost"></div></div></button></td>\
-<td><button style="color:green" onclick="showLetter(\'ν\'); new Audio(\'sounds/greek/ν_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="νPre"></div><div id="νLetter">Ν</div><div id="νUnder"></div><div id="νPost"></div></div></button></td>\
-<td><button style="color:green" onclick="showLetter(\'ξ\'); new Audio(\'sounds/greek/ξ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ξPre"></div><div id="ξLetter">Ξ</div><div id="ξUnder"></div><div id="ξPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'ν\'); new Audio(\'sounds/greek/ν_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="νPre"></div><div id="νLetter">Ν</div><div id="νUnder"></div><div id="νPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'ξ\'); new Audio(\'sounds/greek/ξ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ξPre"></div><div id="ξLetter">Ξ</div><div id="ξUnder"></div><div id="ξPost"></div></div></button></td>\
 </tr><tr>\
 <td><button style="color:red" onclick="showLetter(\'ο\'); new Audio(\'sounds/greek/ο_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="οPre"></div><div id="οLetter">Ο</div><div id="οUnder"></div><div id="οPost"></div></div></button></td>\
 <td><button style="color:blue" onclick="showLetter(\'π\'); new Audio(\'sounds/greek/π_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="πPre"></div><div id="πLetter">Π</div><div id="πUnder"></div><div id="πPost"></div></div></button></td>\
-<td><button style="color:green" onclick="showLetter(\'ρ\'); new Audio(\'sounds/greek/ρ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ρPre"></div><div id="ρLetter">Ρ</div><div id="ρUnder"></div><div id="ρPost"></div></div></button></td>\
-<td><button style="color:green" onclick="showLetter(\'σ\'); new Audio(\'sounds/greek/σ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="σPre"></div><div id="σLetter">Σ</div><div id="σUnder"></div><div id="σPost"></div></div></button></td>\
-<td><button style="color:green" onclick="showLetter(\'τ\'); new Audio(\'sounds/greek/τ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="τPre"></div><div id="τLetter">Τ</div><div id="τUnder"></div><div id="τPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'ρ\'); new Audio(\'sounds/greek/ρ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ρPre"></div><div id="ρLetter">Ρ</div><div id="ρUnder"></div><div id="ρPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'σ\'); new Audio(\'sounds/greek/σ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="σPre"></div><div id="σLetter">Σ</div><div id="σUnder"></div><div id="σPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'τ\'); new Audio(\'sounds/greek/τ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="τPre"></div><div id="τLetter">Τ</div><div id="τUnder"></div><div id="τPost"></div></div></button></td>\
 </tr><tr>\
 <td><button style="color:red" onclick="showLetter(\'υ\'); new Audio(\'sounds/greek/υ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="υPre"></div><div id="υLetter">Υ</div><div id="υUnder"></div><div id="υPost"></div></div></button></td>\
 <td><button style="color:blue" onclick="showLetter(\'φ\'); new Audio(\'sounds/greek/φ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="φPre"></div><div id="φLetter">Φ</div><div id="φUnder"></div><div id="φPost"></div></div></button></td>\
-<td><button style="color:green" onclick="showLetter(\'χ\'); new Audio(\'sounds/greek/χ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="χPre"></div><div id="χLetter">Χ</div><div id="χUnder"></div><div id="χPost"></div></div></button></td>\
-<td><button style="color:green" onclick="showLetter(\'ψ\'); new Audio(\'sounds/greek/ψ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ψPre"></div><div id="ψLetter">Ψ</div><div id="ψUnder"></div><div id="ψPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'χ\'); new Audio(\'sounds/greek/χ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="χPre"></div><div id="χLetter">Χ</div><div id="χUnder"></div><div id="χPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'ψ\'); new Audio(\'sounds/greek/ψ_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ψPre"></div><div id="ψLetter">Ψ</div><div id="ψUnder"></div><div id="ψPost"></div></div></button></td>\
 <td><button style="color:red" onclick="showLetter(\'ω\'); new Audio(\'sounds/greek/ω_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ωPre"></div><div id="ωLetter">Ω</div><div id="ωUnder"></div><div id="ωPost"></div></div></button></td>\
 </tr></table>';
 
@@ -518,42 +518,42 @@ tableAbcd["greek"]["sound"]["ω"] = [ "ὤ", "ὠ", "ὡ", " ", " ", " ", "ρα"
 tableAbcd["georgian"]["linear"] = '<div id="underDevelopment">&nbsp;</div><tr>\
 <td><button style="color:red" onclick="underDevelopment();">ა‎</button></td>\
 <td><button style="color:blue" onclick="underDevelopment();">ბ</button></td>\
-<td><button style="color:green" onclick="underDevelopment();">გ</button></td>\
-<td><button style="color:green" onclick="underDevelopment();">დ</button></td>\
+<td><button style="color:black" onclick="underDevelopment();">გ</button></td>\
+<td><button style="color:black" onclick="underDevelopment();">დ</button></td>\
 </tr><tr>\
 <td><button style="color:red" onclick="underDevelopment();">ე</button></td>\
 <td><button style="color:blue" onclick="underDevelopment();">ვ</button></td>\
-<td><button style="color:green" onclick="underDevelopment();">ზ</button></td>\
-<td><button style="color:green" onclick="underDevelopment();">თ</button></td>\
+<td><button style="color:black" onclick="underDevelopment();">ზ</button></td>\
+<td><button style="color:black" onclick="underDevelopment();">თ</button></td>\
 </tr><tr>\
 <td><button style="color:red" onclick="underDevelopment();">ი</button></td>\
-<td><button style="color:green" onclick="underDevelopment();">კ</button></td>\
-<td><button style="color:green" onclick="underDevelopment();">ლ</button></td>\
+<td><button style="color:black" onclick="underDevelopment();">კ</button></td>\
+<td><button style="color:black" onclick="underDevelopment();">ლ</button></td>\
 <td><button style="color:blue" onclick="underDevelopment();">მ</button></td>\
-<td><button style="color:green" onclick="underDevelopment();">ნ</button></td>\
+<td><button style="color:black" onclick="underDevelopment();">ნ</button></td>\
 </tr><tr>\
 <td><button style="color:red" onclick="underDevelopment();">ო</button></td>\
 <td><button style="color:blue" onclick="underDevelopment();">პ</button></td>\
-<td><button style="color:green" onclick="underDevelopment();">ჟ</button></td>\
-<td><button style="color:green" onclick="underDevelopment();">რ</button></td>\
-<td><button style="color:green" onclick="underDevelopment();">ს</button></td>\
-<td><button style="color:green" onclick="underDevelopment();">ტ</button></td>\
+<td><button style="color:black" onclick="underDevelopment();">ჟ</button></td>\
+<td><button style="color:black" onclick="underDevelopment();">რ</button></td>\
+<td><button style="color:black" onclick="underDevelopment();">ს</button></td>\
+<td><button style="color:black" onclick="underDevelopment();">ტ</button></td>\
 </tr><tr>\
 <td><button style="color:red" onclick="underDevelopment();">უ</button></td>\
 <td><button style="color:blue" onclick="underDevelopment();">ფ</button></td>\
-<td><button style="color:green" onclick="underDevelopment();">ქ</button></td>\
-<td><button style="color:green" onclick="underDevelopment();">ღ</button></td>\
-<td><button style="color:green" onclick="underDevelopment();">ყ</button></td>\
-<td><button style="color:green" onclick="underDevelopment();">შ</button></td>\
-<td><button style="color:green" onclick="underDevelopment();">ჩ</button></td>\
-<td><button style="color:green" onclick="underDevelopment();">ც</button></td>\
+<td><button style="color:black" onclick="underDevelopment();">ქ</button></td>\
+<td><button style="color:black" onclick="underDevelopment();">ღ</button></td>\
+<td><button style="color:black" onclick="underDevelopment();">ყ</button></td>\
+<td><button style="color:black" onclick="underDevelopment();">შ</button></td>\
+<td><button style="color:black" onclick="underDevelopment();">ჩ</button></td>\
+<td><button style="color:black" onclick="underDevelopment();">ც</button></td>\
 </tr><tr><td></td><td></td>\
-<td><button style="color:green" onclick="underDevelopment();">ძ</button></td>\
-<td><button style="color:green" onclick="underDevelopment();">წ</button></td>\
-<td><button style="color:green" onclick="underDevelopment();">ჭ</button></td>\
-<td><button style="color:green" onclick="underDevelopment();">ხ</button></td>\
-<td><button style="color:green" onclick="underDevelopment();">ჯ</button></td>\
-<td><button style="color:green" onclick="underDevelopment();">ჰ</button></td>\
+<td><button style="color:black" onclick="underDevelopment();">ძ</button></td>\
+<td><button style="color:black" onclick="underDevelopment();">წ</button></td>\
+<td><button style="color:black" onclick="underDevelopment();">ჭ</button></td>\
+<td><button style="color:black" onclick="underDevelopment();">ხ</button></td>\
+<td><button style="color:black" onclick="underDevelopment();">ჯ</button></td>\
+<td><button style="color:black" onclick="underDevelopment();">ჰ</button></td>\
 </tr></table>';
 
 // Georgian Axial Table
