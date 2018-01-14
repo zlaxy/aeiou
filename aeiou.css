@@ -1,6 +1,10 @@
 /*
- * aeiou.css
- * 
+ * ,adPPYYba,  ,adPPYba, 88  ,adPPYba,  88       88
+ * ""     `Y8 a8P_____88 88 a8"     "8a 88       88
+ * ,adPPPPP88 8PP""""""" 88 8b       d8 88       88
+ * 88,    ,88 "8b,   ,aa 88 "8a,   ,a8" "8a,   ,a88
+ * `"8bbdP"Y8  `"Ybbd8"' 88  `"YbbdP"'   `"YbbdP'Y8
+ *         https://github.com/zlaxy/aeiou
  */
 
 @import url(https://fonts.googleapis.com/earlyaccess/notosansugaritic.css);
@@ -88,13 +92,12 @@ html {
 }
 
 .abcdTable tr td button {
-    font-size: 7vh;
+    font-size: 5vw;
     text-align: center;
     cursor: pointer;
-    height: 7vh;
-    width: 7vh;
+    height: 5vw;
     background-color: transparent;
-    border: 0vh solid;
+    border: 0vw solid;
     font-weight: 600;
 }
 
@@ -107,10 +110,16 @@ button.controlButton {
     text-align: center;
     font-family: Ubuntu, sans-serif;
     font-weight: 300;
-    font-size: 2vh;
-    height: 3vh;
+    font-size: 2vw;
+    height: 3vw;
     background-color: transparent;
-    border-radius: 2vh;
-    border: 0.1vh solid #bbb;
+    border-radius: 2vw;
+    border: 0.1vw solid #bbb;
     cursor: pointer;
+}
+
+#hiddentextline {
+    position: absolute;
+    visibility: hidden;
+    white-space: nowrap;
 }

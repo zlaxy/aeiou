@@ -1,3 +1,12 @@
+/*
+ * ,adPPYYba,  ,adPPYba, 88  ,adPPYba,  88       88
+ * ""     `Y8 a8P_____88 88 a8"     "8a 88       88
+ * ,adPPPPP88 8PP""""""" 88 8b       d8 88       88
+ * 88,    ,88 "8b,   ,aa 88 "8a,   ,a8" "8a,   ,a88
+ * `"8bbdP"Y8  `"Ybbd8"' 88  `"YbbdP"'   `"YbbdP'Y8
+ *         https://github.com/zlaxy/aeiou
+ */
+
 // Global vars
 
 var alphabetos = 'english';
@@ -941,31 +950,27 @@ function sleep(ms) {
 
 // Visual part of onclick action handler and lastSpoken variable counter
 function showLetter(letter) {
+
     if (variant == 'default') speakLanguage = alphabetos;
         else speakLanguage = alphabetos + '-' + variant;
 
     if (lastSpoken["symbol"] == letter) { lastSpoken["count"]++;
-        if (lastSpoken["count"] > (tableAbcd[speakLanguage]["sound"][letter].length / 4)) lastSpoken["count"] = 1 ;
+        if (lastSpoken["count"] > (tableAbcd[speakLanguage]["sound"][letter].length / 4)) lastSpoken["count"] = 1;
     } else { lastSpoken["count"] = 1 }
     lastSpoken["symbol"] = letter;
 
-    var leftPre = ((((tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) - 1) + lastSpoken["count"]].length - 1) * 15) + 5) * (-1));
-    var leftPost = 30;
+    if (font == "enhandwritten" || font == "enlowerhand" || font == "ruhandwritten" || font == "rulowerhand" || font == "grhandwritten" || font == "grlowerhand") textstroke = 0;
+        else if (alphabetos == "runes") textstroke = 1;
+            else textstroke = 2;
 
-    // English view fix:
-    if (alphabetos == "english" && variant == "default" && letter == "g") {
-        leftPre = -20;
-    }
-    if ((font == "enhandwritten" || font == "enlowerhand") && alphabetos == "english" && variant == "default") {
-        leftPre = ((((tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) - 1) + lastSpoken["count"]].length - 1) * 5) + 1) * (-1));
-        leftPost = 33;
-    }
+    var fontClass = currentFontClass();
+    document.getElementById("hiddentextline").innerHTML = '<table class="' + fontClass + '"><tr><td><button id="getPxButt" style="font-size: 5vw; text-transform: lowercase; font-weight: 900; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) - 1) + lastSpoken["count"]] + '</button></td></tr></table>';
+    var leftPre = 12 - getPx("getPxButt","");
+    document.getElementById("hiddentextline").innerHTML = '';
+    var leftPost = getPx(letter,"Letter");
 
     switch(lastSpoken["count"]) {
         case lastSpoken["count"]:
-            if (font == "enhandwritten" || font == "enlowerhand" || font == "ruhandwritten" || font == "rulowerhand" || font == "grhandwritten" || font == "grlowerhand") textstroke = 0;
-                else if (alphabetos == "runes") textstroke = 1;
-                    else textstroke = 2;
             document.getElementById(letter + "Pre").innerHTML = '<div style="position: absolute; text-transform: lowercase; left: ' + leftPre + 'px; top: 0px; font-weight: 900; color: gray; -webkit-text-fill-color: gray; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) - 1) + lastSpoken["count"]] + '</div>';
             document.getElementById(letter + "Letter").innerHTML = tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"] - 1];
             document.getElementById(letter + "Post").innerHTML = '<div style="position: absolute; text-transform: lowercase; left: ' + leftPost + 'px; top: 0px; font-weight: 900; color: gray; -webkit-text-fill-color: gray; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + ( tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"] + (((tableAbcd[speakLanguage]["sound"][letter].length / 4) * 2) - 1)] ) + '</div>';
@@ -974,9 +979,9 @@ function showLetter(letter) {
                 var bracketRight = ")";
                 var underLeft = ( tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) * 3) - 1 + lastSpoken["count"]].length ) * -2;
                 if (textstroke == 0) var underText = ""; else var underText = "-webkit-text-stroke-width: 1px; -webkit-text-stroke-color: white;";
-                document.getElementById(letter + "Under").innerHTML = '<div style="position: absolute; white-space: nowrap; font-size: 16px; text-transform: none; left: ' + underLeft + 'px; top: 30px; font-weight: 900; color: gray; ' + underText + ' z-index: 10;">' + bracketLeft + ( tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) * 3) - 1 + lastSpoken["count"]] ) + bracketRight + '</div>';
+                document.getElementById(letter + "Under").innerHTML = '<div style="position: absolute; white-space: nowrap; font-size: 3vw; text-transform: none; left: ' + underLeft + 'px; top: 6vw; font-weight: 900; color: gray; ' + underText + ' z-index: 10;">' + bracketLeft + ( tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) * 3) - 1 + lastSpoken["count"]] ) + bracketRight + '</div>';
             }
-            sleep(500 + ((tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) - 1) + lastSpoken["count"]].length + tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"] + (((tableAbcd[speakLanguage]["sound"][letter].length / 4) * 2) - 1)].length + 1) * 100)).then(() => {
+            sleep(1000 + ((tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) - 1) + lastSpoken["count"]].length + tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"] + (((tableAbcd[speakLanguage]["sound"][letter].length / 4) * 2) - 1)].length + 1) * 100)).then(() => {
                 document.getElementById(letter + "Pre").innerHTML = "";
                 document.getElementById(letter + "Letter").innerHTML = letter;
                 document.getElementById(letter + "Post").innerHTML = "";
@@ -992,6 +997,62 @@ function underDevelopment() {
     sleep(1234).then(() => {
         document.getElementById("underDevelopment").innerHTML = "&nbsp;";
     });
+}
+
+// Get css class from current font variable
+function currentFontClass() {
+var result;
+    switch(font) {
+        case 'default':
+            result = 'abcdTable default upper';
+            break;
+        case 'lowercase':
+            result = 'abcdTable default lower';
+            break;
+        case 'handwritten':
+            result = 'abcdTable handwritten upper';
+            break;
+        case 'enhandwritten':
+            result = 'abcdTable enhandwritten upper';
+            break;
+        case 'ruhandwritten':
+            result = 'abcdTable ruhandwritten upper';
+            break;
+        case 'hehandwritten':
+            result = 'abcdTable hehandwritten';
+            break;
+        case 'lowerhand':
+            result = 'abcdTable handwritten lower';
+            break;
+        case 'enlowerhand':
+            result = 'abcdTable enhandwritten lower';
+            break;
+        case 'grhandwritten':
+            result = 'abcdTable grhandwritten upper';
+            break;
+        case 'grlowerhand':
+            result = 'abcdTable grhandwritten lower';
+            break;
+        case 'rulowerhand':
+            result = 'abcdTable ruhandwritten lower';
+            break;
+        case 'hebrew':
+            result = 'abcdTable hebrew';
+            break;
+        case 'georgian':
+            result = 'abcdTable georgian';
+            break;
+        case 'abjadi':
+            result = 'abcdTable abjadi';
+            break;
+        case 'runes':
+            result = 'abcdTable runes';
+            break;
+        case 'ugaritic':
+            result = 'abcdTable ugaritic';
+            break;
+    }
+    return result;
 }
 
 // Main function, HTML table generating
@@ -1105,56 +1166,9 @@ function makeAeiou(alphabetosTransmitted, layoutTransmitted, fontTransmitted, va
 
     result += tableBfix;
 
-    switch(font) {
-        case 'default':
-            result += '<table class="abcdTable default upper">';
-            break;
-        case 'lowercase':
-            result += '<table class="abcdTable default lower">';
-            break;
-        case 'handwritten':
-            result += '<table class="abcdTable handwritten upper">';
-            break;
-        case 'enhandwritten':
-            result += '<table class="abcdTable enhandwritten upper">';
-            break;
-        case 'ruhandwritten':
-            result += '<table class="abcdTable ruhandwritten upper">';
-            break;
-        case 'hehandwritten':
-            result += '<table class="abcdTable hehandwritten">';
-            break;
-        case 'lowerhand':
-            result += '<table class="abcdTable handwritten lower">';
-            break;
-        case 'enlowerhand':
-            result += '<table class="abcdTable enhandwritten lower">';
-            break;
-        case 'grhandwritten':
-            result += '<table class="abcdTable grhandwritten upper">';
-            break;
-        case 'grlowerhand':
-            result += '<table class="abcdTable grhandwritten lower">';
-            break;
-        case 'rulowerhand':
-            result += '<table class="abcdTable ruhandwritten lower">';
-            break;
-        case 'hebrew':
-            result += '<table class="abcdTable hebrew">';
-            break;
-        case 'georgian':
-            result += '<table class="abcdTable georgian">';
-            break;
-        case 'abjadi':
-            result += '<table class="abcdTable abjadi">';
-            break;
-        case 'runes':
-            result += '<table class="abcdTable runes">';
-            break;
-        case 'ugaritic':
-            result += '<table class="abcdTable ugaritic">';
-            break;
-    }
+    result += '<table class="';
+    result += currentFontClass();
+    result += '">';
 
     if (variant == 'default') {
         result += tableAbcd[alphabetos][layout];
@@ -1181,5 +1195,19 @@ function makeAeiou(alphabetosTransmitted, layoutTransmitted, fontTransmitted, va
 
     result += tablePostpostfix;
 
+    result += '<div id="hiddentextline"></div>';
+
+//    result += '<div id="debug"></div>';                               // debugging line 
+
     document.getElementById("aeiou").innerHTML = result;
+}
+
+// Get width in px of element by ID
+function getPx(letter,prefix) {
+    var id = letter+prefix;
+    var blockwidth = document.getElementById(id).clientWidth;
+
+//    document.getElementById("debug").innerHTML = blockwidth;          // debugging line
+
+    return blockwidth;
 }
