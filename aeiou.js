@@ -7,6 +7,8 @@
  *         https://github.com/zlaxy/aeiou
  */
 
+document.addEventListener("keydown", keyPressHandler, false);
+
 // Global vars
 
 var alphabetos = 'english';
@@ -1304,12 +1306,12 @@ function makeAeiou(alphabetosTransmitted, layoutTransmitted, fontTransmitted, va
                 case 'default':
                     break;
                 default:
-                    result +=  '<td><button class="controlButton" onclick="makeAeiou(alphabetos, \'axial\')">-|-</button></td>';
+                    result += '<td><button class="controlButton" onclick="makeAeiou(alphabetos, \'axial\')">-|-</button></td>';
                     break;
             }
             break;
         default:
-            result +=  '<td><button class="controlButton" onclick="makeAeiou(alphabetos, \'axial\')">-|-</button></td>';
+            result += '<td><button class="controlButton" onclick="makeAeiou(alphabetos, \'axial\')">-|-</button></td>';
             break;
     }
 
@@ -1332,9 +1334,7 @@ function getPx(letter,prefix) {
     return blockwidth;
 }
 
-document.addEventListener("keydown", keyPessHandler, false);
-
-function keyPessHandler(e) {
+function keyPressHandler(e) {
     var keyCode = e.keyCode;
     // LEFT, A
     if (keyCode == 37 || keyCode == 65)
