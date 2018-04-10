@@ -20,6 +20,7 @@ lastSpoken["count"] = 0;
 
 var tableAbcd = {};
 tableAbcd["english"] = {};
+tableAbcd["english-german"] = {};
 tableAbcd["russian"] = {};
 tableAbcd["russian-bulgarian"] = {};
 tableAbcd["hebrew"] = {};
@@ -128,6 +129,105 @@ tableAbcd["english"]["sound"]["w"] = [ "w", "w", "w", "w", " ", " ", "ho", "ne",
 tableAbcd["english"]["sound"]["x"] = [ "x", "x", "e", " ", " ", "enos", "", "" ];
 tableAbcd["english"]["sound"]["y"] = [ "y", "y", "y", "y", "y", "y", " ", "jo", "e", "wh", "ver", "var", "ou", " ", "e", " ", " ", " ", "", "", "", "", "", "" ];
 tableAbcd["english"]["sound"]["z"] = [ "z", "z", " ", "wi", "ip", " ", "", "" ];
+
+// German Linear Table
+tableAbcd["english-german"]["linear"] = '<tr>\
+<td><button style="color:red" onclick="showLetter(\'a\'); new Audio(\'sounds/english-german/a_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="aPre"></div><div id="aLetter">A</div><div id="aUnder"></div><div id="aPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="showLetter(\'b\'); new Audio(\'sounds/english-german/b_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="bPre"></div><div id="bLetter">B</div><div id="bUnder"></div><div id="bPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'c\'); new Audio(\'sounds/english-german/c_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="cPre"></div><div id="cLetter">C</div><div id="cUnder"></div><div id="cPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'d\'); new Audio(\'sounds/english-german/d_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="dPre"></div><div id="dLetter">D</div><div id="dUnder"></div><div id="dPost"></div></div></button></td>\
+<td></td><td></td></tr><tr>\
+<td><button style="color:red" onclick="showLetter(\'e\'); new Audio(\'sounds/english-german/e_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ePre"></div><div id="eLetter">E</div><div id="eUnder"></div><div id="ePost"></div></div></button></td>\
+<td><button style="color:blue" onclick="showLetter(\'f\'); new Audio(\'sounds/english-german/f_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="fPre"></div><div id="fLetter">F</div><div id="fUnder"></div><div id="fPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'g\'); new Audio(\'sounds/english-german/g_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="gPre"></div><div id="gLetter">G</div><div id="gUnder"></div><div id="gPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'h\'); new Audio(\'sounds/english-german/h_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="hPre"></div><div id="hLetter">H</div><div id="hUnder"></div><div id="hPost"></div></div></button></td>\
+</tr><tr>\
+<td><button style="color:red" onclick="showLetter(\'i\'); new Audio(\'sounds/english-german/i_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="iPre"></div><div id="iLetter">I</div><div id="iUnder"></div><div id="iPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'j\'); new Audio(\'sounds/english-german/j_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="jPre"></div><div id="jLetter">J</div><div id="jUnder"></div><div id="jPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'k\'); new Audio(\'sounds/english-german/k_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="kPre"></div><div id="kLetter">K</div><div id="kUnder"></div><div id="kPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'l\'); new Audio(\'sounds/english-german/l_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="lPre"></div><div id="lLetter">L</div><div id="lUnder"></div><div id="lPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="showLetter(\'m\'); new Audio(\'sounds/english-german/m_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="mPre"></div><div id="mLetter">M</div><div id="mUnder"></div><div id="mPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'n\'); new Audio(\'sounds/english-german/n_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="nPre"></div><div id="nLetter">N</div><div id="nUnder"></div><div id="nPost"></div></div></button></td>\
+</tr><tr>\
+<td><button style="color:red" onclick="showLetter(\'o\'); new Audio(\'sounds/english-german/o_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="oPre"></div><div id="oLetter">O</div><div id="oUnder"></div><div id="oPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="showLetter(\'p\'); new Audio(\'sounds/english-german/p_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="pPre"></div><div id="pLetter">P</div><div id="pUnder"></div><div id="pPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'q\'); new Audio(\'sounds/english-german/q_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="qPre"></div><div id="qLetter">Q</div><div id="qUnder"></div><div id="qPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'r\'); new Audio(\'sounds/english-german/r_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="rPre"></div><div id="rLetter">R</div><div id="rUnder"></div><div id="rPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'s\'); new Audio(\'sounds/english-german/s_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="sPre"></div><div id="sLetter">S</div><div id="sUnder"></div><div id="sPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'t\'); new Audio(\'sounds/english-german/t_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="tPre"></div><div id="tLetter">T</div><div id="tUnder"></div><div id="tPost"></div></div></button></td>\
+</tr><tr>\
+<td><button style="color:red" onclick="showLetter(\'u\'); new Audio(\'sounds/english-german/u_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="uPre"></div><div id="uLetter">U</div><div id="uUnder"></div><div id="uPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="showLetter(\'v\'); new Audio(\'sounds/english-german/v_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="vPre"></div><div id="vLetter">V</div><div id="vUnder"></div><div id="vPost"></div></div></button></td>\
+<td><button style="color:blue" onclick="showLetter(\'w\'); new Audio(\'sounds/english-german/w_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="wPre"></div><div id="wLetter">W</div><div id="wUnder"></div><div id="wPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'x\'); new Audio(\'sounds/english-german/x_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="xPre"></div><div id="xLetter">X</div><div id="xUnder"></div><div id="xPost"></div></div></button></td>\
+<td><button style="color:red" onclick="showLetter(\'y\'); new Audio(\'sounds/english-german/y_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="yPre"></div><div id="yLetter">Y</div><div id="yUnder"></div><div id="yPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'z\'); new Audio(\'sounds/english-german/z_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="zPre"></div><div id="zLetter">Z</div><div id="zUnder"></div><div id="zPost"></div></div></button></td>\
+</tr></table>';
+
+// German Axial Table
+tableAbcd["english-german"]["axial"] = '<tr>\
+<td colspan="7" align="center"><button style="color:red" onclick="showLetter(\'a\'); new Audio(\'sounds/english-german/a_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="aPre"></div><div id="aLetter">A</div><div id="aUnder"></div><div id="aPost"></div></div></button></td>\
+</tr><tr><td colspan="2"></td><td colspan="3" align="center">\
+<button style="color:black" onclick="showLetter(\'b\'); new Audio(\'sounds/english-german/b_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="bPre"></div><div id="bLetter">B</div><div id="bUnder"></div><div id="bPost"></div></div></button>\
+<button style="color:black" onclick="showLetter(\'c\'); new Audio(\'sounds/english-german/c_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="cPre"></div><div id="cLetter">C</div><div id="cUnder"></div><div id="cPost"></div></div></button>\
+</td><td colspan="2"></td></tr><tr><td colspan="2"></td>\
+<td><button style="color:black" onclick="showLetter(\'d\'); new Audio(\'sounds/english-german/d_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="dPre"></div><div id="dLetter">D</div><div id="dUnder"></div><div id="dPost"></div></div></button></td>\
+<td><button style="color:red" onclick="showLetter(\'e\'); new Audio(\'sounds/english-german/e_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="ePre"></div><div id="eLetter">E</div><div id="eUnder"></div><div id="ePost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'f\'); new Audio(\'sounds/english-german/f_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="fPre"></div><div id="fLetter">F</div><div id="fUnder"></div><div id="fPost"></div></div></button></td>\
+<td colspan="2"></td></tr><tr>\
+<td></td><td><button style="color:black" onclick="showLetter(\'g\'); new Audio(\'sounds/english-german/g_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="gPre"></div><div id="gLetter">G</div><div id="gUnder"></div><div id="gPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'h\'); new Audio(\'sounds/english-german/h_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="hPre"></div><div id="hLetter">H</div><div id="hUnder"></div><div id="hPost"></div></div></button></td>\
+<td><button style="color:red" onclick="showLetter(\'i\'); new Audio(\'sounds/english-german/i_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="iPre"></div><div id="iLetter">I</div><div id="iUnder"></div><div id="iPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'j\'); new Audio(\'sounds/english-german/j_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="jPre"></div><div id="jLetter">J</div><div id="jUnder"></div><div id="jPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'k\'); new Audio(\'sounds/english-german/k_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="kPre"></div><div id="kLetter">K</div><div id="kUnder"></div><div id="kPost"></div></div></button></td>\
+<td></td></tr><tr>\
+<td><button style="color:black" onclick="showLetter(\'l\'); new Audio(\'sounds/english-german/l_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="lPre"></div><div id="lLetter">L</div><div id="lUnder"></div><div id="lPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'m\'); new Audio(\'sounds/english-german/m_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="mPre"></div><div id="mLetter">M</div><div id="mUnder"></div><div id="mPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'n\'); new Audio(\'sounds/english-german/n_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="nPre"></div><div id="nLetter">N</div><div id="nUnder"></div><div id="nPost"></div></div></button></td>\
+<td><button style="color:red" onclick="showLetter(\'o\'); new Audio(\'sounds/english-german/o_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="oPre"></div><div id="oLetter">O</div><div id="oUnder"></div><div id="oPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'p\'); new Audio(\'sounds/english-german/p_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="pPre"></div><div id="pLetter">P</div><div id="pUnder"></div><div id="pPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'q\'); new Audio(\'sounds/english-german/q_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="qPre"></div><div id="qLetter">Q</div><div id="qUnder"></div><div id="qPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'r\'); new Audio(\'sounds/english-german/r_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="rPre"></div><div id="rLetter">R</div><div id="rUnder"></div><div id="rPost"></div></div></button></td>\
+</tr><tr>\
+<td></td><td><button style="color:black" onclick="showLetter(\'s\'); new Audio(\'sounds/english-german/s_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="sPre"></div><div id="sLetter">S</div><div id="sUnder"></div><div id="sPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'t\'); new Audio(\'sounds/english-german/t_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="tPre"></div><div id="tLetter">T</div><div id="tUnder"></div><div id="tPost"></div></div></button></td>\
+<td><button style="color:red" onclick="showLetter(\'u\'); new Audio(\'sounds/english-german/u_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="uPre"></div><div id="uLetter">U</div><div id="uUnder"></div><div id="uPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'v\'); new Audio(\'sounds/english-german/v_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="vPre"></div><div id="vLetter">V</div><div id="vUnder"></div><div id="vPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'w\'); new Audio(\'sounds/english-german/w_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="wPre"></div><div id="wLetter">W</div><div id="wUnder"></div><div id="wPost"></div></div></button></td>\
+<td></td></tr><tr><td colspan="2"></td>\
+<td><button style="color:black" onclick="showLetter(\'x\'); new Audio(\'sounds/english-german/x_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="xPre"></div><div id="xLetter">X</div><div id="xUnder"></div><div id="xPost"></div></div></button></td>\
+<td><button style="color:red" onclick="showLetter(\'y\'); new Audio(\'sounds/english-german/y_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="yPre"></div><div id="yLetter">Y</div><div id="yUnder"></div><div id="yPost"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetter(\'z\'); new Audio(\'sounds/english-german/z_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="zPre"></div><div id="zLetter">Z</div><div id="zUnder"></div><div id="zPost"></div></div></button></td>\
+</tr></table>';
+
+// German Sound Correspondence
+tableAbcd["english-german"]["sound"] = {};
+tableAbcd["english-german"]["sound"]["a"] = [ "a", "a", "a", "a", "a", "a", "a", "ä", "a", " ", " ", " ", " ", " ", " ", "w", "w", " ", "rm", "lle", "ndere", "n", "uge", "us", "rm", "rme", "bend", "arm", "all", "other", "at, on", "eye", "out", "warm", "warmth", "evening" ];
+tableAbcd["english-german"]["sound"]["b"] = [ "b", "b", "b", " ", " ", " ", "ein", "ei", "in", "leg", "by", "am" ];
+tableAbcd["english-german"]["sound"]["c"] = [ "c", "c", "c", "c", "c", " ", "do", "kno", "gesi", "s", "omputer", "h", "hen", "ht", "hwester", "computer", "thought", "bone", "face, vision", "sister, nurse, nun" ];
+tableAbcd["english-german"]["sound"]["d"] = [ "d", "d", "d", "d", "d", "d", " ", " ", " ", " ", " ", " ", "ies", "ass", "a", "ann", "enn", "u", "this", "that", "here, there, then, so as", "then", "than", "you" ];
+tableAbcd["english-german"]["sound"]["e"] = [ "e", "e", " ", " ", "r", "s", "he", "it" ];
+tableAbcd["english-german"]["sound"]["f"] = [ "f", "f", "f", "f", "f", " ", " ", " ", " ", " ", "reund", "eind", "inden", "rieden", "reiheit", "friend", "enemy", "find", "peace", "freedom" ];
+tableAbcd["english-german"]["sound"]["g"] = [ "g", "g", "g", "g", "g", "g", "g", " ", " ", " ", " ", " ", " ", " ", "las", "etan", "edanke", "esicht", "esehen", "eh'n", "estern", "glass, jar", "done", "thought", "face, vision", "seen", "to go", "yesterday" ];
+tableAbcd["english-german"]["sound"]["h"] = [ "h", "h", "h", "h", "h", "h", "h", " ", " ", " ", " ", " ", " ", " ", "and", "eilen", "ier", "er", "aar", "itze", "itzig", "hand", "heal", "here", "here", "hair", "heat", "hot" ];
+tableAbcd["english-german"]["sound"]["i"] = [ "i", "i", "i", " ", " ", " ", "ch", "hn", "st", "I", "him, it", "is" ];
+tableAbcd["english-german"]["sound"]["j"] = [ "j", " ", "a", "yes" ];
+tableAbcd["english-german"]["sound"]["k"] = [ "k", "k", "k", "k", "k", "k", "k", "k", "k", " ", " ", " ", " ", " ", " ", " ", " ", " ", "ann", "anne", "ein", "am", "alt", "ampf", "ämpfen", "uchen", "üche", "can (able)", "can (jug)", "no", "came", "cold", "fight", "to fight", "pie", "kitchen" ];
+tableAbcd["english-german"]["sound"]["l"] = [ "l", "l", "l", "l", " ", " ", " ", " ", "ippe", "icht", "eicht", "eute", "lip", "light (свет)", "light (лехко)", "people, люди" ];
+tableAbcd["english-german"]["sound"]["m"] = [ "m", "m", "m", "m", "m", "m", "m", "m", "m", "m", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", "und", "ann", "an", "achen", "ach", "eer", "ehr", "ich", "ir", "orgen", "mouth", "man", "someone", "to make", "make", "sea", "more", "me", "to me", "morning, tomorrow" ];
+tableAbcd["english-german"]["sound"]["n"] = [ "n", "n", "n", "n", "n", "n", "n", " ", " ", " ", " ", " ", " ", " ", "ase", "un", "ur", "ein", "och", "icht", "acht", "nose", "now", "only, just", "no", "nor, yet", "not", "night" ];
+tableAbcd["english-german"]["sound"]["o"] = [ "o", "ö", " ", "h", "r", "ren", "ear (ухо)", "hear" ];
+tableAbcd["english-german"]["sound"]["p"] = [ "p", "pa", "st", "pope" ];
+tableAbcd["english-german"]["sound"]["q"] = [ "q", " ", "ualm", "smoke" ];
+tableAbcd["english-german"]["sound"]["r"] = [ "r", " ", "ock", "rock" ];
+tableAbcd["english-german"]["sound"]["s"] = [ "s", "s", "ß", "s", "s", "s", "s", "s", "s", "s", "s", " ", " ", "fu", " ", " ", " ", " ", " ", " ", " ", " ", "ag", "agen", " ", "chwester", "uchen", "ehen", "ehe", "iehst", "ieht", "ein", "ie", "say", "to say", "foot", "sister, nurse, nun" , "seek" , "to see, (we) see, (they) see" , "(I) see" , "(you) see" , "sees" , "be, his, your" , "you, she, they" ];
+tableAbcd["english-german"]["sound"]["t"] = [ "t", "t", "t", " ", " ", " ", "ag", "ochter", "ür", "day", "daughter", "door" ];
+tableAbcd["english-german"]["sound"]["u"] = [ "u", "u", "ü", " ", "k", "k", "nd", "chen", "che", "and", "pie", "kitchen"];
+tableAbcd["english-german"]["sound"]["v"] = [ "v", "v", " ", " ", "om", "on", "from", "from, of, by" ];
+tableAbcd["english-german"]["sound"]["w"] = [ "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", "ann", "anne", "arm", "ärme", "as", "er", "ie", "erden", "ird", "ir", "arum", "when", "bath, tub", "warm", "warmth", "what", "who", "how, when, as", "to become", "becomes", "we", "why" ];
+tableAbcd["english-german"]["sound"]["x"] = [ "x", " ", "enon", "xenon" ];
+tableAbcd["english-german"]["sound"]["y"] = [ "y", " ", "oga", "yoga" ];
+tableAbcd["english-german"]["sound"]["z"] = [ "z", "z", " ", " ", "iel", "u", "aim (цель)", "to" ];
 
 // Russian Linear Table
 tableAbcd["russian"]["linear"] = '<tr>\
@@ -1077,7 +1177,14 @@ function makeAeiou(alphabetosTransmitted, layoutTransmitted, fontTransmitted, va
     var result = '<p align="center">';
     switch(alphabetos) {
         case 'english':
-            result += '<a href="https://en.wikipedia.org/wiki/English_alphabet" target="_blank">english alphabet</a>';
+            switch (variant) {
+                case 'default':
+                    result += '<a href="https://en.wikipedia.org/wiki/English_alphabet" target="_blank">english alphabet</a>';
+                    break;
+                case 'german':
+                    result += '<a href="https://en.wikipedia.org/wiki/German_orthography#Alphabet" target="_blank">german alphabet</a>';
+                    break;
+            }
             break;
         case 'russian':
             switch (variant) {
@@ -1145,9 +1252,10 @@ function makeAeiou(alphabetosTransmitted, layoutTransmitted, fontTransmitted, va
 
     switch(alphabetos) {
         case 'english':
+            result += '<button class="controlButton" onclick="makeAeiou(alphabetos, layout, font, \'default\')">english</button><br><button class="controlButton" onclick="makeAeiou(alphabetos, layout, font, \'german\')">german</button>';
             break;
         case 'russian':
-            result += '<button class="controlButton" onclick="makeAeiou(alphabetos, layout, font, \'default\')">russian alphabet</button><br><button class="controlButton" onclick="makeAeiou(alphabetos, layout, font, \'bulgarian\')">bulgarian alphabet</button>';
+            result += '<button class="controlButton" onclick="makeAeiou(alphabetos, layout, font, \'default\')">russian</button><br><button class="controlButton" onclick="makeAeiou(alphabetos, layout, font, \'bulgarian\')">bulgarian</button>';
             break;
         case 'hebrew':
             break;
