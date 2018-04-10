@@ -31,6 +31,18 @@ tableAbcd["runes"] = {};
 tableAbcd["runes-bornholm"] = {};
 tableAbcd["ugaritic"] = {};
 
+tableAbcd["english"]["fonts"] = ["default", "lowercase", "enhandwritten", "enlowerhand"];
+tableAbcd["russian"]["fonts"] = ["default", "lowercase", "ruhandwritten", "rulowerhand"];
+tableAbcd["greek"]["fonts"] = ["default", "lowercase", "grhandwritten", "grlowerhand"];
+tableAbcd["hebrew"]["fonts"] = ["hebrew", "hehandwritten"];
+tableAbcd["georgian"]["fonts"] = ["default"];
+tableAbcd["abjadi"]["fonts"] = ["default"];
+tableAbcd["runes"]["fonts"] = ["default"];
+tableAbcd["ugaritic"]["fonts"] = ["default"];
+
+tableAbcd["all"] = {};
+tableAbcd["all"]["variants"] = ["english-default", "english-german", "russian-default", "russian-bulgarian", "hebrew-default", "greek-default", "georgian-default", "abjadi-default", "runes-default", "runes-bornholm", "ugaritic-default"];
+
 // English Linear Table
 tableAbcd["english"]["linear"] = '<tr>\
 <td><button style="color:red" onclick="showLetter(\'a\'); new Audio(\'sounds/english/a_\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="aPre"></div><div id="aLetter">A</div><div id="aUnder"></div><div id="aPost"></div></div></button></td>\
@@ -1318,4 +1330,66 @@ function getPx(letter,prefix) {
 //    document.getElementById("debug").innerHTML = blockwidth;          // debugging line
 
     return blockwidth;
+}
+
+document.addEventListener("keydown", keyPessHandler, false);
+
+function keyPessHandler(e) {
+    var keyCode = e.keyCode;
+    // LEFT, A
+    if (keyCode == 37 || keyCode == 65)
+        makeAeiou(alphabetos, layout, switchList(alphabetos, "fonts", "previous", font), variant);
+    // RIGHT, D
+    if (keyCode == 39 || keyCode == 68)
+        makeAeiou(alphabetos, layout, switchList(alphabetos, "fonts", "next", font), variant);
+    // UP, W
+    if (keyCode == 38 || keyCode == 87) {
+        var currentVariant = alphabetos + "-" + variant;
+        var nextVariant = switchList("all","variants","previous",currentVariant).split("-");
+        if (nextVariant[0] == "english" || nextVariant[0] == "russian" || nextVariant[0] == "greek")
+            makeAeiou(nextVariant[0], "linear", "default", nextVariant[1]);
+        else 
+            makeAeiou(nextVariant[0], "linear", nextVariant[0], nextVariant[1]);
+    }
+    // DOWN, S
+    if (keyCode == 40 || keyCode == 83) {
+        var currentVariant = alphabetos + "-" + variant;
+        var nextVariant = switchList("all","variants","next",currentVariant).split("-");
+        if (nextVariant[0] == "english" || nextVariant[0] == "russian" || nextVariant[0] == "greek")
+            makeAeiou(nextVariant[0], "linear", "default", nextVariant[1]);
+        else 
+            makeAeiou(nextVariant[0], "linear", nextVariant[0], nextVariant[1]);
+    }
+    // SPACE
+    if (keyCode == 32) {
+        if (!(alphabetos == "russian" && variant == "default")) {
+            switch(layout) {
+                case 'axial':
+                    makeAeiou(alphabetos, "linear", font, variant);
+                    break;
+                case 'linear':
+                    makeAeiou(alphabetos, "axial", font, variant);
+                    break;
+            }
+        }
+    }
+}
+
+function switchList(alphabetos, list, direction, current) {
+    var currentItemIndex;
+    for (var i = 0; i < tableAbcd[alphabetos][list].length; i++) {
+        if (current == tableAbcd[alphabetos][list][i] ) {
+            currentItemIndex = i;
+            break;
+        }
+    }
+    if (direction == "previous") {
+        if (currentItemIndex == 0)
+            return tableAbcd[alphabetos][list][tableAbcd[alphabetos][list].length - 1];
+        else return tableAbcd[alphabetos][list][currentItemIndex - 1];
+    } else {
+        if (currentItemIndex == (tableAbcd[alphabetos][list].length - 1))
+            return tableAbcd[alphabetos][list][0];
+        else return tableAbcd[alphabetos][list][currentItemIndex + 1];
+    }
 }
