@@ -19,6 +19,7 @@ var variant = 'default';
 var lastSpoken = {};
 lastSpoken["symbol"] = "";
 lastSpoken["count"] = 0;
+var lastPressedTime = {};
 
 var tableAbcd = {};
 tableAbcd["english"] = {};
@@ -1085,6 +1086,7 @@ function showLetter(letter) {
 
     switch(lastSpoken["count"]) {
         case lastSpoken["count"]:
+            lastPressedTime[letter] = new Date();
             document.getElementById(letter + "Pre").innerHTML = '<div style="position: absolute; text-transform: lowercase; left: ' + leftPre + 'px; top: 0px; font-weight: 900; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;"><span style=\"color:gray\">' + tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) - 1) + lastSpoken["count"]] + '</span></div>';
             document.getElementById(letter + "Letter").innerHTML = tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"] - 1];
             document.getElementById(letter + "Post").innerHTML = '<div style="position: absolute; text-transform: lowercase; left: ' + leftPost + 'px; top: 0px; font-weight: 900; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;"><span style=\"color:gray\">' + ( tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"] + (((tableAbcd[speakLanguage]["sound"][letter].length / 4) * 2) - 1)] ) + '</span></div>';
@@ -1095,11 +1097,15 @@ function showLetter(letter) {
                 if (textstroke == 0) var underText = ""; else var underText = "-webkit-text-stroke-width: 1px; -webkit-text-stroke-color: white;";
                 document.getElementById(letter + "Under").innerHTML = '<div style="position: absolute; white-space: nowrap; font-size: 3vw; text-transform: none; left: ' + underLeft + 'px; top: 6vw; font-weight: 900; ' + underText + ' z-index: 10;"><span style=\"color:gray\">' + bracketLeft + ( tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) * 3) - 1 + lastSpoken["count"]] ) + bracketRight + '</span></div>';
             }
-            sleep(1000 + ((tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) - 1) + lastSpoken["count"]].length + tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"] + (((tableAbcd[speakLanguage]["sound"][letter].length / 4) * 2) - 1)].length + 1) * 100)).then(() => {
-                document.getElementById(letter + "Pre").innerHTML = "";
-                document.getElementById(letter + "Letter").innerHTML = letter;
-                document.getElementById(letter + "Post").innerHTML = "";
-                document.getElementById(letter + "Under").innerHTML = "";
+            var sleeptime = 1000 + ((tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) - 1) + lastSpoken["count"]].length + tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"] + (((tableAbcd[speakLanguage]["sound"][letter].length / 4) * 2) - 1)].length + 1) * 100);
+            sleep(sleeptime).then(() => {
+                var currentTime = new Date();
+                if (currentTime.getTime()-lastPressedTime[letter].getTime() >= sleeptime) {
+                    document.getElementById(letter + "Pre").innerHTML = "";
+                    document.getElementById(letter + "Letter").innerHTML = letter;
+                    document.getElementById(letter + "Post").innerHTML = "";
+                    document.getElementById(letter + "Under").innerHTML = "";
+                }
             });
             break;
     }
