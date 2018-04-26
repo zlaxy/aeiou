@@ -724,7 +724,82 @@ tableAbcd["georgian"]["axial"] = '<div id="underDevelopment">&nbsp;</div><tr>\
 </td></tr></table>';
 
 // Abjadi Linear Table
-tableAbcd["abjadi"]["linear"] = '<div id="underDevelopment">&nbsp;</div><tr>\
+tableAbcd["abjadi"]["linear"] = '<tr>\
+<td colspan="4"></td>\
+<td><button style="color:black" onclick="showLetterImg(\'04\'); new Audio(\'sounds/abjadi/04_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="04Letter"><img src="pics/abjadi/04_00.png"></div><div id="04Under"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetterImg(\'03\'); new Audio(\'sounds/abjadi/03_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="03Letter"><img src="pics/abjadi/03_00.png"></div><div id="03Under"></div></div></button></td>\
+<td><button style="color:blue" onclick="showLetterImg(\'02\'); new Audio(\'sounds/abjadi/02_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="02Letter"><img src="pics/abjadi/02_00.png"></div><div id="02Under"></div></div></button></td>\
+<td><button style="color:red" onclick="showLetterImg(\'01\'); new Audio(\'sounds/abjadi/01_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="01Letter"><img src="pics/abjadi/01_00.png"></div><div id="01Under"></div></div></button></td>\
+</tr><tr><td colspan="3"></td>\
+<td><button style="color:black" onclick="showLetterImg(\'09\'); new Audio(\'sounds/abjadi/09_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="09Letter"><img src="pics/abjadi/09_00.png"></div><div id="09Under"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetterImg(\'08\'); new Audio(\'sounds/abjadi/08_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="08Letter"><img src="pics/abjadi/08_00.png"></div><div id="08Under"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetterImg(\'07\'); new Audio(\'sounds/abjadi/07_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="07Letter"><img src="pics/abjadi/07_00.png"></div><div id="07Under"></div></div></button></td>\
+<td><button style="color:grey" onclick="showLetterImg(\'06\'); new Audio(\'sounds/abjadi/06_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="06Letter"><img src="pics/abjadi/06_00.png"></div><div id="06Under"></div></div></button></td>\
+<td><button style="color:red" onclick="showLetterImg(\'05\'); new Audio(\'sounds/abjadi/05_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="05Letter"><img src="pics/abjadi/05_00.png"></div><div id="05Under"></div></div></button></td>\
+</tr><tr><td colspan="2"></td>\
+<td><button style="color:black" onclick="showLetterImg(\'15\'); new Audio(\'sounds/abjadi/15_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="15Letter"><img src="pics/abjadi/15_00.png"></div><div id="15Under"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetterImg(\'14\'); new Audio(\'sounds/abjadi/14_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="14Letter"><img src="pics/abjadi/14_00.png"></div><div id="14Under"></div></div></button></td>\
+<td><button style="color:blue" onclick="showLetterImg(\'13\'); new Audio(\'sounds/abjadi/13_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="13Letter"><img src="pics/abjadi/13_00.png"></div><div id="13Under"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetterImg(\'12\'); new Audio(\'sounds/abjadi/12_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="12Letter"><img src="pics/abjadi/12_00.png"></div><div id="12Under"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetterImg(\'11\'); new Audio(\'sounds/abjadi/11_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="11Letter"><img src="pics/abjadi/11_00.png"></div><div id="11Under"></div></div></button></td>\
+<td><button style="color:red" onclick="showLetterImg(\'10\'); new Audio(\'sounds/abjadi/10_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="10Letter"><img src="pics/abjadi/10_00.png"></div><div id="10Under"></div></div></button></td>\
+</tr><tr><td></td>\
+<td><button style="color:black" onclick="showLetterImg(\'22\'); new Audio(\'sounds/abjadi/22_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="22Letter"><img src="pics/abjadi/22_00.png"></div><div id="22Under"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetterImg(\'21\'); new Audio(\'sounds/abjadi/21_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="21Letter"><img src="pics/abjadi/21_00.png"></div><div id="21Under"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetterImg(\'20\'); new Audio(\'sounds/abjadi/20_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="20Letter"><img src="pics/abjadi/20_00.png"></div><div id="20Under"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetterImg(\'19\'); new Audio(\'sounds/abjadi/19_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="19Letter"><img src="pics/abjadi/19_00.png"></div><div id="19Under"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetterImg(\'18\'); new Audio(\'sounds/abjadi/18_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="18Letter"><img src="pics/abjadi/18_00.png"></div><div id="18Under"></div></div></button></td>\
+<td><button style="color:blue" onclick="showLetterImg(\'17\'); new Audio(\'sounds/abjadi/17_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="17Letter"><img src="pics/abjadi/17_00.png"></div><div id="17Under"></div></div></button></td>\
+<td><button style="color:red" onclick="showLetterImg(\'16\'); new Audio(\'sounds/abjadi/16_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="16Letter"><img src="pics/abjadi/16_00.png"></div><div id="16Under"></div></div></button></td>\
+</tr><tr>\
+<td><button style="color:black" onclick="showLetterImg(\'28\'); new Audio(\'sounds/abjadi/28_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="28Letter"><img src="pics/abjadi/28_00.png"></div><div id="28Under"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetterImg(\'27\'); new Audio(\'sounds/abjadi/27_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="27Letter"><img src="pics/abjadi/27_00.png"></div><div id="27Under"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetterImg(\'26\'); new Audio(\'sounds/abjadi/26_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="26Letter"><img src="pics/abjadi/26_00.png"></div><div id="26Under"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetterImg(\'25\'); new Audio(\'sounds/abjadi/25_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="25Letter"><img src="pics/abjadi/25_00.png"></div><div id="25Under"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetterImg(\'24\'); new Audio(\'sounds/abjadi/24_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="24Letter"><img src="pics/abjadi/24_00.png"></div><div id="24Under"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetterImg(\'23\'); new Audio(\'sounds/abjadi/23_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="23Letter"><img src="pics/abjadi/23_00.png"></div><div id="23Under"></div></div></button></td>\
+</tr></table>';
+
+// Abjadi Axial Table
+tableAbcd["abjadi"]["axial"] = '<tr>\
+<td colspan="7" align="center"><button style="color:red" onclick="showLetterImg(\'01\'); new Audio(\'sounds/abjadi/01_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="01Letter"><img src="pics/abjadi/01_00.png"></div><div id="01Under"></div></div></button></td>\
+</tr><tr><td colspan="2"></td><td colspan="3" align="center">\
+<button style="color:black" onclick="showLetterImg(\'03\'); new Audio(\'sounds/abjadi/03_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="03Letter"><img src="pics/abjadi/03_00.png"></div><div id="03Under"></div></div></button>\
+<button style="color:blue" onclick="showLetterImg(\'02\'); new Audio(\'sounds/abjadi/02_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="02Letter"><img src="pics/abjadi/02_00.png"></div><div id="02Under"></div></div></button>\
+</td><td colspan="2"></td></tr><tr><td colspan="2"></td>\
+<td><button style="color:grey" onclick="showLetterImg(\'06\'); new Audio(\'sounds/abjadi/06_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="06Letter"><img src="pics/abjadi/06_00.png"></div><div id="06Under"></div></div></button></td>\
+<td><button style="color:red" onclick="showLetterImg(\'05\'); new Audio(\'sounds/abjadi/05_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="05Letter"><img src="pics/abjadi/05_00.png"></div><div id="05Under"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetterImg(\'04\'); new Audio(\'sounds/abjadi/04_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="04Letter"><img src="pics/abjadi/04_00.png"></div><div id="04Under"></div></div></button></td>\
+</td><td colspan="2"></td></tr><tr>\
+<td><button style="color:blue" onclick="showLetterImg(\'13\'); new Audio(\'sounds/abjadi/13_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="13Letter"><img src="pics/abjadi/13_00.png"></div><div id="13Under"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetterImg(\'12\'); new Audio(\'sounds/abjadi/12_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="12Letter"><img src="pics/abjadi/12_00.png"></div><div id="12Under"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetterImg(\'11\'); new Audio(\'sounds/abjadi/11_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="11Letter"><img src="pics/abjadi/11_00.png"></div><div id="11Under"></div></div></button></td>\
+<td><button style="color:red" onclick="showLetterImg(\'10\'); new Audio(\'sounds/abjadi/10_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="10Letter"><img src="pics/abjadi/10_00.png"></div><div id="10Under"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetterImg(\'09\'); new Audio(\'sounds/abjadi/09_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="09Letter"><img src="pics/abjadi/09_00.png"></div><div id="09Under"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetterImg(\'08\'); new Audio(\'sounds/abjadi/08_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="08Letter"><img src="pics/abjadi/08_00.png"></div><div id="08Under"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetterImg(\'07\'); new Audio(\'sounds/abjadi/07_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="07Letter"><img src="pics/abjadi/07_00.png"></div><div id="07Under"></div></div></button></td>\
+</tr><tr><td></td>\
+<td><button style="color:black" onclick="showLetterImg(\'18\'); new Audio(\'sounds/abjadi/18_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="18Letter"><img src="pics/abjadi/18_00.png"></div><div id="18Under"></div></div></button></td>\
+<td><button style="color:blue" onclick="showLetterImg(\'17\'); new Audio(\'sounds/abjadi/17_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="17Letter"><img src="pics/abjadi/17_00.png"></div><div id="17Under"></div></div></button></td>\
+<td><button style="color:red" onclick="showLetterImg(\'16\'); new Audio(\'sounds/abjadi/16_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="16Letter"><img src="pics/abjadi/16_00.png"></div><div id="16Under"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetterImg(\'15\'); new Audio(\'sounds/abjadi/15_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="15Letter"><img src="pics/abjadi/15_00.png"></div><div id="15Under"></div></div></button></td>\
+<td><button style="color:black" onclick="showLetterImg(\'14\'); new Audio(\'sounds/abjadi/14_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="14Letter"><img src="pics/abjadi/14_00.png"></div><div id="14Under"></div></div></button></td>\
+<td></td></tr><tr><td></td><td colspan="5" align="center">\
+<button style="color:black" onclick="showLetterImg(\'22\'); new Audio(\'sounds/abjadi/22_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="22Letter"><img src="pics/abjadi/22_00.png"></div><div id="22Under"></div></div></button>\
+<button style="color:black" onclick="showLetterImg(\'21\'); new Audio(\'sounds/abjadi/21_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="21Letter"><img src="pics/abjadi/21_00.png"></div><div id="21Under"></div></div></button>\
+<button style="color:black" onclick="showLetterImg(\'20\'); new Audio(\'sounds/abjadi/20_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="20Letter"><img src="pics/abjadi/20_00.png"></div><div id="20Under"></div></div></button>\
+<button style="color:black" onclick="showLetterImg(\'19\'); new Audio(\'sounds/abjadi/19_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="19Letter"><img src="pics/abjadi/19_00.png"></div><div id="19Under"></div></div></button>\
+</td><td></td></tr><tr><td colspan="7" align="center">\
+<button style="color:black" onclick="showLetterImg(\'28\'); new Audio(\'sounds/abjadi/28_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="28Letter"><img src="pics/abjadi/28_00.png"></div><div id="28Under"></div></div></button>\
+<button style="color:black" onclick="showLetterImg(\'27\'); new Audio(\'sounds/abjadi/27_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="27Letter"><img src="pics/abjadi/27_00.png"></div><div id="27Under"></div></div></button>\
+<button style="color:black" onclick="showLetterImg(\'26\'); new Audio(\'sounds/abjadi/26_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="26Letter"><img src="pics/abjadi/26_00.png"></div><div id="26Under"></div></div></button>\
+<button style="color:black" onclick="showLetterImg(\'25\'); new Audio(\'sounds/abjadi/25_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="25Letter"><img src="pics/abjadi/25_00.png"></div><div id="25Under"></div></div></button>\
+<button style="color:black" onclick="showLetterImg(\'24\'); new Audio(\'sounds/abjadi/24_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="24Letter"><img src="pics/abjadi/24_00.png"></div><div id="24Under"></div></div></button>\
+<button style="color:black" onclick="showLetterImg(\'23\'); new Audio(\'sounds/abjadi/23_0\'+ lastSpoken[\'count\'] +\'.mp3\').play(); return false;"><div class="relative"><div id="23Letter"><img src="pics/abjadi/23_00.png"></div><div id="23Under"></div></div></button>\
+</td></tr></table>';
+
+// Abjadi_old Linear Table
+tableAbcd["abjadi"]["old_linear"] = '<div id="underDevelopment">&nbsp;</div><tr>\
 <td colspan="4"></td>\
 <td><button style="color:black" onclick="underDevelopment();">د</button></td>\
 <td><button style="color:black" onclick="underDevelopment();">ج</button></td>\
@@ -760,8 +835,8 @@ tableAbcd["abjadi"]["linear"] = '<div id="underDevelopment">&nbsp;</div><tr>\
 <td><button style="color:black" onclick="underDevelopment();">ث</button></td>\
 </tr></table>';
 
-// Abjadi Axial Table
-tableAbcd["abjadi"]["axial"] = '<div id="underDevelopment">&nbsp;</div><tr>\
+// Abjadi_old Axial Table
+tableAbcd["abjadi"]["old_axial"] = '<div id="underDevelopment">&nbsp;</div><tr>\
 <td colspan="7" align="center"><button style="color:red" onclick="underDevelopment();">ا</button></td>\
 </tr><tr><td colspan="2"></td><td colspan="3" align="center">\
 <button style="color:black" onclick="underDevelopment();">ج</button>\
@@ -797,6 +872,37 @@ tableAbcd["abjadi"]["axial"] = '<div id="underDevelopment">&nbsp;</div><tr>\
 <button style="color:black" onclick="underDevelopment();">خ</button>\
 <button style="color:black" onclick="underDevelopment();">ث</button>\
 </td></tr></table>';
+
+// Abjadi Sound Correspondence
+tableAbcd["abjadi"]["sound"] = {};
+tableAbcd["abjadi"]["sound"]["01"] = [ "<img src=\"pics/abjadi/01_01.png\">", "<img src=\"pics/abjadi/01_02.png\">", "<img src=\"pics/abjadi/01_03.png\">", "<img src=\"pics/abjadi/01_04.png\">", " ", " ", " ", " ", " ", " ", " ", " ", "or", "you're welcome", "no", "what's this" ];
+tableAbcd["abjadi"]["sound"]["02"] = [ "<img src=\"pics/abjadi/02_01.png\">", "<img src=\"pics/abjadi/02_02.png\">", " ", " ", " ", " ", "door", "maybe" ];
+tableAbcd["abjadi"]["sound"]["03"] = [ "<img src=\"pics/abjadi/03_01.png\">", "<img src=\"pics/abjadi/03_02.png\">", "<img src=\"pics/abjadi/03_03.png\">", " ", " ", " ", " ", " ", " ", "cheese", "lame", "star" ];
+tableAbcd["abjadi"]["sound"]["04"] = [ "<img src=\"pics/abjadi/04_01.png\">", "<img src=\"pics/abjadi/04_02.png\">", "<img src=\"pics/abjadi/04_03.png\">", " ", " ", " ", " ", " ", " ", "forever", "manage", "house" ];
+tableAbcd["abjadi"]["sound"]["05"] = [ "<img src=\"pics/abjadi/05_01.png\">", "<img src=\"pics/abjadi/05_02.png\">", "<img src=\"pics/abjadi/05_03.png\">", "<img src=\"pics/abjadi/05_04.png\">", "<img src=\"pics/abjadi/05_05.png\">", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", "beware", "river", "her", "this", "she" ];
+tableAbcd["abjadi"]["sound"]["06"] = [ "<img src=\"pics/abjadi/06_01.png\">", "<img src=\"pics/abjadi/06_02.png\">", "<img src=\"pics/abjadi/06_03.png\">", "<img src=\"pics/abjadi/06_04.png\">", " ", " ", " ", " ", " ", " ", " ", " ", "picture", "he", "and", "face" ];
+tableAbcd["abjadi"]["sound"]["07"] = [ "<img src=\"pics/abjadi/07_01.png\">", "<img src=\"pics/abjadi/07_02.png\">", " ", " ", " ", " ", "sowing", "shake" ];
+tableAbcd["abjadi"]["sound"]["08"] = [ "<img src=\"pics/abjadi/08_01.png\">", "<img src=\"pics/abjadi/08_02.png\">", "<img src=\"pics/abjadi/08_03.png\">", " ", " ", " ", " ", " ", " ", "party", "meat", "key" ];
+tableAbcd["abjadi"]["sound"]["09"] = [ "<img src=\"pics/abjadi/09_01.png\">", "<img src=\"pics/abjadi/09_02.png\">", "<img src=\"pics/abjadi/09_03.png\">", " ", " ", " ", " ", " ", " ", "tall, long", "never", "nice" ];
+tableAbcd["abjadi"]["sound"]["10"] = [ "<img src=\"pics/abjadi/10_01.png\">", "<img src=\"pics/abjadi/10_02.png\">", "<img src=\"pics/abjadi/10_03.png\">", " ", " ", " ", " ", " ", " ", "which", "how", "hand" ];
+tableAbcd["abjadi"]["sound"]["11"] = [ "<img src=\"pics/abjadi/11_01.png\">", "<img src=\"pics/abjadi/11_02.png\">", "<img src=\"pics/abjadi/11_03.png\">", " ", " ", " ", " ", " ", " ", "be", "but", "there" ];
+tableAbcd["abjadi"]["sound"]["12"] = [ "<img src=\"pics/abjadi/12_01.png\">", "<img src=\"pics/abjadi/12_02.png\">", "<img src=\"pics/abjadi/12_03.png\">", " ", " ", " ", " ", " ", " ", "yes", "no", "night" ];
+tableAbcd["abjadi"]["sound"]["13"] = [ "<img src=\"pics/abjadi/13_01.png\">", "<img src=\"pics/abjadi/13_02.png\">", "<img src=\"pics/abjadi/13_03.png\">", "<img src=\"pics/abjadi/13_04.png\">", " ", " ", " ", " ", " ", " ", " ", " ", "why", "who, from, than", "day", "uncle, reign" ];
+tableAbcd["abjadi"]["sound"]["14"] = [ "<img src=\"pics/abjadi/14_01.png\">", "<img src=\"pics/abjadi/14_02.png\">", "<img src=\"pics/abjadi/14_03.png\">", " ", " ", " ", " ", " ", " ", "where", "yea", "here" ];
+tableAbcd["abjadi"]["sound"]["15"] = [ "<img src=\"pics/abjadi/15_01.png\">", "<img src=\"pics/abjadi/15_02.png\">", "<img src=\"pics/abjadi/15_03.png\">", " ", " ", " ", " ", " ", " ", "sorry", "lettuce", "wall" ];
+tableAbcd["abjadi"]["sound"]["16"] = [ "<img src=\"pics/abjadi/16_01.png\">", "<img src=\"pics/abjadi/16_02.png\">", "<img src=\"pics/abjadi/16_03.png\">", "<img src=\"pics/abjadi/16_04.png\">", " ", " ", " ", " ", " ", " ", " ", " ", "street", "science", "do", "site" ];
+tableAbcd["abjadi"]["sound"]["17"] = [ "<img src=\"pics/abjadi/17_01.png\">", "<img src=\"pics/abjadi/17_02.png\">", "<img src=\"pics/abjadi/17_03.png\">", "<img src=\"pics/abjadi/17_04.png\">", " ", " ", " ", " ", " ", " ", " ", " ", "I understand", "understanding", "stop", "stand up" ];
+tableAbcd["abjadi"]["sound"]["18"] = [ "<img src=\"pics/abjadi/18_01.png\">", "<img src=\"pics/abjadi/18_02.png\">", "<img src=\"pics/abjadi/18_03.png\">", " ", " ", " ", " ", " ", " ", "bus", "friend", "connect, steer, arrive" ];
+tableAbcd["abjadi"]["sound"]["19"] = [ "<img src=\"pics/abjadi/19_01.png\">", "<img src=\"pics/abjadi/19_02.png\">", "<img src=\"pics/abjadi/19_03.png\">", " ", " ", " ", " ", " ", " ", "indeed", "rights", "may do" ];
+tableAbcd["abjadi"]["sound"]["20"] = [ "<img src=\"pics/abjadi/20_01.png\">", "<img src=\"pics/abjadi/20_02.png\">", "<img src=\"pics/abjadi/20_03.png\">", " ", " ", " ", " ", " ", " ", "land", "maybe", "see" ];
+tableAbcd["abjadi"]["sound"]["21"] = [ "<img src=\"pics/abjadi/21_01.png\">", "<img src=\"pics/abjadi/21_02.png\">", "<img src=\"pics/abjadi/21_03.png\">", " ", " ", " ", " ", " ", " ", "feathers", "thank you", "feel" ];
+tableAbcd["abjadi"]["sound"]["22"] = [ "<img src=\"pics/abjadi/22_01.png\">", "<img src=\"pics/abjadi/22_02.png\">", "<img src=\"pics/abjadi/22_03.png\">", " ", " ", " ", " ", " ", " ", "house", "those", "when" ];
+tableAbcd["abjadi"]["sound"]["23"] = [ "<img src=\"pics/abjadi/23_01.png\">", "<img src=\"pics/abjadi/23_02.png\">", " ", " ", " ", " ", "furniture", "clothes" ];
+tableAbcd["abjadi"]["sound"]["24"] = [ "<img src=\"pics/abjadi/24_01.png\">", "<img src=\"pics/abjadi/24_02.png\">", "<img src=\"pics/abjadi/24_03.png\">", " ", " ", " ", " ", " ", " ", "brother", "sister", "bread" ];
+tableAbcd["abjadi"]["sound"]["25"] = [ "<img src=\"pics/abjadi/25_01.png\">", "<img src=\"pics/abjadi/25_02.png\">", " ", " ", " ", " ", "go, gold", "tasty" ];
+tableAbcd["abjadi"]["sound"]["26"] = [ "<img src=\"pics/abjadi/26_01.png\">", "<img src=\"pics/abjadi/26_02.png\">", "<img src=\"pics/abjadi/26_03.png\">", "<img src=\"pics/abjadi/26_04.png\">", " ", " ", " ", " ", " ", " ", " ", " ", "white", "green", "earth", "lost" ];
+tableAbcd["abjadi"]["sound"]["27"] = [ "<img src=\"pics/abjadi/27_01.png\">", "<img src=\"pics/abjadi/27_02.png\">", "<img src=\"pics/abjadi/27_03.png\">", " ", " ", " ", " ", " ", " ", "luck", "ban", "back" ];
+tableAbcd["abjadi"]["sound"]["28"] = [ "<img src=\"pics/abjadi/28_01.png\">", "<img src=\"pics/abjadi/28_02.png\">", "<img src=\"pics/abjadi/28_03.png\">", " ", " ", " ", " ", " ", " ", "brains", "career", "west" ];
 
 // Runes Linear Table (younger futhark)
 tableAbcd["runes"]["linear"] = '<tr>\
@@ -1104,6 +1210,50 @@ function showLetter(letter) {
                     document.getElementById(letter + "Pre").innerHTML = "";
                     document.getElementById(letter + "Letter").innerHTML = letter;
                     document.getElementById(letter + "Post").innerHTML = "";
+                    document.getElementById(letter + "Under").innerHTML = "";
+                }
+            });
+            break;
+    }
+}
+
+// Visual part of onclick action handler and lastSpoken variable counter for images
+function showLetterImg(letter) {
+
+    if (variant == 'default') speakLanguage = alphabetos;
+        else speakLanguage = alphabetos + '-' + variant;
+
+    if (lastSpoken["symbol"] == letter) { lastSpoken["count"]++;
+        if (lastSpoken["count"] > (tableAbcd[speakLanguage]["sound"][letter].length / 4)) lastSpoken["count"] = 1;
+    } else { lastSpoken["count"] = 1 }
+    lastSpoken["symbol"] = letter;
+
+    if (font == "enhandwritten" || font == "enlowerhand" || font == "ruhandwritten" || font == "rulowerhand" || font == "grhandwritten" || font == "grlowerhand") textstroke = 0;
+        else if (alphabetos == "runes") textstroke = 1;
+            else textstroke = 2;
+
+    var fontClass = currentFontClass();
+    document.getElementById("hiddentextline").innerHTML = '<table class="' + fontClass + '"><tr><td><button id="getPxButt" style="font-size: 5vw; text-transform: lowercase; font-weight: 900; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) - 1) + lastSpoken["count"]] + '</button></td></tr></table>';
+    var leftPre = 12 - getPx("getPxButt","");
+    document.getElementById("hiddentextline").innerHTML = '';
+    var leftPost = getPx(letter,"Letter");
+
+    switch(lastSpoken["count"]) {
+        case lastSpoken["count"]:
+            lastPressedTime[letter] = new Date();
+            document.getElementById(letter + "Letter").innerHTML = tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"] - 1];
+            if (tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) * 3) - 1 + lastSpoken["count"]].length > 0) {
+                var bracketLeft = "(";
+                var bracketRight = ")";
+                var underLeft = (tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) * 3) - 1 + lastSpoken["count"]].length) * -2;
+                if (textstroke == 0) var underText = ""; else var underText = "-webkit-text-stroke-width: 1px; -webkit-text-stroke-color: white;";
+                document.getElementById(letter + "Under").innerHTML = '<div style="position: absolute; white-space: nowrap; text-shadow: white 1px 1px 3px, white 1px -1px 3px, white -1px 1px 3px, white -1px -1px 3px; font-size: 3vw; text-transform: none; left: ' + underLeft + 'px; top: 6vw; font-weight: 900; ' + underText + ' z-index: 10;"><span style=\"color:gray\">' + bracketLeft + ( tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) * 3) - 1 + lastSpoken["count"]] ) + bracketRight + '</span></div>';
+            }
+            var sleeptime = 2000 + ((tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) - 1) + lastSpoken["count"]].length + tableAbcd[speakLanguage]["sound"][letter][lastSpoken["count"] + (((tableAbcd[speakLanguage]["sound"][letter].length / 4) * 2) - 1)].length + 1) * 100);
+            sleep(sleeptime).then(() => {
+                var currentTime = new Date();
+                if (currentTime.getTime()-lastPressedTime[letter].getTime() >= sleeptime) {
+                    document.getElementById(letter + "Letter").innerHTML = "<img src=\"pics/" + alphabetos + "/"+ letter + "_00.png\">";
                     document.getElementById(letter + "Under").innerHTML = "";
                 }
             });
