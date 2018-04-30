@@ -1,2 +1,2 @@
 AEIOU
-http://aeiou.ru/
+http://aeiou.ru/aeiou/
