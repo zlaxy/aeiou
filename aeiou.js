@@ -1185,8 +1185,8 @@ function showLetter(letter) {
             else textstroke = 2;
 
     var fontClass = currentFontClass();
-    document.getElementById("hiddentextline").innerHTML = '<table class="' + fontClass + '"><tr><td><button id="getPxButt" style="font-size: 5vw; text-transform: lowercase; font-weight: 900; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) - 1) + lastSpoken["count"]] + '</button></td></tr></table>';
-    var leftPre = 12 - getPx("getPxButt","");
+    document.getElementById("hiddentextline").innerHTML = '<button class="' + fontClass + '" style="font-size: 5vw; text-transform: lowercase; font-weight: 900; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;"><div id="getPxButt">' + tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) - 1) + lastSpoken["count"]] + '</div></button>';
+    var leftPre = 0 - getPx("getPxButt","");
     document.getElementById("hiddentextline").innerHTML = '';
     var leftPost = getPx(letter,"Letter");
 
@@ -1233,8 +1233,8 @@ function showLetterImg(letter) {
             else textstroke = 2;
 
     var fontClass = currentFontClass();
-    document.getElementById("hiddentextline").innerHTML = '<table class="' + fontClass + '"><tr><td><button id="getPxButt" style="font-size: 5vw; text-transform: lowercase; font-weight: 900; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;">' + tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) - 1) + lastSpoken["count"]] + '</button></td></tr></table>';
-    var leftPre = 12 - getPx("getPxButt","");
+    document.getElementById("hiddentextline").innerHTML = '<button class="' + fontClass + '" style="font-size: 5vw; text-transform: lowercase; font-weight: 900; -webkit-text-stroke-width: ' + textstroke + 'px; -webkit-text-stroke-color: white; z-index: 10;"><div id="getPxButt">' + tableAbcd[speakLanguage]["sound"][letter][((tableAbcd[speakLanguage]["sound"][letter].length / 4) - 1) + lastSpoken["count"]] + '</div></button>';
+    var leftPre = 0 - getPx("getPxButt","");
     document.getElementById("hiddentextline").innerHTML = '';
     var leftPost = getPx(letter,"Letter");
 
